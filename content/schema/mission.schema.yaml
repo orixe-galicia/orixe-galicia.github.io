@@ -1,0 +1,47 @@
+# Esquema oficial de una misión Orixe
+# Copiar este archivo para crear nuevas misiones.
+
+id:
+number:
+slug:
+title:
+
+location:
+  municipality:
+  province: Pontevedra
+  community: Galicia
+  country: España
+  latitude:
+  longitude:
+  google_maps:
+
+classification:
+  categories: []
+  tags: []
+
+experience:
+  difficulty:
+  duration_minutes:
+  recommended_age:
+  accessibility:
+
+content:
+  introduction: |
+  mission: |
+  observe: []
+  challenge:
+    question:
+    answer:
+  curiosities: []
+  recommendations: []
+
+resources:
+  cover_image:
+  gallery: []
+  badge:
+
+meta:
+  author: Orixe
+  version: 1.0
+  published: false
+  last_review:
