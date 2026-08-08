@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-label="Ilustración de Cangas con mar y costa">
+  <rect width="960" height="640" rx="36" fill="#f6f2e8"/>
+  <rect y="430" width="960" height="210" fill="#dfeecf"/>
+  <path d="M0 450c100-50 195-50 285 6 85 53 182 53 278 6 88-43 173-43 277 8v190H0Z" fill="#7db06d"/>
+  <path d="M80 390c46-58 97-87 152-87 62 0 111 35 170 35 58 0 102-42 167-42 61 0 108 32 165 32 54 0 101-21 156-57" fill="none" stroke="#2f6f4b" stroke-width="14" stroke-linecap="round"/>
+  <path d="M180 232c18-42 50-78 91-102 31-19 73-32 111-32 60 0 123 31 182 91" fill="none" stroke="#3f6a3f" stroke-width="16" stroke-linecap="round"/>
+  <path d="M308 298c17-18 39-28 62-28 31 0 60 15 79 40 15 19 25 41 25 67" fill="none" stroke="#5a8b57" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="740" cy="200" r="48" fill="#f9c96f"/>
+  <path d="M298 214h172" stroke="#2f6f4b" stroke-width="12" stroke-linecap="round"/>
+  <path d="M320 174h126" stroke="#2f6f4b" stroke-width="12" stroke-linecap="round"/>
+  <path d="M316 148l38-64 40 64" fill="none" stroke="#2f6f4b" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M618 308c56 0 125 24 181 64" fill="none" stroke="#2f6f4b" stroke-width="10" stroke-linecap="round"/>
+</svg>

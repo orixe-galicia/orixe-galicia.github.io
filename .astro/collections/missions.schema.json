@@ -1,0 +1,282 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "municipality": {
+      "type": "string"
+    },
+    "province": {
+      "type": "string"
+    },
+    "coordinates": {
+      "type": "object",
+      "properties": {
+        "lat": {
+          "type": "number"
+        },
+        "lng": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "lat",
+        "lng"
+      ]
+    },
+    "category": {
+      "type": "string"
+    },
+    "ageRecommended": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "distance": {
+      "type": "string"
+    },
+    "difficulty": {
+      "type": "string"
+    },
+    "accessibility": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "gallery": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "descriptionShort": {
+      "type": "string"
+    },
+    "descriptionLong": {
+      "type": "string"
+    },
+    "story": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "introduction": {
+          "type": "string"
+        },
+        "historicalContext": {
+          "type": "string"
+        },
+        "mystery": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "introduction",
+        "historicalContext",
+        "mystery"
+      ]
+    },
+    "mission": {
+      "type": "object",
+      "properties": {
+        "objective": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "instructions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "objective",
+        "location",
+        "instructions"
+      ]
+    },
+    "materials": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "challenge": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "introduction": {
+          "type": "string"
+        },
+        "steps": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": [
+                  "observation",
+                  "search",
+                  "history",
+                  "photo",
+                  "qr",
+                  "coordinates",
+                  "puzzle",
+                  "question",
+                  "final"
+                ]
+              },
+              "title": {
+                "type": "string"
+              },
+              "prompt": {
+                "type": "string"
+              },
+              "instructions": {
+                "type": "string"
+              },
+              "answer": {
+                "type": "string"
+              },
+              "options": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "hint": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "type",
+              "prompt"
+            ]
+          }
+        },
+        "successCondition": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "introduction",
+        "steps",
+        "successCondition"
+      ]
+    },
+    "clues": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "solution": {
+      "type": "object",
+      "properties": {
+        "explanation": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "explanation"
+      ]
+    },
+    "badge": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "description"
+      ]
+    },
+    "googleMaps": {
+      "type": "string"
+    },
+    "recommendations": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "warnings": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tags": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "seoTitle": {
+      "type": "string"
+    },
+    "seoDescription": {
+      "type": "string"
+    },
+    "$schema": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "slug",
+    "title",
+    "municipality",
+    "province",
+    "coordinates",
+    "category",
+    "ageRecommended",
+    "duration",
+    "difficulty",
+    "image",
+    "descriptionShort",
+    "descriptionLong",
+    "story",
+    "mission",
+    "challenge",
+    "solution",
+    "badge"
+  ],
+  "description": "OrixeMissionNarrativeSchema"
+}

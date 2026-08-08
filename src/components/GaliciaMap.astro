@@ -1,0 +1,75 @@
+---
+import { getAllMissions } from "../content";
+import "leaflet/dist/leaflet.css";
+
+const missions = await getAllMissions();
+const missionMapData = missions
+  .filter((mission) => mission.data.coordinates)
+  .map((mission) => ({
+    title: mission.data.title,
+    municipality: mission.data.municipality,
+    category: mission.data.category,
+    ageRecommended: mission.data.ageRecommended,
+    duration: mission.data.duration,
+    slug: mission.data.slug,
+    lat: mission.data.coordinates.lat,
+    lng: mission.data.coordinates.lng,
+  }));
+---
+<section id="mapa" class="map-section" aria-labelledby="map-title">
+  <div class="section-heading">
+    <p class="eyebrow">Mapa</p>
+    <h2 id="map-title">Recorre Galicia por misiones</h2>
+  </div>
+  <div class="map-shell">
+    <div
+  id="galicia-map"
+  class="leaflet-map"
+  style="width: 100%; height: 620px; min-height: 620px;"
+  data-missions={JSON.stringify(missionMapData)}
+  aria-label="Mapa de Galicia con las misiones disponibles"
+></div>
+    <aside class="map-panel">
+      <p class="eyebrow">Localización</p>
+      <h3>Explora las misiones sobre el mapa</h3>
+      <p>Selecciona un marcador para consultar la misión, su duración y edad recomendada.</p>
+    </aside>
+  </div>
+</section>
+
+<script>
+  import L from "leaflet";
+
+  const mapElement = document.querySelector<HTMLElement>("#galicia-map");
+  if (mapElement) {
+    const missions = JSON.parse(mapElement.dataset.missions ?? "[]");
+    const map = L.map(mapElement, {
+      scrollWheelZoom: false,
+      zoomControl: true,
+    }).setView([42.65, -8.2], 8);
+
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      maxZoom: 19,
+    }).addTo(map);
+
+
+
+    missions.forEach((mission) => {
+      const popup = `
+        <div class="map-popup">
+          <strong>${mission.title}</strong>
+          <span>${mission.municipality} · ${mission.category}</span>
+          <span>${mission.ageRecommended} · ${mission.duration}</span>
+          <a href="/misiones/${mission.slug}">Ver misión</a>
+        </div>
+      `;
+
+L.marker([mission.lat, mission.lng])
+  .addTo(map)
+  .bindPopup(popup);
+    });
+
+    window.setTimeout(() => map.invalidateSize(), 0);
+  }
+</script>

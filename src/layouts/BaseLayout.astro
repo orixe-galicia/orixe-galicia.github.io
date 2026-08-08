@@ -1,15 +1,32 @@
 ---
-const { title="Orixe"} = Astro.props;
 import "../styles/global.css";
+const {
+  title = "Orixe",
+  description = "Explora Galicia a través de misiones de paisaje, patrimonio y naturaleza.",
+  canonical,
+  ogImage,
+  jsonLd,
+} = Astro.props;
+const pageTitle = title.includes("Orixe") ? title : `${title} | Orixe`;
+const canonicalUrl = canonical ? `https://orixe.gal${canonical}` : "https://orixe.gal";
 ---
-<!DOCTYPE html>
 <html lang="es">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>{title}</title>
-</head>
-<body>
-<slot />
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#0f4c45" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalUrl} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta name="twitter:card" content="summary_large_image" />
+    {canonical && <link rel="canonical" href={canonicalUrl} />}
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <slot />
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+  </body>
 </html>

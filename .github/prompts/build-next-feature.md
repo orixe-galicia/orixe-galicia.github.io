@@ -1,0 +1,1 @@
+Lee ../copilot-instructions.md y desarrolla la siguiente funcionalidad priorizando portada, tarjetas, mapa SVG, páginas de misión y SEO sin romper el proyecto.

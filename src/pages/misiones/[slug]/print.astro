@@ -1,0 +1,664 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+
+export async function getStaticPaths() {
+  const missions = await getCollection("missions");
+
+  return missions.map((mission) => ({
+    params: { slug: mission.data.slug },
+    props: { mission },
+  }));
+}
+
+const { mission } = Astro.props;
+const { data } = mission;
+---
+
+<BaseLayout
+  title={`${data.title} - ficha imprimible`}
+  description={data.descriptionShort}
+  canonical={`/misiones/${data.slug}/print`}
+>
+  <main class="print-page mission-print-page">
+    <section class="print-card mission-print-card">
+
+      <!-- BOTONES -->
+      <div class="print-actions">
+        <button
+          class="btn btn-primary"
+          type="button"
+          onclick="window.print()"
+        >
+          Imprimir ficha
+        </button>
+
+        <a
+          class="btn btn-secondary"
+          href={`/misiones/${data.slug}/badge`}
+        >
+          Conseguir insignia
+        </a>
+      </div>
+
+      <!-- CABECERA -->
+      <header class="print-header mission-print-header">
+
+        <div class="mission-print-title">
+          <p class="eyebrow">ORIXE · MISIÓN</p>
+
+          <h1>{data.title}</h1>
+
+          <p>{data.subtitle}</p>
+        </div>
+
+        <div class="print-badge">
+          <img
+            src={data.badge.image}
+            alt={`Insignia de ${data.badge.name}`}
+          />
+        </div>
+
+      </header>
+
+      <!-- CONTENIDO PRINCIPAL: DOS COLUMNAS -->
+      <section class="print-grid">
+
+        <!-- COLUMNA IZQUIERDA -->
+        <article>
+
+          <img
+            class="print-mission-image"
+            src={data.image}
+            alt={data.title}
+          />
+
+          <h2>{data.story.title}</h2>
+          <p>{data.story.introduction}</p>
+
+          <h2>Contexto</h2>
+          <p>{data.story.historicalContext}</p>
+
+          <h2>Objetivo</h2>
+          <p>{data.mission.objective}</p>
+
+          <p>
+            <strong>Localización:</strong>
+            {data.mission.location}
+          </p>
+
+          <h2>Materiales</h2>
+
+          <ul>
+            {data.materials.map((material) => (
+              <li>{material}</li>
+            ))}
+          </ul>
+
+          <div class="print-quick-facts">
+            <h2>Ficha rápida</h2>
+
+            <ul>
+              <li>
+                <strong>Municipio:</strong>
+                {data.municipality}
+              </li>
+
+              <li>
+                <strong>Provincia:</strong>
+                {data.province}
+              </li>
+
+              <li>
+                <strong>Duración:</strong>
+                {data.duration}
+              </li>
+
+              <li>
+                <strong>Dificultad:</strong>
+                {data.difficulty}
+              </li>
+
+              <li>
+                <strong>Edad:</strong>
+                {data.ageRecommended}
+              </li>
+            </ul>
+          </div>
+
+        </article>
+
+        <!-- COLUMNA DERECHA -->
+        <aside>
+
+          <h2>Reto: {data.challenge.title}</h2>
+
+          <p>{data.challenge.introduction}</p>
+
+          <h3>Pruebas</h3>
+
+          <ul>
+            {data.challenge.steps.map((step) => (
+              <li>{step.prompt}</li>
+            ))}
+          </ul>
+
+          <p>
+            <strong>Condición de éxito:</strong>
+            {data.challenge.successCondition}
+          </p>
+
+          <h2>Instrucciones</h2>
+
+          <ol>
+            {data.mission.instructions.map((instruction) => (
+              <li>{instruction}</li>
+            ))}
+          </ol>
+
+          <h2>Pistas</h2>
+
+          <ul>
+            {data.clues.map((clue) => (
+              <li>{clue}</li>
+            ))}
+          </ul>
+
+          <div class="answer-box">
+            Espacio para completar la respuesta
+          </div>
+
+          <p class="print-note">
+            Versión web: /misiones/{data.slug}
+          </p>
+
+        </aside>
+
+      </section>
+
+      <!-- ZONA DE SOLUCIÓN / PLEGADO -->
+      <section class="print-solution-fold">
+
+        <div class="fold-warning">
+          <span class="fold-warning-main">
+            ✂ NO LEER — DOBLAR HACIA ATRÁS POR AQUÍ
+          </span>
+
+          <span class="fold-warning-side">
+            SOLUCIÓN
+          </span>
+        </div>
+
+        <div class="print-solution-content">
+
+          <div class="solution-label">
+            SOLUCIÓN · SOLO PARA EL GUÍA
+          </div>
+
+          <h2>{data.badge.name}</h2>
+
+          <p>{data.solution.explanation}</p>
+
+        </div>
+
+      </section>
+
+    </section>
+  </main>
+</BaseLayout>
+
+<style>
+  .mission-print-card {
+    max-width: 210mm;
+    margin: 0 auto;
+  }
+
+  .print-mission-image {
+    width: 100%;
+    height: 34mm;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 0 0.55rem;
+  }
+
+  .print-quick-facts {
+    border-top: 1px solid var(--border);
+    margin-top: 0.65rem;
+    padding-top: 0.35rem;
+  }
+
+  .print-quick-facts h2 {
+    margin-bottom: 0.25rem;
+  }
+
+  /* ---------------------------------
+     ZONA DE SOLUCIÓN EN PANTALLA
+     --------------------------------- */
+
+  .print-solution-fold {
+    margin-top: 1.5rem;
+    border-top: 2px dashed var(--green-dark);
+    padding-top: 0.75rem;
+  }
+
+  .fold-warning {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+    padding: 0.45rem 0.7rem;
+
+    border: 1px dashed #777;
+    border-radius: 6px;
+
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+  }
+
+  .print-solution-content {
+    margin-top: 0.6rem;
+    padding: 0.8rem;
+
+    border: 1px solid #999;
+    border-radius: 6px;
+
+    background: #f4f4f1;
+  }
+
+  .solution-label {
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    margin-bottom: 0.35rem;
+  }
+
+  .print-solution-content h2 {
+    margin: 0 0 0.35rem;
+  }
+
+  .print-solution-content p {
+    margin: 0;
+  }
+
+  /* ---------------------------------
+     IMPRESIÓN A4
+     --------------------------------- */
+
+  @media print {
+
+    @page {
+      size: A4 portrait;
+      margin: 8mm;
+    }
+
+    html,
+    body {
+      width: 210mm;
+      height: 297mm;
+
+      background: #fff !important;
+      color: #000 !important;
+
+      font-size: 8.25pt;
+      line-height: 1.22;
+    }
+
+    .mission-print-page {
+      width: 194mm;
+      height: 281mm;
+
+      padding: 0;
+      margin: 0;
+    }
+
+    .mission-print-card {
+      width: 194mm;
+      height: 281mm;
+
+      padding: 5mm;
+      margin: 0;
+
+      border: 0.3mm solid #888;
+      border-radius: 0;
+
+      box-shadow: none;
+
+      box-sizing: border-box;
+
+      overflow: hidden;
+
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+
+    /* BOTONES FUERA DE LA IMPRESIÓN */
+
+    .print-actions {
+      display: none !important;
+    }
+
+    /* ---------------------------------
+       CABECERA
+       --------------------------------- */
+
+    .mission-print-header {
+      width: 100%;
+      height: 30mm;
+
+      margin: 0 0 3mm;
+
+      /*
+       * DOS COLUMNAS FIJAS:
+       * texto a la izquierda
+       * insignia a la derecha
+       *
+       * Esto evita que la insignia se desplace
+       * sobre la imagen o sobre la segunda columna.
+       */
+      display: grid !important;
+      grid-template-columns: minmax(0, 1fr) 25mm;
+
+      gap: 4mm;
+
+      align-items: center;
+
+      box-sizing: border-box;
+
+      position: relative;
+
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+
+    .mission-print-title {
+      min-width: 0;
+      width: 100%;
+
+      grid-column: 1;
+      grid-row: 1;
+
+      align-self: center;
+    }
+
+    .mission-print-header h1 {
+      font-size: 18pt;
+      line-height: 1;
+
+      margin: 0 0 1.5mm;
+    }
+
+    .mission-print-header p {
+      margin: 0;
+      line-height: 1.2;
+    }
+
+    .mission-print-header .eyebrow {
+      font-size: 7pt;
+      margin-bottom: 1mm;
+    }
+
+    /* ---------------------------------
+       INSIGNIA
+       --------------------------------- */
+
+    .mission-print-header .print-badge {
+      width: 25mm;
+      height: 25mm;
+
+      grid-column: 2;
+      grid-row: 1;
+
+      justify-self: end;
+      align-self: center;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      position: static;
+
+      flex: none;
+
+      box-sizing: border-box;
+    }
+
+    .mission-print-header .print-badge img {
+      display: block;
+
+      width: 21mm;
+      height: 21mm;
+
+      max-width: 21mm;
+      max-height: 21mm;
+
+      object-fit: contain;
+
+      margin: 0;
+      padding: 0;
+
+      position: static;
+    }
+
+    /* ---------------------------------
+       DOS COLUMNAS
+       --------------------------------- */
+
+    .mission-print-card .print-grid {
+      width: 100%;
+
+      height: 190mm;
+
+      display: grid;
+
+      grid-template-columns:
+        minmax(0, 1.03fr)
+        minmax(0, 0.97fr);
+
+      gap: 5mm;
+
+      align-items: start;
+
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+
+    .mission-print-card .print-grid > article,
+    .mission-print-card .print-grid > aside {
+      min-width: 0;
+
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+
+    /* ---------------------------------
+       TIPOGRAFÍA
+       --------------------------------- */
+
+    .mission-print-card h2 {
+      font-size: 10pt;
+      line-height: 1.05;
+
+      margin: 2.3mm 0 0.8mm;
+
+      page-break-after: avoid;
+      break-after: avoid;
+    }
+
+    .mission-print-card h3 {
+      font-size: 8.5pt;
+      line-height: 1.05;
+
+      margin: 1.8mm 0 0.5mm;
+    }
+
+    .mission-print-card p {
+      margin: 0 0 1.1mm;
+    }
+
+    .mission-print-card ul,
+    .mission-print-card ol {
+      margin: 0 0 1.1mm;
+      padding-left: 4.5mm;
+    }
+
+    .mission-print-card li {
+      margin-bottom: 0.45mm;
+    }
+
+    /* ---------------------------------
+       IMAGEN
+       --------------------------------- */
+
+    .mission-print-card .print-mission-image {
+      display: block;
+
+      width: 100%;
+      height: 29mm;
+
+      margin: 0 0 1mm;
+
+      border-radius: 2mm;
+
+      object-fit: cover;
+    }
+
+    /* ---------------------------------
+       FICHA RÁPIDA
+       --------------------------------- */
+
+    .mission-print-card .print-quick-facts {
+      margin-top: 1.5mm;
+      padding-top: 0;
+
+      border-top: 0.25mm solid #aaa;
+    }
+
+    /* ---------------------------------
+       ESPACIO PARA RESPUESTAS
+       --------------------------------- */
+
+    .mission-print-card .answer-box {
+      min-height: 22mm;
+      height: 22mm;
+
+      margin-top: 1.5mm;
+      padding: 2mm;
+
+      border: 0.25mm dashed #555;
+      border-radius: 1.5mm;
+
+      background: #fff;
+
+      box-sizing: border-box;
+    }
+
+    /* ---------------------------------
+       AVISO DE PLEGADO
+       --------------------------------- */
+
+    .print-solution-fold {
+      width: 100%;
+
+      height: 44mm;
+
+      margin-top: 2mm;
+      padding-top: 1.5mm;
+
+      border-top: 0.6mm dashed #000;
+
+      box-sizing: border-box;
+
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+
+    .fold-warning {
+      width: 100%;
+      height: 6mm;
+
+      box-sizing: border-box;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      margin: 0 0 1.5mm;
+      padding: 1mm 2mm;
+
+      border: 0.25mm dashed #555;
+      border-radius: 1mm;
+
+      font-size: 6.5pt;
+      line-height: 1;
+
+      font-weight: 800;
+
+      letter-spacing: 0.04em;
+    }
+
+    .fold-warning-main {
+      white-space: nowrap;
+    }
+
+    .fold-warning-side {
+      font-size: 6pt;
+      letter-spacing: 0.1em;
+    }
+
+    /* ---------------------------------
+       SOLUCIÓN
+       --------------------------------- */
+
+    .print-solution-content {
+      width: 100%;
+      height: 34mm;
+
+      box-sizing: border-box;
+
+      padding: 2mm 2.5mm;
+
+      border: 0.25mm solid #888;
+      border-radius: 1mm;
+
+      background: #f4f4f1 !important;
+
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+
+    .solution-label {
+      font-size: 6.5pt;
+
+      font-weight: 800;
+
+      letter-spacing: 0.12em;
+
+      margin-bottom: 1mm;
+    }
+
+    .print-solution-content h2 {
+      font-size: 8.5pt;
+
+      margin: 0 0 0.8mm;
+    }
+
+    .print-solution-content p {
+      font-size: 7.5pt;
+      line-height: 1.2;
+
+      margin: 0;
+    }
+
+    /* ---------------------------------
+       NOTA WEB
+       --------------------------------- */
+
+    .mission-print-card .print-note {
+      margin-top: 1mm;
+
+      font-size: 7pt;
+    }
+  }
+</style>

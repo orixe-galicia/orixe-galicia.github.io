@@ -1,0 +1,60 @@
+---
+const currentPath = Astro.url.pathname;
+---
+
+<header class="topbar">
+  <div class="wrap">
+    <a class="logo" href="/" aria-label="Inicio de Orixe">
+      <span class="logo-mark">O</span>
+      <span>ORIXE</span>
+    </a>
+
+    <button
+      class="menu-toggle"
+      type="button"
+      aria-label="Abrir menú"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav-links" id="site-nav">
+      <a
+        href="/"
+        class:list={{ active: currentPath === "/" }}
+      >
+        Inicio
+      </a>
+
+      <a
+        href="/misiones"
+        class:list={{ active: currentPath.startsWith("/misiones") }}
+      >
+        Misiones
+      </a>
+
+      <a
+        href="/mapa/"
+        class:list={{ active: currentPath.startsWith("/mapa") }}
+      >
+        Mapa
+      </a>
+    </nav>
+  </div>
+</header>
+
+<script>
+  const toggle = document.querySelector(".menu-toggle");
+  const nav = document.querySelector(".nav-links");
+
+  if (toggle && nav) {
+    toggle.addEventListener("click", () => {
+      const expanded = toggle.getAttribute("aria-expanded") === "true";
+
+      toggle.setAttribute("aria-expanded", String(!expanded));
+      nav.classList.toggle("is-open");
+    });
+  }
+</script>

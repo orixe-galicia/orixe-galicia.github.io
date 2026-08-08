@@ -1,0 +1,36 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import Header from "../../../components/Header.astro";
+import Footer from "../../../components/Footer.astro";
+
+export async function getStaticPaths() {
+  const missions = await getCollection("missions");
+  return missions.map((mission) => ({ params: { slug: mission.data.slug }, props: { mission } }));
+}
+
+const { mission } = Astro.props;
+const { data } = mission;
+---
+<BaseLayout title={`${data.title} - insignia`} description={`Insignia de la misión ${data.title}`} canonical={`/misiones/${data.slug}/badge`}>
+  <Header />
+  <main class="badge-page">
+    <section class="badge-sheet" aria-label={`Insignia de ${data.title}`}>
+      <div class="badge-sheet__header"><p class="eyebrow">ORIXE</p><h1>INSIGNIA DE MISIÓN</h1></div>
+      <div class="badge-sheet__grid">
+        <div class="badge-mark"><div>
+          <div class="badge-mark__img"><img src={data.badge.image} alt={`Insignia de ${data.badge.name}`} /></div>
+          <h2>{data.badge.name}</h2><p>{data.municipality}</p><p>ID: {data.id}</p>
+        </div></div>
+        <div class="badge-details">
+          <h2>{data.badge.name}</h2><p>{data.badge.description}</p>
+          <p><strong>Municipio:</strong> {data.municipality}</p><p><strong>Provincia:</strong> {data.province}</p><p><strong>ID de misión:</strong> {data.id}</p>
+          <div class="badge-field">Fecha: ______________________</div><div class="badge-field">Nombre y apellidos: ______________________</div><div class="badge-field">Familia: ______________________</div>
+          <div class="badge-actions"><button class="btn btn-primary" type="button" onclick="window.print()">Imprimir insignia</button><a class="btn btn-secondary" href={`/misiones/${data.slug}`}>Volver a la misión</a></div>
+        </div>
+      </div>
+      <p class="badge-footer">Insignia generada automáticamente desde la misión de ORIXE.</p>
+    </section>
+  </main>
+  <Footer />
+</BaseLayout>

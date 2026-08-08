@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 560" role="img" aria-label="Insignia de Cangas">
+  <circle cx="280" cy="280" r="240" fill="#0f4c45"/>
+  <circle cx="280" cy="280" r="208" fill="#f6f2e8"/>
+  <path d="M190 330c48-88 103-132 176-132 58 0 100 31 124 86" fill="none" stroke="#2b7864" stroke-width="24" stroke-linecap="round"/>
+  <path d="M214 218h132" stroke="#0f4c45" stroke-width="20" stroke-linecap="round"/>
+  <path d="M168 410h224" stroke="#0f4c45" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="224" cy="224" r="20" fill="#f9c96f"/>
+  <circle cx="336" cy="224" r="20" fill="#f9c96f"/>
+  <text x="280" y="468" text-anchor="middle" font-family="Arial, sans-serif" font-size="43" font-weight="700" fill="#0f4c45">CANGAS</text>
+</svg>

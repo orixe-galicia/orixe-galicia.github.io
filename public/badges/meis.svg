@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 560" role="img" aria-label="Insignia de Meis">
+  <circle cx="280" cy="280" r="240" fill="#0f4c45"/>
+  <circle cx="280" cy="280" r="208" fill="#f6f2e8"/>
+  <path d="M176 366c54-104 117-152 204-152 61 0 103 28 134 74" fill="none" stroke="#2b7864" stroke-width="24" stroke-linecap="round"/>
+  <path d="M198 244h164" stroke="#0f4c45" stroke-width="18" stroke-linecap="round"/>
+  <path d="M214 206h132" stroke="#0f4c45" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="238" cy="214" r="20" fill="#f9c96f"/>
+  <circle cx="322" cy="214" r="20" fill="#f9c96f"/>
+  <text x="280" y="468" text-anchor="middle" font-family="Arial, sans-serif" font-size="43" font-weight="700" fill="#0f4c45">MEIS</text>
+</svg>

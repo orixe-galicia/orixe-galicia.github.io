@@ -1,10 +1,470 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Orixe",
+  url: "https://orixe.gal/",
+  description:
+    "Misiones, retos y juegos de aventura gratuitos para descubrir Galicia jugando.",
+};
 ---
-<BaseLayout title="Orixe">
-<section class="hero">
-<h1>ORIXE</h1>
-<p>Descubre Galicia misión a misión.</p>
-<a href="/misiones">Explorar misiones</a>
-</section>
+
+<BaseLayout
+  title="Orixe | Misiones y escape rooms gratuitos en Galicia"
+  description="Descubre Galicia jugando: misiones, retos, pistas y experiencias gratuitas para convertir lugares reales de Galicia en pequeñas aventuras y escape rooms al aire libre."
+  canonical="/"
+  jsonLd={jsonLd}
+>
+  <Header />
+
+  <main class="home">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="hero-kicker">GALICIA · JUEGO · AVENTURA</p>
+
+        <h1 id="hero-title">
+          Descubre Galicia.<br />
+          Juega la <span>misión.</span>
+        </h1>
+
+        <p class="hero-description">
+          Convierte una visita a Galicia en una aventura. Busca pistas,
+          supera retos, descubre historias y consigue tu insignia.
+        </p>
+
+        <div class="hero-actions">
+          <a class="home-btn home-btn-primary" href="/misiones">
+            Empezar una misión
+            <span aria-hidden="true">→</span>
+          </a>
+          <a class="home-btn home-btn-secondary" href="/mapa/">
+            Ver mapa
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+        <div class="hero-benefits" aria-label="Características de Orixe">
+          <span>✓ 100% gratis</span>
+          <span>✓ Sin registros</span>
+          <span>✓ Sin reservas</span>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <img
+          src="/images/orixe-hero.png"
+          alt=""
+          width="554"
+          height="600"
+        />
+      </div>
+    </section>
+
+    <section class="intro" aria-labelledby="intro-title">
+      <div class="intro-inner">
+        <p class="section-kicker">¿QUÉ ES ORIXE?</p>
+
+        <h2 id="intro-title">
+          Galicia puede ser tu próximo
+          <span>escape room.</span>
+        </h2>
+
+        <div class="intro-copy">
+          <p>
+            Orixe convierte lugares reales de Galicia en escenarios de juego.
+            Un bosque, una plaza, un monumento, un paisaje o una historia
+            pueden esconder una misión.
+          </p>
+          <p>
+            Elige una misión, desplázate hasta el lugar y empieza la aventura.
+            Busca pistas, resuelve enigmas, supera retos y descubre Galicia
+            mientras juegas.
+          </p>
+        </div>
+
+        <div class="home-links" aria-label="Accesos principales">
+          <a class="home-link home-link-missions" href="/misiones">
+            <span class="link-icon" aria-hidden="true">✦</span>
+            <span>
+              <small>EXPLORA</small>
+              <strong>Misiones</strong>
+              <em>Elige tu próxima aventura en Galicia.</em>
+            </span>
+            <span class="link-arrow" aria-hidden="true">→</span>
+          </a>
+
+          <a class="home-link home-link-map" href="/mapa/">
+            <span class="link-icon" aria-hidden="true">⌖</span>
+            <span>
+              <small>LOCALIZA</small>
+              <strong>Mapa</strong>
+              <em>Descubre dónde están las misiones.</em>
+            </span>
+            <span class="link-arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing" aria-labelledby="closing-title">
+      <div>
+        <p class="section-kicker">TU PRÓXIMO RETO</p>
+        <h2 id="closing-title">
+          La aventura puede estar mucho más cerca de lo que imaginas.
+        </h2>
+      </div>
+      <a class="home-btn home-btn-light" href="/misiones">
+        Empezar una misión <span aria-hidden="true">→</span>
+      </a>
+    </section>
+  </main>
+
+  <Footer />
 </BaseLayout>
+
+<style>
+  .home {
+    overflow: hidden;
+  }
+
+  .hero {
+    position: relative;
+    min-height: 650px;
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(420px, 1.1fr);
+    align-items: center;
+    background:
+      radial-gradient(circle at 18% 30%, rgba(255,255,255,.34), transparent 28%),
+      linear-gradient(135deg, #f4efe2 0%, #f8f5ec 44%, #d9e5d6 100%);
+    isolation: isolate;
+  }
+
+  .hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+      linear-gradient(90deg, rgba(246,241,229,.98) 0%, rgba(246,241,229,.88) 38%, rgba(246,241,229,0) 67%);
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  .hero-copy {
+    position: relative;
+    z-index: 2;
+    max-width: 660px;
+    padding: 90px 0 85px clamp(28px, 8vw, 120px);
+  }
+
+  .hero-kicker,
+  .section-kicker {
+    margin: 0 0 20px;
+    color: #087f7b;
+    font-size: .88rem;
+    font-weight: 800;
+    letter-spacing: .24em;
+  }
+
+  .hero h1 {
+    max-width: 620px;
+    margin: 0;
+    color: #173d3b;
+    font-size: clamp(3.8rem, 6.4vw, 6.8rem);
+    line-height: .97;
+    letter-spacing: -.055em;
+    font-weight: 850;
+  }
+
+  .hero h1 span {
+    color: #087f7b;
+  }
+
+  .hero-description {
+    max-width: 570px;
+    margin: 30px 0 0;
+    color: #244d4b;
+    font-size: clamp(1rem, 1.35vw, 1.25rem);
+    line-height: 1.55;
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 30px;
+  }
+
+  .home-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    min-height: 52px;
+    padding: 0 23px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 800;
+    transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+  }
+
+  .home-btn:hover {
+    transform: translateY(-2px);
+  }
+
+  .home-btn-primary {
+    color: #fff;
+    background: #0b5148;
+    box-shadow: 0 10px 24px rgba(11,81,72,.18);
+  }
+
+  .home-btn-secondary {
+    color: #0b5148;
+    border: 1px solid #0b5148;
+    background: rgba(255,255,255,.55);
+  }
+
+  .hero-benefits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    margin-top: 27px;
+    color: #355b58;
+    font-size: .92rem;
+    font-weight: 700;
+  }
+
+  .hero-visual {
+    align-self: stretch;
+    min-height: 650px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .hero-visual img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .intro {
+    position: relative;
+    background: #f8f4e9;
+    padding: 95px 24px 105px;
+  }
+
+  .intro::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: .22;
+    pointer-events: none;
+    background-image:
+      linear-gradient(30deg, transparent 48%, #c9c1aa 49%, transparent 51%),
+      linear-gradient(150deg, transparent 48%, #c9c1aa 49%, transparent 51%);
+    background-size: 90px 90px;
+    mask-image: linear-gradient(to bottom, transparent, #000 18%, #000 82%, transparent);
+  }
+
+  .intro-inner {
+    position: relative;
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+
+  .intro h2 {
+    max-width: 850px;
+    margin: 0;
+    color: #173d3b;
+    font-size: clamp(2.8rem, 5.2vw, 5.5rem);
+    line-height: .95;
+    letter-spacing: -.045em;
+  }
+
+  .intro h2 span {
+    color: #087f7b;
+  }
+
+  .intro-copy {
+    max-width: 720px;
+    margin: 34px 0 55px;
+    color: #315552;
+    font-size: 1.05rem;
+    line-height: 1.7;
+  }
+
+  .intro-copy p {
+    margin: 0 0 13px;
+  }
+
+  .home-links {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .home-link {
+    min-height: 175px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 20px;
+    padding: 28px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    border: 1px solid rgba(22,71,66,.14);
+    transition: transform .18s ease, box-shadow .18s ease;
+  }
+
+  .home-link:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 18px 38px rgba(22,71,66,.12);
+  }
+
+  .home-link-missions {
+    color: #fff;
+    background: #0b5148;
+  }
+
+  .home-link-map {
+    color: #173d3b;
+    background: #dfe5c9;
+  }
+
+  .link-icon {
+    width: 54px;
+    height: 54px;
+    display: grid;
+    place-items: center;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    font-size: 1.55rem;
+  }
+
+  .home-link small {
+    display: block;
+    margin-bottom: 7px;
+    font-size: .7rem;
+    font-weight: 800;
+    letter-spacing: .18em;
+    opacity: .8;
+  }
+
+  .home-link strong {
+    display: block;
+    font-size: 1.9rem;
+    line-height: 1.05;
+  }
+
+  .home-link em {
+    display: block;
+    margin-top: 8px;
+    font-style: normal;
+    opacity: .86;
+  }
+
+  .link-arrow {
+    font-size: 1.8rem;
+  }
+
+  .closing {
+    max-width: none;
+    padding: 70px max(24px, 8vw);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+    color: #fff;
+    background: #103f39;
+  }
+
+  .closing .section-kicker {
+    color: #9be2d5;
+  }
+
+  .closing h2 {
+    max-width: 800px;
+    margin: 0;
+    font-size: clamp(2rem, 3.4vw, 3.6rem);
+    line-height: 1;
+    letter-spacing: -.035em;
+  }
+
+  .home-btn-light {
+    flex: 0 0 auto;
+    color: #0b5148;
+    background: #f8f4e9;
+  }
+
+  @media (max-width: 900px) {
+    .hero {
+      grid-template-columns: 1fr;
+      min-height: auto;
+    }
+
+    .hero-copy {
+      padding: 70px 24px 45px;
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .hero-visual {
+      min-height: 420px;
+      max-height: 520px;
+    }
+
+    .hero::after {
+      background: linear-gradient(180deg, rgba(246,241,229,.95) 0%, rgba(246,241,229,.2) 60%);
+    }
+
+    .home-links {
+      grid-template-columns: 1fr;
+    }
+
+    .closing {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .hero h1 {
+      font-size: clamp(3.1rem, 15vw, 5rem);
+    }
+
+    .hero-description {
+      font-size: 1rem;
+    }
+
+    .hero-actions {
+      align-items: stretch;
+      flex-direction: column;
+    }
+
+    .home-btn {
+      width: 100%;
+    }
+
+    .hero-benefits {
+      gap: 9px 16px;
+      font-size: .76rem;
+    }
+
+    .intro {
+      padding: 70px 20px 75px;
+    }
+
+    .home-link {
+      grid-template-columns: auto 1fr;
+    }
+
+    .link-arrow {
+      display: none;
+    }
+  }
+</style>

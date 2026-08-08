@@ -1,0 +1,121 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import MissionCard from "../../components/MissionCard.astro";
+import { getAllMissions } from "../../content";
+
+const missions = await getAllMissions();
+const provinces = [...new Set(missions.map((mission) => mission.data.province))].sort();
+const categories = [...new Set(missions.map((mission) => mission.data.category))].sort();
+const difficulties = [...new Set(missions.map((mission) => mission.data.difficulty))].sort();
+---
+<BaseLayout title="Misiones" description="Explora el catálogo de misiones de Orixe en Galicia." canonical="/misiones">
+  <Header />
+  <main class="page-shell">
+    <section class="section-block">
+      <div class="section-heading">
+        <p class="eyebrow">Catálogo</p>
+        <h1>Misiones en Galicia</h1>
+        <p>Busca, filtra y encuentra la misión que mejor encaja con tu próximo recorrido.</p>
+      </div>
+      <div class="filter-panel">
+        <label>
+          <span>Buscar</span>
+          <input id="mission-search" type="search" placeholder="Título, municipio, categoría..." />
+        </label>
+        <label>
+          <span>Provincia</span>
+          <select id="filter-province">
+            <option value="">Todas</option>
+            {provinces.map((province) => <option value={province}>{province}</option>)}
+          </select>
+        </label>
+        <label>
+          <span>Categoría</span>
+          <select id="filter-category">
+            <option value="">Todas</option>
+            {categories.map((category) => <option value={category}>{category}</option>)}
+          </select>
+        </label>
+        <label>
+          <span>Dificultad</span>
+          <select id="filter-difficulty">
+            <option value="">Todas</option>
+            {difficulties.map((difficulty) => <option value={difficulty}>{difficulty}</option>)}
+          </select>
+        </label>
+        <button id="clear-filters" class="btn btn-secondary" type="button">Limpiar filtros</button>
+      </div>
+      <p id="results-count" class="results-count">{missions.length} misiones disponibles</p>
+      <div id="mission-results" class="mission-list-cards">
+        {missions.map((mission) => <MissionCard mission={mission.data} />)}
+      </div>
+    </section>
+  </main>
+  <Footer />
+
+  <script>
+    const cards = Array.from(document.querySelectorAll('.mission-card'));
+    const searchInput = document.getElementById('mission-search');
+    const provinceSelect = document.getElementById('filter-province');
+    const categorySelect = document.getElementById('filter-category');
+    const difficultySelect = document.getElementById('filter-difficulty');
+    const clearButton = document.getElementById('clear-filters');
+    const results = document.getElementById('mission-results');
+    const resultsCount = document.getElementById('results-count');
+
+    const applyFilters = () => {
+      const search = searchInput?.value?.toLowerCase() ?? '';
+      const province = provinceSelect?.value ?? '';
+      const category = categorySelect?.value ?? '';
+      const difficulty = difficultySelect?.value ?? '';
+
+      let visible = 0;
+      cards.forEach((card) => {
+        const text = card.textContent?.toLowerCase() ?? '';
+        const matchesSearch = text.includes(search);
+        const matchesProvince = !province || text.includes(province.toLowerCase());
+        const matchesCategory = !category || text.includes(category.toLowerCase());
+        const matchesDifficulty = !difficulty || text.includes(difficulty.toLowerCase());
+        const visibleCard = matchesSearch && matchesProvince && matchesCategory && matchesDifficulty;
+        card.style.display = visibleCard ? 'flex' : 'none';
+        if (visibleCard) visible += 1;
+      });
+
+      if (resultsCount) {
+        resultsCount.textContent = `${visible} ${visible === 1 ? 'misión' : 'misiones'} ${visible === 1 ? 'disponible' : 'disponibles'}`;
+      }
+
+      if (!results) return;
+      if (visible === 0) {
+        if (!document.getElementById('empty-state')) {
+          const empty = document.createElement('div');
+          empty.id = 'empty-state';
+          empty.className = 'empty-state';
+          empty.textContent = 'No se han encontrado misiones con esos filtros.';
+          results.appendChild(empty);
+        }
+      } else {
+        const empty = document.getElementById('empty-state');
+        if (empty) empty.remove();
+      }
+    };
+
+    const resetFilters = () => {
+      if (searchInput) searchInput.value = '';
+      if (provinceSelect) provinceSelect.value = '';
+      if (categorySelect) categorySelect.value = '';
+      if (difficultySelect) difficultySelect.value = '';
+      applyFilters();
+    };
+
+    [searchInput, provinceSelect, categorySelect, difficultySelect].forEach((element) => {
+      element?.addEventListener('input', applyFilters);
+      element?.addEventListener('change', applyFilters);
+    });
+
+    clearButton?.addEventListener('click', resetFilters);
+    applyFilters();
+  </script>
+</BaseLayout>

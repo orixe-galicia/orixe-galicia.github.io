@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-label="Ilustración de Meis con paisaje rural y naturaleza">
+  <rect width="960" height="640" rx="36" fill="#f6f2e8"/>
+  <rect y="434" width="960" height="206" fill="#dfeecf"/>
+  <path d="M0 452c126-34 239-34 365 0 110 30 207 30 330 0v188H0Z" fill="#7db06d"/>
+  <path d="M180 292c62-102 139-145 235-145 95 0 171 42 230 128" fill="none" stroke="#2f6f4b" stroke-width="14" stroke-linecap="round"/>
+  <path d="M250 336c56-48 112-77 168-77 62 0 115 28 164 72" fill="none" stroke="#4f814f" stroke-width="12" stroke-linecap="round"/>
+  <path d="M318 208c12-34 34-63 70-87" fill="none" stroke="#2f6f4b" stroke-width="10" stroke-linecap="round"/>
+  <path d="M396 214c42-28 78-40 114-40 39 0 67 10 91 28" fill="none" stroke="#2f6f4b" stroke-width="10" stroke-linecap="round"/>
+  <path d="M228 378h148" stroke="#2f6f4b" stroke-width="10" stroke-linecap="round"/>
+  <path d="M598 364h152" stroke="#2f6f4b" stroke-width="10" stroke-linecap="round"/>
+  <path d="M680 238c35-48 68-74 118-80" fill="none" stroke="#f9c96f" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="708" cy="212" r="26" fill="#f9c96f"/>
+</svg>

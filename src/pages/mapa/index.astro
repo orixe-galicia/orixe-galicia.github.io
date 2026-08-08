@@ -1,0 +1,73 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import GaliciaMap from "../../components/GaliciaMap.astro";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: "Mapa de misiones de Galicia | ORIXE",
+  description:
+    "Explora en el mapa las misiones, retos y experiencias de ORIXE por Galicia.",
+};
+---
+
+<BaseLayout
+  title="Mapa de misiones"
+  description="Explora en el mapa las misiones, retos y experiencias de ORIXE por Galicia."
+  canonical="/mapa/"
+  jsonLd={jsonLd}
+>
+  <Header />
+
+  <main class="map-page">
+    <div class="map-page-intro">
+      <p class="eyebrow">ORIXE · MAPA</p>
+
+      <h1>Explora Galicia por misiones</h1>
+
+      <p>
+        Encuentra una misión cerca de ti, descubre el lugar y prepárate para
+        convertir una salida por Galicia en una aventura.
+      </p>
+    </div>
+
+    <GaliciaMap />
+  </main>
+
+  <Footer />
+</BaseLayout>
+
+<style>
+  .map-page {
+    width: min(1200px, calc(100% - 2rem));
+    margin: 0 auto;
+    padding: 5rem 0 6rem;
+  }
+
+  .map-page-intro {
+    max-width: 760px;
+    margin: 0 auto 2.5rem;
+    text-align: center;
+  }
+
+  .map-page-intro .eyebrow {
+    margin-bottom: 0.75rem;
+  }
+
+  .map-page-intro h1 {
+    margin: 0 0 1rem;
+  }
+
+  .map-page-intro > p:last-child {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 700px) {
+    .map-page {
+      padding: 3rem 0 4rem;
+    }
+  }
+</style>

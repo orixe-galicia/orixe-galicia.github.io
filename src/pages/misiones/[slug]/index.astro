@@ -1,0 +1,107 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import Header from "../../../components/Header.astro";
+import Footer from "../../../components/Footer.astro";
+import { hasPublicAsset } from "../../../utils/publicAsset";
+
+export async function getStaticPaths() {
+  const missions = await getCollection("missions");
+  return missions.map((mission) => ({
+    params: { slug: mission.data.slug },
+    props: { mission },
+  }));
+}
+
+const { mission } = Astro.props;
+const { data } = mission;
+const mapsUrl = data.coordinates
+  ? `https://www.google.com/maps/search/?api=1&query=${data.coordinates.lat},${data.coordinates.lng}`
+  : data.googleMaps ?? "#";
+const imageAvailable = hasPublicAsset(data.image);
+const badgeAvailable = hasPublicAsset(data.badge.image);
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: data.title,
+  description: data.descriptionShort,
+  url: `https://orixe.gal/misiones/${data.slug}`,
+};
+---
+<BaseLayout title={data.seoTitle ?? data.title} description={data.seoDescription ?? data.descriptionShort} canonical={`/misiones/${data.slug}`} ogImage={data.image} jsonLd={jsonLd}>
+  <Header />
+  <main class="page-shell mission-page">
+    <a class="back-link" href="/misiones">← Volver a misiones</a>
+    <section class="mission-hero">
+      {imageAvailable && <div class="mission-hero__image"><img src={data.image} alt={data.title} /></div>}
+      <p class="eyebrow">{data.category}</p>
+      <h1>{data.title}</h1>
+      <p class="mission-hero__summary">{data.subtitle}</p>
+      <div class="mission-meta">
+        <span>{data.duration}</span><span>{data.difficulty}</span><span>{data.municipality}, {data.province}</span><span>{data.ageRecommended}</span>
+      </div>
+    </section>
+    <section class="mission-grid">
+      <article class="mission-content">
+        <h2>{data.story.title}</h2>
+        <p>{data.story.introduction}</p>
+        <h3>Contexto del lugar</h3>
+        <p>{data.story.historicalContext}</p>
+        <h3>El misterio</h3>
+        <p>{data.story.mystery}</p>
+        <h3>Objetivo de la misión</h3>
+        <p>{data.mission.objective}</p>
+        <p><strong>Localización:</strong> {data.mission.location}</p>
+        <h3>Materiales</h3>
+        <ul class="detail-list">{data.materials.map((item) => <li>{item}</li>)}</ul>
+        <h3>Instrucciones</h3>
+        <ul class="detail-list">{data.mission.instructions.map((instruction) => <li>{instruction}</li>)}</ul>
+        <h3>Recomendaciones</h3>
+        <ul class="detail-list">{data.recommendations.map((item) => <li>{item}</li>)}</ul>
+        <h3>Advertencias</h3>
+        <ul class="detail-list">{data.warnings.map((item) => <li>{item}</li>)}</ul>
+        <div class="challenge-card" data-completion-card data-mission-slug={data.slug}>
+          <p class="eyebrow">EL RETO</p>
+          <h3>{data.challenge.title}</h3>
+          <p>{data.challenge.introduction}</p>
+          <ul class="detail-list">{data.challenge.steps.map((step) => <li><strong>{step.type}:</strong> {step.prompt}</li>)}</ul>
+          <p><strong>Condición de éxito:</strong> {data.challenge.successCondition}</p>
+          <button class="completion-toggle" type="button" data-complete-toggle>He completado el reto</button>
+          <p class="completion-message" data-completion-message hidden>¡Misión completada!</p>
+          <a class="btn btn-primary completion-badge-link" data-badge-link href={`/misiones/${data.slug}/badge`} hidden>Conseguir mi insignia</a>
+        </div>
+      </article>
+      <aside class="mission-sidebar">
+        <h2>Información rápida</h2>
+        <ul class="detail-list">
+          <li><strong>Municipio:</strong> {data.municipality}</li><li><strong>Provincia:</strong> {data.province}</li><li><strong>Duración:</strong> {data.duration}</li><li><strong>Distancia:</strong> {data.distance}</li><li><strong>Dificultad:</strong> {data.difficulty}</li><li><strong>Edad recomendada:</strong> {data.ageRecommended}</li><li><strong>Accesibilidad:</strong> {data.accessibility}</li>
+        </ul>
+        <div class="mission-actions"><a class="btn btn-primary" href={`/misiones/${data.slug}/print`}>Imprimir ficha</a><a class="btn btn-secondary" href={mapsUrl} target="_blank" rel="noreferrer">Cómo llegar</a></div>
+        <div class="badge-card">
+          <h3>{data.badge.name}</h3><p>{data.badge.description}</p>
+          {badgeAvailable && data.badge.image ? <div class="badge-image"><img src={data.badge.image} alt={`Insignia de ${data.badge.name}`} /></div> : <div class="badge-preview">ORIXE</div>}
+        </div>
+      </aside>
+    </section>
+  </main>
+  <Footer />
+  <script>
+    const card = document.querySelector('[data-completion-card]');
+    if (card) {
+      const slug = card.getAttribute('data-mission-slug');
+      const toggleButton = card.querySelector('[data-complete-toggle]');
+      const message = card.querySelector('[data-completion-message]');
+      const badgeLink = card.querySelector('[data-badge-link]');
+      const storageKey = `orixe-mission-complete-${slug}`;
+      const renderState = (completed) => {
+        card.classList.toggle('is-complete', completed);
+        card.setAttribute('data-completed', completed ? 'true' : 'false');
+        if (toggleButton) { toggleButton.setAttribute('aria-pressed', completed ? 'true' : 'false'); toggleButton.textContent = completed ? 'Reto completado' : 'He completado el reto'; }
+        if (message) message.hidden = !completed;
+        if (badgeLink) badgeLink.hidden = !completed;
+      };
+      renderState(window.localStorage.getItem(storageKey) === 'true');
+      toggleButton?.addEventListener('click', () => { const nextState = card.getAttribute('data-completed') !== 'true'; window.localStorage.setItem(storageKey, String(nextState)); renderState(nextState); });
+    }
+  </script>
+</BaseLayout>
