@@ -1,0 +1,70 @@
+id: ORX-0111
+slug: "muino-vello-da-anta-coiros"
+title: "El molino protegido"
+subtitle: "Un pequeño molino con un gran valor etnológico"
+municipality: "Coirós"
+province: "A Coruña"
+coordinates:
+  lat: 43.26
+  lng: -8.115
+category: "Etnografía y patrimonio"
+ageRecommended: "8-14 años"
+duration: "45-75 min"
+distance: "1-2 km aprox."
+difficulty: "Fácil"
+accessibility: "Consulta accesos y horarios oficiales. Respeta siempre el patrimonio, la señalización y las zonas restringidas."
+descriptionShort: "Misión gratuita de Orixe para descubrir descubre cómo el agua, la piedra y el trabajo agrícola se convertían en energía para moler."
+descriptionLong: "Una misión gratuita para familias y grupos que transforma un lugar especial de Galicia en un pequeño escape room de observación, investigación y juego."
+image: "/images/muino-vello-da-anta-coiros.svg"
+story:
+  title: "El molino protegido"
+  introduction: "El lugar es el tablero. Las pistas están a la vista y la historia es la llave."
+  historicalContext: "El Muíño Vello da Anta fue incluido en 2025 en el Catálogo del Patrimonio Cultural de Galicia por su notable valor cultural como bien etnológico."
+  mystery: "Descubre cómo el agua, la piedra y el trabajo agrícola se convertían en energía para moler."
+mission:
+  objective: "Descubrir qué cuenta este lugar sobre la historia, la cultura o el patrimonio de Galicia."
+  location: "El molino protegido, Coirós."
+  instructions:
+    - "Lee la misión antes de comenzar."
+    - "Trabaja en equipo."
+    - "No toques ni muevas elementos patrimoniales."
+    - "Respeta horarios y zonas restringidas."
+    - "No leas la solución hasta terminar."
+materials:
+  - "Ficha imprimible"
+  - "Lápiz"
+  - "Móvil opcional"
+challenge:
+  title: "Reto: El molino protegido"
+  introduction: "Cinco pruebas convierten la visita en un pequeño escape room gratuito."
+  steps:
+    - type: observation
+      prompt: "Observa el lugar durante un minuto sin buscar información."
+    - type: search
+      prompt: "Localiza una pista física que ayude a explicar la importancia del lugar."
+    - type: history
+      prompt: "Relaciona esa pista con la época, actividad o comunidad que la creó."
+    - type: puzzle
+      prompt: "Une lugar + paisaje + personas y formula una explicación de conjunto."
+    - type: final
+      prompt: "Explica en una frase por qué este lugar merece ser conocido y protegido."
+  successCondition: "Completar las cinco pruebas y justificar la respuesta final."
+clues:
+  - "Primero observa; después investiga."
+  - "La arquitectura y el paisaje también son pistas."
+  - "Busca conexiones, no solo datos."
+solution:
+  explanation: "El Muíño Vello da Anta fue incluido en 2025 en el Catálogo del Patrimonio Cultural de Galicia por su notable valor cultural como bien etnológico. La respuesta final debe relacionar las observaciones realizadas durante el recorrido con el contexto histórico y cultural del lugar."
+badge:
+  name: "ORIXE 111 · Explorador de Coirós"
+  description: "Insignia de quien completó esta misión gratuita de Orixe."
+  image: "/badges/muino-vello-da-anta-coiros.svg"
+tags:
+  - "Galicia"
+  - "misión gratuita"
+  - "escape room"
+  - "gamificación"
+  - "familias"
+  - "Etnografía y patrimonio"
+seoTitle: "Misión gratis en El molino protegido | Escape room familiar | Orixe"
+seoDescription: "Escape room gratuito para descubrir El molino protegido en Coirós y su patrimonio de Galicia jugando en familia."

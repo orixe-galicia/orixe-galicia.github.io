@@ -1,0 +1,75 @@
+id: ORX-0087
+slug: ponte-bibei
+title: La calzada que cruzó los siglos
+subtitle: Una misión gratuita para descubrir cultura, historia y patrimonio de Galicia
+municipality: Manzaneda
+province: Ourense
+coordinates:
+  lat: 42.268
+  lng: -7.098
+category: Patrimonio romano
+ageRecommended: 8-14 años
+duration: 60-90 min
+distance: 1-2 km aprox.
+difficulty: Fácil
+accessibility: Consulta accesos y horarios oficiales. Respeta siempre el patrimonio, la señalización y las zonas restringidas.
+descriptionShort: Escape room gratuito para descubrir Ponte Bibei mediante pistas, observación e investigación.
+descriptionLong: Una misión de Orixe pensada para familias y grupos que quieren descubrir Galicia jugando, sin pagar por realizar
+  el reto.
+image: /images/ponte-bibei.svg
+story:
+  title: El misterio de Ponte Bibei
+  introduction: El lugar es el tablero. Las pistas están a la vista y la historia es la llave.
+  historicalContext: Investiga el contexto histórico y cultural de Ponte Bibei utilizando la información disponible en el
+    lugar y las fuentes oficiales de turismo.
+  mystery: Un antiguo cuaderno dejó cinco pruebas sin resolver. Solo podrás abrir el mensaje final si conectas lo que observas
+    con la historia del lugar.
+mission:
+  objective: Descubrir qué cuenta Ponte Bibei sobre la historia, cultura o patrimonio de Galicia.
+  location: Ponte Bibei, Manzaneda.
+  instructions:
+  - Lee la misión antes de comenzar.
+  - Trabaja en equipo.
+  - No toques ni muevas elementos patrimoniales.
+  - Respeta horarios y zonas restringidas.
+  - No leas la solución hasta terminar.
+materials:
+- Ficha imprimible
+- Lápiz
+- Móvil opcional
+challenge:
+  title: 'Reto: La calzada que cruzó los siglos'
+  introduction: Cinco pruebas convierten la visita en un pequeño escape room gratuito.
+  steps:
+  - type: observation
+    prompt: Observa la estructura del puente.
+  - type: search
+    prompt: Investiga qué significa obra romana.
+  - type: history
+    prompt: Explica por qué los puentes eran estratégicos.
+  - type: puzzle
+    prompt: Une camino + puente + territorio.
+  - type: final
+    prompt: Explica qué problema resolvía.
+  successCondition: Completar las cinco pruebas y justificar la respuesta final.
+clues:
+- Observa primero y busca información después.
+- La arquitectura también cuenta historias.
+- Relaciona el lugar con las personas que lo utilizaron.
+solution:
+  explanation: La solución debe relacionar las observaciones con el contexto histórico y cultural de Ponte Bibei. No se trata
+    solo de memorizar un dato, sino de explicar la conexión entre las pistas.
+badge:
+  name: ORIXE 087 · Explorador de Manzaneda
+  description: Insignia de quien completó esta misión gratuita.
+  image: /badges/ponte-bibei.svg
+tags:
+- Galicia
+- misión gratuita
+- escape room
+- gamificación
+- familias
+- Patrimonio romano
+seoTitle: Misión gratis en Ponte Bibei | Escape room familiar | Orixe
+seoDescription: Escape room gratuito para descubrir Ponte Bibei y su patrimonio cultural e histórico de Galicia jugando en
+  familia.

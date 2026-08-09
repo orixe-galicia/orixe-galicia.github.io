@@ -1,0 +1,70 @@
+id: ORX-0100
+slug: "as-goteiras-oia"
+title: "Las marcas de As Goteiras"
+subtitle: "Piedra, símbolos y límites en la Galicia antigua"
+municipality: "Oia"
+province: "Pontevedra"
+coordinates:
+  lat: 42.007
+  lng: -8.868
+category: "Patrimonio arqueológico"
+ageRecommended: "8-14 años"
+duration: "45-75 min"
+distance: "1-2 km aprox."
+difficulty: "Fácil"
+accessibility: "Consulta accesos y horarios oficiales. Respeta siempre el patrimonio, la señalización y las zonas restringidas."
+descriptionShort: "Misión gratuita de Orixe para descubrir lee la piedra como si fuera un documento y averigua qué pistas pueden esconder sus marcas."
+descriptionLong: "Una misión gratuita para familias y grupos que transforma un lugar especial de Galicia en un pequeño escape room de observación, investigación y juego."
+image: "/images/as-goteiras-oia.svg"
+story:
+  title: "Las marcas de As Goteiras"
+  introduction: "El lugar es el tablero. Las pistas están a la vista y la historia es la llave."
+  historicalContext: "As Goteiras conserva un afloramiento granítico con marcas prehistóricas y signos cruciformes que el turismo municipal relaciona con posibles demarcaciones históricas."
+  mystery: "Lee la piedra como si fuera un documento y averigua qué pistas pueden esconder sus marcas."
+mission:
+  objective: "Descubrir qué cuenta este lugar sobre la historia, la cultura o el patrimonio de Galicia."
+  location: "Las marcas de As Goteiras, Oia."
+  instructions:
+    - "Lee la misión antes de comenzar."
+    - "Trabaja en equipo."
+    - "No toques ni muevas elementos patrimoniales."
+    - "Respeta horarios y zonas restringidas."
+    - "No leas la solución hasta terminar."
+materials:
+  - "Ficha imprimible"
+  - "Lápiz"
+  - "Móvil opcional"
+challenge:
+  title: "Reto: Las marcas de As Goteiras"
+  introduction: "Cinco pruebas convierten la visita en un pequeño escape room gratuito."
+  steps:
+    - type: observation
+      prompt: "Observa el lugar durante un minuto sin buscar información."
+    - type: search
+      prompt: "Localiza una pista física que ayude a explicar la importancia del lugar."
+    - type: history
+      prompt: "Relaciona esa pista con la época, actividad o comunidad que la creó."
+    - type: puzzle
+      prompt: "Une lugar + paisaje + personas y formula una explicación de conjunto."
+    - type: final
+      prompt: "Explica en una frase por qué este lugar merece ser conocido y protegido."
+  successCondition: "Completar las cinco pruebas y justificar la respuesta final."
+clues:
+  - "Primero observa; después investiga."
+  - "La arquitectura y el paisaje también son pistas."
+  - "Busca conexiones, no solo datos."
+solution:
+  explanation: "As Goteiras conserva un afloramiento granítico con marcas prehistóricas y signos cruciformes que el turismo municipal relaciona con posibles demarcaciones históricas. La respuesta final debe relacionar las observaciones realizadas durante el recorrido con el contexto histórico y cultural del lugar."
+badge:
+  name: "ORIXE 100 · Explorador de Oia"
+  description: "Insignia de quien completó esta misión gratuita de Orixe."
+  image: "/badges/as-goteiras-oia.svg"
+tags:
+  - "Galicia"
+  - "misión gratuita"
+  - "escape room"
+  - "gamificación"
+  - "familias"
+  - "Patrimonio arqueológico"
+seoTitle: "Misión gratis en Las marcas de As Goteiras | Escape room familiar | Orixe"
+seoDescription: "Escape room gratuito para descubrir Las marcas de As Goteiras en Oia y su patrimonio de Galicia jugando en familia."

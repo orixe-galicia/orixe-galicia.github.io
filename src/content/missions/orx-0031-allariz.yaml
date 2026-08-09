@@ -13,17 +13,15 @@ duration: 70 min
 distance: 2 km aprox.
 difficulty: Fácil
 accessibility: Recorrido urbano y fluvial; algunos tramos pueden ser irregulares.
-descriptionShort: Recorre Allariz y sigue las pistas del río Arnoia, la historia y
-  el casco histórico.
-descriptionLong: Una misión gratuita para descubrir cómo el río y la recuperación
-  del casco histórico forman parte de la identidad de Allariz.
+descriptionShort: Recorre Allariz y sigue las pistas del río Arnoia, la historia y el casco histórico.
+descriptionLong: Una misión gratuita para descubrir cómo el río y la recuperación del casco histórico forman parte de la identidad
+  de Allariz.
 story:
   title: La ciudad que volvió al río
-  introduction: Un antiguo mapa ha desaparecido. Para reconstruirlo hay que seguir
-    el agua y reconocer las huellas que dejó en la villa.
-  historicalContext: Turismo de Galicia señala que el origen de Allariz se remonta
-    al siglo VI y destaca la recuperación de su casco histórico y del entorno del
-    río. El Área de Allariz forma además parte de una reserva de la biosfera.
+  introduction: Un antiguo mapa ha desaparecido. Para reconstruirlo hay que seguir el agua y reconocer las huellas que dejó
+    en la villa.
+  historicalContext: Turismo de Galicia señala que el origen de Allariz se remonta al siglo VI y destaca la recuperación de
+    su casco histórico y del entorno del río. El Área de Allariz forma además parte de una reserva de la biosfera.
   mystery: El río es la línea que conecta las pistas.
 mission:
   objective: Relacionar patrimonio urbano, paisaje fluvial e historia local.
@@ -47,8 +45,7 @@ challenge:
     hint: Es uno de los ríos principales del Área de Allariz.
   - type: observation
     title: El puente
-    prompt: Encuentra un puente y describe para qué sirve en la relación entre las
-      dos orillas.
+    prompt: Encuentra un puente y describe para qué sirve en la relación entre las dos orillas.
     answer: Comunicar las orillas
     hint: Une caminos.
   - type: history
@@ -72,9 +69,8 @@ clues:
 - Mira hacia abajo y también hacia las fachadas.
 - El patrimonio no está solo en los monumentos.
 solution:
-  explanation: Allariz tiene una relación estrecha con el río Arnoia. Turismo de Galicia
-    destaca la recuperación del casco histórico y del río y describe el Área de Allariz
-    como un paisaje construido durante siglos alrededor del agua.
+  explanation: Allariz tiene una relación estrecha con el río Arnoia. Turismo de Galicia destaca la recuperación del casco
+    histórico y del río y describe el Área de Allariz como un paisaje construido durante siglos alrededor del agua.
 badge:
   name: ORIXE 031 · Cartógrafo de Allariz
   description: Insignia de quien reconstruyó el mapa siguiendo el río Arnoia.
@@ -95,7 +91,6 @@ tags:
 - familias
 - gratis
 seoTitle: 'Misión gratis en Allariz: el secreto del río Arnoia | Orixe'
-seoDescription: 'Reto gratuito para familias en Allariz: descubre el casco histórico
-  y el río Arnoia jugando.'
+seoDescription: 'Reto gratuito para familias en Allariz: descubre el casco histórico y el río Arnoia jugando.'
 image: /images/allariz.svg
 gallery: []

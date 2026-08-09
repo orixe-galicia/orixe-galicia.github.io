@@ -1,0 +1,70 @@
+id: ORX-0117
+slug: "pazo-de-san-isidro-mondonedo"
+title: "El pazo del poder"
+subtitle: "Una residencia señorial ligada a la justicia y al poder local"
+municipality: "Mondoñedo"
+province: "Lugo"
+coordinates:
+  lat: 43.4168
+  lng: -7.3702
+category: "Historia y arquitectura"
+ageRecommended: "8-14 años"
+duration: "45-75 min"
+distance: "1-2 km aprox."
+difficulty: "Fácil"
+accessibility: "Consulta accesos y horarios oficiales. Respeta siempre el patrimonio, la señalización y las zonas restringidas."
+descriptionShort: "Misión gratuita de Orixe para descubrir descubre cómo una casa señorial podía ser también un símbolo de poder, territorio y justicia."
+descriptionLong: "Una misión gratuita para familias y grupos que transforma un lugar especial de Galicia en un pequeño escape room de observación, investigación y juego."
+image: "/images/pazo-de-san-isidro-mondonedo.svg"
+story:
+  title: "El pazo del poder"
+  introduction: "El lugar es el tablero. Las pistas están a la vista y la historia es la llave."
+  historicalContext: "El Pazo de San Isidro está declarado BIC y la Xunta lo describe como un conjunto singular ligado históricamente a la jurisdicción civil y criminal de su territorio."
+  mystery: "Descubre cómo una casa señorial podía ser también un símbolo de poder, territorio y justicia."
+mission:
+  objective: "Descubrir qué cuenta este lugar sobre la historia, la cultura o el patrimonio de Galicia."
+  location: "El pazo del poder, Mondoñedo."
+  instructions:
+    - "Lee la misión antes de comenzar."
+    - "Trabaja en equipo."
+    - "No toques ni muevas elementos patrimoniales."
+    - "Respeta horarios y zonas restringidas."
+    - "No leas la solución hasta terminar."
+materials:
+  - "Ficha imprimible"
+  - "Lápiz"
+  - "Móvil opcional"
+challenge:
+  title: "Reto: El pazo del poder"
+  introduction: "Cinco pruebas convierten la visita en un pequeño escape room gratuito."
+  steps:
+    - type: observation
+      prompt: "Observa el lugar durante un minuto sin buscar información."
+    - type: search
+      prompt: "Localiza una pista física que ayude a explicar la importancia del lugar."
+    - type: history
+      prompt: "Relaciona esa pista con la época, actividad o comunidad que la creó."
+    - type: puzzle
+      prompt: "Une lugar + paisaje + personas y formula una explicación de conjunto."
+    - type: final
+      prompt: "Explica en una frase por qué este lugar merece ser conocido y protegido."
+  successCondition: "Completar las cinco pruebas y justificar la respuesta final."
+clues:
+  - "Primero observa; después investiga."
+  - "La arquitectura y el paisaje también son pistas."
+  - "Busca conexiones, no solo datos."
+solution:
+  explanation: "El Pazo de San Isidro está declarado BIC y la Xunta lo describe como un conjunto singular ligado históricamente a la jurisdicción civil y criminal de su territorio. La respuesta final debe relacionar las observaciones realizadas durante el recorrido con el contexto histórico y cultural del lugar."
+badge:
+  name: "ORIXE 117 · Explorador de Mondoñedo"
+  description: "Insignia de quien completó esta misión gratuita de Orixe."
+  image: "/badges/pazo-de-san-isidro-mondonedo.svg"
+tags:
+  - "Galicia"
+  - "misión gratuita"
+  - "escape room"
+  - "gamificación"
+  - "familias"
+  - "Historia y arquitectura"
+seoTitle: "Misión gratis en El pazo del poder | Escape room familiar | Orixe"
+seoDescription: "Escape room gratuito para descubrir El pazo del poder en Mondoñedo y su patrimonio de Galicia jugando en familia."

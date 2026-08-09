@@ -1,99 +1,107 @@
-id: "ORX-0007"
-slug: "torre-de-hercules"
-title: "El mensaje del faro"
-subtitle: "Roma, mar y una señal que sigue encendida"
-municipality: "A Coruña"
-province: "A Coruña"
+id: ORX-0007
+slug: torre-de-hercules
+title: El mensaje del faro
+subtitle: Roma, mar y una señal que sigue encendida
+municipality: A Coruña
+province: A Coruña
 coordinates:
-  lat: 43.3860
+  lat: 43.386
   lng: -8.4065
-category: "Historia y mitología"
-ageRecommended: "8-14 años"
-duration: "60-75 min"
-distance: "2 km aprox."
-difficulty: "Fácil-media"
-accessibility: "El recorrido exterior permite adaptar el itinerario; el acceso interior no es necesario"
-image: "/images/torre-de-hercules.svg"
+category: Historia y mitología
+ageRecommended: 8-14 años
+duration: 60-75 min
+distance: 2 km aprox.
+difficulty: Fácil-media
+accessibility: El recorrido exterior permite adaptar el itinerario; el acceso interior no es necesario
+image: /images/torre-de-hercules.svg
 gallery: []
-descriptionShort: "Descifra un mensaje recorriendo el entorno de la Torre de Hércules y descubre su historia romana y sus leyendas."
-descriptionLong: "La Torre de Hércules es un faro romano construido en la Antigüedad y declarado Patrimonio Mundial. Esta misión se realiza principalmente en el espacio exterior y convierte el faro, el mar y las referencias a Roma y Hércules en un juego de pistas."
+descriptionShort: Descifra un mensaje recorriendo el entorno de la Torre de Hércules y descubre su historia romana y sus leyendas.
+descriptionLong: La Torre de Hércules es un faro romano construido en la Antigüedad y declarado Patrimonio Mundial. Esta misión
+  se realiza principalmente en el espacio exterior y convierte el faro, el mar y las referencias a Roma y Hércules en un juego
+  de pistas.
 story:
-  title: "La señal que nunca desapareció"
-  introduction: "Un mensaje romano ha sobrevivido durante casi dos mil años. Para encontrarlo no necesitas entrar en la torre: debes aprender a mirar como un navegante y descubrir las señales que rodean el faro."
-  historicalContext: "La Torre de Hércules se construyó en época romana, en el siglo I, y continúa funcionando como señal marítima. La tradición histórica relaciona el lugar con la navegación hacia el noroeste europeo. La leyenda de Hércules y Gerión añadió otra capa mítica a la identidad del lugar."
-  mystery: "El mensaje mezcla hechos históricos y leyenda. Tu misión consiste en separar ambos mundos y utilizar las respuestas para obtener el código final."
+  title: La señal que nunca desapareció
+  introduction: 'Un mensaje romano ha sobrevivido durante casi dos mil años. Para encontrarlo no necesitas entrar en la torre:
+    debes aprender a mirar como un navegante y descubrir las señales que rodean el faro.'
+  historicalContext: La Torre de Hércules se construyó en época romana, en el siglo I, y continúa funcionando como señal marítima.
+    La tradición histórica relaciona el lugar con la navegación hacia el noroeste europeo. La leyenda de Hércules y Gerión
+    añadió otra capa mítica a la identidad del lugar.
+  mystery: El mensaje mezcla hechos históricos y leyenda. Tu misión consiste en separar ambos mundos y utilizar las respuestas
+    para obtener el código final.
 mission:
-  objective: "Resolver un código de cinco pruebas sobre navegación, Roma, la torre y la leyenda de Hércules."
-  location: "Entorno exterior de la Torre de Hércules y Parque Escultórico."
+  objective: Resolver un código de cinco pruebas sobre navegación, Roma, la torre y la leyenda de Hércules.
+  location: Entorno exterior de la Torre de Hércules y Parque Escultórico.
   instructions:
-    - "Realiza la misión desde los espacios exteriores y públicos."
-    - "No es necesario comprar una entrada para resolver el reto."
-    - "No cruces zonas restringidas ni te acerques a los bordes del acantilado."
-    - "Distingue siempre entre historia documentada y leyenda."
+  - Realiza la misión desde los espacios exteriores y públicos.
+  - No es necesario comprar una entrada para resolver el reto.
+  - No cruces zonas restringidas ni te acerques a los bordes del acantilado.
+  - Distingue siempre entre historia documentada y leyenda.
 materials:
-  - "Ficha de la misión"
-  - "Lápiz o móvil"
-  - "Calzado cómodo"
+- Ficha de la misión
+- Lápiz o móvil
+- Calzado cómodo
 challenge:
-  title: "La clave de Brigantium"
-  introduction: "Cinco preguntas separan la historia de la leyenda y te acercan a la palabra final."
+  title: La clave de Brigantium
+  introduction: Cinco preguntas separan la historia de la leyenda y te acercan a la palabra final.
   steps:
-    - type: "history"
-      title: "El origen"
-      prompt: "¿En qué época comenzó la construcción de la Torre de Hércules?"
-      options:
-        - "Siglo I"
-        - "Siglo XV"
-        - "Siglo XIX"
-      answer: "Siglo I"
-      hint: "Es una construcción romana."
-    - type: "observation"
-      title: "La señal"
-      prompt: "¿Cuál era una de las funciones fundamentales de la torre?"
-      answer: "Servir de faro y guiar a los navegantes"
-      hint: "Piensa en barcos y navegación."
-    - type: "history"
-      title: "El arquitecto"
-      prompt: "Según la inscripción vinculada al monumento, ¿cómo se llamaba el arquitecto romano asociado a su construcción?"
-      answer: "Gaio Sevio Lupo"
-      hint: "Su nombre aparece relacionado con una inscripción de la torre."
-    - type: "question"
-      title: "Historia o leyenda"
-      prompt: "La historia de Hércules derrotando al gigante Gerión pertenece principalmente al terreno de..."
-      options:
-        - "La leyenda y la mitología"
-        - "La arqueología romana"
-        - "La cartografía medieval"
-      answer: "La leyenda y la mitología"
-      hint: "No todo lo que cuenta una tradición es un hecho histórico."
-    - type: "final"
-      title: "El mensaje"
-      prompt: "Si un faro lleva casi dos mil años guiando a quienes llegan por mar, ¿qué palabra representa mejor su misión?"
-      answer: "LUZ"
-      hint: "Es lo que buscas cuando navegas de noche."
-  successCondition: "Completar las pruebas y obtener la palabra final LUZ."
+  - type: history
+    title: El origen
+    prompt: ¿En qué época comenzó la construcción de la Torre de Hércules?
+    options:
+    - Siglo I
+    - Siglo XV
+    - Siglo XIX
+    answer: Siglo I
+    hint: Es una construcción romana.
+  - type: observation
+    title: La señal
+    prompt: ¿Cuál era una de las funciones fundamentales de la torre?
+    answer: Servir de faro y guiar a los navegantes
+    hint: Piensa en barcos y navegación.
+  - type: history
+    title: El arquitecto
+    prompt: Según la inscripción vinculada al monumento, ¿cómo se llamaba el arquitecto romano asociado a su construcción?
+    answer: Gaio Sevio Lupo
+    hint: Su nombre aparece relacionado con una inscripción de la torre.
+  - type: question
+    title: Historia o leyenda
+    prompt: La historia de Hércules derrotando al gigante Gerión pertenece principalmente al terreno de...
+    options:
+    - La leyenda y la mitología
+    - La arqueología romana
+    - La cartografía medieval
+    answer: La leyenda y la mitología
+    hint: No todo lo que cuenta una tradición es un hecho histórico.
+  - type: final
+    title: El mensaje
+    prompt: Si un faro lleva casi dos mil años guiando a quienes llegan por mar, ¿qué palabra representa mejor su misión?
+    answer: LUZ
+    hint: Es lo que buscas cuando navegas de noche.
+  successCondition: Completar las pruebas y obtener la palabra final LUZ.
 clues:
-  - "La inscripción es una pista histórica, no una leyenda."
-  - "Cuando aparezca Hércules, recuerda que estás entrando en el mundo del mito."
+- La inscripción es una pista histórica, no una leyenda.
+- Cuando aparezca Hércules, recuerda que estás entrando en el mundo del mito.
 solution:
-  explanation: "La Torre de Hércules tiene origen romano y ha funcionado como señal marítima durante una parte extraordinariamente larga de su historia. La misión distingue ese patrimonio documentado de la tradición mítica de Hércules y Gerión. La palabra LUZ resume la función simbólica y práctica del faro."
+  explanation: La Torre de Hércules tiene origen romano y ha funcionado como señal marítima durante una parte extraordinariamente
+    larga de su historia. La misión distingue ese patrimonio documentado de la tradición mítica de Hércules y Gerión. La palabra
+    LUZ resume la función simbólica y práctica del faro.
 badge:
-  name: "ORIXE 007 · Guardián del Faro"
-  description: "Insignia de quien descifró el mensaje de la Torre de Hércules."
-  image: "/badges/torre-de-hercules.svg"
-googleMaps: "https://www.google.com/maps/search/?api=1&query=43.3860,-8.4065"
+  name: ORIXE 007 · Guardián del Faro
+  description: Insignia de quien descifró el mensaje de la Torre de Hércules.
+  image: /badges/torre-de-hercules.svg
+googleMaps: https://www.google.com/maps/search/?api=1&query=43.3860,-8.4065
 recommendations:
-  - "El entorno exterior y el Parque Escultórico permiten ampliar la experiencia sin pagar entrada."
-  - "Si quieres visitar el interior de la torre, consulta previamente las condiciones oficiales."
+- El entorno exterior y el Parque Escultórico permiten ampliar la experiencia sin pagar entrada.
+- Si quieres visitar el interior de la torre, consulta previamente las condiciones oficiales.
 warnings:
-  - "Hay zonas de acantilado y viento fuerte."
-  - "No accedas a áreas cerradas o restringidas."
+- Hay zonas de acantilado y viento fuerte.
+- No accedas a áreas cerradas o restringidas.
 tags:
-  - "Torre de Hércules"
-  - "A Coruña"
-  - "Roma"
-  - "mitología"
-  - "familias"
-  - "gratis"
-seoTitle: "Misión gratis en la Torre de Hércules con niños | Orixe"
-seoDescription: "Descubre la Torre de Hércules con un escape room al aire libre gratuito sobre Roma, navegación y mitología."
+- Torre de Hércules
+- A Coruña
+- Roma
+- mitología
+- familias
+- gratis
+seoTitle: Misión gratis en la Torre de Hércules con niños | Orixe
+seoDescription: Descubre la Torre de Hércules con un escape room al aire libre gratuito sobre Roma, navegación y mitología.

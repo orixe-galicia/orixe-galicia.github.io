@@ -1,0 +1,70 @@
+id: ORX-0110
+slug: "castrolandin-cuntis"
+title: "El castro sobre el valle"
+subtitle: "Un poblado fortificado y una tradición recuperada"
+municipality: "Cuntis"
+province: "Pontevedra"
+coordinates:
+  lat: 42.6308
+  lng: -8.5547
+category: "Arqueología y cultura"
+ageRecommended: "8-14 años"
+duration: "45-75 min"
+distance: "1-2 km aprox."
+difficulty: "Fácil"
+accessibility: "Consulta accesos y horarios oficiales. Respeta siempre el patrimonio, la señalización y las zonas restringidas."
+descriptionShort: "Misión gratuita de Orixe para descubrir observa el terreno y reconstruye por qué una comunidad de la edad del hierro elegiría este emplazamiento."
+descriptionLong: "Una misión gratuita para familias y grupos que transforma un lugar especial de Galicia en un pequeño escape room de observación, investigación y juego."
+image: "/images/castrolandin-cuntis.svg"
+story:
+  title: "El castro sobre el valle"
+  introduction: "El lugar es el tablero. Las pistas están a la vista y la historia es la llave."
+  historicalContext: "Castrolandín es presentado por el turismo municipal como un excepcional museo al aire libre de un poblado fortificado de la Edad del Hierro."
+  mystery: "Observa el terreno y reconstruye por qué una comunidad de la Edad del Hierro elegiría este emplazamiento."
+mission:
+  objective: "Descubrir qué cuenta este lugar sobre la historia, la cultura o el patrimonio de Galicia."
+  location: "El castro sobre el valle, Cuntis."
+  instructions:
+    - "Lee la misión antes de comenzar."
+    - "Trabaja en equipo."
+    - "No toques ni muevas elementos patrimoniales."
+    - "Respeta horarios y zonas restringidas."
+    - "No leas la solución hasta terminar."
+materials:
+  - "Ficha imprimible"
+  - "Lápiz"
+  - "Móvil opcional"
+challenge:
+  title: "Reto: El castro sobre el valle"
+  introduction: "Cinco pruebas convierten la visita en un pequeño escape room gratuito."
+  steps:
+    - type: observation
+      prompt: "Observa el lugar durante un minuto sin buscar información."
+    - type: search
+      prompt: "Localiza una pista física que ayude a explicar la importancia del lugar."
+    - type: history
+      prompt: "Relaciona esa pista con la época, actividad o comunidad que la creó."
+    - type: puzzle
+      prompt: "Une lugar + paisaje + personas y formula una explicación de conjunto."
+    - type: final
+      prompt: "Explica en una frase por qué este lugar merece ser conocido y protegido."
+  successCondition: "Completar las cinco pruebas y justificar la respuesta final."
+clues:
+  - "Primero observa; después investiga."
+  - "La arquitectura y el paisaje también son pistas."
+  - "Busca conexiones, no solo datos."
+solution:
+  explanation: "Castrolandín es presentado por el turismo municipal como un excepcional museo al aire libre de un poblado fortificado de la Edad del Hierro. La respuesta final debe relacionar las observaciones realizadas durante el recorrido con el contexto histórico y cultural del lugar."
+badge:
+  name: "ORIXE 110 · Explorador de Cuntis"
+  description: "Insignia de quien completó esta misión gratuita de Orixe."
+  image: "/badges/castrolandin-cuntis.svg"
+tags:
+  - "Galicia"
+  - "misión gratuita"
+  - "escape room"
+  - "gamificación"
+  - "familias"
+  - "Arqueología y cultura"
+seoTitle: "Misión gratis en El castro sobre el valle | Escape room familiar | Orixe"
+seoDescription: "Escape room gratuito para descubrir El castro sobre el valle en Cuntis y su patrimonio de Galicia jugando en familia."

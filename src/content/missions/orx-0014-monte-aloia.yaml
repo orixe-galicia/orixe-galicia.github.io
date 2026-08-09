@@ -15,23 +15,19 @@ difficulty: Fácil-media
 accessibility: Recorrido por espacios públicos; algunos senderos presentan desnivel.
 image: /images/monte-aloia.svg
 gallery: []
-descriptionShort: Explora el Monte Aloia con un reto de orientación, paisaje y arqueología
-  completamente gratuito.
-descriptionLong: El Monte Aloia fue el primer parque natural de Galicia y combina
-  miradores, senderos, molinos, patrimonio arqueológico y una muralla ciclópea. La
-  misión convierte el monte en un tablero de exploración.
+descriptionShort: Explora el Monte Aloia con un reto de orientación, paisaje y arqueología completamente gratuito.
+descriptionLong: El Monte Aloia fue el primer parque natural de Galicia y combina miradores, senderos, molinos, patrimonio
+  arqueológico y una muralla ciclópea. La misión convierte el monte en un tablero de exploración.
 story:
   title: La montaña que guarda cinco vistas
-  introduction: Una antigua exploradora dejó cinco señales en el monte. Cada mirador
-    revela una pieza del mapa y solo al final podrás reconstruir la palabra escondida.
-  historicalContext: El Monte Aloia fue reconocido como parque natural en 1978. Turismo
-    de Galicia destaca sus miradores, rutas, molinos y los restos de una muralla ciclópea
-    de unos 1.250 metros.
-  mystery: Una antigua exploradora dejó cinco señales en el monte. Cada mirador revela
-    una pieza del mapa y solo al final podrás reconstruir la palabra escondida.
+  introduction: Una antigua exploradora dejó cinco señales en el monte. Cada mirador revela una pieza del mapa y solo al final
+    podrás reconstruir la palabra escondida.
+  historicalContext: El Monte Aloia fue reconocido como parque natural en 1978. Turismo de Galicia destaca sus miradores,
+    rutas, molinos y los restos de una muralla ciclópea de unos 1.250 metros.
+  mystery: Una antigua exploradora dejó cinco señales en el monte. Cada mirador revela una pieza del mapa y solo al final
+    podrás reconstruir la palabra escondida.
 mission:
-  objective: Completar una ruta de observación por el entorno del Monte Aloia y reconstruir
-    una palabra a partir del paisaje.
+  objective: Completar una ruta de observación por el entorno del Monte Aloia y reconstruir una palabra a partir del paisaje.
   location: Monte Aloia, Tui.
   instructions:
   - Realiza el recorrido por caminos y espacios públicos.
@@ -77,9 +73,8 @@ clues:
 - La arqueología también forma parte del paisaje.
 - No necesitas recorrer todo el parque para completar la misión.
 solution:
-  explanation: El Monte Aloia combina naturaleza, miradores, senderismo y patrimonio
-    arqueológico. La misión utiliza esos elementos para convertir una visita gratuita
-    en una experiencia de exploración.
+  explanation: El Monte Aloia combina naturaleza, miradores, senderismo y patrimonio arqueológico. La misión utiliza esos
+    elementos para convertir una visita gratuita en una experiencia de exploración.
 badge:
   name: ORIXE 014 · Explorador del Aloia
   description: Insignia de quien convirtió el Monte Aloia en un mapa de aventura.
@@ -100,5 +95,4 @@ tags:
 - familias
 - gratis
 seoTitle: Misión gratis en Monte Aloia con niños | Orixe
-seoDescription: 'Reto de exploración gratuito en Monte Aloia para familias: naturaleza,
-  miradores y arqueología.'
+seoDescription: 'Reto de exploración gratuito en Monte Aloia para familias: naturaleza, miradores y arqueología.'

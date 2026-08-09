@@ -1,0 +1,71 @@
+id: ORX-0040
+slug: muros-medieval
+title: El código de las calles
+subtitle: Una misión gratuita para descubrir Casco histórico de Muros
+municipality: Muros
+province: A Coruña
+coordinates:
+  lat: 42.7768
+  lng: -9.0595
+category: Historia y observación
+ageRecommended: 7-14 años
+duration: 60-90 min
+distance: 1-2 km aprox.
+difficulty: Fácil
+accessibility: Recorrido exterior o urbano; respeta siempre la señalización y las normas del lugar.
+descriptionShort: Un escape room gratuito para descubrir Casco histórico de Muros jugando en familia.
+descriptionLong: Convierte Casco histórico de Muros en un tablero de pistas mediante observación, historia, aventura y pequeños
+  retos.
+image: /images/muros-medieval.svg
+story:
+  title: La misión comienza aquí
+  introduction: Mira el lugar como si fuera un tablero de juego. Cada detalle puede convertirse en una pista.
+  historicalContext: Este enclave forma parte del patrimonio, paisaje o memoria de Galicia y permite aprender jugando.
+  mystery: Alguien ha dejado un mensaje incompleto. Solo podrá reconstruirse observando el entorno.
+mission:
+  objective: Completar las pruebas y reconstruir el mensaje final.
+  location: Casco histórico de Muros, Muros.
+  instructions:
+  - Lee la ficha antes de comenzar.
+  - Respeta el entorno y no abandones las zonas autorizadas.
+  - Resuelve las pruebas en equipo.
+  - Guarda la solución para el final.
+materials:
+- Esta ficha de misión
+- Lápiz o móvil para anotar respuestas
+- Ganas de observar y jugar
+challenge:
+  title: El código de las calles
+  introduction: Cinco pruebas convierten el recorrido en un pequeño escape room gratuito.
+  steps:
+  - type: observation
+    prompt: Localiza un elemento del entorno que pueda funcionar como primera pista. ¿Qué ves?
+  - type: search
+    prompt: Encuentra un detalle que normalmente pasaría desapercibido y descríbelo.
+  - type: history
+    prompt: ¿Qué relación tiene ese detalle con la historia, paisaje o forma de vida del lugar?
+  - type: puzzle
+    prompt: Une las tres pistas anteriores y descubre qué idea común aparece.
+  - type: final
+    prompt: Explica el mensaje final de la misión en una frase.
+  successCondition: Resolver las cinco pruebas y explicar correctamente el mensaje final.
+clues:
+- Mira primero los detalles pequeños.
+- Compara elementos antes de decidir.
+- Si dudas, vuelve a la primera pista.
+solution:
+  explanation: La solución consiste en relacionar las pistas observadas con el patrimonio, paisaje o historia del enclave.
+badge:
+  name: ORIXE 040 · El código de las calles
+  description: Insignia de quien completó esta misión gratuita.
+  image: /badges/muros-medieval.svg
+tags:
+- Galicia
+- misión gratuita
+- escape room
+- gamificación
+- familias
+- Historia y observación
+seoTitle: Misión gratis en Casco histórico de Muros con niños | Orixe
+seoDescription: Escape room gratuito en Casco histórico de Muros para descubrir Galicia en familia mediante pistas, retos
+  y observación.

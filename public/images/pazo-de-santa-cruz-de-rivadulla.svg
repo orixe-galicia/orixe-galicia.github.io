@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d9edf0"/><stop offset="1" stop-color="#f4e5c6"/></linearGradient></defs>
+<rect width="1200" height="650" fill="url(#g)"/><circle cx="990" cy="110" r="58" fill="#efc66e"/>
+<path d="M0 390 Q190 300 390 380 T760 360 T1200 330 V650H0Z" fill="#759482"/>
+<path d="M0 510 Q260 420 530 500 T1200 450 V650H0Z" fill="#48695b"/>
+<path d="M0 585 Q300 535 600 570 T1200 535 V650H0Z" fill="#d3bd88"/>
+<text x="70" y="85" font-family="Arial" font-size="38" font-weight="700" fill="#173d37">ORIXE · 059</text>
+<text x="70" y="145" font-family="Arial" font-size="34" font-weight="700" fill="#173d37">El jardín de las pistas</text>
+<text x="70" y="190" font-family="Arial" font-size="23" fill="#315a52">Pazo de Santa Cruz de Rivadulla</text></svg>

@@ -1,0 +1,74 @@
+id: ORX-0069
+slug: monte-santa-tecla-citania
+title: La ciudad sobre el Miño
+subtitle: Una misión gratuita para descubrir Galicia jugando
+municipality: A Guarda
+province: Pontevedra
+coordinates:
+  lat: 41.89
+  lng: -8.87
+category: Arqueología y paisaje
+ageRecommended: 7-14 años
+duration: 60-90 min
+distance: 1-2 km aprox.
+difficulty: Fácil
+accessibility: Adaptar el recorrido a las condiciones del lugar y respetar señalización, horarios, mareas y zonas restringidas.
+descriptionShort: Una misión gratuita de pistas y escape room para descubrir Citania de Santa Trega en familia.
+descriptionLong: 'Convierte Citania de Santa Trega en un tablero de juego: observa, busca, relaciona pistas y supera un reto
+  final sin pagar nada.'
+image: /images/monte-santa-tecla-citania.svg
+story:
+  title: El misterio de Citania de Santa Trega
+  introduction: Alguien ha dejado una misión incompleta. Para resolverla tendrás que mirar con atención, encontrar detalles
+    y conectar lo que ves con la historia del lugar.
+  historicalContext: La citania de Santa Trega es uno de los grandes yacimientos castreños de Galicia y su posición elevada
+    permite combinar arqueología y lectura del paisaje del Miño.
+  mystery: 'La respuesta no está escondida en una caja: está delante de ti, pero tendrás que aprender a verla.'
+mission:
+  objective: Resolver las cinco pruebas y construir una explicación final sobre el lugar.
+  location: Citania de Santa Trega, A Guarda.
+  instructions:
+  - Lee la ficha antes de comenzar.
+  - Respeta el patrimonio y el entorno natural.
+  - No salgas de zonas autorizadas.
+  - Resuelve las pruebas en equipo.
+  - No leas la solución hasta terminar.
+materials:
+- Ficha imprimible
+- Lápiz o móvil
+- Curiosidad y ganas de jugar
+challenge:
+  title: El reto de Citania de Santa Trega
+  introduction: Cinco pruebas convierten la visita en un pequeño escape room gratuito.
+  steps:
+  - type: observation
+    prompt: Observa el entorno durante un minuto. Anota tres detalles que normalmente pasarían desapercibidos.
+  - type: search
+    prompt: Encuentra un elemento concreto del lugar que pueda servir como pista y describe dónde está.
+  - type: history
+    prompt: Explica qué relación tiene ese elemento con la historia, paisaje o forma de vida del lugar.
+  - type: puzzle
+    prompt: Relaciona las tres pistas y descubre qué idea común las une.
+  - type: final
+    prompt: Formula en una frase el mensaje final de la misión y justifica tu respuesta.
+  successCondition: Completar las cinco pruebas y justificar razonadamente el mensaje final.
+clues:
+- Primero observa; después busca.
+- Las mejores pistas suelen estar a la vista.
+- Piensa qué te cuenta el lugar, no solo qué estás viendo.
+solution:
+  explanation: La solución se obtiene relacionando las observaciones con la historia, el paisaje o el patrimonio de Citania
+    de Santa Trega. La clave es explicar por qué las pistas encajan.
+badge:
+  name: ORIXE 069 · La ciudad sobre el Miño
+  description: Insignia de quien completó esta misión gratuita.
+  image: /badges/monte-santa-tecla-citania.svg
+tags:
+- Galicia
+- misión gratuita
+- escape room
+- gamificación
+- familias
+- Arqueología y paisaje
+seoTitle: Misión gratis en Citania de Santa Trega con niños | Orixe
+seoDescription: Escape room gratuito en Citania de Santa Trega para descubrir Galicia en familia con pistas, retos y gamificación.

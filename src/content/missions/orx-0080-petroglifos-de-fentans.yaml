@@ -1,0 +1,75 @@
+id: ORX-0080
+slug: petroglifos-de-fentans
+title: El código grabado en la roca
+subtitle: Una misión gratuita para descubrir cultura, historia y patrimonio de Galicia
+municipality: Cerdedo-Cotobade
+province: Pontevedra
+coordinates:
+  lat: 42.52472
+  lng: -8.51286
+category: Arqueología rupestre
+ageRecommended: 8-14 años
+duration: 60-90 min
+distance: 1-2 km aprox.
+difficulty: Fácil
+accessibility: Consulta accesos y horarios oficiales. Respeta siempre el patrimonio, la señalización y las zonas restringidas.
+descriptionShort: Escape room gratuito para descubrir Petroglifos de Fentáns mediante pistas, observación e investigación.
+descriptionLong: Una misión de Orixe pensada para familias y grupos que quieren descubrir Galicia jugando, sin pagar por realizar
+  el reto.
+image: /images/petroglifos-de-fentans.svg
+story:
+  title: El misterio de Petroglifos de Fentáns
+  introduction: El lugar es el tablero. Las pistas están a la vista y la historia es la llave.
+  historicalContext: Investiga el contexto histórico y cultural de Petroglifos de Fentáns utilizando la información disponible
+    en el lugar y las fuentes oficiales de turismo.
+  mystery: Un antiguo cuaderno dejó cinco pruebas sin resolver. Solo podrás abrir el mensaje final si conectas lo que observas
+    con la historia del lugar.
+mission:
+  objective: Descubrir qué cuenta Petroglifos de Fentáns sobre la historia, cultura o patrimonio de Galicia.
+  location: Petroglifos de Fentáns, Cerdedo-Cotobade.
+  instructions:
+  - Lee la misión antes de comenzar.
+  - Trabaja en equipo.
+  - No toques ni muevas elementos patrimoniales.
+  - Respeta horarios y zonas restringidas.
+  - No leas la solución hasta terminar.
+materials:
+- Ficha imprimible
+- Lápiz
+- Móvil opcional
+challenge:
+  title: 'Reto: El código grabado en la roca'
+  introduction: Cinco pruebas convierten la visita en un pequeño escape room gratuito.
+  steps:
+  - type: observation
+    prompt: Busca formas geométricas en las rocas.
+  - type: search
+    prompt: Investiga qué es el arte rupestre.
+  - type: history
+    prompt: Explica la relación entre símbolo y paisaje.
+  - type: puzzle
+    prompt: Une símbolo + roca + territorio.
+  - type: final
+    prompt: Formula una hipótesis sobre el mensaje grabado.
+  successCondition: Completar las cinco pruebas y justificar la respuesta final.
+clues:
+- Observa primero y busca información después.
+- La arquitectura también cuenta historias.
+- Relaciona el lugar con las personas que lo utilizaron.
+solution:
+  explanation: La solución debe relacionar las observaciones con el contexto histórico y cultural de Petroglifos de Fentáns.
+    No se trata solo de memorizar un dato, sino de explicar la conexión entre las pistas.
+badge:
+  name: ORIXE 080 · Explorador de Cerdedo-Cotobade
+  description: Insignia de quien completó esta misión gratuita.
+  image: /badges/petroglifos-de-fentans.svg
+tags:
+- Galicia
+- misión gratuita
+- escape room
+- gamificación
+- familias
+- Arqueología rupestre
+seoTitle: Misión gratis en Petroglifos de Fentáns | Escape room familiar | Orixe
+seoDescription: Escape room gratuito para descubrir Petroglifos de Fentáns y su patrimonio cultural e histórico de Galicia
+  jugando en familia.

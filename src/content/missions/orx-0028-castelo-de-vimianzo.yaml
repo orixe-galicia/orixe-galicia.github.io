@@ -13,22 +13,18 @@ duration: 60 min
 distance: 1 km aprox.
 difficulty: Fácil
 accessibility: Entorno urbano y exterior del castillo; consultar accesos interiores.
-descriptionShort: Investiga el Castillo de Vimianzo y descubre las pistas de la Galicia
-  medieval y la revuelta Irmandiña.
-descriptionLong: Una misión gratuita centrada en el exterior del castillo y sus elementos
-  defensivos, con un reto para reconstruir un episodio de la Galicia medieval.
+descriptionShort: Investiga el Castillo de Vimianzo y descubre las pistas de la Galicia medieval y la revuelta Irmandiña.
+descriptionLong: Una misión gratuita centrada en el exterior del castillo y sus elementos defensivos, con un reto para reconstruir
+  un episodio de la Galicia medieval.
 story:
   title: La muralla tiene memoria
-  introduction: Las torres de Vimianzo han visto disputas entre nobles y campesinos.
-    Una puerta imaginaria se ha quedado sin contraseña.
-  historicalContext: Turismo de Galicia señala que el castillo comenzó a construirse
-    en el siglo XIII, fue reformado en los siglos XIV y XV y estuvo relacionado con
-    la Guerra Irmandiña y las familias Fonseca y Moscoso.
-  mystery: Debes identificar las defensas antes de descubrir qué ocurrió durante la
-    revuelta.
+  introduction: Las torres de Vimianzo han visto disputas entre nobles y campesinos. Una puerta imaginaria se ha quedado sin
+    contraseña.
+  historicalContext: Turismo de Galicia señala que el castillo comenzó a construirse en el siglo XIII, fue reformado en los
+    siglos XIV y XV y estuvo relacionado con la Guerra Irmandiña y las familias Fonseca y Moscoso.
+  mystery: Debes identificar las defensas antes de descubrir qué ocurrió durante la revuelta.
 mission:
-  objective: Reconocer elementos de una fortaleza medieval y conocer el contexto de
-    la Guerra Irmandiña.
+  objective: Reconocer elementos de una fortaleza medieval y conocer el contexto de la Guerra Irmandiña.
   location: Entorno exterior del Castelo de Vimianzo.
   instructions:
   - Observa el castillo desde las zonas públicas.
@@ -54,14 +50,12 @@ challenge:
     hint: Es el siglo de 1200.
   - type: search
     title: Los Irmandiños
-    prompt: ¿Qué conflicto histórico relacionado con campesinos y nobles aparece ligado
-      al castillo?
+    prompt: ¿Qué conflicto histórico relacionado con campesinos y nobles aparece ligado al castillo?
     answer: Guerra Irmandiña
     hint: Fue una gran revuelta gallega del siglo XV.
   - type: observation
     title: Las torres
-    prompt: ¿Cuántas torres principales señala Turismo de Galicia en la descripción
-      del castillo?
+    prompt: ¿Cuántas torres principales señala Turismo de Galicia en la descripción del castillo?
     answer: Cuatro
     hint: Cuenta las torres.
   - type: final
@@ -75,9 +69,8 @@ clues:
 - Mira las torres como un estratega.
 - La historia del castillo incluye conflictos sociales.
 solution:
-  explanation: El Castillo de Vimianzo es una fortaleza medieval iniciada en el siglo
-    XIII, con murallas, foso y cuatro torres. Turismo de Galicia relaciona su historia
-    con la Guerra Irmandiña y con los Moscoso y Fonseca.
+  explanation: El Castillo de Vimianzo es una fortaleza medieval iniciada en el siglo XIII, con murallas, foso y cuatro torres.
+    Turismo de Galicia relaciona su historia con la Guerra Irmandiña y con los Moscoso y Fonseca.
 badge:
   name: ORIXE 028 · Irmandiño de Vimianzo
   description: Insignia de quien descifró las defensas y la memoria medieval del castillo.
@@ -97,7 +90,6 @@ tags:
 - Costa da Morte
 - gratis
 seoTitle: Misión gratis en el Castillo de Vimianzo | Orixe
-seoDescription: 'Reto gratuito de historia medieval en el Castillo de Vimianzo para
-  familias: murallas, torres e Irmandiños.'
+seoDescription: 'Reto gratuito de historia medieval en el Castillo de Vimianzo para familias: murallas, torres e Irmandiños.'
 image: /images/castelo-de-vimianzo.svg
 gallery: []

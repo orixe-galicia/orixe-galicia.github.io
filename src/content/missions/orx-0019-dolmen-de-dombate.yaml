@@ -12,27 +12,22 @@ ageRecommended: 8-14 años
 duration: 45-60 min
 distance: 1 km aprox.
 difficulty: Fácil
-accessibility: Entorno exterior y zona de visita; comprobar condiciones de acceso
-  antes de salir.
+accessibility: Entorno exterior y zona de visita; comprobar condiciones de acceso antes de salir.
 image: /images/dolmen-de-dombate.svg
 gallery: []
-descriptionShort: Viaja a la prehistoria con un juego de observación en el Dolmen
-  de Dombate.
-descriptionLong: El Dolmen de Dombate es uno de los monumentos megalíticos más conocidos
-  de Galicia. La misión invita a observar su estructura y pensar como un arqueólogo.
+descriptionShort: Viaja a la prehistoria con un juego de observación en el Dolmen de Dombate.
+descriptionLong: El Dolmen de Dombate es uno de los monumentos megalíticos más conocidos de Galicia. La misión invita a observar
+  su estructura y pensar como un arqueólogo.
 story:
   title: El mensaje de los constructores
-  introduction: No existen letras en las piedras de Dombate que expliquen exactamente
-    cómo vivían sus constructores. Tu misión consiste en observar y formular hipótesis
-    sin inventar respuestas.
-  historicalContext: Dombate es un monumento megalítico destacado de Galicia, asociado
-    a la arquitectura funeraria prehistórica y a la cultura megalítica.
-  mystery: No existen letras en las piedras de Dombate que expliquen exactamente cómo
-    vivían sus constructores. Tu misión consiste en observar y formular hipótesis
-    sin inventar respuestas.
+  introduction: No existen letras en las piedras de Dombate que expliquen exactamente cómo vivían sus constructores. Tu misión
+    consiste en observar y formular hipótesis sin inventar respuestas.
+  historicalContext: Dombate es un monumento megalítico destacado de Galicia, asociado a la arquitectura funeraria prehistórica
+    y a la cultura megalítica.
+  mystery: No existen letras en las piedras de Dombate que expliquen exactamente cómo vivían sus constructores. Tu misión
+    consiste en observar y formular hipótesis sin inventar respuestas.
 mission:
-  objective: Comprender qué es un dolmen y diferenciar observación arqueológica de
-    imaginación.
+  objective: Comprender qué es un dolmen y diferenciar observación arqueológica de imaginación.
   location: Dolmen de Dombate, Cabana de Bergantiños.
   instructions:
   - No toques ni subas al monumento.
@@ -77,9 +72,8 @@ clues:
 - Mira primero la estructura completa.
 - Las piedras son la fuente principal de pistas.
 solution:
-  explanation: 'El reto utiliza Dombate para introducir una idea sencilla de arqueología:
-    observar evidencias y distinguirlas de las interpretaciones. El monumento pertenece
-    al patrimonio megalítico gallego.'
+  explanation: 'El reto utiliza Dombate para introducir una idea sencilla de arqueología: observar evidencias y distinguirlas
+    de las interpretaciones. El monumento pertenece al patrimonio megalítico gallego.'
 badge:
   name: ORIXE 019 · Arqueólogo de Dombate
   description: Insignia de quien aprendió a leer el mensaje de las piedras.
@@ -100,5 +94,4 @@ tags:
 - familias
 - gratis
 seoTitle: Misión gratis en el Dolmen de Dombate | Orixe
-seoDescription: Escape room educativo gratuito en Dombate para descubrir la prehistoria
-  y la arqueología gallega.
+seoDescription: Escape room educativo gratuito en Dombate para descubrir la prehistoria y la arqueología gallega.

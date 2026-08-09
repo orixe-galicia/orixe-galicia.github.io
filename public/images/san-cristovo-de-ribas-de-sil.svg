@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#dcecef"/><stop offset="1" stop-color="#f5e7cc"/></linearGradient></defs>
+<rect width="1200" height="650" fill="url(#g)"/>
+<circle cx="965" cy="115" r="58" fill="#efc56e"/>
+<path d="M0 390 Q180 300 350 385 T700 365 T1200 330 V650H0Z" fill="#769784"/>
+<path d="M0 500 Q250 420 500 500 T1200 450 V650H0Z" fill="#486b5c"/>
+<path d="M0 570 Q300 525 600 565 T1200 530 V650H0Z" fill="#d6c18f"/>
+<text x="70" y="85" font-family="Arial,sans-serif" font-size="38" font-weight="700" fill="#173d37">ORIXE · 053</text>
+<text x="70" y="145" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#173d37">El monasterio del bosque</text>
+<text x="70" y="190" font-family="Arial,sans-serif" font-size="23" fill="#315a52">Mosteiro de Santa Cristina de Ribas de Sil</text>
+</svg>

@@ -1,0 +1,91 @@
+ORIXE · AUDITORÍA Y LIMPIEZA DE MISIONES
+
+Archivos recibidos: 97
+Misiones conservadas: 97
+Números ORX finales: 0001–0097
+IDs duplicados finales: 0
+Slugs duplicados finales: 0
+
+Se han conservado las misiones diferentes aunque correspondan al mismo lugar.
+Las cuatro fichas que compartían número de archivo 0010–0013 se han conservado y
+han pasado a ORX-0094–ORX-0097.
+
+No se ha eliminado ninguna ficha del ZIP recibido.
+
+
+CAMBIOS:
+ID: orx-0001-meis.yaml | orx-0001-meis -> ORX-0001
+ID: orx-0002-catoira.yaml | orx-0002-catoira -> ORX-0002
+ID: orx-0003-cangas.yaml | orx-0003-cangas -> ORX-0003
+ID: orx-0009-santiago.yaml | orx-0009 -> ORX-0009
+ID: orx-0010-combarro.yaml | orx-0010 -> ORX-0010
+ID: orx-034-islas-cies.yaml | ORX-034 -> ORX-0034
+ID: orx-035-praia-das-catedrais.yaml | ORX-035 -> ORX-0035
+ID: orx-036-monte-do-castro-vigo.yaml | ORX-036 -> ORX-0036
+ID: orx-037-balcon-de-madrid.yaml | ORX-037 -> ORX-0037
+ID: orx-038-san-pedro-de-rocas.yaml | ORX-038 -> ORX-0038
+ID: orx-039-estaca-de-bares.yaml | ORX-039 -> ORX-0039
+ID: orx-040-muros-medieval.yaml | ORX-040 -> ORX-0040
+ID: orx-041-noia-medieval.yaml | ORX-041 -> ORX-0041
+ID: orx-042-castro-de-viladonga.yaml | ORX-042 -> ORX-0042
+ID: orx-043-pontevedra-peregrina.yaml | ORX-043 -> ORX-0043
+ID: orx-044-fucino-do-porco.yaml | ORX-044 -> ORX-0044
+ID: orx-045-cabo-vilan.yaml | ORX-045 -> ORX-0045
+ID: orx-046-mosteiro-de-oseira.yaml | ORX-046 -> ORX-0046
+ID: orx-047-castelo-de-soutomaior.yaml | ORX-047 -> ORX-0047
+ID: orx-048-mosteiro-de-poio.yaml | ORX-048 -> ORX-0048
+ID: orx-049-pico-da-muralla.yaml | ORX-049 -> ORX-0049
+ID: orx-050-pazo-de-oca.yaml | ORX-050 -> ORX-0050
+ID: orx-051-castelo-de-monforte.yaml | ORX-051 -> ORX-0051
+ID: orx-052-pena-trevinca.yaml | ORX-052 -> ORX-0052
+ID: orx-053-san-cristovo-de-ribas-de-sil.yaml | ORX-053 -> ORX-0053
+ID: orx-054-fragas-do-eume-caaveiro.yaml | ORX-054 -> ORX-0054
+ID: orx-055-mosteiro-de-monfero.yaml | ORX-055 -> ORX-0055
+SLUG DUPLICADO: castro-de-viladonga | orx-056-castro-de-viladonga.yaml -> castro-de-viladonga-0056
+ID: orx-056-castro-de-viladonga.yaml | ORX-056 -> ORX-0056
+SLUG: orx-056-castro-de-viladonga.yaml | castro-de-viladonga -> castro-de-viladonga-0056
+ID: orx-057-illa-de-ons.yaml | ORX-057 -> ORX-0057
+ID: orx-058-illa-de-cortesegada.yaml | ORX-058 -> ORX-0058
+ID: orx-059-pazo-de-santa-cruz-de-rivadulla.yaml | ORX-059 -> ORX-0059
+ID: orx-060-ribadavia.yaml | ORX-060 -> ORX-0060
+ID: orx-061-castro-de-san-cibrao-de-las.yaml | ORX-061 -> ORX-0061
+ID: orx-062-monasterio-de-aciveiro.yaml | ORX-062 -> ORX-0062
+ID: orx-063-aldea-de-courel.yaml | ORX-063 -> ORX-0063
+ID: orx-064-cabo-prior.yaml | ORX-064 -> ORX-0064
+ID: orx-065-praia-de-areia-maior.yaml | ORX-065 -> ORX-0065
+ID: orx-066-torre-de-homenaxe-de-allariz.yaml | ORX-066 -> ORX-0066
+ID: orx-067-ponte-romana-de-ourense.yaml | ORX-067 -> ORX-0067
+ID: orx-068-castelo-de-sobroso.yaml | ORX-068 -> ORX-0068
+ID: orx-069-monte-santa-tecla-citania.yaml | ORX-069 -> ORX-0069
+ID: orx-070-cascada-de-outes.yaml | ORX-070 -> ORX-0070
+ID: orx-071-mosteiro-de-san-clodio.yaml | ORX-071 -> ORX-0071
+SLUG DUPLICADO: praia-das-catedrais | orx-072-praia-das-catedrais.yaml -> praia-das-catedrais-0072
+ID: orx-072-praia-das-catedrais.yaml | ORX-072 -> ORX-0072
+SLUG: orx-072-praia-das-catedrais.yaml | praia-das-catedrais -> praia-das-catedrais-0072
+ID: orx-073-monte-pindo.yaml | ORX-073 -> ORX-0073
+ID: orx-074-castelo-de-andrade.yaml | ORX-074 -> ORX-0074
+ID: orx-075-santa-maria-de-dexo.yaml | ORX-075 -> ORX-0075
+ID: orx-076-torres-de-altamira.yaml | ORX-076 -> ORX-0076
+ID: orx-077-san-xusto-de-toxosoutos.yaml | ORX-077 -> ORX-0077
+ID: orx-078-pazo-de-mos.yaml | ORX-078 -> ORX-0078
+ID: orx-079-pesqueiras-de-arbo.yaml | ORX-079 -> ORX-0079
+ID: orx-080-petroglifos-de-fentans.yaml | ORX-080 -> ORX-0080
+ID: orx-081-san-martino-de-cameixa.yaml | ORX-081 -> ORX-0081
+ID: orx-082-pazos-de-arenteiro.yaml | ORX-082 -> ORX-0082
+SLUG DUPLICADO: san-pedro-de-rocas | orx-083-san-pedro-de-rocas.yaml -> san-pedro-de-rocas-0083
+ID: orx-083-san-pedro-de-rocas.yaml | ORX-083 -> ORX-0083
+SLUG: orx-083-san-pedro-de-rocas.yaml | san-pedro-de-rocas -> san-pedro-de-rocas-0083
+ID: orx-084-santa-cristina-ribas-de-sil.yaml | ORX-084 -> ORX-0084
+ID: orx-085-mosteiro-montederramo.yaml | ORX-085 -> ORX-0085
+ID: orx-086-pazo-de-arxeriz.yaml | ORX-086 -> ORX-0086
+ID: orx-087-ponte-bibei.yaml | ORX-087 -> ORX-0087
+ID: orx-088-aquis-querquennis.yaml | ORX-088 -> ORX-0088
+ID: orx-089-san-miguel-de-celanova.yaml | ORX-089 -> ORX-0089
+ID: orx-090-torres-de-mens.yaml | ORX-090 -> ORX-0090
+ID: orx-091-outeiro-das-forcadas.yaml | ORX-091 -> ORX-0091
+ID: orx-092-ponte-sampaio.yaml | ORX-092 -> ORX-0092
+ID: orx-093-adega-medieval-cameixa.yaml | ORX-093 -> ORX-0093
+ID: orx-0010-ribeira-sacra.yaml | ORX-0010 -> ORX-0094
+ID: orx-0011-combarro.yaml | ORX-0011 -> ORX-0095
+ID: orx-0012-ribeira-sacra.yaml | ORX-0012 -> ORX-0096
+ID: orx-0013-san-felipe.yaml | ORX-0013 -> ORX-0097

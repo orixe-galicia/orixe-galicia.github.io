@@ -15,24 +15,19 @@ difficulty: Fácil
 accessibility: Recorrido exterior; cuidado especial en zonas próximas a acantilados.
 image: /images/san-andres-de-teixido.svg
 gallery: []
-descriptionShort: Descubre San Andrés de Teixido a través de leyendas, símbolos y
-  observación del paisaje.
-descriptionLong: San Andrés de Teixido es uno de los lugares de peregrinación más
-  conocidos de Galicia, rodeado de acantilados, mar y tradiciones populares. La misión
-  utiliza la leyenda como motor de juego.
+descriptionShort: Descubre San Andrés de Teixido a través de leyendas, símbolos y observación del paisaje.
+descriptionLong: San Andrés de Teixido es uno de los lugares de peregrinación más conocidos de Galicia, rodeado de acantilados,
+  mar y tradiciones populares. La misión utiliza la leyenda como motor de juego.
 story:
   title: El viajero que llegó demasiado tarde
-  introduction: 'Un viajero recibió una advertencia: «A San Andrés vai de morto o
-    que non foi de vivo». Para descubrir qué significa tendrás que separar leyenda,
-    paisaje y tradición.'
-  historicalContext: San Andrés de Teixido es un conocido santuario de peregrinación
-    de Galicia y un lugar asociado a numerosas tradiciones y leyendas populares.
-  mystery: 'Un viajero recibió una advertencia: «A San Andrés vai de morto o que non
-    foi de vivo». Para descubrir qué significa tendrás que separar leyenda, paisaje
-    y tradición.'
+  introduction: 'Un viajero recibió una advertencia: «A San Andrés vai de morto o que non foi de vivo». Para descubrir qué
+    significa tendrás que separar leyenda, paisaje y tradición.'
+  historicalContext: San Andrés de Teixido es un conocido santuario de peregrinación de Galicia y un lugar asociado a numerosas
+    tradiciones y leyendas populares.
+  mystery: 'Un viajero recibió una advertencia: «A San Andrés vai de morto o que non foi de vivo». Para descubrir qué significa
+    tendrás que separar leyenda, paisaje y tradición.'
 mission:
-  objective: Reconocer elementos del santuario y del paisaje y distinguir tradición
-    de observación.
+  objective: Reconocer elementos del santuario y del paisaje y distinguir tradición de observación.
   location: San Andrés de Teixido y entorno público.
   instructions:
   - Mantente lejos de los bordes de los acantilados.
@@ -45,8 +40,7 @@ materials:
 - Calzado cómodo
 challenge:
   title: 'Reto final: Separar leyenda y realidad'
-  introduction: No todo lo que escuchas en una leyenda es un dato. Tu reto es distinguir
-    ambos.
+  introduction: No todo lo que escuchas en una leyenda es un dato. Tu reto es distinguir ambos.
   steps:
   - type: observation
     title: El santuario
@@ -79,9 +73,8 @@ clues:
 - El paisaje es parte de la historia.
 - Camina siempre por zonas seguras.
 solution:
-  explanation: San Andrés de Teixido combina santuario, peregrinación, paisaje costero
-    y tradiciones populares. La misión invita a descubrir el lugar sin presentar las
-    leyendas como hechos históricos.
+  explanation: San Andrés de Teixido combina santuario, peregrinación, paisaje costero y tradiciones populares. La misión
+    invita a descubrir el lugar sin presentar las leyendas como hechos históricos.
 badge:
   name: ORIXE 017 · Peregrino de Teixido
   description: Insignia de quien recorrió el camino entre leyendas y mar.
@@ -102,5 +95,4 @@ tags:
 - familias
 - gratis
 seoTitle: Misión gratis en San Andrés de Teixido | Orixe
-seoDescription: Aventura gratuita para familias en San Andrés de Teixido con leyendas,
-  paisaje y pistas.
+seoDescription: Aventura gratuita para familias en San Andrés de Teixido con leyendas, paisaje y pistas.

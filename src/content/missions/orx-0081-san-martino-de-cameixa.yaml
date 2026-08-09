@@ -1,0 +1,75 @@
+id: ORX-0081
+slug: san-martino-de-cameixa
+title: El románico de Cameixa
+subtitle: Una misión gratuita para descubrir cultura, historia y patrimonio de Galicia
+municipality: Boborás
+province: Ourense
+coordinates:
+  lat: 42.4535
+  lng: -8.147
+category: Patrimonio románico
+ageRecommended: 8-14 años
+duration: 60-90 min
+distance: 1-2 km aprox.
+difficulty: Fácil
+accessibility: Consulta accesos y horarios oficiales. Respeta siempre el patrimonio, la señalización y las zonas restringidas.
+descriptionShort: Escape room gratuito para descubrir Igrexa de San Martiño de Cameixa mediante pistas, observación e investigación.
+descriptionLong: Una misión de Orixe pensada para familias y grupos que quieren descubrir Galicia jugando, sin pagar por realizar
+  el reto.
+image: /images/san-martino-de-cameixa.svg
+story:
+  title: El misterio de Igrexa de San Martiño de Cameixa
+  introduction: El lugar es el tablero. Las pistas están a la vista y la historia es la llave.
+  historicalContext: Investiga el contexto histórico y cultural de Igrexa de San Martiño de Cameixa utilizando la información
+    disponible en el lugar y las fuentes oficiales de turismo.
+  mystery: Un antiguo cuaderno dejó cinco pruebas sin resolver. Solo podrás abrir el mensaje final si conectas lo que observas
+    con la historia del lugar.
+mission:
+  objective: Descubrir qué cuenta Igrexa de San Martiño de Cameixa sobre la historia, cultura o patrimonio de Galicia.
+  location: Igrexa de San Martiño de Cameixa, Boborás.
+  instructions:
+  - Lee la misión antes de comenzar.
+  - Trabaja en equipo.
+  - No toques ni muevas elementos patrimoniales.
+  - Respeta horarios y zonas restringidas.
+  - No leas la solución hasta terminar.
+materials:
+- Ficha imprimible
+- Lápiz
+- Móvil opcional
+challenge:
+  title: 'Reto: El románico de Cameixa'
+  introduction: Cinco pruebas convierten la visita en un pequeño escape room gratuito.
+  steps:
+  - type: observation
+    prompt: Localiza portada, capitel y ábside.
+  - type: search
+    prompt: Averigua el siglo de la iglesia.
+  - type: history
+    prompt: Identifica dos rasgos románicos.
+  - type: puzzle
+    prompt: Une arco + capitel + ábside.
+  - type: final
+    prompt: Explica qué pista demuestra su antigüedad.
+  successCondition: Completar las cinco pruebas y justificar la respuesta final.
+clues:
+- Observa primero y busca información después.
+- La arquitectura también cuenta historias.
+- Relaciona el lugar con las personas que lo utilizaron.
+solution:
+  explanation: La solución debe relacionar las observaciones con el contexto histórico y cultural de Igrexa de San Martiño
+    de Cameixa. No se trata solo de memorizar un dato, sino de explicar la conexión entre las pistas.
+badge:
+  name: ORIXE 081 · Explorador de Boborás
+  description: Insignia de quien completó esta misión gratuita.
+  image: /badges/san-martino-de-cameixa.svg
+tags:
+- Galicia
+- misión gratuita
+- escape room
+- gamificación
+- familias
+- Patrimonio románico
+seoTitle: Misión gratis en Igrexa de San Martiño de Cameixa | Escape room familiar | Orixe
+seoDescription: Escape room gratuito para descubrir Igrexa de San Martiño de Cameixa y su patrimonio cultural e histórico
+  de Galicia jugando en familia.

@@ -1,0 +1,74 @@
+id: ORX-0066
+slug: torre-de-homenaxe-de-allariz
+title: La torre de los recuerdos
+subtitle: Una misión gratuita para descubrir Galicia jugando
+municipality: Allariz
+province: Ourense
+coordinates:
+  lat: 42.188
+  lng: -7.802
+category: Historia y villa
+ageRecommended: 7-14 años
+duration: 60-90 min
+distance: 1-2 km aprox.
+difficulty: Fácil
+accessibility: Adaptar el recorrido a las condiciones del lugar y respetar señalización, horarios, mareas y zonas restringidas.
+descriptionShort: Una misión gratuita de pistas y escape room para descubrir Torre de A Forxa en familia.
+descriptionLong: 'Convierte Torre de A Forxa en un tablero de juego: observa, busca, relaciona pistas y supera un reto final
+  sin pagar nada.'
+image: /images/torre-de-homenaxe-de-allariz.svg
+story:
+  title: El misterio de Torre de A Forxa
+  introduction: Alguien ha dejado una misión incompleta. Para resolverla tendrás que mirar con atención, encontrar detalles
+    y conectar lo que ves con la historia del lugar.
+  historicalContext: Allariz conserva un conjunto histórico de gran interés y la Torre de A Forxa forma parte de su patrimonio
+    defensivo.
+  mystery: 'La respuesta no está escondida en una caja: está delante de ti, pero tendrás que aprender a verla.'
+mission:
+  objective: Resolver las cinco pruebas y construir una explicación final sobre el lugar.
+  location: Torre de A Forxa, Allariz.
+  instructions:
+  - Lee la ficha antes de comenzar.
+  - Respeta el patrimonio y el entorno natural.
+  - No salgas de zonas autorizadas.
+  - Resuelve las pruebas en equipo.
+  - No leas la solución hasta terminar.
+materials:
+- Ficha imprimible
+- Lápiz o móvil
+- Curiosidad y ganas de jugar
+challenge:
+  title: El reto de Torre de A Forxa
+  introduction: Cinco pruebas convierten la visita en un pequeño escape room gratuito.
+  steps:
+  - type: observation
+    prompt: Observa el entorno durante un minuto. Anota tres detalles que normalmente pasarían desapercibidos.
+  - type: search
+    prompt: Encuentra un elemento concreto del lugar que pueda servir como pista y describe dónde está.
+  - type: history
+    prompt: Explica qué relación tiene ese elemento con la historia, paisaje o forma de vida del lugar.
+  - type: puzzle
+    prompt: Relaciona las tres pistas y descubre qué idea común las une.
+  - type: final
+    prompt: Formula en una frase el mensaje final de la misión y justifica tu respuesta.
+  successCondition: Completar las cinco pruebas y justificar razonadamente el mensaje final.
+clues:
+- Primero observa; después busca.
+- Las mejores pistas suelen estar a la vista.
+- Piensa qué te cuenta el lugar, no solo qué estás viendo.
+solution:
+  explanation: La solución se obtiene relacionando las observaciones con la historia, el paisaje o el patrimonio de Torre
+    de A Forxa. La clave es explicar por qué las pistas encajan.
+badge:
+  name: ORIXE 066 · La torre de los recuerdos
+  description: Insignia de quien completó esta misión gratuita.
+  image: /badges/torre-de-homenaxe-de-allariz.svg
+tags:
+- Galicia
+- misión gratuita
+- escape room
+- gamificación
+- familias
+- Historia y villa
+seoTitle: Misión gratis en Torre de A Forxa con niños | Orixe
+seoDescription: Escape room gratuito en Torre de A Forxa para descubrir Galicia en familia con pistas, retos y gamificación.

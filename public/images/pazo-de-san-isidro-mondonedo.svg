@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f766e"/><stop offset="1" stop-color="#164e63"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#g)"/>
+  <circle cx="980" cy="120" r="180" fill="#ffffff" opacity=".08"/>
+  <circle cx="180" cy="610" r="240" fill="#ffffff" opacity=".06"/>
+  <path d="M0 560 Q240 420 460 550 T900 500 T1200 520 V700 H0Z" fill="#082f49" opacity=".45"/>
+  <g fill="none" stroke="#fff" opacity=".75" stroke-width="5">
+    <path d="M110 500 L190 410 L270 500 Z"/>
+    <path d="M150 500 V570 M230 500 V570 M110 570 H270"/>
+  </g>
+  <text x="70" y="95" fill="#fff" font-family="Arial,sans-serif" font-size="28" font-weight="700">ORIXE · MISIÓN 117</text>
+  <text x="70" y="190" fill="#fff" font-family="Arial,sans-serif" font-size="54" font-weight="700">El pazo del poder</text>
+  <text x="70" y="245" fill="#d1fae5" font-family="Arial,sans-serif" font-size="28">Mondoñedo</text>
+  <text x="70" y="630" fill="#fff" font-family="Arial,sans-serif" font-size="22">Escape room gratuito · Galicia · Historia · Patrimonio</text>
+</svg>

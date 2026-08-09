@@ -1,0 +1,70 @@
+id: ORX-0102
+slug: "illa-da-estrela-ponteceso"
+title: "La isla de la Estrela"
+subtitle: "Un castro, una capilla y las huellas de la Antigüedad"
+municipality: "Ponteceso"
+province: "A Coruña"
+coordinates:
+  lat: 43.2657
+  lng: -8.9187
+category: "Arqueología y paisaje"
+ageRecommended: "8-14 años"
+duration: "45-75 min"
+distance: "1-2 km aprox."
+difficulty: "Fácil"
+accessibility: "Consulta accesos y horarios oficiales. Respeta siempre el patrimonio, la señalización y las zonas restringidas."
+descriptionShort: "Misión gratuita de Orixe para descubrir relaciona isla, castro, capilla y paisaje para descubrir cómo un mismo lugar acumuló distintas épocas."
+descriptionLong: "Una misión gratuita para familias y grupos que transforma un lugar especial de Galicia en un pequeño escape room de observación, investigación y juego."
+image: "/images/illa-da-estrela-ponteceso.svg"
+story:
+  title: "La isla de la Estrela"
+  introduction: "El lugar es el tablero. Las pistas están a la vista y la historia es la llave."
+  historicalContext: "El Concello de Ponteceso señala la presencia de restos prehistóricos y de un antiguo castro cerca de la playa y capilla de la Virxe da Estrela."
+  mystery: "Relaciona isla, castro, capilla y paisaje para descubrir cómo un mismo lugar acumuló distintas épocas."
+mission:
+  objective: "Descubrir qué cuenta este lugar sobre la historia, la cultura o el patrimonio de Galicia."
+  location: "La isla de la Estrela, Ponteceso."
+  instructions:
+    - "Lee la misión antes de comenzar."
+    - "Trabaja en equipo."
+    - "No toques ni muevas elementos patrimoniales."
+    - "Respeta horarios y zonas restringidas."
+    - "No leas la solución hasta terminar."
+materials:
+  - "Ficha imprimible"
+  - "Lápiz"
+  - "Móvil opcional"
+challenge:
+  title: "Reto: La isla de la Estrela"
+  introduction: "Cinco pruebas convierten la visita en un pequeño escape room gratuito."
+  steps:
+    - type: observation
+      prompt: "Observa el lugar durante un minuto sin buscar información."
+    - type: search
+      prompt: "Localiza una pista física que ayude a explicar la importancia del lugar."
+    - type: history
+      prompt: "Relaciona esa pista con la época, actividad o comunidad que la creó."
+    - type: puzzle
+      prompt: "Une lugar + paisaje + personas y formula una explicación de conjunto."
+    - type: final
+      prompt: "Explica en una frase por qué este lugar merece ser conocido y protegido."
+  successCondition: "Completar las cinco pruebas y justificar la respuesta final."
+clues:
+  - "Primero observa; después investiga."
+  - "La arquitectura y el paisaje también son pistas."
+  - "Busca conexiones, no solo datos."
+solution:
+  explanation: "El Concello de Ponteceso señala la presencia de restos prehistóricos y de un antiguo castro cerca de la playa y capilla de la Virxe da Estrela. La respuesta final debe relacionar las observaciones realizadas durante el recorrido con el contexto histórico y cultural del lugar."
+badge:
+  name: "ORIXE 102 · Explorador de Ponteceso"
+  description: "Insignia de quien completó esta misión gratuita de Orixe."
+  image: "/badges/illa-da-estrela-ponteceso.svg"
+tags:
+  - "Galicia"
+  - "misión gratuita"
+  - "escape room"
+  - "gamificación"
+  - "familias"
+  - "Arqueología y paisaje"
+seoTitle: "Misión gratis en La isla de la Estrela | Escape room familiar | Orixe"
+seoDescription: "Escape room gratuito para descubrir La isla de la Estrela en Ponteceso y su patrimonio de Galicia jugando en familia."

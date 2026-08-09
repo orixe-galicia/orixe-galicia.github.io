@@ -13,17 +13,15 @@ duration: 75 min
 distance: 1,5 km aprox.
 difficulty: Media
 accessibility: Entorno de montaña con pendientes; escoger recorrido según condiciones.
-descriptionShort: Descubre el Castro de Santa Trega y su posición estratégica sobre
-  el Miño y Portugal.
-descriptionLong: Una misión gratuita para observar el paisaje y las estructuras del
-  castro, entendiendo por qué la ubicación fue estratégica mucho antes del turismo.
+descriptionShort: Descubre el Castro de Santa Trega y su posición estratégica sobre el Miño y Portugal.
+descriptionLong: Una misión gratuita para observar el paisaje y las estructuras del castro, entendiendo por qué la ubicación
+  fue estratégica mucho antes del turismo.
 story:
   title: Dos países, un solo horizonte
-  introduction: 'Desde lo alto de Santa Trega se ve el Miño, el Atlántico y Portugal.
-    Pero hace siglos esa vista no era una postal: era información estratégica.'
-  historicalContext: Turismo de Galicia destaca la panorámica desde el Castro de Santa
-    Trega y explica que su ubicación respondía a razones estratégicas y de seguridad,
-    con control del tráfico marítimo y de la desembocadura del Miño.
+  introduction: 'Desde lo alto de Santa Trega se ve el Miño, el Atlántico y Portugal. Pero hace siglos esa vista no era una
+    postal: era información estratégica.'
+  historicalContext: Turismo de Galicia destaca la panorámica desde el Castro de Santa Trega y explica que su ubicación respondía
+    a razones estratégicas y de seguridad, con control del tráfico marítimo y de la desembocadura del Miño.
   mystery: Debes demostrar que el lugar fue elegido por estrategia y no solo por belleza.
 mission:
   objective: Interpretar el paisaje desde el punto de vista de una comunidad castrexa.
@@ -57,14 +55,12 @@ challenge:
     hint: No fue solo por las vistas.
   - type: photo
     title: La frontera
-    prompt: Haz una fotografía del paisaje donde se aprecie el río y el territorio
-      del otro lado.
+    prompt: Haz una fotografía del paisaje donde se aprecie el río y el territorio del otro lado.
     answer: Panorámica del Miño
     hint: Busca un punto seguro.
   - type: final
     title: La clave
-    prompt: '¿Qué palabra define mejor Santa Trega para un habitante antiguo: MIRADOR,
-      FORTALEZA o PARKING?'
+    prompt: '¿Qué palabra define mejor Santa Trega para un habitante antiguo: MIRADOR, FORTALEZA o PARKING?'
     answer: FORTALEZA
     hint: Piensa en seguridad.
   successCondition: Completar las cinco pruebas y responder FORTALEZA.
@@ -73,9 +69,8 @@ clues:
 - El Miño es una pista enorme.
 - Observa antes de responder.
 solution:
-  explanation: Santa Trega está en una posición elevada con vistas sobre el Miño,
-    Portugal y el Atlántico. Turismo de Galicia destaca precisamente su valor estratégico
-    para controlar el tráfico marítimo y la desembocadura del río.
+  explanation: Santa Trega está en una posición elevada con vistas sobre el Miño, Portugal y el Atlántico. Turismo de Galicia
+    destaca precisamente su valor estratégico para controlar el tráfico marítimo y la desembocadura del río.
 badge:
   name: ORIXE 029 · Vigía de Santa Trega
   description: Insignia de quien aprendió a leer el paisaje desde el antiguo castro.
@@ -96,7 +91,6 @@ tags:
 - arqueología
 - gratis
 seoTitle: Misión gratis en Santa Trega | Orixe
-seoDescription: 'Misión gratuita para descubrir el Castro de Santa Trega en familia:
-  arqueología, paisaje y retos.'
+seoDescription: 'Misión gratuita para descubrir el Castro de Santa Trega en familia: arqueología, paisaje y retos.'
 image: /images/santa-trega.svg
 gallery: []

@@ -1,96 +1,105 @@
-id: "ORX-0006"
-slug: "fragas-do-eume"
-title: "El bosque que esconde un monasterio"
-subtitle: "Una aventura entre árboles, río y piedra"
-municipality: "A Capela"
-province: "A Coruña"
+id: ORX-0006
+slug: fragas-do-eume
+title: El bosque que esconde un monasterio
+subtitle: Una aventura entre árboles, río y piedra
+municipality: A Capela
+province: A Coruña
 coordinates:
   lat: 43.4176
   lng: -8.0684
-category: "Naturaleza y aventura"
-ageRecommended: "8-14 años"
-duration: "90-120 min"
-distance: "5,5 km aprox. en el recorrido de referencia"
-difficulty: "Media-alta"
-accessibility: "Ruta con desnivel; escoger el tramo según las condiciones del grupo"
-image: "/images/fragas-do-eume.svg"
+category: Naturaleza y aventura
+ageRecommended: 8-14 años
+duration: 90-120 min
+distance: 5,5 km aprox. en el recorrido de referencia
+difficulty: Media-alta
+accessibility: Ruta con desnivel; escoger el tramo según las condiciones del grupo
+image: /images/fragas-do-eume.svg
 gallery: []
-descriptionShort: "Adéntrate en el bosque del Eume y sigue las pistas que conducen hasta Caaveiro."
-descriptionLong: "Las Fragas do Eume conservan uno de los grandes bosques atlánticos de Galicia. La misión utiliza el río, los árboles, los puentes y la historia del monasterio de Caaveiro para crear una aventura de observación y orientación."
+descriptionShort: Adéntrate en el bosque del Eume y sigue las pistas que conducen hasta Caaveiro.
+descriptionLong: Las Fragas do Eume conservan uno de los grandes bosques atlánticos de Galicia. La misión utiliza el río,
+  los árboles, los puentes y la historia del monasterio de Caaveiro para crear una aventura de observación y orientación.
 story:
-  title: "El guardián del Eume"
-  introduction: "El bosque guarda un secreto. Un antiguo guardián dejó cinco señales para quien supiera reconocerlas. Tu equipo debe seguir el río, observar el bosque y descubrir qué lugar aparece al final del camino."
-  historicalContext: "El Parque Natural das Fragas do Eume ocupa más de 9.000 hectáreas y reúne una gran diversidad de árboles y plantas. En uno de sus entornos más conocidos se encuentra el monasterio de San Xoán de Caaveiro, situado sobre un promontorio en pleno bosque y relacionado con una larga historia monástica."
-  mystery: "Las pistas están repartidas entre agua, vegetación, puentes y piedra. No hay que tocar nada: el bosque ofrece todo lo necesario para resolver el reto."
+  title: El guardián del Eume
+  introduction: El bosque guarda un secreto. Un antiguo guardián dejó cinco señales para quien supiera reconocerlas. Tu equipo
+    debe seguir el río, observar el bosque y descubrir qué lugar aparece al final del camino.
+  historicalContext: El Parque Natural das Fragas do Eume ocupa más de 9.000 hectáreas y reúne una gran diversidad de árboles
+    y plantas. En uno de sus entornos más conocidos se encuentra el monasterio de San Xoán de Caaveiro, situado sobre un promontorio
+    en pleno bosque y relacionado con una larga historia monástica.
+  mystery: 'Las pistas están repartidas entre agua, vegetación, puentes y piedra. No hay que tocar nada: el bosque ofrece
+    todo lo necesario para resolver el reto.'
 mission:
-  objective: "Reconocer cinco elementos del paisaje y utilizarlos para descubrir el lugar que protege el guardián del Eume."
-  location: "Entorno de las Fragas do Eume y acceso hacia Caaveiro."
+  objective: Reconocer cinco elementos del paisaje y utilizarlos para descubrir el lugar que protege el guardián del Eume.
+  location: Entorno de las Fragas do Eume y acceso hacia Caaveiro.
   instructions:
-    - "Consulta antes de salir las condiciones de acceso y las restricciones del parque."
-    - "Mantente siempre en los caminos señalizados."
-    - "No recojas plantas, piedras ni otros elementos naturales."
-    - "Adapta el recorrido a la edad y condición física del grupo."
+  - Consulta antes de salir las condiciones de acceso y las restricciones del parque.
+  - Mantente siempre en los caminos señalizados.
+  - No recojas plantas, piedras ni otros elementos naturales.
+  - Adapta el recorrido a la edad y condición física del grupo.
 materials:
-  - "Ficha de la misión"
-  - "Agua"
-  - "Calzado de montaña o deportivo"
-  - "Móvil o lápiz para anotar"
+- Ficha de la misión
+- Agua
+- Calzado de montaña o deportivo
+- Móvil o lápiz para anotar
 challenge:
-  title: "Las cinco señales del guardián"
-  introduction: "Cada prueba identifica una pieza del bosque. Al final tendrás que descubrir qué lugar aparece al unirlas."
+  title: Las cinco señales del guardián
+  introduction: Cada prueba identifica una pieza del bosque. Al final tendrás que descubrir qué lugar aparece al unirlas.
   steps:
-    - type: "observation"
-      title: "El río"
-      prompt: "¿Qué río da nombre a estas fragas?"
-      answer: "Eume"
-      hint: "Es uno de los grandes ríos de la comarca."
-    - type: "observation"
-      title: "El bosque atlántico"
-      prompt: "Busca un árbol caducifolio característico del bosque. ¿Cuál de estas opciones pertenece al conjunto de especies descritas para las fragas?"
-      options:
-        - "Carballo"
-        - "Palmera tropical"
-        - "Cactus"
-      answer: "Carballo"
-      hint: "Es una especie muy vinculada al paisaje atlántico gallego."
-    - type: "search"
-      title: "El puente"
-      prompt: "Localiza un puente del recorrido. ¿Qué función cumple dentro de la ruta?"
-      answer: "Permite cruzar el río o sus cursos asociados"
-      hint: "Observa qué queda a ambos lados."
-    - type: "history"
-      title: "La piedra entre el bosque"
-      prompt: "¿Qué edificio histórico se encuentra en el entorno más conocido del parque?"
-      answer: "Monasterio de Caaveiro"
-      hint: "Es un antiguo cenobio benedictino."
-    - type: "final"
-      title: "El escondite"
-      prompt: "Ordena las pistas: EUME + CARBALLO + PUENTE + CAAVEIRO. ¿Qué palabra describe mejor el lugar donde has resuelto la misión?"
-      answer: "BOSQUE"
-      hint: "Es precisamente el gran protagonista de esta aventura."
-  successCondition: "Completar las cinco pruebas y obtener la palabra final BOSQUE."
+  - type: observation
+    title: El río
+    prompt: ¿Qué río da nombre a estas fragas?
+    answer: Eume
+    hint: Es uno de los grandes ríos de la comarca.
+  - type: observation
+    title: El bosque atlántico
+    prompt: Busca un árbol caducifolio característico del bosque. ¿Cuál de estas opciones pertenece al conjunto de especies
+      descritas para las fragas?
+    options:
+    - Carballo
+    - Palmera tropical
+    - Cactus
+    answer: Carballo
+    hint: Es una especie muy vinculada al paisaje atlántico gallego.
+  - type: search
+    title: El puente
+    prompt: Localiza un puente del recorrido. ¿Qué función cumple dentro de la ruta?
+    answer: Permite cruzar el río o sus cursos asociados
+    hint: Observa qué queda a ambos lados.
+  - type: history
+    title: La piedra entre el bosque
+    prompt: ¿Qué edificio histórico se encuentra en el entorno más conocido del parque?
+    answer: Monasterio de Caaveiro
+    hint: Es un antiguo cenobio benedictino.
+  - type: final
+    title: El escondite
+    prompt: 'Ordena las pistas: EUME + CARBALLO + PUENTE + CAAVEIRO. ¿Qué palabra describe mejor el lugar donde has resuelto
+      la misión?'
+    answer: BOSQUE
+    hint: Es precisamente el gran protagonista de esta aventura.
+  successCondition: Completar las cinco pruebas y obtener la palabra final BOSQUE.
 clues:
-  - "El río es tu guía: cuando no sepas dónde mirar, observa cómo se relaciona el camino con el agua."
-  - "Caaveiro no es una pista secundaria: es una de las claves de la historia."
+- 'El río es tu guía: cuando no sepas dónde mirar, observa cómo se relaciona el camino con el agua.'
+- 'Caaveiro no es una pista secundaria: es una de las claves de la historia.'
 solution:
-  explanation: "Las Fragas do Eume forman un gran bosque atlántico atravesado por el río Eume. El recorrido más conocido hacia Caaveiro combina bosque, agua, puentes y patrimonio. La palabra final BOSQUE resume el verdadero protagonista de la misión."
+  explanation: Las Fragas do Eume forman un gran bosque atlántico atravesado por el río Eume. El recorrido más conocido hacia
+    Caaveiro combina bosque, agua, puentes y patrimonio. La palabra final BOSQUE resume el verdadero protagonista de la misión.
 badge:
-  name: "ORIXE 006 · Guardián del Eume"
-  description: "Insignia de explorador de las Fragas do Eume."
-  image: "/badges/fragas-do-eume.svg"
-googleMaps: "https://www.google.com/maps/search/?api=1&query=43.4176,-8.0684"
+  name: ORIXE 006 · Guardián del Eume
+  description: Insignia de explorador de las Fragas do Eume.
+  image: /badges/fragas-do-eume.svg
+googleMaps: https://www.google.com/maps/search/?api=1&query=43.4176,-8.0684
 recommendations:
-  - "Consulta antes de ir las restricciones de vehículos y las condiciones del parque."
-  - "El recorrido puede adaptarse; no es necesario completar una ruta larga con niños pequeños."
+- Consulta antes de ir las restricciones de vehículos y las condiciones del parque.
+- El recorrido puede adaptarse; no es necesario completar una ruta larga con niños pequeños.
 warnings:
-  - "Hay desniveles y superficies húmedas o resbaladizas."
-  - "Respeta las normas del Parque Natural y no abandones los senderos."
+- Hay desniveles y superficies húmedas o resbaladizas.
+- Respeta las normas del Parque Natural y no abandones los senderos.
 tags:
-  - "Fragas do Eume"
-  - "Caaveiro"
-  - "naturaleza"
-  - "aventura"
-  - "familias"
-  - "gratis"
-seoTitle: "Misión gratis en Fragas do Eume con niños | Orixe"
-seoDescription: "Escape room al aire libre en Fragas do Eume: descubre el bosque, el río Eume y el monasterio de Caaveiro en familia."
+- Fragas do Eume
+- Caaveiro
+- naturaleza
+- aventura
+- familias
+- gratis
+seoTitle: Misión gratis en Fragas do Eume con niños | Orixe
+seoDescription: 'Escape room al aire libre en Fragas do Eume: descubre el bosque, el río Eume y el monasterio de Caaveiro
+  en familia.'

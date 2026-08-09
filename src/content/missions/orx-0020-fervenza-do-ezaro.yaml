@@ -15,19 +15,15 @@ difficulty: Fácil
 accessibility: Miradores y pasarelas; no acercarse a zonas peligrosas del río.
 image: /images/fervenza-do-ezaro.svg
 gallery: []
-descriptionShort: Descubre la Fervenza do Ézaro con un reto gratuito sobre agua, paisaje
-  y energía.
-descriptionLong: El río Xallas llega al mar formando la famosa Fervenza do Ézaro.
-  La misión utiliza el salto de agua para introducir observación del paisaje y conceptos
-  sencillos de energía.
+descriptionShort: Descubre la Fervenza do Ézaro con un reto gratuito sobre agua, paisaje y energía.
+descriptionLong: El río Xallas llega al mar formando la famosa Fervenza do Ézaro. La misión utiliza el salto de agua para
+  introducir observación del paisaje y conceptos sencillos de energía.
 story:
   title: El río que cae al océano
-  introduction: 'Un científico dejó cinco preguntas junto al río. Todas tienen una
-    pista común: el agua nunca deja de moverse.'
-  historicalContext: La Fervenza do Ézaro es uno de los saltos de agua más conocidos
-    de Galicia y se encuentra en la desembocadura del río Xallas.
-  mystery: 'Un científico dejó cinco preguntas junto al río. Todas tienen una pista
-    común: el agua nunca deja de moverse.'
+  introduction: 'Un científico dejó cinco preguntas junto al río. Todas tienen una pista común: el agua nunca deja de moverse.'
+  historicalContext: La Fervenza do Ézaro es uno de los saltos de agua más conocidos de Galicia y se encuentra en la desembocadura
+    del río Xallas.
+  mystery: 'Un científico dejó cinco preguntas junto al río. Todas tienen una pista común: el agua nunca deja de moverse.'
 mission:
   objective: Observar el salto y relacionar agua, altura, movimiento y paisaje.
   location: Fervenza do Ézaro, Dumbría.
@@ -74,9 +70,8 @@ clues:
 - El río no termina en la cascada.
 - La seguridad está por encima de cualquier pista.
 solution:
-  explanation: El agua del Xallas llega al mar mediante el salto del Ézaro. La misión
-    usa el movimiento y la altura para introducir de forma sencilla la relación entre
-    paisaje y energía.
+  explanation: El agua del Xallas llega al mar mediante el salto del Ézaro. La misión usa el movimiento y la altura para introducir
+    de forma sencilla la relación entre paisaje y energía.
 badge:
   name: ORIXE 020 · Guardián del Xallas
   description: Insignia de quien siguió la fuerza del agua hasta el océano.
@@ -98,5 +93,4 @@ tags:
 - familias
 - gratis
 seoTitle: Misión gratis en la Fervenza do Ézaro | Orixe
-seoDescription: Reto gratuito para familias en la Fervenza do Ézaro sobre agua, paisaje
-  y energía.
+seoDescription: Reto gratuito para familias en la Fervenza do Ézaro sobre agua, paisaje y energía.

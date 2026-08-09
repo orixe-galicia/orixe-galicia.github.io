@@ -1,98 +1,109 @@
-id: "ORX-0013"
-slug: "allariz"
-title: "Misión Allariz: El secreto del agua"
-subtitle: "Un reto entre el río Arnoia, molinos y memoria de una villa medieval"
-municipality: "Allariz"
-province: "Ourense"
+id: ORX-0013
+slug: allariz
+title: 'Misión Allariz: El secreto del agua'
+subtitle: Un reto entre el río Arnoia, molinos y memoria de una villa medieval
+municipality: Allariz
+province: Ourense
 coordinates:
   lat: 42.1904
   lng: -7.8018
-category: "Agua e historia"
-ageRecommended: "8+"
-duration: "60-75 min"
-distance: "2-3 km"
-difficulty: "Fácil"
-accessibility: "Recorrido urbano y fluvial; algunos tramos pueden presentar suelo irregular."
-image: "/images/allariz.svg"
+category: Agua e historia
+ageRecommended: 8+
+duration: 60-75 min
+distance: 2-3 km
+difficulty: Fácil
+accessibility: Recorrido urbano y fluvial; algunos tramos pueden presentar suelo irregular.
+image: /images/allariz.svg
 gallery: []
-descriptionShort: "Una misión familiar gratuita en Allariz para descubrir cómo el río Arnoia transformó la vida y los oficios de la villa."
-descriptionLong: "Allariz convierte el río en protagonista. El recorrido permite descubrir molinos, patrimonio etnográfico y el casco histórico para entender cómo el agua fue una fuente de energía y actividad económica."
+descriptionShort: Una misión familiar gratuita en Allariz para descubrir cómo el río Arnoia transformó la vida y los oficios
+  de la villa.
+descriptionLong: Allariz convierte el río en protagonista. El recorrido permite descubrir molinos, patrimonio etnográfico
+  y el casco histórico para entender cómo el agua fue una fuente de energía y actividad económica.
 story:
-  title: "El río que guardaba un secreto"
-  introduction: "Una antigua libreta encontrada junto al Arnoia contiene una advertencia: «Si quieres descubrir cómo creció la villa, sigue el agua». El mensaje está dividido en cinco pruebas."
-  historicalContext: "El río Arnoia atraviesa Allariz de este a oeste y fue clave para el desarrollo económico de la villa. En su ribera surgieron molinos de agua y actividades relacionadas con el tejido y el cuero, aprovechando la fuerza del río. El Parque Etnográfico del río Arnoia reúne elementos como el Muíño do Burato, el Museo del Tejido O Fiadeiro y el Museo del Cuero. El casco histórico conserva además un importante pasado medieval."
-  mystery: "El agua no es solo paisaje. Cada prueba demuestra una manera distinta en la que el Arnoia influyó en Allariz."
+  title: El río que guardaba un secreto
+  introduction: 'Una antigua libreta encontrada junto al Arnoia contiene una advertencia: «Si quieres descubrir cómo creció
+    la villa, sigue el agua». El mensaje está dividido en cinco pruebas.'
+  historicalContext: El río Arnoia atraviesa Allariz de este a oeste y fue clave para el desarrollo económico de la villa.
+    En su ribera surgieron molinos de agua y actividades relacionadas con el tejido y el cuero, aprovechando la fuerza del
+    río. El Parque Etnográfico del río Arnoia reúne elementos como el Muíño do Burato, el Museo del Tejido O Fiadeiro y el
+    Museo del Cuero. El casco histórico conserva además un importante pasado medieval.
+  mystery: El agua no es solo paisaje. Cada prueba demuestra una manera distinta en la que el Arnoia influyó en Allariz.
 mission:
-  objective: "Recorrer el entorno del río y el casco histórico para reconstruir la relación entre agua, energía, oficios y ciudad."
-  location: "Entorno del río Arnoia y casco histórico de Allariz."
+  objective: Recorrer el entorno del río y el casco histórico para reconstruir la relación entre agua, energía, oficios y
+    ciudad.
+  location: Entorno del río Arnoia y casco histórico de Allariz.
   instructions:
-    - "Comenzad en una zona pública junto al río."
-    - "Observad los elementos relacionados con el agua sin tocar maquinaria ni patrimonio."
-    - "No es necesario entrar en museos para completar el reto."
-    - "Guardad las respuestas para construir el mensaje final."
+  - Comenzad en una zona pública junto al río.
+  - Observad los elementos relacionados con el agua sin tocar maquinaria ni patrimonio.
+  - No es necesario entrar en museos para completar el reto.
+  - Guardad las respuestas para construir el mensaje final.
 materials:
-  - "Esta ficha"
-  - "Lápiz o bolígrafo"
-  - "Móvil opcional"
+- Esta ficha
+- Lápiz o bolígrafo
+- Móvil opcional
 challenge:
-  title: "Reto final: Seguir la fuerza del agua"
-  introduction: "El río ha dejado pistas por toda la villa. Tu misión es descubrir qué trabajos hizo posibles."
+  title: 'Reto final: Seguir la fuerza del agua'
+  introduction: El río ha dejado pistas por toda la villa. Tu misión es descubrir qué trabajos hizo posibles.
   steps:
-    - type: "observation"
-      title: "El río protagonista"
-      prompt: "¿Qué río atraviesa Allariz de este a oeste?"
-      answer: "Arnoia"
-      hint: "Es el río que da sentido al recorrido."
-    - type: "history"
-      title: "La fuerza del agua"
-      prompt: "¿Qué tipo de construcción utilizaba la fuerza del río para transformar el cereal?"
-      answer: "molino de agua"
-      hint: "Busca la palabra relacionada con moler."
-    - type: "history"
-      title: "Tres oficios"
-      prompt: "Además de molinos, ¿qué dos actividades aparecen vinculadas al río en el Parque Etnográfico?"
-      answer: "tejido y cuero"
-      hint: "Son dos de las actividades representadas en el parque."
-    - type: "observation"
-      title: "El casco histórico"
-      prompt: "Busca una evidencia de que Allariz tuvo importancia histórica más allá del río."
-      answer: "murallas / restos del castillo / convento de Santa Clara"
-      hint: "Cualquiera de ellas sirve."
-    - type: "puzzle"
-      title: "La cadena del Arnoia"
-      prompt: "Ordena estas ideas: RÍO → ENERGÍA → OFICIOS → VILLA. ¿Qué explica esta cadena?"
-      answer: "Que el río ayudó al desarrollo económico y urbano de Allariz."
-      hint: "Piensa en cómo una fuerza natural puede transformar una comunidad."
-    - type: "final"
-      title: "El secreto"
-      prompt: "Explica en una frase por qué el agua forma parte de la historia de Allariz."
-      answer: "Porque el Arnoia proporcionó energía y recursos para actividades que ayudaron a desarrollar la villa."
-      hint: "La respuesta debe relacionar agua y personas."
-  successCondition: "Completar las pruebas y explicar cómo el río Arnoia contribuyó al desarrollo económico y patrimonial de Allariz."
+  - type: observation
+    title: El río protagonista
+    prompt: ¿Qué río atraviesa Allariz de este a oeste?
+    answer: Arnoia
+    hint: Es el río que da sentido al recorrido.
+  - type: history
+    title: La fuerza del agua
+    prompt: ¿Qué tipo de construcción utilizaba la fuerza del río para transformar el cereal?
+    answer: molino de agua
+    hint: Busca la palabra relacionada con moler.
+  - type: history
+    title: Tres oficios
+    prompt: Además de molinos, ¿qué dos actividades aparecen vinculadas al río en el Parque Etnográfico?
+    answer: tejido y cuero
+    hint: Son dos de las actividades representadas en el parque.
+  - type: observation
+    title: El casco histórico
+    prompt: Busca una evidencia de que Allariz tuvo importancia histórica más allá del río.
+    answer: murallas / restos del castillo / convento de Santa Clara
+    hint: Cualquiera de ellas sirve.
+  - type: puzzle
+    title: La cadena del Arnoia
+    prompt: 'Ordena estas ideas: RÍO → ENERGÍA → OFICIOS → VILLA. ¿Qué explica esta cadena?'
+    answer: Que el río ayudó al desarrollo económico y urbano de Allariz.
+    hint: Piensa en cómo una fuerza natural puede transformar una comunidad.
+  - type: final
+    title: El secreto
+    prompt: Explica en una frase por qué el agua forma parte de la historia de Allariz.
+    answer: Porque el Arnoia proporcionó energía y recursos para actividades que ayudaron a desarrollar la villa.
+    hint: La respuesta debe relacionar agua y personas.
+  successCondition: Completar las pruebas y explicar cómo el río Arnoia contribuyó al desarrollo económico y patrimonial de
+    Allariz.
 clues:
-  - "Sigue el río antes de buscar edificios."
-  - "Un molino transforma algo gracias al movimiento."
-  - "La última respuesta une naturaleza y vida humana."
+- Sigue el río antes de buscar edificios.
+- Un molino transforma algo gracias al movimiento.
+- La última respuesta une naturaleza y vida humana.
 solution:
-  explanation: "El Arnoia fue clave para la vida económica de Allariz. Su agua permitió mover molinos y favoreció actividades como el tejido y el trabajo del cuero. El patrimonio etnográfico y el casco histórico permiten entender cómo la villa se desarrolló alrededor de esta relación con el río."
+  explanation: El Arnoia fue clave para la vida económica de Allariz. Su agua permitió mover molinos y favoreció actividades
+    como el tejido y el trabajo del cuero. El patrimonio etnográfico y el casco histórico permiten entender cómo la villa
+    se desarrolló alrededor de esta relación con el río.
 badge:
-  name: "Guardián del Arnoia"
-  description: "Has descubierto cómo el río Arnoia ayudó a mover los oficios y la historia de Allariz."
-  image: "/badges/allariz.svg"
-googleMaps: "https://www.google.com/maps/search/?api=1&query=42.1904,-7.8018"
+  name: Guardián del Arnoia
+  description: Has descubierto cómo el río Arnoia ayudó a mover los oficios y la historia de Allariz.
+  image: /badges/allariz.svg
+googleMaps: https://www.google.com/maps/search/?api=1&query=42.1904,-7.8018
 recommendations:
-  - "Llevar agua y calzado cómodo."
-  - "Comprobar las condiciones del lugar antes de comenzar."
+- Llevar agua y calzado cómodo.
+- Comprobar las condiciones del lugar antes de comenzar.
 warnings:
-  - "Respetar siempre las zonas cerradas o restringidas."
-  - "La misión debe realizarse con atención al entorno y sin ponerse en riesgo."
+- Respetar siempre las zonas cerradas o restringidas.
+- La misión debe realizarse con atención al entorno y sin ponerse en riesgo.
 tags:
-  - "Allariz"
-  - "Arnoia"
-  - "molinos"
-  - "patrimonio"
-  - "Ourense"
-  - "familias"
-  - "gratis"
-seoTitle: "Misión gratis en Allariz con niños | ORIXE"
-seoDescription: "Escape room gratuito por Allariz para descubrir el río Arnoia, molinos, oficios, patrimonio e historia en familia."
+- Allariz
+- Arnoia
+- molinos
+- patrimonio
+- Ourense
+- familias
+- gratis
+seoTitle: Misión gratis en Allariz con niños | ORIXE
+seoDescription: Escape room gratuito por Allariz para descubrir el río Arnoia, molinos, oficios, patrimonio e historia en
+  familia.

@@ -1,0 +1,74 @@
+id: ORX-0045
+slug: cabo-vilan
+title: El faro de los temporales
+subtitle: Una misión gratuita para descubrir Cabo Vilán jugando
+municipality: Camariñas
+province: A Coruña
+coordinates:
+  lat: 43.1628
+  lng: -9.1926
+category: Mar y patrimonio
+ageRecommended: 7-14 años
+duration: 60-90 min
+distance: 1-2 km aprox.
+difficulty: Fácil
+accessibility: Adaptar el recorrido a las condiciones del lugar y respetar siempre señalización, horarios y zonas restringidas.
+descriptionShort: Descubre por qué este faro y esta costa son inseparables de la historia marítima de la Costa da Morte.
+descriptionLong: Una misión gratuita de escape room y gamificación para familias. El lugar se convierte en un tablero de pistas
+  y el objetivo es aprender mientras se juega.
+image: /images/cabo-vilan.svg
+story:
+  title: El misterio de Cabo Vilán
+  introduction: Al llegar, imagina que alguien ha dejado una misión incompleta. Para resolverla tendrás que observar, buscar,
+    relacionar pistas y tomar decisiones en equipo.
+  historicalContext: Cabo Vilán es uno de los grandes referentes de la Costa da Morte. Su faro está asociado a una costa de
+    fuerte oleaje y a la tradición marítima de Camariñas.
+  mystery: Las pistas están a la vista, pero solo aparecen cuando se aprende a mirar de otra manera.
+mission:
+  objective: Completar las pruebas y reconstruir el mensaje final de la misión.
+  location: Cabo Vilán, Camariñas.
+  instructions:
+  - Lee la misión antes de comenzar.
+  - No salgas de los caminos o espacios autorizados.
+  - No toques ni muevas elementos del patrimonio.
+  - Resuelve las pruebas en equipo.
+  - Guarda la solución para el final.
+materials:
+- Ficha imprimible de la misión
+- Lápiz o móvil para anotar respuestas
+- Ganas de observar y descubrir
+challenge:
+  title: El reto de Cabo Vilán
+  introduction: Cinco pruebas convierten el lugar en un pequeño escape room gratuito.
+  steps:
+  - type: observation
+    prompt: Observa el entorno durante un minuto. ¿Qué elemento destaca más y por qué?
+  - type: search
+    prompt: Busca un detalle que pueda funcionar como pista. Describe exactamente dónde está.
+  - type: history
+    prompt: Relaciona ese detalle con la historia, paisaje o forma de vida del lugar.
+  - type: puzzle
+    prompt: Une las tres pistas anteriores. ¿Qué palabra o idea común aparece?
+  - type: final
+    prompt: Explica en una frase el mensaje final que habéis descubierto.
+  successCondition: Completar las cinco pruebas y explicar de forma razonada el mensaje final.
+clues:
+- Empieza por observar antes de buscar.
+- No te quedes con la primera respuesta.
+- Relaciona lo que ves con el lugar en el que estás.
+solution:
+  explanation: La solución se obtiene relacionando las observaciones del recorrido con el patrimonio, paisaje o historia específica
+    de Cabo Vilán. La clave es justificar la respuesta, no simplemente acertarla.
+badge:
+  name: ORIXE 045 · El faro de los temporales
+  description: Insignia de quien completó esta misión gratuita.
+  image: /badges/cabo-vilan.svg
+tags:
+- Galicia
+- misión gratuita
+- escape room
+- gamificación
+- familias
+- Mar y patrimonio
+seoTitle: Misión gratis en Cabo Vilán con niños | Orixe
+seoDescription: Escape room gratuito en Cabo Vilán para descubrir Galicia en familia con pistas, retos, observación y gamificación.

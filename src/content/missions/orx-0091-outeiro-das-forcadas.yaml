@@ -1,0 +1,75 @@
+id: ORX-0091
+slug: outeiro-das-forcadas
+title: El lugar de la justicia
+subtitle: Una misión gratuita para descubrir cultura, historia y patrimonio de Galicia
+municipality: Pontevedra
+province: Pontevedra
+coordinates:
+  lat: 42.3855
+  lng: -8.6595
+category: Historia local
+ageRecommended: 8-14 años
+duration: 60-90 min
+distance: 1-2 km aprox.
+difficulty: Fácil
+accessibility: Consulta accesos y horarios oficiales. Respeta siempre el patrimonio, la señalización y las zonas restringidas.
+descriptionShort: Escape room gratuito para descubrir Outeiro das Forcadas mediante pistas, observación e investigación.
+descriptionLong: Una misión de Orixe pensada para familias y grupos que quieren descubrir Galicia jugando, sin pagar por realizar
+  el reto.
+image: /images/outeiro-das-forcadas.svg
+story:
+  title: El misterio de Outeiro das Forcadas
+  introduction: El lugar es el tablero. Las pistas están a la vista y la historia es la llave.
+  historicalContext: Investiga el contexto histórico y cultural de Outeiro das Forcadas utilizando la información disponible
+    en el lugar y las fuentes oficiales de turismo.
+  mystery: Un antiguo cuaderno dejó cinco pruebas sin resolver. Solo podrás abrir el mensaje final si conectas lo que observas
+    con la historia del lugar.
+mission:
+  objective: Descubrir qué cuenta Outeiro das Forcadas sobre la historia, cultura o patrimonio de Galicia.
+  location: Outeiro das Forcadas, Pontevedra.
+  instructions:
+  - Lee la misión antes de comenzar.
+  - Trabaja en equipo.
+  - No toques ni muevas elementos patrimoniales.
+  - Respeta horarios y zonas restringidas.
+  - No leas la solución hasta terminar.
+materials:
+- Ficha imprimible
+- Lápiz
+- Móvil opcional
+challenge:
+  title: 'Reto: El lugar de la justicia'
+  introduction: Cinco pruebas convierten la visita en un pequeño escape room gratuito.
+  steps:
+  - type: observation
+    prompt: Busca señales relacionadas con justicia.
+  - type: search
+    prompt: Investiga el significado histórico del lugar.
+  - type: history
+    prompt: Explica cómo se administraba justicia antiguamente.
+  - type: puzzle
+    prompt: Une lugar + poder + memoria.
+  - type: final
+    prompt: Cuenta qué historia conserva el topónimo.
+  successCondition: Completar las cinco pruebas y justificar la respuesta final.
+clues:
+- Observa primero y busca información después.
+- La arquitectura también cuenta historias.
+- Relaciona el lugar con las personas que lo utilizaron.
+solution:
+  explanation: La solución debe relacionar las observaciones con el contexto histórico y cultural de Outeiro das Forcadas.
+    No se trata solo de memorizar un dato, sino de explicar la conexión entre las pistas.
+badge:
+  name: ORIXE 091 · Explorador de Pontevedra
+  description: Insignia de quien completó esta misión gratuita.
+  image: /badges/outeiro-das-forcadas.svg
+tags:
+- Galicia
+- misión gratuita
+- escape room
+- gamificación
+- familias
+- Historia local
+seoTitle: Misión gratis en Outeiro das Forcadas | Escape room familiar | Orixe
+seoDescription: Escape room gratuito para descubrir Outeiro das Forcadas y su patrimonio cultural e histórico de Galicia jugando
+  en familia.

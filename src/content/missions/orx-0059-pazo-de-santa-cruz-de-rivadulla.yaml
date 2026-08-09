@@ -1,0 +1,75 @@
+id: ORX-0059
+slug: pazo-de-santa-cruz-de-rivadulla
+title: El jardín de las pistas
+subtitle: Una misión gratuita para descubrir Galicia jugando
+municipality: Vedra
+province: A Coruña
+coordinates:
+  lat: 42.777
+  lng: -8.456
+category: Jardines y patrimonio
+ageRecommended: 7-14 años
+duration: 60-90 min
+distance: 1-2 km aprox.
+difficulty: Fácil
+accessibility: Adaptar el recorrido a las condiciones del lugar y respetar señalización, horarios, mareas y zonas restringidas.
+descriptionShort: Una misión gratuita de pistas y escape room para descubrir Pazo de Santa Cruz de Rivadulla en familia.
+descriptionLong: 'Convierte Pazo de Santa Cruz de Rivadulla en un tablero de juego: observa, busca, relaciona pistas y supera
+  un reto final sin pagar nada.'
+image: /images/pazo-de-santa-cruz-de-rivadulla.svg
+story:
+  title: El misterio de Pazo de Santa Cruz de Rivadulla
+  introduction: Alguien ha dejado una misión incompleta. Para resolverla tendrás que mirar con atención, encontrar detalles
+    y conectar lo que ves con la historia del lugar.
+  historicalContext: Santa Cruz de Rivadulla es conocido por su conjunto histórico y sus jardines, donde agua, vegetación
+    y arquitectura forman un escenario excelente para la observación.
+  mystery: 'La respuesta no está escondida en una caja: está delante de ti, pero tendrás que aprender a verla.'
+mission:
+  objective: Resolver las cinco pruebas y construir una explicación final sobre el lugar.
+  location: Pazo de Santa Cruz de Rivadulla, Vedra.
+  instructions:
+  - Lee la ficha antes de comenzar.
+  - Respeta el patrimonio y el entorno natural.
+  - No salgas de zonas autorizadas.
+  - Resuelve las pruebas en equipo.
+  - No leas la solución hasta terminar.
+materials:
+- Ficha imprimible
+- Lápiz o móvil
+- Curiosidad y ganas de jugar
+challenge:
+  title: El reto de Pazo de Santa Cruz de Rivadulla
+  introduction: Cinco pruebas convierten la visita en un pequeño escape room gratuito.
+  steps:
+  - type: observation
+    prompt: Observa el entorno durante un minuto. Anota tres detalles que normalmente pasarían desapercibidos.
+  - type: search
+    prompt: Encuentra un elemento concreto del lugar que pueda servir como pista y describe dónde está.
+  - type: history
+    prompt: Explica qué relación tiene ese elemento con la historia, paisaje o forma de vida del lugar.
+  - type: puzzle
+    prompt: Relaciona las tres pistas y descubre qué idea común las une.
+  - type: final
+    prompt: Formula en una frase el mensaje final de la misión y justifica tu respuesta.
+  successCondition: Completar las cinco pruebas y justificar razonadamente el mensaje final.
+clues:
+- Primero observa; después busca.
+- Las mejores pistas suelen estar a la vista.
+- Piensa qué te cuenta el lugar, no solo qué estás viendo.
+solution:
+  explanation: La solución se obtiene relacionando las observaciones con la historia, el paisaje o el patrimonio de Pazo de
+    Santa Cruz de Rivadulla. La clave es explicar por qué las pistas encajan.
+badge:
+  name: ORIXE 059 · El jardín de las pistas
+  description: Insignia de quien completó esta misión gratuita.
+  image: /badges/pazo-de-santa-cruz-de-rivadulla.svg
+tags:
+- Galicia
+- misión gratuita
+- escape room
+- gamificación
+- familias
+- Jardines y patrimonio
+seoTitle: Misión gratis en Pazo de Santa Cruz de Rivadulla con niños | Orixe
+seoDescription: Escape room gratuito en Pazo de Santa Cruz de Rivadulla para descubrir Galicia en familia con pistas, retos
+  y gamificación.

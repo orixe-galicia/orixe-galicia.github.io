@@ -1,0 +1,75 @@
+id: ORX-0079
+slug: pesqueiras-de-arbo
+title: Los arquitectos del Miño
+subtitle: Una misión gratuita para descubrir cultura, historia y patrimonio de Galicia
+municipality: Arbo
+province: Pontevedra
+coordinates:
+  lat: 42.1145
+  lng: -8.315
+category: Etnografía e ingeniería
+ageRecommended: 8-14 años
+duration: 60-90 min
+distance: 1-2 km aprox.
+difficulty: Fácil
+accessibility: Consulta accesos y horarios oficiales. Respeta siempre el patrimonio, la señalización y las zonas restringidas.
+descriptionShort: Escape room gratuito para descubrir Pesqueiras de Arbo mediante pistas, observación e investigación.
+descriptionLong: Una misión de Orixe pensada para familias y grupos que quieren descubrir Galicia jugando, sin pagar por realizar
+  el reto.
+image: /images/pesqueiras-de-arbo.svg
+story:
+  title: El misterio de Pesqueiras de Arbo
+  introduction: El lugar es el tablero. Las pistas están a la vista y la historia es la llave.
+  historicalContext: Investiga el contexto histórico y cultural de Pesqueiras de Arbo utilizando la información disponible
+    en el lugar y las fuentes oficiales de turismo.
+  mystery: Un antiguo cuaderno dejó cinco pruebas sin resolver. Solo podrás abrir el mensaje final si conectas lo que observas
+    con la historia del lugar.
+mission:
+  objective: Descubrir qué cuenta Pesqueiras de Arbo sobre la historia, cultura o patrimonio de Galicia.
+  location: Pesqueiras de Arbo, Arbo.
+  instructions:
+  - Lee la misión antes de comenzar.
+  - Trabaja en equipo.
+  - No toques ni muevas elementos patrimoniales.
+  - Respeta horarios y zonas restringidas.
+  - No leas la solución hasta terminar.
+materials:
+- Ficha imprimible
+- Lápiz
+- Móvil opcional
+challenge:
+  title: 'Reto: Los arquitectos del Miño'
+  introduction: Cinco pruebas convierten la visita en un pequeño escape room gratuito.
+  steps:
+  - type: observation
+    prompt: Identifica la estructura de una pesqueira.
+  - type: search
+    prompt: Averigua qué pez se relaciona con ellas.
+  - type: history
+    prompt: Explica por qué son arquitectura e ingeniería.
+  - type: puzzle
+    prompt: Une río + piedra + economía.
+  - type: final
+    prompt: Explica por qué forman parte del patrimonio cultural.
+  successCondition: Completar las cinco pruebas y justificar la respuesta final.
+clues:
+- Observa primero y busca información después.
+- La arquitectura también cuenta historias.
+- Relaciona el lugar con las personas que lo utilizaron.
+solution:
+  explanation: La solución debe relacionar las observaciones con el contexto histórico y cultural de Pesqueiras de Arbo. No
+    se trata solo de memorizar un dato, sino de explicar la conexión entre las pistas.
+badge:
+  name: ORIXE 079 · Explorador de Arbo
+  description: Insignia de quien completó esta misión gratuita.
+  image: /badges/pesqueiras-de-arbo.svg
+tags:
+- Galicia
+- misión gratuita
+- escape room
+- gamificación
+- familias
+- Etnografía e ingeniería
+seoTitle: Misión gratis en Pesqueiras de Arbo | Escape room familiar | Orixe
+seoDescription: Escape room gratuito para descubrir Pesqueiras de Arbo y su patrimonio cultural e histórico de Galicia jugando
+  en familia.

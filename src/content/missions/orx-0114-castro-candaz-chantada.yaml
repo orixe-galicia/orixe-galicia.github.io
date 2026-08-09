@@ -1,0 +1,70 @@
+id: ORX-0114
+slug: "castro-candaz-chantada"
+title: "La isla que aparece y desaparece"
+subtitle: "Un castro entre las aguas del Miño"
+municipality: "Chantada"
+province: "Lugo"
+coordinates:
+  lat: 42.605
+  lng: -7.788
+category: "Arqueología y paisaje"
+ageRecommended: "8-14 años"
+duration: "45-75 min"
+distance: "1-2 km aprox."
+difficulty: "Fácil"
+accessibility: "Consulta accesos y horarios oficiales. Respeta siempre el patrimonio, la señalización y las zonas restringidas."
+descriptionShort: "Misión gratuita de Orixe para descubrir investiga qué ocurre con el paisaje cuando el nivel del embalse cambia y qué historia queda al descubierto."
+descriptionLong: "Una misión gratuita para familias y grupos que transforma un lugar especial de Galicia en un pequeño escape room de observación, investigación y juego."
+image: "/images/castro-candaz-chantada.svg"
+story:
+  title: "La isla que aparece y desaparece"
+  introduction: "El lugar es el tablero. Las pistas están a la vista y la historia es la llave."
+  historicalContext: "El Concello de Chantada presenta Castro Candaz como un lugar único y evocador dentro de sus recursos turísticos."
+  mystery: "Investiga qué ocurre con el paisaje cuando el nivel del embalse cambia y qué historia queda al descubierto."
+mission:
+  objective: "Descubrir qué cuenta este lugar sobre la historia, la cultura o el patrimonio de Galicia."
+  location: "La isla que aparece y desaparece, Chantada."
+  instructions:
+    - "Lee la misión antes de comenzar."
+    - "Trabaja en equipo."
+    - "No toques ni muevas elementos patrimoniales."
+    - "Respeta horarios y zonas restringidas."
+    - "No leas la solución hasta terminar."
+materials:
+  - "Ficha imprimible"
+  - "Lápiz"
+  - "Móvil opcional"
+challenge:
+  title: "Reto: La isla que aparece y desaparece"
+  introduction: "Cinco pruebas convierten la visita en un pequeño escape room gratuito."
+  steps:
+    - type: observation
+      prompt: "Observa el lugar durante un minuto sin buscar información."
+    - type: search
+      prompt: "Localiza una pista física que ayude a explicar la importancia del lugar."
+    - type: history
+      prompt: "Relaciona esa pista con la época, actividad o comunidad que la creó."
+    - type: puzzle
+      prompt: "Une lugar + paisaje + personas y formula una explicación de conjunto."
+    - type: final
+      prompt: "Explica en una frase por qué este lugar merece ser conocido y protegido."
+  successCondition: "Completar las cinco pruebas y justificar la respuesta final."
+clues:
+  - "Primero observa; después investiga."
+  - "La arquitectura y el paisaje también son pistas."
+  - "Busca conexiones, no solo datos."
+solution:
+  explanation: "El Concello de Chantada presenta Castro Candaz como un lugar único y evocador dentro de sus recursos turísticos. La respuesta final debe relacionar las observaciones realizadas durante el recorrido con el contexto histórico y cultural del lugar."
+badge:
+  name: "ORIXE 114 · Explorador de Chantada"
+  description: "Insignia de quien completó esta misión gratuita de Orixe."
+  image: "/badges/castro-candaz-chantada.svg"
+tags:
+  - "Galicia"
+  - "misión gratuita"
+  - "escape room"
+  - "gamificación"
+  - "familias"
+  - "Arqueología y paisaje"
+seoTitle: "Misión gratis en La isla que aparece y desaparece | Escape room familiar | Orixe"
+seoDescription: "Escape room gratuito para descubrir La isla que aparece y desaparece en Chantada y su patrimonio de Galicia jugando en familia."

@@ -1,0 +1,74 @@
+id: ORX-0054
+slug: fragas-do-eume-caaveiro
+title: El guardián del bosque
+subtitle: Una misión gratuita para descubrir Galicia jugando
+municipality: A Capela
+province: A Coruña
+coordinates:
+  lat: 43.4115
+  lng: -8.04
+category: Naturaleza e historia
+ageRecommended: 7-14 años
+duration: 60-90 min
+distance: 1-2 km aprox.
+difficulty: Fácil
+accessibility: Adaptar el recorrido a las condiciones del lugar y respetar señalización, horarios, mareas y zonas restringidas.
+descriptionShort: Una misión gratuita de pistas y escape room para descubrir Monasterio de Caaveiro en familia.
+descriptionLong: 'Convierte Monasterio de Caaveiro en un tablero de juego: observa, busca, relaciona pistas y supera un reto
+  final sin pagar nada.'
+image: /images/fragas-do-eume-caaveiro.svg
+story:
+  title: El misterio de Monasterio de Caaveiro
+  introduction: Alguien ha dejado una misión incompleta. Para resolverla tendrás que mirar con atención, encontrar detalles
+    y conectar lo que ves con la historia del lugar.
+  historicalContext: Turismo de Galicia describe Fragas do Eume como uno de los bosques atlánticos de ribera mejor conservados
+    de Europa y sitúa el monasterio de Caaveiro en el corazón del bosque, con más de diez siglos de historia.
+  mystery: 'La respuesta no está escondida en una caja: está delante de ti, pero tendrás que aprender a verla.'
+mission:
+  objective: Resolver las cinco pruebas y construir una explicación final sobre el lugar.
+  location: Monasterio de Caaveiro, A Capela.
+  instructions:
+  - Lee la ficha antes de comenzar.
+  - Respeta el patrimonio y el entorno natural.
+  - No salgas de zonas autorizadas.
+  - Resuelve las pruebas en equipo.
+  - No leas la solución hasta terminar.
+materials:
+- Ficha imprimible
+- Lápiz o móvil
+- Curiosidad y ganas de jugar
+challenge:
+  title: El reto de Monasterio de Caaveiro
+  introduction: Cinco pruebas convierten la visita en un pequeño escape room gratuito.
+  steps:
+  - type: observation
+    prompt: Observa el entorno durante un minuto. Anota tres detalles que normalmente pasarían desapercibidos.
+  - type: search
+    prompt: Encuentra un elemento concreto del lugar que pueda servir como pista y describe dónde está.
+  - type: history
+    prompt: Explica qué relación tiene ese elemento con la historia, paisaje o forma de vida del lugar.
+  - type: puzzle
+    prompt: Relaciona las tres pistas y descubre qué idea común las une.
+  - type: final
+    prompt: Formula en una frase el mensaje final de la misión y justifica tu respuesta.
+  successCondition: Completar las cinco pruebas y justificar razonadamente el mensaje final.
+clues:
+- Primero observa; después busca.
+- Las mejores pistas suelen estar a la vista.
+- Piensa qué te cuenta el lugar, no solo qué estás viendo.
+solution:
+  explanation: La solución se obtiene relacionando las observaciones con la historia, el paisaje o el patrimonio de Monasterio
+    de Caaveiro. La clave es explicar por qué las pistas encajan.
+badge:
+  name: ORIXE 054 · El guardián del bosque
+  description: Insignia de quien completó esta misión gratuita.
+  image: /badges/fragas-do-eume-caaveiro.svg
+tags:
+- Galicia
+- misión gratuita
+- escape room
+- gamificación
+- familias
+- Naturaleza e historia
+seoTitle: Misión gratis en Monasterio de Caaveiro con niños | Orixe
+seoDescription: Escape room gratuito en Monasterio de Caaveiro para descubrir Galicia en familia con pistas, retos y gamificación.

@@ -1,0 +1,75 @@
+id: ORX-0049
+slug: pico-da-muralla
+title: La ventana de las rías
+subtitle: Una misión gratuita para descubrir Mirador Pico da Muralla jugando
+municipality: Lousame
+province: A Coruña
+coordinates:
+  lat: 42.7474
+  lng: -8.8625
+category: Paisaje y orientación
+ageRecommended: 7-14 años
+duration: 60-90 min
+distance: 1-2 km aprox.
+difficulty: Fácil
+accessibility: Adaptar el recorrido a las condiciones del lugar y respetar siempre señalización, horarios y zonas restringidas.
+descriptionShort: Aprende a leer el paisaje desde uno de los grandes miradores sobre las rías de Arousa, Muros y Noia.
+descriptionLong: Una misión gratuita de escape room y gamificación para familias. El lugar se convierte en un tablero de pistas
+  y el objetivo es aprender mientras se juega.
+image: /images/pico-da-muralla.svg
+story:
+  title: El misterio de Mirador Pico da Muralla
+  introduction: Al llegar, imagina que alguien ha dejado una misión incompleta. Para resolverla tendrás que observar, buscar,
+    relacionar pistas y tomar decisiones en equipo.
+  historicalContext: El mirador de Pico da Muralla ofrece panorámicas sobre varias rías gallegas y es un excelente lugar para
+    trabajar orientación y lectura del paisaje.
+  mystery: Las pistas están a la vista, pero solo aparecen cuando se aprende a mirar de otra manera.
+mission:
+  objective: Completar las pruebas y reconstruir el mensaje final de la misión.
+  location: Mirador Pico da Muralla, Lousame.
+  instructions:
+  - Lee la misión antes de comenzar.
+  - No salgas de los caminos o espacios autorizados.
+  - No toques ni muevas elementos del patrimonio.
+  - Resuelve las pruebas en equipo.
+  - Guarda la solución para el final.
+materials:
+- Ficha imprimible de la misión
+- Lápiz o móvil para anotar respuestas
+- Ganas de observar y descubrir
+challenge:
+  title: El reto de Mirador Pico da Muralla
+  introduction: Cinco pruebas convierten el lugar en un pequeño escape room gratuito.
+  steps:
+  - type: observation
+    prompt: Observa el entorno durante un minuto. ¿Qué elemento destaca más y por qué?
+  - type: search
+    prompt: Busca un detalle que pueda funcionar como pista. Describe exactamente dónde está.
+  - type: history
+    prompt: Relaciona ese detalle con la historia, paisaje o forma de vida del lugar.
+  - type: puzzle
+    prompt: Une las tres pistas anteriores. ¿Qué palabra o idea común aparece?
+  - type: final
+    prompt: Explica en una frase el mensaje final que habéis descubierto.
+  successCondition: Completar las cinco pruebas y explicar de forma razonada el mensaje final.
+clues:
+- Empieza por observar antes de buscar.
+- No te quedes con la primera respuesta.
+- Relaciona lo que ves con el lugar en el que estás.
+solution:
+  explanation: La solución se obtiene relacionando las observaciones del recorrido con el patrimonio, paisaje o historia específica
+    de Mirador Pico da Muralla. La clave es justificar la respuesta, no simplemente acertarla.
+badge:
+  name: ORIXE 049 · La ventana de las rías
+  description: Insignia de quien completó esta misión gratuita.
+  image: /badges/pico-da-muralla.svg
+tags:
+- Galicia
+- misión gratuita
+- escape room
+- gamificación
+- familias
+- Paisaje y orientación
+seoTitle: Misión gratis en Mirador Pico da Muralla con niños | Orixe
+seoDescription: Escape room gratuito en Mirador Pico da Muralla para descubrir Galicia en familia con pistas, retos, observación
+  y gamificación.

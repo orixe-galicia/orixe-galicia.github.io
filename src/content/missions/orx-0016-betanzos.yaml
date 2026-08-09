@@ -15,19 +15,17 @@ difficulty: Fácil
 accessibility: Recorrido urbano por calles y plazas públicas.
 image: /images/betanzos.svg
 gallery: []
-descriptionShort: Conviértete en detective y descubre la historia de Betanzos buscando
-  pistas en sus calles.
-descriptionLong: El casco histórico de Betanzos conserva iglesias, plazas, soportales,
-  casas y restos de su pasado medieval. Esta misión convierte la ciudad en un juego
-  de detectives.
+descriptionShort: Conviértete en detective y descubre la historia de Betanzos buscando pistas en sus calles.
+descriptionLong: El casco histórico de Betanzos conserva iglesias, plazas, soportales, casas y restos de su pasado medieval.
+  Esta misión convierte la ciudad en un juego de detectives.
 story:
   title: El expediente de los tres escudos
-  introduction: 'Un investigador dejó tres escudos como pistas. No tienes que entrar
-    en ningún edificio: basta con mirar fachadas, plazas y detalles del casco histórico.'
-  historicalContext: Betanzos conserva un importante conjunto histórico y fue una
-    de las antiguas capitales de las provincias del antiguo Reino de Galicia.
-  mystery: 'Un investigador dejó tres escudos como pistas. No tienes que entrar en
-    ningún edificio: basta con mirar fachadas, plazas y detalles del casco histórico.'
+  introduction: 'Un investigador dejó tres escudos como pistas. No tienes que entrar en ningún edificio: basta con mirar fachadas,
+    plazas y detalles del casco histórico.'
+  historicalContext: Betanzos conserva un importante conjunto histórico y fue una de las antiguas capitales de las provincias
+    del antiguo Reino de Galicia.
+  mystery: 'Un investigador dejó tres escudos como pistas. No tienes que entrar en ningún edificio: basta con mirar fachadas,
+    plazas y detalles del casco histórico.'
 mission:
   objective: Recorrer el centro histórico y localizar tres tipos de señales arquitectónicas.
   location: Casco histórico de Betanzos.
@@ -74,9 +72,8 @@ clues:
 - Los detalles pequeños son más importantes que los monumentos famosos.
 - No necesitas entrar en ningún edificio.
 solution:
-  explanation: 'El casco histórico de Betanzos funciona como escenario de una investigación:
-    soportales, iglesias, fachadas y escudos permiten observar la continuidad de su
-    historia urbana.'
+  explanation: 'El casco histórico de Betanzos funciona como escenario de una investigación: soportales, iglesias, fachadas
+    y escudos permiten observar la continuidad de su historia urbana.'
 badge:
   name: ORIXE 016 · Detective de Betanzos
   description: Insignia de quien resolvió el expediente de los tres escudos.
@@ -96,5 +93,4 @@ tags:
 - familias
 - gratis
 seoTitle: Misión gratis en Betanzos con niños | Orixe
-seoDescription: Juego de detectives gratuito por el casco histórico de Betanzos para
-  familias.
+seoDescription: Juego de detectives gratuito por el casco histórico de Betanzos para familias.

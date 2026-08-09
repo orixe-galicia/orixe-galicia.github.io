@@ -1,91 +1,100 @@
-id: "ORX-0008"
-slug: "muralla-lugo"
-title: "Las puertas de Roma"
-subtitle: "Un código escondido en la muralla"
-municipality: "Lugo"
-province: "Lugo"
+id: ORX-0008
+slug: muralla-lugo
+title: Las puertas de Roma
+subtitle: Un código escondido en la muralla
+municipality: Lugo
+province: Lugo
 coordinates:
   lat: 43.0088
   lng: -7.5592
-category: "Historia y ciudad"
-ageRecommended: "8-14 años"
-duration: "60-90 min"
-distance: "2,5 km aprox."
-difficulty: "Media"
-accessibility: "El recorrido exterior puede adaptarse; el adarve tiene condiciones de acceso propias"
-image: "/images/muralla-lugo.svg"
+category: Historia y ciudad
+ageRecommended: 8-14 años
+duration: 60-90 min
+distance: 2,5 km aprox.
+difficulty: Media
+accessibility: El recorrido exterior puede adaptarse; el adarve tiene condiciones de acceso propias
+image: /images/muralla-lugo.svg
 gallery: []
-descriptionShort: "Recorre el entorno de la muralla romana de Lugo y descubre por qué sus puertas fueron cambiando con la ciudad."
-descriptionLong: "La muralla de Lugo conserva todo su perímetro y fue declarada Patrimonio Mundial. Esta misión transforma sus puertas, torres y recorrido exterior en un juego de investigación sobre la ciudad romana y su evolución."
+descriptionShort: Recorre el entorno de la muralla romana de Lugo y descubre por qué sus puertas fueron cambiando con la ciudad.
+descriptionLong: La muralla de Lugo conserva todo su perímetro y fue declarada Patrimonio Mundial. Esta misión transforma
+  sus puertas, torres y recorrido exterior en un juego de investigación sobre la ciudad romana y su evolución.
 story:
-  title: "La ciudad está cerrada"
-  introduction: "Imagínate en Lucus Augusti cuando las puertas de la ciudad se cierran al caer la noche. Un mensaje ha quedado dividido entre sus entradas. Para reconstruirlo tendrás que descubrir cómo cambió la muralla con el paso de los siglos."
-  historicalContext: "Lugo fue fundada como Lucus Augusti en época romana. La muralla comenzó a construirse en la Antigüedad y terminó configurando un recinto defensivo de más de dos kilómetros, con torres y puertas. El trazado actual conserva una extraordinaria continuidad y fue reconocido por la UNESCO."
-  mystery: "Las puertas actuales cuentan una historia de cambios. Algunas son antiguas y otras fueron abiertas posteriormente. El reto consiste en observarlas y entender que una ciudad viva también transforma sus defensas."
+  title: La ciudad está cerrada
+  introduction: Imagínate en Lucus Augusti cuando las puertas de la ciudad se cierran al caer la noche. Un mensaje ha quedado
+    dividido entre sus entradas. Para reconstruirlo tendrás que descubrir cómo cambió la muralla con el paso de los siglos.
+  historicalContext: Lugo fue fundada como Lucus Augusti en época romana. La muralla comenzó a construirse en la Antigüedad
+    y terminó configurando un recinto defensivo de más de dos kilómetros, con torres y puertas. El trazado actual conserva
+    una extraordinaria continuidad y fue reconocido por la UNESCO.
+  mystery: Las puertas actuales cuentan una historia de cambios. Algunas son antiguas y otras fueron abiertas posteriormente.
+    El reto consiste en observarlas y entender que una ciudad viva también transforma sus defensas.
 mission:
-  objective: "Resolver un código recorriendo el entorno de la muralla y relacionando puertas, torres e historia."
-  location: "Entorno exterior de la Muralla Romana de Lugo."
+  objective: Resolver un código recorriendo el entorno de la muralla y relacionando puertas, torres e historia.
+  location: Entorno exterior de la Muralla Romana de Lugo.
   instructions:
-    - "La misión puede realizarse sin acceder a museos ni comprar entradas."
-    - "Si quieres caminar por el adarve, consulta previamente las condiciones de acceso."
-    - "No necesitas completar todo el perímetro para resolver el reto."
-    - "Respeta a peatones y vecinos durante el recorrido."
+  - La misión puede realizarse sin acceder a museos ni comprar entradas.
+  - Si quieres caminar por el adarve, consulta previamente las condiciones de acceso.
+  - No necesitas completar todo el perímetro para resolver el reto.
+  - Respeta a peatones y vecinos durante el recorrido.
 materials:
-  - "Ficha de la misión"
-  - "Lápiz o móvil"
-  - "Calzado cómodo"
+- Ficha de la misión
+- Lápiz o móvil
+- Calzado cómodo
 challenge:
-  title: "El código de las diez puertas"
-  introduction: "La muralla ha cambiado con Lugo. Cinco pruebas te ayudarán a descubrir qué cuentan sus puertas."
+  title: El código de las diez puertas
+  introduction: La muralla ha cambiado con Lugo. Cinco pruebas te ayudarán a descubrir qué cuentan sus puertas.
   steps:
-    - type: "history"
-      title: "Cuántas quedan"
-      prompt: "¿Cuántas puertas tiene actualmente la muralla romana de Lugo?"
-      answer: "10"
-      hint: "El recinto comenzó con menos y fue incorporando nuevas entradas."
-    - type: "observation"
-      title: "Las torres"
-      prompt: "¿Qué elemento defensivo se repite a lo largo de la muralla?"
-      answer: "Torres"
-      hint: "Busca las estructuras que sobresalen del muro."
-    - type: "history"
-      title: "La ciudad romana"
-      prompt: "¿Cómo se llamaba la ciudad romana fundada en el lugar de la actual Lugo?"
-      answer: "Lucus Augusti"
-      hint: "Su nombre estaba relacionado con el emperador Augusto."
-    - type: "observation"
-      title: "Una puerta y una catedral"
-      prompt: "Localiza la Porta de Santiago. ¿Qué edificio monumental destaca cerca de ella?"
-      answer: "La Catedral de Santa María"
-      hint: "Su presencia forma parte de la silueta histórica del centro."
-    - type: "final"
-      title: "La clave"
-      prompt: "Si una muralla puede cambiar sus puertas, pero sigue rodeando la ciudad durante siglos, ¿qué palabra representa mejor su historia?"
-      answer: "TIEMPO"
-      hint: "Es aquello que transforma las ciudades sin borrar necesariamente su pasado."
-  successCondition: "Completar las pruebas y obtener la palabra final TIEMPO."
+  - type: history
+    title: Cuántas quedan
+    prompt: ¿Cuántas puertas tiene actualmente la muralla romana de Lugo?
+    answer: '10'
+    hint: El recinto comenzó con menos y fue incorporando nuevas entradas.
+  - type: observation
+    title: Las torres
+    prompt: ¿Qué elemento defensivo se repite a lo largo de la muralla?
+    answer: Torres
+    hint: Busca las estructuras que sobresalen del muro.
+  - type: history
+    title: La ciudad romana
+    prompt: ¿Cómo se llamaba la ciudad romana fundada en el lugar de la actual Lugo?
+    answer: Lucus Augusti
+    hint: Su nombre estaba relacionado con el emperador Augusto.
+  - type: observation
+    title: Una puerta y una catedral
+    prompt: Localiza la Porta de Santiago. ¿Qué edificio monumental destaca cerca de ella?
+    answer: La Catedral de Santa María
+    hint: Su presencia forma parte de la silueta histórica del centro.
+  - type: final
+    title: La clave
+    prompt: Si una muralla puede cambiar sus puertas, pero sigue rodeando la ciudad durante siglos, ¿qué palabra representa
+      mejor su historia?
+    answer: TIEMPO
+    hint: Es aquello que transforma las ciudades sin borrar necesariamente su pasado.
+  successCondition: Completar las pruebas y obtener la palabra final TIEMPO.
 clues:
-  - "No memorices: mira las puertas y relaciona lo que ves con la historia."
-  - "La muralla no es solo una construcción militar; también es un recorrido por la evolución de Lugo."
+- 'No memorices: mira las puertas y relaciona lo que ves con la historia.'
+- La muralla no es solo una construcción militar; también es un recorrido por la evolución de Lugo.
 solution:
-  explanation: "La muralla de Lugo conserva todo su perímetro, con diez puertas y numerosas torres. Su historia muestra cómo una infraestructura defensiva romana se adaptó a una ciudad que siguió creciendo y transformándose. La palabra TIEMPO resume la idea central de la misión."
+  explanation: La muralla de Lugo conserva todo su perímetro, con diez puertas y numerosas torres. Su historia muestra cómo
+    una infraestructura defensiva romana se adaptó a una ciudad que siguió creciendo y transformándose. La palabra TIEMPO
+    resume la idea central de la misión.
 badge:
-  name: "ORIXE 008 · Guardián de Lucus Augusti"
-  description: "Insignia de explorador de la muralla romana de Lugo."
-  image: "/badges/muralla-lugo.svg"
-googleMaps: "https://www.google.com/maps/search/?api=1&query=43.0088,-7.5592"
+  name: ORIXE 008 · Guardián de Lucus Augusti
+  description: Insignia de explorador de la muralla romana de Lugo.
+  image: /badges/muralla-lugo.svg
+googleMaps: https://www.google.com/maps/search/?api=1&query=43.0088,-7.5592
 recommendations:
-  - "Puedes ampliar la experiencia recorriendo parte del adarve si las condiciones de acceso lo permiten."
-  - "La Porta de Santiago y la catedral ofrecen una buena continuación histórica de la misión."
+- Puedes ampliar la experiencia recorriendo parte del adarve si las condiciones de acceso lo permiten.
+- La Porta de Santiago y la catedral ofrecen una buena continuación histórica de la misión.
 warnings:
-  - "El entorno es urbano: presta atención al tráfico y a los peatones."
-  - "Consulta las condiciones de acceso al adarve antes de planificar el recorrido."
+- 'El entorno es urbano: presta atención al tráfico y a los peatones.'
+- Consulta las condiciones de acceso al adarve antes de planificar el recorrido.
 tags:
-  - "Muralla de Lugo"
-  - "Lugo"
-  - "Roma"
-  - "Patrimonio Mundial"
-  - "familias"
-  - "gratis"
-seoTitle: "Misión gratis en la Muralla de Lugo con niños | Orixe"
-seoDescription: "Escape room al aire libre gratuito para descubrir la Muralla Romana de Lugo, sus puertas, torres e historia en familia."
+- Muralla de Lugo
+- Lugo
+- Roma
+- Patrimonio Mundial
+- familias
+- gratis
+seoTitle: Misión gratis en la Muralla de Lugo con niños | Orixe
+seoDescription: Escape room al aire libre gratuito para descubrir la Muralla Romana de Lugo, sus puertas, torres e historia
+  en familia.

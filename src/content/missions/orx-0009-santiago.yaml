@@ -1,92 +1,103 @@
-id: "orx-0009"
-slug: "santiago-de-compostela"
-title: "El secreto de las cuatro plazas"
-subtitle: "Un código escondido alrededor de la Catedral"
-municipality: "Santiago de Compostela"
-province: "A Coruña"
+id: ORX-0009
+slug: santiago-de-compostela
+title: El secreto de las cuatro plazas
+subtitle: Un código escondido alrededor de la Catedral
+municipality: Santiago de Compostela
+province: A Coruña
 coordinates:
   lat: 42.880444
   lng: -8.545694
-category: "Historia y ciudad"
-ageRecommended: "8-14 años"
-duration: "60-75 min"
-distance: "2 km aprox."
-difficulty: "Fácil"
-accessibility: "Recorrido urbano; calles empedradas y zonas con desnivel suave."
-image: "/images/santiago-de-compostela.svg"
+category: Historia y ciudad
+ageRecommended: 8-14 años
+duration: 60-75 min
+distance: 2 km aprox.
+difficulty: Fácil
+accessibility: Recorrido urbano; calles empedradas y zonas con desnivel suave.
+image: /images/santiago-de-compostela.svg
 gallery: []
-descriptionShort: "Convierte el casco histórico de Santiago en un escape room gratuito entre plazas, peregrinos y monumentos."
-descriptionLong: "El centro histórico de Santiago de Compostela reúne plazas, iglesias, monasterios, palacios y calles que forman parte del Patrimonio Mundial. Esta misión propone mirar la ciudad como un gran tablero: cuatro plazas alrededor de la Catedral esconden las pistas que permiten resolver el código final."
+descriptionShort: Convierte el casco histórico de Santiago en un escape room gratuito entre plazas, peregrinos y monumentos.
+descriptionLong: 'El centro histórico de Santiago de Compostela reúne plazas, iglesias, monasterios, palacios y calles que
+  forman parte del Patrimonio Mundial. Esta misión propone mirar la ciudad como un gran tablero: cuatro plazas alrededor de
+  la Catedral esconden las pistas que permiten resolver el código final.'
 story:
-  title: "El mensaje de las cuatro puertas"
-  introduction: "Alguien ha dejado un mensaje para quien consiga recorrer las cuatro plazas que rodean la Catedral. No está escrito en una pared: cada plaza aporta una pieza y solo juntas revelan la palabra final."
-  historicalContext: "El casco histórico de Santiago fue declarado Patrimonio de la Humanidad por la UNESCO en 1985. Alrededor de la Catedral se encuentran cuatro grandes plazas: Obradoiro, Quintana, Praterías y Acibechería, cada una con edificios y perspectivas diferentes."
-  mystery: "El mensaje solo puede reconstruirse si aprendes a reconocer qué edificio pertenece a cada plaza y qué historia cuenta el conjunto."
+  title: El mensaje de las cuatro puertas
+  introduction: 'Alguien ha dejado un mensaje para quien consiga recorrer las cuatro plazas que rodean la Catedral. No está
+    escrito en una pared: cada plaza aporta una pieza y solo juntas revelan la palabra final.'
+  historicalContext: 'El casco histórico de Santiago fue declarado Patrimonio de la Humanidad por la UNESCO en 1985. Alrededor
+    de la Catedral se encuentran cuatro grandes plazas: Obradoiro, Quintana, Praterías y Acibechería, cada una con edificios
+    y perspectivas diferentes.'
+  mystery: El mensaje solo puede reconstruirse si aprendes a reconocer qué edificio pertenece a cada plaza y qué historia
+    cuenta el conjunto.
 mission:
-  objective: "Recorrer las cuatro plazas principales alrededor de la Catedral y resolver un código de observación e historia."
-  location: "Casco histórico de Santiago de Compostela, especialmente el entorno de la Catedral."
+  objective: Recorrer las cuatro plazas principales alrededor de la Catedral y resolver un código de observación e historia.
+  location: Casco histórico de Santiago de Compostela, especialmente el entorno de la Catedral.
   instructions:
-    - "Realiza la misión desde espacios públicos y sin necesidad de entrar en edificios."
-    - "Observa primero y responde después: muchas pistas están en las fachadas y en la forma de las plazas."
-    - "Respeta el paso de peregrinos, vecinos y grupos turísticos."
-    - "Anota las respuestas porque serán necesarias para el Reto Final."
+  - Realiza la misión desde espacios públicos y sin necesidad de entrar en edificios.
+  - 'Observa primero y responde después: muchas pistas están en las fachadas y en la forma de las plazas.'
+  - Respeta el paso de peregrinos, vecinos y grupos turísticos.
+  - Anota las respuestas porque serán necesarias para el Reto Final.
 materials:
-  - "Ficha de la misión"
-  - "Lápiz o móvil"
-  - "Calzado cómodo"
+- Ficha de la misión
+- Lápiz o móvil
+- Calzado cómodo
 challenge:
-  title: "Reto final: Abrir el código de Compostela"
-  introduction: "Cuatro plazas, cuatro pistas y una palabra final. El objetivo no es correr: es aprender a leer la ciudad."
+  title: 'Reto final: Abrir el código de Compostela'
+  introduction: 'Cuatro plazas, cuatro pistas y una palabra final. El objetivo no es correr: es aprender a leer la ciudad.'
   steps:
-    - type: "observation"
-      title: "La plaza monumental"
-      prompt: "¿Cómo se llama la plaza donde se encuentran la fachada principal de la Catedral, el Pazo de Raxoi, San Xerome y el Hostal dos Reis Católicos?"
-      answer: "Obradoiro"
-      hint: "Es la plaza más monumental de Santiago."
-    - type: "observation"
-      title: "La plaza de los dos espacios"
-      prompt: "Busca la plaza que se divide en dos ámbitos separados por unas escalinatas y donde se encuentra la Porta Santa de la Catedral."
-      answer: "Quintana"
-      hint: "Su nombre distingue dos espacios de la misma plaza."
-    - type: "history"
-      title: "La plaza de los artesanos"
-      prompt: "¿Qué plaza está asociada a la fachada barroca de Praterías y a la tradición de los talleres de orfebrería?"
-      answer: "Praterías"
-      hint: "Piensa en el trabajo de la plata."
-    - type: "search"
-      title: "La cuarta pieza"
-      prompt: "¿Qué plaza se encuentra al norte de la Catedral y recibe también el nombre de plaza de la Inmaculada?"
-      answer: "Acibechería"
-      hint: "Su nombre tradicional está relacionado con el azabache."
-    - type: "final"
-      title: "La palabra final"
-      prompt: "Une las cuatro plazas y explica qué tienen en común. ¿Qué palabra resume mejor lo que estás recorriendo?"
-      answer: "PATRIMONIO"
-      hint: "No es solo una ciudad: es un conjunto reconocido y protegido."
-  successCondition: "Completar las cinco pruebas y obtener la palabra final PATRIMONIO."
+  - type: observation
+    title: La plaza monumental
+    prompt: ¿Cómo se llama la plaza donde se encuentran la fachada principal de la Catedral, el Pazo de Raxoi, San Xerome
+      y el Hostal dos Reis Católicos?
+    answer: Obradoiro
+    hint: Es la plaza más monumental de Santiago.
+  - type: observation
+    title: La plaza de los dos espacios
+    prompt: Busca la plaza que se divide en dos ámbitos separados por unas escalinatas y donde se encuentra la Porta Santa
+      de la Catedral.
+    answer: Quintana
+    hint: Su nombre distingue dos espacios de la misma plaza.
+  - type: history
+    title: La plaza de los artesanos
+    prompt: ¿Qué plaza está asociada a la fachada barroca de Praterías y a la tradición de los talleres de orfebrería?
+    answer: Praterías
+    hint: Piensa en el trabajo de la plata.
+  - type: search
+    title: La cuarta pieza
+    prompt: ¿Qué plaza se encuentra al norte de la Catedral y recibe también el nombre de plaza de la Inmaculada?
+    answer: Acibechería
+    hint: Su nombre tradicional está relacionado con el azabache.
+  - type: final
+    title: La palabra final
+    prompt: Une las cuatro plazas y explica qué tienen en común. ¿Qué palabra resume mejor lo que estás recorriendo?
+    answer: PATRIMONIO
+    hint: 'No es solo una ciudad: es un conjunto reconocido y protegido.'
+  successCondition: Completar las cinco pruebas y obtener la palabra final PATRIMONIO.
 clues:
-  - "La Catedral es tu centro de referencia."
-  - "Las cuatro plazas forman un recorrido alrededor de la basílica."
-  - "Si dudas, busca primero los nombres de las plazas."
+- La Catedral es tu centro de referencia.
+- Las cuatro plazas forman un recorrido alrededor de la basílica.
+- Si dudas, busca primero los nombres de las plazas.
 solution:
-  explanation: "Las cuatro plazas principales alrededor de la Catedral —Obradoiro, Quintana, Praterías y Acibechería— permiten descubrir diferentes caras del casco histórico. Santiago fue declarado Patrimonio de la Humanidad en 1985 y su conjunto de calles, templos, palacios y plazas es el verdadero tablero de la misión."
+  explanation: Las cuatro plazas principales alrededor de la Catedral —Obradoiro, Quintana, Praterías y Acibechería— permiten
+    descubrir diferentes caras del casco histórico. Santiago fue declarado Patrimonio de la Humanidad en 1985 y su conjunto
+    de calles, templos, palacios y plazas es el verdadero tablero de la misión.
 badge:
-  name: "ORIXE 009 · Guardián de Compostela"
-  description: "Insignia de quien descifró el código de las cuatro plazas de Santiago."
-  image: "/badges/santiago-de-compostela.svg"
-googleMaps: "https://www.google.com/maps/search/?api=1&query=42.880444,-8.545694"
+  name: ORIXE 009 · Guardián de Compostela
+  description: Insignia de quien descifró el código de las cuatro plazas de Santiago.
+  image: /badges/santiago-de-compostela.svg
+googleMaps: https://www.google.com/maps/search/?api=1&query=42.880444,-8.545694
 recommendations:
-  - "Puedes completar la misión sin entrar en la Catedral ni en museos."
-  - "Evita las horas de mayor afluencia si quieres observar las plazas con calma."
+- Puedes completar la misión sin entrar en la Catedral ni en museos.
+- Evita las horas de mayor afluencia si quieres observar las plazas con calma.
 warnings:
-  - "Es un entorno urbano muy concurrido."
-  - "No bloquees accesos ni interrumpas el paso de peregrinos."
+- Es un entorno urbano muy concurrido.
+- No bloquees accesos ni interrumpas el paso de peregrinos.
 tags:
-  - "Santiago de Compostela"
-  - "Catedral"
-  - "casco histórico"
-  - "Patrimonio Mundial"
-  - "familias"
-  - "gratis"
-seoTitle: "Misión gratis en Santiago de Compostela con niños | Orixe"
-seoDescription: "Escape room al aire libre gratuito por el casco histórico de Santiago: descubre las cuatro plazas alrededor de la Catedral."
+- Santiago de Compostela
+- Catedral
+- casco histórico
+- Patrimonio Mundial
+- familias
+- gratis
+seoTitle: Misión gratis en Santiago de Compostela con niños | Orixe
+seoDescription: 'Escape room al aire libre gratuito por el casco histórico de Santiago: descubre las cuatro plazas alrededor
+  de la Catedral.'

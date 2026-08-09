@@ -1,0 +1,75 @@
+id: ORX-0092
+slug: ponte-sampaio
+title: El puente de la batalla
+subtitle: Una misión gratuita para descubrir cultura, historia y patrimonio de Galicia
+municipality: Pontevedra
+province: Pontevedra
+coordinates:
+  lat: 42.341
+  lng: -8.608
+category: Historia contemporánea
+ageRecommended: 8-14 años
+duration: 60-90 min
+distance: 1-2 km aprox.
+difficulty: Fácil
+accessibility: Consulta accesos y horarios oficiales. Respeta siempre el patrimonio, la señalización y las zonas restringidas.
+descriptionShort: Escape room gratuito para descubrir Ponte Sampaio mediante pistas, observación e investigación.
+descriptionLong: Una misión de Orixe pensada para familias y grupos que quieren descubrir Galicia jugando, sin pagar por realizar
+  el reto.
+image: /images/ponte-sampaio.svg
+story:
+  title: El misterio de Ponte Sampaio
+  introduction: El lugar es el tablero. Las pistas están a la vista y la historia es la llave.
+  historicalContext: Investiga el contexto histórico y cultural de Ponte Sampaio utilizando la información disponible en el
+    lugar y las fuentes oficiales de turismo.
+  mystery: Un antiguo cuaderno dejó cinco pruebas sin resolver. Solo podrás abrir el mensaje final si conectas lo que observas
+    con la historia del lugar.
+mission:
+  objective: Descubrir qué cuenta Ponte Sampaio sobre la historia, cultura o patrimonio de Galicia.
+  location: Ponte Sampaio, Pontevedra.
+  instructions:
+  - Lee la misión antes de comenzar.
+  - Trabaja en equipo.
+  - No toques ni muevas elementos patrimoniales.
+  - Respeta horarios y zonas restringidas.
+  - No leas la solución hasta terminar.
+materials:
+- Ficha imprimible
+- Lápiz
+- Móvil opcional
+challenge:
+  title: 'Reto: El puente de la batalla'
+  introduction: Cinco pruebas convierten la visita en un pequeño escape room gratuito.
+  steps:
+  - type: observation
+    prompt: Observa el puente desde dos puntos.
+  - type: search
+    prompt: Investiga qué ocurrió en 1809.
+  - type: history
+    prompt: Explica por qué un puente puede ser escenario militar.
+  - type: puzzle
+    prompt: Ordena río + puente + batalla.
+  - type: final
+    prompt: Resume la importancia histórica del lugar.
+  successCondition: Completar las cinco pruebas y justificar la respuesta final.
+clues:
+- Observa primero y busca información después.
+- La arquitectura también cuenta historias.
+- Relaciona el lugar con las personas que lo utilizaron.
+solution:
+  explanation: La solución debe relacionar las observaciones con el contexto histórico y cultural de Ponte Sampaio. No se
+    trata solo de memorizar un dato, sino de explicar la conexión entre las pistas.
+badge:
+  name: ORIXE 092 · Explorador de Pontevedra
+  description: Insignia de quien completó esta misión gratuita.
+  image: /badges/ponte-sampaio.svg
+tags:
+- Galicia
+- misión gratuita
+- escape room
+- gamificación
+- familias
+- Historia contemporánea
+seoTitle: Misión gratis en Ponte Sampaio | Escape room familiar | Orixe
+seoDescription: Escape room gratuito para descubrir Ponte Sampaio y su patrimonio cultural e histórico de Galicia jugando
+  en familia.

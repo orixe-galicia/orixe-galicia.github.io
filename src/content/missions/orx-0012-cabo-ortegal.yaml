@@ -1,98 +1,107 @@
-id: "ORX-0012"
-slug: "cabo-ortegal"
-title: "Misión Cabo Ortegal: Donde se encuentran los mares"
-subtitle: "Una aventura de viento, acantilados y señales para navegantes"
-municipality: "Cariño"
-province: "A Coruña"
+id: ORX-0012
+slug: cabo-ortegal
+title: 'Misión Cabo Ortegal: Donde se encuentran los mares'
+subtitle: Una aventura de viento, acantilados y señales para navegantes
+municipality: Cariño
+province: A Coruña
 coordinates:
   lat: 43.7698
   lng: -7.868
-category: "Naturaleza y aventura"
-ageRecommended: "10+"
-duration: "60-75 min"
-distance: "1-2 km"
-difficulty: "Media"
-accessibility: "Entorno costero con viento, desniveles y zonas de acantilado; requiere atención constante."
-image: "/images/cabo-ortegal.svg"
+category: Naturaleza y aventura
+ageRecommended: 10+
+duration: 60-75 min
+distance: 1-2 km
+difficulty: Media
+accessibility: Entorno costero con viento, desniveles y zonas de acantilado; requiere atención constante.
+image: /images/cabo-ortegal.svg
 gallery: []
-descriptionShort: "Una misión gratuita en Cabo Ortegal para descubrir acantilados, faro, Os Aguillóns y la fuerza del Atlántico."
-descriptionLong: "Cabo Ortegal ofrece un escenario espectacular para una misión de observación. Desde el entorno del faro, la familia deberá interpretar el relieve, localizar Os Aguillóns y comprender por qué este punto funciona como un lugar simbólico de encuentro entre el Atlántico y el Cantábrico."
+descriptionShort: Una misión gratuita en Cabo Ortegal para descubrir acantilados, faro, Os Aguillóns y la fuerza del Atlántico.
+descriptionLong: Cabo Ortegal ofrece un escenario espectacular para una misión de observación. Desde el entorno del faro,
+  la familia deberá interpretar el relieve, localizar Os Aguillóns y comprender por qué este punto funciona como un lugar
+  simbólico de encuentro entre el Atlántico y el Cantábrico.
 story:
-  title: "La señal que no puede apagarse"
-  introduction: "El farero ha dejado una última misión: «Cuando el viento borre las huellas, todavía quedarán las rocas». Para descubrir el mensaje tendrás que leer el cabo como si fuera una carta de navegación."
-  historicalContext: "El recorrido entre Cedeira y Cabo Ortegal reúne acantilados, miradores y elementos etnográficos. El cabo está coronado por un faro situado a unos 125 metros sobre el mar y frente a él aparecen los islotes conocidos como Os Aguillóns. Turismo de Galicia describe este punto como una divisoria simbólica entre el océano Atlántico y el mar Cantábrico."
-  mystery: "El paisaje contiene cuatro señales: altura, roca, faro y dirección. Juntas explican por qué este cabo es tan especial."
+  title: La señal que no puede apagarse
+  introduction: 'El farero ha dejado una última misión: «Cuando el viento borre las huellas, todavía quedarán las rocas».
+    Para descubrir el mensaje tendrás que leer el cabo como si fuera una carta de navegación.'
+  historicalContext: El recorrido entre Cedeira y Cabo Ortegal reúne acantilados, miradores y elementos etnográficos. El cabo
+    está coronado por un faro situado a unos 125 metros sobre el mar y frente a él aparecen los islotes conocidos como Os
+    Aguillóns. Turismo de Galicia describe este punto como una divisoria simbólica entre el océano Atlántico y el mar Cantábrico.
+  mystery: 'El paisaje contiene cuatro señales: altura, roca, faro y dirección. Juntas explican por qué este cabo es tan especial.'
 mission:
-  objective: "Observar el entorno seguro del faro y resolver un código basado en paisaje, navegación y geografía."
-  location: "Entorno exterior del Faro de Cabo Ortegal, Cariño."
+  objective: Observar el entorno seguro del faro y resolver un código basado en paisaje, navegación y geografía.
+  location: Entorno exterior del Faro de Cabo Ortegal, Cariño.
   instructions:
-    - "Realizad la misión únicamente desde zonas seguras y habilitadas."
-    - "No os acerquéis al borde de los acantilados."
-    - "El viento puede ser fuerte: sujetad papeles y objetos."
-    - "Las pruebas se resuelven observando el paisaje; no hay que entrar en zonas restringidas."
+  - Realizad la misión únicamente desde zonas seguras y habilitadas.
+  - No os acerquéis al borde de los acantilados.
+  - 'El viento puede ser fuerte: sujetad papeles y objetos.'
+  - Las pruebas se resuelven observando el paisaje; no hay que entrar en zonas restringidas.
 materials:
-  - "Esta ficha"
-  - "Lápiz o bolígrafo"
-  - "Chaqueta cortavientos recomendable"
+- Esta ficha
+- Lápiz o bolígrafo
+- Chaqueta cortavientos recomendable
 challenge:
-  title: "Reto final: Leer el horizonte"
-  introduction: "En Cabo Ortegal no necesitas un mapa para empezar: el propio paisaje es la pista."
+  title: 'Reto final: Leer el horizonte'
+  introduction: 'En Cabo Ortegal no necesitas un mapa para empezar: el propio paisaje es la pista.'
   steps:
-    - type: "observation"
-      title: "La torre de luz"
-      prompt: "¿Qué construcción situada en el cabo sirve como señal para la navegación?"
-      answer: "faro"
-      hint: "Su luz guía a los navegantes."
-    - type: "observation"
-      title: "Los Aguillóns"
-      prompt: "¿Cómo se llaman los grandes islotes rocosos que aparecen frente al cabo?"
-      answer: "Os Aguillóns"
-      hint: "Son una de las imágenes más características del lugar."
-    - type: "history"
-      title: "La altura"
-      prompt: "Aproximadamente, ¿a qué altura sobre el mar se encuentra el faro según Turismo de Galicia?"
-      answer: "125 metros"
-      hint: "Es algo más de cien metros."
-    - type: "observation"
-      title: "Dos mares"
-      prompt: "¿Qué dos grandes masas de agua marca simbólicamente este cabo?"
-      answer: "Atlántico y Cantábrico"
-      hint: "Uno queda hacia el oeste y el otro hacia el este."
-    - type: "puzzle"
-      title: "La carta de navegación"
-      prompt: "Relaciona FARO + AGUILLÓNS + ACANTILADOS + VIENTO. ¿Qué palabra describe mejor el lugar?"
-      answer: "frontera"
-      hint: "Es un lugar de transición y encuentro."
-    - type: "final"
-      title: "Mensaje del farero"
-      prompt: "Explica por qué el paisaje de Cabo Ortegal es importante para entender la costa gallega."
-      answer: "Porque combina geología, navegación, mar y acantilados en un punto excepcional de la costa."
-      hint: "No basta con decir que es bonito."
-  successCondition: "Completar las pruebas y explicar la relación entre faro, rocas, acantilados y posición geográfica del cabo."
+  - type: observation
+    title: La torre de luz
+    prompt: ¿Qué construcción situada en el cabo sirve como señal para la navegación?
+    answer: faro
+    hint: Su luz guía a los navegantes.
+  - type: observation
+    title: Los Aguillóns
+    prompt: ¿Cómo se llaman los grandes islotes rocosos que aparecen frente al cabo?
+    answer: Os Aguillóns
+    hint: Son una de las imágenes más características del lugar.
+  - type: history
+    title: La altura
+    prompt: Aproximadamente, ¿a qué altura sobre el mar se encuentra el faro según Turismo de Galicia?
+    answer: 125 metros
+    hint: Es algo más de cien metros.
+  - type: observation
+    title: Dos mares
+    prompt: ¿Qué dos grandes masas de agua marca simbólicamente este cabo?
+    answer: Atlántico y Cantábrico
+    hint: Uno queda hacia el oeste y el otro hacia el este.
+  - type: puzzle
+    title: La carta de navegación
+    prompt: Relaciona FARO + AGUILLÓNS + ACANTILADOS + VIENTO. ¿Qué palabra describe mejor el lugar?
+    answer: frontera
+    hint: Es un lugar de transición y encuentro.
+  - type: final
+    title: Mensaje del farero
+    prompt: Explica por qué el paisaje de Cabo Ortegal es importante para entender la costa gallega.
+    answer: Porque combina geología, navegación, mar y acantilados en un punto excepcional de la costa.
+    hint: No basta con decir que es bonito.
+  successCondition: Completar las pruebas y explicar la relación entre faro, rocas, acantilados y posición geográfica del
+    cabo.
 clues:
-  - "La primera pista tiene luz."
-  - "Las rocas tienen nombre propio."
-  - "La última respuesta es una idea geográfica."
+- La primera pista tiene luz.
+- Las rocas tienen nombre propio.
+- La última respuesta es una idea geográfica.
 solution:
-  explanation: "Cabo Ortegal concentra varios elementos que explican la singularidad de la costa norte: un faro, grandes islotes como Os Aguillóns, acantilados y una posición que Turismo de Galicia presenta como divisoria simbólica entre el Atlántico y el Cantábrico."
+  explanation: 'Cabo Ortegal concentra varios elementos que explican la singularidad de la costa norte: un faro, grandes islotes
+    como Os Aguillóns, acantilados y una posición que Turismo de Galicia presenta como divisoria simbólica entre el Atlántico
+    y el Cantábrico.'
 badge:
-  name: "Guardián del norte"
-  description: "Has descifrado las señales de Cabo Ortegal y aprendido a leer el paisaje del norte de Galicia."
-  image: "/badges/cabo-ortegal.svg"
-googleMaps: "https://www.google.com/maps/search/?api=1&query=43.7698,-7.8680"
+  name: Guardián del norte
+  description: Has descifrado las señales de Cabo Ortegal y aprendido a leer el paisaje del norte de Galicia.
+  image: /badges/cabo-ortegal.svg
+googleMaps: https://www.google.com/maps/search/?api=1&query=43.7698,-7.8680
 recommendations:
-  - "Llevar agua y calzado cómodo."
-  - "Comprobar las condiciones del lugar antes de comenzar."
+- Llevar agua y calzado cómodo.
+- Comprobar las condiciones del lugar antes de comenzar.
 warnings:
-  - "Respetar siempre las zonas cerradas o restringidas."
-  - "La misión debe realizarse con atención al entorno y sin ponerse en riesgo."
+- Respetar siempre las zonas cerradas o restringidas.
+- La misión debe realizarse con atención al entorno y sin ponerse en riesgo.
 tags:
-  - "Cabo Ortegal"
-  - "Cariño"
-  - "acantilados"
-  - "faro"
-  - "Os Aguillóns"
-  - "mar"
-  - "gratis"
-seoTitle: "Misión gratis en Cabo Ortegal con niños | ORIXE"
-seoDescription: "Escape room gratuito al aire libre en Cabo Ortegal para descubrir el faro, Os Aguillóns, los acantilados y el paisaje del norte de Galicia."
+- Cabo Ortegal
+- Cariño
+- acantilados
+- faro
+- Os Aguillóns
+- mar
+- gratis
+seoTitle: Misión gratis en Cabo Ortegal con niños | ORIXE
+seoDescription: Escape room gratuito al aire libre en Cabo Ortegal para descubrir el faro, Os Aguillóns, los acantilados y
+  el paisaje del norte de Galicia.

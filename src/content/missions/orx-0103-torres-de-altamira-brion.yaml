@@ -1,0 +1,70 @@
+id: ORX-0103
+slug: "torres-de-altamira-brion"
+title: "Las ruinas de Altamira"
+subtitle: "La fortaleza que desafió a nobles, iglesia e irmandiños"
+municipality: "Brión"
+province: "A Coruña"
+coordinates:
+  lat: 42.8565
+  lng: -8.7315
+category: "Historia medieval"
+ageRecommended: "8-14 años"
+duration: "45-75 min"
+distance: "1-2 km aprox."
+difficulty: "Fácil"
+accessibility: "Consulta accesos y horarios oficiales. Respeta siempre el patrimonio, la señalización y las zonas restringidas."
+descriptionShort: "Misión gratuita de Orixe para descubrir reconstruye con pistas la historia de una fortaleza destruida, reconstruida y asediada."
+descriptionLong: "Una misión gratuita para familias y grupos que transforma un lugar especial de Galicia en un pequeño escape room de observación, investigación y juego."
+image: "/images/torres-de-altamira-brion.svg"
+story:
+  title: "Las ruinas de Altamira"
+  introduction: "El lugar es el tablero. Las pistas están a la vista y la historia es la llave."
+  historicalContext: "Las Torres de Altamira son presentadas por el Concello de Brión como su monumento más representativo: una fortaleza de origen medieval asentada sobre una antigua acrópolis castreña."
+  mystery: "Reconstruye con pistas la historia de una fortaleza destruida, reconstruida y asediada."
+mission:
+  objective: "Descubrir qué cuenta este lugar sobre la historia, la cultura o el patrimonio de Galicia."
+  location: "Las ruinas de Altamira, Brión."
+  instructions:
+    - "Lee la misión antes de comenzar."
+    - "Trabaja en equipo."
+    - "No toques ni muevas elementos patrimoniales."
+    - "Respeta horarios y zonas restringidas."
+    - "No leas la solución hasta terminar."
+materials:
+  - "Ficha imprimible"
+  - "Lápiz"
+  - "Móvil opcional"
+challenge:
+  title: "Reto: Las ruinas de Altamira"
+  introduction: "Cinco pruebas convierten la visita en un pequeño escape room gratuito."
+  steps:
+    - type: observation
+      prompt: "Observa el lugar durante un minuto sin buscar información."
+    - type: search
+      prompt: "Localiza una pista física que ayude a explicar la importancia del lugar."
+    - type: history
+      prompt: "Relaciona esa pista con la época, actividad o comunidad que la creó."
+    - type: puzzle
+      prompt: "Une lugar + paisaje + personas y formula una explicación de conjunto."
+    - type: final
+      prompt: "Explica en una frase por qué este lugar merece ser conocido y protegido."
+  successCondition: "Completar las cinco pruebas y justificar la respuesta final."
+clues:
+  - "Primero observa; después investiga."
+  - "La arquitectura y el paisaje también son pistas."
+  - "Busca conexiones, no solo datos."
+solution:
+  explanation: "Las Torres de Altamira son presentadas por el Concello de Brión como su monumento más representativo: una fortaleza de origen medieval asentada sobre una antigua acrópolis castreña. La respuesta final debe relacionar las observaciones realizadas durante el recorrido con el contexto histórico y cultural del lugar."
+badge:
+  name: "ORIXE 103 · Explorador de Brión"
+  description: "Insignia de quien completó esta misión gratuita de Orixe."
+  image: "/badges/torres-de-altamira-brion.svg"
+tags:
+  - "Galicia"
+  - "misión gratuita"
+  - "escape room"
+  - "gamificación"
+  - "familias"
+  - "Historia medieval"
+seoTitle: "Misión gratis en Las ruinas de Altamira | Escape room familiar | Orixe"
+seoDescription: "Escape room gratuito para descubrir Las ruinas de Altamira en Brión y su patrimonio de Galicia jugando en familia."

@@ -1,93 +1,102 @@
-id: "orx-0010"
-slug: "combarro-guardian"
-title: "El guardián de los hórreos"
-subtitle: "Un misterio entre piedra, mar y arquitectura marinera"
-municipality: "Poio"
-province: "Pontevedra"
+id: ORX-0010
+slug: combarro-guardian
+title: El guardián de los hórreos
+subtitle: Un misterio entre piedra, mar y arquitectura marinera
+municipality: Poio
+province: Pontevedra
 coordinates:
   lat: 42.431389
-  lng: -8.705000
-category: "Tradición y patrimonio"
-ageRecommended: "8-14 años"
-duration: "60-75 min"
-distance: "1,5 km aprox."
-difficulty: "Fácil"
-accessibility: "Recorrido urbano con calles empedradas y algunos desniveles."
-image: "/images/combarro.svg"
+  lng: -8.705
+category: Tradición y patrimonio
+ageRecommended: 8-14 años
+duration: 60-75 min
+distance: 1,5 km aprox.
+difficulty: Fácil
+accessibility: Recorrido urbano con calles empedradas y algunos desniveles.
+image: /images/combarro.svg
 gallery: []
-descriptionShort: "Descubre los hórreos, cruceiros y casas marineras de Combarro resolviendo un misterio gratuito por el casco histórico."
-descriptionLong: "Combarro conserva un conjunto histórico singular con hórreos, cruceiros y casas marineras. Esta misión transforma sus calles y rincones en un tablero de pistas donde hay que descubrir para qué servían sus construcciones y cómo se relacionaban con la vida junto al mar."
+descriptionShort: Descubre los hórreos, cruceiros y casas marineras de Combarro resolviendo un misterio gratuito por el casco
+  histórico.
+descriptionLong: Combarro conserva un conjunto histórico singular con hórreos, cruceiros y casas marineras. Esta misión transforma
+  sus calles y rincones en un tablero de pistas donde hay que descubrir para qué servían sus construcciones y cómo se relacionaban
+  con la vida junto al mar.
 story:
-  title: "El almacén que mira al mar"
-  introduction: "Un antiguo cuaderno de una familia marinera contiene una advertencia: «Si sabes para qué sirven las piedras que ves, encontrarás el lugar donde guardamos el secreto». El cuaderno solo conserva cinco pistas."
-  historicalContext: "Combarro está declarado Bien de Interés Cultural y conserva hórreos datados principalmente en el siglo XVIII, cruceiros de los siglos XVIII-XIX y casas marineras de los siglos XVII-XVIII. Su arquitectura tradicional está estrechamente relacionada con la vida del pueblo y su proximidad al mar."
-  mystery: "Cada elemento tiene una función. El reto consiste en dejar de mirar Combarro como una postal y empezar a leerlo como una forma de vida."
+  title: El almacén que mira al mar
+  introduction: 'Un antiguo cuaderno de una familia marinera contiene una advertencia: «Si sabes para qué sirven las piedras
+    que ves, encontrarás el lugar donde guardamos el secreto». El cuaderno solo conserva cinco pistas.'
+  historicalContext: Combarro está declarado Bien de Interés Cultural y conserva hórreos datados principalmente en el siglo
+    XVIII, cruceiros de los siglos XVIII-XIX y casas marineras de los siglos XVII-XVIII. Su arquitectura tradicional está
+    estrechamente relacionada con la vida del pueblo y su proximidad al mar.
+  mystery: Cada elemento tiene una función. El reto consiste en dejar de mirar Combarro como una postal y empezar a leerlo
+    como una forma de vida.
 mission:
-  objective: "Identificar elementos de la arquitectura tradicional de Combarro y reconstruir el mensaje final del cuaderno."
-  location: "Casco histórico de Combarro, Poio."
+  objective: Identificar elementos de la arquitectura tradicional de Combarro y reconstruir el mensaje final del cuaderno.
+  location: Casco histórico de Combarro, Poio.
   instructions:
-    - "Realiza la misión desde calles y espacios públicos."
-    - "No entres en propiedades privadas ni toques elementos patrimoniales."
-    - "Observa los hórreos desde el exterior y compara sus formas."
-    - "Anota las respuestas para utilizarlas en el Reto Final."
+  - Realiza la misión desde calles y espacios públicos.
+  - No entres en propiedades privadas ni toques elementos patrimoniales.
+  - Observa los hórreos desde el exterior y compara sus formas.
+  - Anota las respuestas para utilizarlas en el Reto Final.
 materials:
-  - "Ficha de la misión"
-  - "Lápiz o móvil"
-  - "Calzado cómodo"
+- Ficha de la misión
+- Lápiz o móvil
+- Calzado cómodo
 challenge:
-  title: "Reto final: Leer el pueblo"
-  introduction: "Cinco pruebas te ayudarán a descubrir que en Combarro cada piedra cuenta una parte de la vida cotidiana."
+  title: 'Reto final: Leer el pueblo'
+  introduction: Cinco pruebas te ayudarán a descubrir que en Combarro cada piedra cuenta una parte de la vida cotidiana.
   steps:
-    - type: "observation"
-      title: "El granero elevado"
-      prompt: "¿Qué construcción tradicional de Combarro se utilizaba para almacenar y proteger productos agrícolas?"
-      answer: "Hórreo"
-      hint: "Se reconoce por sus pies y su estructura elevada."
-    - type: "observation"
-      title: "La piedra que marca"
-      prompt: "Busca un cruceiro. ¿Qué elemento vertical destaca en su estructura?"
-      answer: "La cruz"
-      hint: "Es el símbolo que corona el monumento."
-    - type: "history"
-      title: "Casas mirando al mar"
-      prompt: "¿Qué tipo de arquitectura tradicional aparece entre los elementos principales del conjunto histórico de Combarro?"
-      answer: "Casas marineras"
-      hint: "Relaciona las viviendas con la vida junto al mar."
-    - type: "search"
-      title: "La fecha"
-      prompt: "Los hórreos más característicos del conjunto histórico de Combarro están datados principalmente en qué siglo?"
-      answer: "Siglo XVIII"
-      hint: "Es el siglo de 1700."
-    - type: "final"
-      title: "El mensaje"
-      prompt: "Une HÓRREO + CRUCEIRO + CASA MARINERA + MAR. ¿Qué palabra explica mejor todo el conjunto?"
-      answer: "TRADICIÓN"
-      hint: "Es aquello que pasa de generación en generación."
-  successCondition: "Completar las cinco pruebas y obtener la palabra final TRADICIÓN."
+  - type: observation
+    title: El granero elevado
+    prompt: ¿Qué construcción tradicional de Combarro se utilizaba para almacenar y proteger productos agrícolas?
+    answer: Hórreo
+    hint: Se reconoce por sus pies y su estructura elevada.
+  - type: observation
+    title: La piedra que marca
+    prompt: Busca un cruceiro. ¿Qué elemento vertical destaca en su estructura?
+    answer: La cruz
+    hint: Es el símbolo que corona el monumento.
+  - type: history
+    title: Casas mirando al mar
+    prompt: ¿Qué tipo de arquitectura tradicional aparece entre los elementos principales del conjunto histórico de Combarro?
+    answer: Casas marineras
+    hint: Relaciona las viviendas con la vida junto al mar.
+  - type: search
+    title: La fecha
+    prompt: Los hórreos más característicos del conjunto histórico de Combarro están datados principalmente en qué siglo?
+    answer: Siglo XVIII
+    hint: Es el siglo de 1700.
+  - type: final
+    title: El mensaje
+    prompt: Une HÓRREO + CRUCEIRO + CASA MARINERA + MAR. ¿Qué palabra explica mejor todo el conjunto?
+    answer: TRADICIÓN
+    hint: Es aquello que pasa de generación en generación.
+  successCondition: Completar las cinco pruebas y obtener la palabra final TRADICIÓN.
 clues:
-  - "No busques una sola construcción: busca relaciones entre ellas."
-  - "Los hórreos no están colocados al azar."
-  - "Piensa en cómo vivía una comunidad marinera."
+- 'No busques una sola construcción: busca relaciones entre ellas.'
+- Los hórreos no están colocados al azar.
+- Piensa en cómo vivía una comunidad marinera.
 solution:
-  explanation: "Combarro conserva un conjunto histórico en el que hórreos, cruceiros y casas marineras forman parte de una misma cultura arquitectónica. Los hórreos del conjunto están datados principalmente en el siglo XVIII, mientras que los cruceiros y casas marineras conservan otras capas históricas."
+  explanation: Combarro conserva un conjunto histórico en el que hórreos, cruceiros y casas marineras forman parte de una
+    misma cultura arquitectónica. Los hórreos del conjunto están datados principalmente en el siglo XVIII, mientras que los
+    cruceiros y casas marineras conservan otras capas históricas.
 badge:
-  name: "ORIXE 010 · Guardián de Combarro"
-  description: "Insignia de quien aprendió a leer la arquitectura tradicional de Combarro."
-  image: "/badges/combarro.svg"
-googleMaps: "https://www.google.com/maps/search/?api=1&query=42.431389,-8.705000"
+  name: ORIXE 010 · Guardián de Combarro
+  description: Insignia de quien aprendió a leer la arquitectura tradicional de Combarro.
+  image: /badges/combarro.svg
+googleMaps: https://www.google.com/maps/search/?api=1&query=42.431389,-8.705000
 recommendations:
-  - "Haz el recorrido con calma para observar detalles que suelen pasar desapercibidos."
-  - "Puedes combinar la misión con un paseo por la costa de Combarro."
+- Haz el recorrido con calma para observar detalles que suelen pasar desapercibidos.
+- Puedes combinar la misión con un paseo por la costa de Combarro.
 warnings:
-  - "Hay calles estrechas y zonas con mucha afluencia."
-  - "No subas a hórreos, muros ni elementos patrimoniales."
+- Hay calles estrechas y zonas con mucha afluencia.
+- No subas a hórreos, muros ni elementos patrimoniales.
 tags:
-  - "Combarro"
-  - "hórreos"
-  - "cruceiros"
-  - "arquitectura gallega"
-  - "Poio"
-  - "familias"
-  - "gratis"
-seoTitle: "Misión gratis en Combarro con niños | Orixe"
-seoDescription: "Escape room gratuito por Combarro para descubrir hórreos, cruceiros y casas marineras jugando en familia."
+- Combarro
+- hórreos
+- cruceiros
+- arquitectura gallega
+- Poio
+- familias
+- gratis
+seoTitle: Misión gratis en Combarro con niños | Orixe
+seoDescription: Escape room gratuito por Combarro para descubrir hórreos, cruceiros y casas marineras jugando en familia.

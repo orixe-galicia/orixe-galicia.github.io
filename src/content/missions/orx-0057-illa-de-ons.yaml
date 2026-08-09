@@ -1,0 +1,74 @@
+id: ORX-0057
+slug: illa-de-ons
+title: El mensaje de la isla
+subtitle: Una misión gratuita para descubrir Galicia jugando
+municipality: Bueu
+province: Pontevedra
+coordinates:
+  lat: 42.377
+  lng: -8.927
+category: Mar y naturaleza
+ageRecommended: 7-14 años
+duration: 60-90 min
+distance: 1-2 km aprox.
+difficulty: Fácil
+accessibility: Adaptar el recorrido a las condiciones del lugar y respetar señalización, horarios, mareas y zonas restringidas.
+descriptionShort: Una misión gratuita de pistas y escape room para descubrir Illa de Ons en familia.
+descriptionLong: 'Convierte Illa de Ons en un tablero de juego: observa, busca, relaciona pistas y supera un reto final sin
+  pagar nada.'
+image: /images/illa-de-ons.svg
+story:
+  title: El misterio de Illa de Ons
+  introduction: Alguien ha dejado una misión incompleta. Para resolverla tendrás que mirar con atención, encontrar detalles
+    y conectar lo que ves con la historia del lugar.
+  historicalContext: La isla de Ons forma parte del Parque Nacional Marítimo-Terrestre das Illas Atlánticas de Galicia y combina
+    paisaje litoral, senderos y patrimonio cultural.
+  mystery: 'La respuesta no está escondida en una caja: está delante de ti, pero tendrás que aprender a verla.'
+mission:
+  objective: Resolver las cinco pruebas y construir una explicación final sobre el lugar.
+  location: Illa de Ons, Bueu.
+  instructions:
+  - Lee la ficha antes de comenzar.
+  - Respeta el patrimonio y el entorno natural.
+  - No salgas de zonas autorizadas.
+  - Resuelve las pruebas en equipo.
+  - No leas la solución hasta terminar.
+materials:
+- Ficha imprimible
+- Lápiz o móvil
+- Curiosidad y ganas de jugar
+challenge:
+  title: El reto de Illa de Ons
+  introduction: Cinco pruebas convierten la visita en un pequeño escape room gratuito.
+  steps:
+  - type: observation
+    prompt: Observa el entorno durante un minuto. Anota tres detalles que normalmente pasarían desapercibidos.
+  - type: search
+    prompt: Encuentra un elemento concreto del lugar que pueda servir como pista y describe dónde está.
+  - type: history
+    prompt: Explica qué relación tiene ese elemento con la historia, paisaje o forma de vida del lugar.
+  - type: puzzle
+    prompt: Relaciona las tres pistas y descubre qué idea común las une.
+  - type: final
+    prompt: Formula en una frase el mensaje final de la misión y justifica tu respuesta.
+  successCondition: Completar las cinco pruebas y justificar razonadamente el mensaje final.
+clues:
+- Primero observa; después busca.
+- Las mejores pistas suelen estar a la vista.
+- Piensa qué te cuenta el lugar, no solo qué estás viendo.
+solution:
+  explanation: La solución se obtiene relacionando las observaciones con la historia, el paisaje o el patrimonio de Illa de
+    Ons. La clave es explicar por qué las pistas encajan.
+badge:
+  name: ORIXE 057 · El mensaje de la isla
+  description: Insignia de quien completó esta misión gratuita.
+  image: /badges/illa-de-ons.svg
+tags:
+- Galicia
+- misión gratuita
+- escape room
+- gamificación
+- familias
+- Mar y naturaleza
+seoTitle: Misión gratis en Illa de Ons con niños | Orixe
+seoDescription: Escape room gratuito en Illa de Ons para descubrir Galicia en familia con pistas, retos y gamificación.

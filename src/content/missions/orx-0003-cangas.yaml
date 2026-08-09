@@ -1,97 +1,110 @@
-id: "orx-0003-cangas"
-slug: "cangas"
-title: "Misión Cangas: Las huellas que dejó el mar"
-subtitle: "Una historia de navegantes, industria y memoria escondida en la villa"
-municipality: "Cangas"
-province: "Pontevedra"
+id: ORX-0003
+slug: cangas
+title: 'Misión Cangas: Las huellas que dejó el mar'
+subtitle: Una historia de navegantes, industria y memoria escondida en la villa
+municipality: Cangas
+province: Pontevedra
 coordinates:
   lat: 42.264417
-  lng: -8.785000
-category: "Mar e historia"
-ageRecommended: "10+"
-duration: "60-75 min"
-distance: "2-3 km"
-difficulty: "Fácil"
-accessibility: "Recorrido urbano; algunos tramos presentan pendientes y pavimento irregular."
-image: "/images/cangas.svg"
+  lng: -8.785
+category: Mar e historia
+ageRecommended: 10+
+duration: 60-75 min
+distance: 2-3 km
+difficulty: Fácil
+accessibility: Recorrido urbano; algunos tramos presentan pendientes y pavimento irregular.
+image: /images/cangas.svg
 gallery: []
-descriptionShort: "Una misión para descubrir que la historia marítima de Cangas va mucho más allá de sus playas."
-descriptionLong: "Cangas creció mirando al mar y el mar dejó huellas profundas en su arquitectura, en sus oficios y en su industria. Esta misión convierte la villa en un archivo al aire libre: hay que observar edificios, buscar símbolos y reconstruir la relación entre la comunidad y el mar."
+descriptionShort: Una misión para descubrir que la historia marítima de Cangas va mucho más allá de sus playas.
+descriptionLong: 'Cangas creció mirando al mar y el mar dejó huellas profundas en su arquitectura, en sus oficios y en su
+  industria. Esta misión convierte la villa en un archivo al aire libre: hay que observar edificios, buscar símbolos y reconstruir
+  la relación entre la comunidad y el mar.'
 story:
-  title: "El cuaderno del último vigía"
-  introduction: "En un viejo cuaderno aparece una frase: «Cuando mires Cangas, no mires solo el agua. Mira lo que el agua hizo posible». El cuaderno contiene varias páginas arrancadas. Solo quedan unas pistas que conducen por la memoria marinera de la villa."
-  historicalContext: "Cangas conserva un importante patrimonio relacionado con el mar, la pesca, la salazón y la industria conservera. La familia Massó tuvo un papel destacado en la industrialización vinculada a los recursos marinos, y la factoría ballenera de Cangas estuvo activa entre 1955 y 1985. En el casco histórico también se conservan elementos como la iglesia de Santiago, cuyo origen del templo actual se remonta a 1493, y numerosos elementos de arquitectura y patrimonio popular."
-  mystery: "El cuaderno termina con una pregunta: «¿Qué queda de un pueblo cuando desaparece el oficio que lo hizo crecer?» La respuesta no está escrita. Tendrás que encontrarla observando el lugar."
+  title: El cuaderno del último vigía
+  introduction: 'En un viejo cuaderno aparece una frase: «Cuando mires Cangas, no mires solo el agua. Mira lo que el agua
+    hizo posible». El cuaderno contiene varias páginas arrancadas. Solo quedan unas pistas que conducen por la memoria marinera
+    de la villa.'
+  historicalContext: Cangas conserva un importante patrimonio relacionado con el mar, la pesca, la salazón y la industria
+    conservera. La familia Massó tuvo un papel destacado en la industrialización vinculada a los recursos marinos, y la factoría
+    ballenera de Cangas estuvo activa entre 1955 y 1985. En el casco histórico también se conservan elementos como la iglesia
+    de Santiago, cuyo origen del templo actual se remonta a 1493, y numerosos elementos de arquitectura y patrimonio popular.
+  mystery: 'El cuaderno termina con una pregunta: «¿Qué queda de un pueblo cuando desaparece el oficio que lo hizo crecer?»
+    La respuesta no está escrita. Tendrás que encontrarla observando el lugar.'
 mission:
-  objective: "Recorrer parte del patrimonio de Cangas y reconstruir la relación histórica entre la villa y el mar."
-  location: "Casco histórico y entorno marítimo de Cangas."
+  objective: Recorrer parte del patrimonio de Cangas y reconstruir la relación histórica entre la villa y el mar.
+  location: Casco histórico y entorno marítimo de Cangas.
   instructions:
-    - "Comenzad en el centro histórico y observad fachadas, calles y elementos patrimoniales."
-    - "Buscad señales de actividades relacionadas con el mar y el trabajo."
-    - "No hace falta entrar en edificios para completar la misión."
-    - "Anotad las palabras clave: serán necesarias para el Reto Final."
+  - Comenzad en el centro histórico y observad fachadas, calles y elementos patrimoniales.
+  - Buscad señales de actividades relacionadas con el mar y el trabajo.
+  - No hace falta entrar en edificios para completar la misión.
+  - 'Anotad las palabras clave: serán necesarias para el Reto Final.'
 materials:
-  - "Lápiz o bolígrafo"
-  - "Esta ficha"
-  - "Móvil opcional para consultar un dato"
+- Lápiz o bolígrafo
+- Esta ficha
+- Móvil opcional para consultar un dato
 challenge:
-  title: "Reto final: Recuperar la memoria del mar"
-  introduction: "No tienes que recordar una lista de fechas. Tienes que demostrar que entiendes cómo el mar transformó Cangas."
+  title: 'Reto final: Recuperar la memoria del mar'
+  introduction: No tienes que recordar una lista de fechas. Tienes que demostrar que entiendes cómo el mar transformó Cangas.
   steps:
-    - type: "observation"
-      title: "Una villa mirando al mar"
-      prompt: "Busca en el recorrido una evidencia de que el mar y la actividad portuaria formaban parte de la vida cotidiana de Cangas."
-      answer: "puerto / embarcaciones / instalaciones relacionadas con la pesca"
-      hint: "No tiene que ser una única respuesta."
-    - type: "history"
-      title: "Una iglesia con siglos"
-      prompt: "¿En qué año tenemos constancia de la construcción del actual templo de Santiago de Cangas?"
-      answer: "1493"
-      hint: "Es anterior al siglo XVI."
-    - type: "history"
-      title: "La industria del mar"
-      prompt: "¿Qué empresa familiar tuvo un papel destacado en la industria conservera y ballenera de Cangas?"
-      answer: "Massó"
-      hint: "El nombre aparece asociado a una antigua factoría."
-    - type: "history"
-      title: "La ballena"
-      prompt: "La factoría ballenera de Cangas estuvo activa durante treinta años. ¿Entre qué años?"
-      answer: "1955-1985"
-      hint: "Terminó con el cierre de la actividad ballenera en 1985."
-    - type: "puzzle"
-      title: "Une las épocas"
-      prompt: "Relaciona estas cuatro palabras: IGLESIA + PESCA + CONSERVAS + BALLENA. ¿Qué idea común cuentan sobre Cangas?"
-      answer: "Que el mar ha influido durante siglos en la vida, el patrimonio y la economía de Cangas."
-      hint: "No pienses solo en pesca."
-    - type: "final"
-      title: "La última página"
-      prompt: "Completa la frase del cuaderno: «Cuando desaparece un oficio, no desaparece solo un trabajo; también puede desaparecer...»."
-      answer: "una parte de la memoria y de la identidad del lugar"
-      hint: "Piensa en lo que queda cuando ya nadie realiza una actividad."
-  successCondition: "Completar las pruebas y explicar cómo el mar ha influido en la historia, economía, patrimonio y memoria de Cangas."
+  - type: observation
+    title: Una villa mirando al mar
+    prompt: Busca en el recorrido una evidencia de que el mar y la actividad portuaria formaban parte de la vida cotidiana
+      de Cangas.
+    answer: puerto / embarcaciones / instalaciones relacionadas con la pesca
+    hint: No tiene que ser una única respuesta.
+  - type: history
+    title: Una iglesia con siglos
+    prompt: ¿En qué año tenemos constancia de la construcción del actual templo de Santiago de Cangas?
+    answer: '1493'
+    hint: Es anterior al siglo XVI.
+  - type: history
+    title: La industria del mar
+    prompt: ¿Qué empresa familiar tuvo un papel destacado en la industria conservera y ballenera de Cangas?
+    answer: Massó
+    hint: El nombre aparece asociado a una antigua factoría.
+  - type: history
+    title: La ballena
+    prompt: La factoría ballenera de Cangas estuvo activa durante treinta años. ¿Entre qué años?
+    answer: 1955-1985
+    hint: Terminó con el cierre de la actividad ballenera en 1985.
+  - type: puzzle
+    title: Une las épocas
+    prompt: 'Relaciona estas cuatro palabras: IGLESIA + PESCA + CONSERVAS + BALLENA. ¿Qué idea común cuentan sobre Cangas?'
+    answer: Que el mar ha influido durante siglos en la vida, el patrimonio y la economía de Cangas.
+    hint: No pienses solo en pesca.
+  - type: final
+    title: La última página
+    prompt: 'Completa la frase del cuaderno: «Cuando desaparece un oficio, no desaparece solo un trabajo; también puede desaparecer...».'
+    answer: una parte de la memoria y de la identidad del lugar
+    hint: Piensa en lo que queda cuando ya nadie realiza una actividad.
+  successCondition: Completar las pruebas y explicar cómo el mar ha influido en la historia, economía, patrimonio y memoria
+    de Cangas.
 clues:
-  - "La iglesia te lleva varios siglos atrás."
-  - "Massó conecta pesca, industria y Cangas."
-  - "La última respuesta no es un lugar: es una idea."
+- La iglesia te lleva varios siglos atrás.
+- Massó conecta pesca, industria y Cangas.
+- 'La última respuesta no es un lugar: es una idea.'
 solution:
-  explanation: "La historia de Cangas está profundamente relacionada con el mar. El patrimonio religioso, la actividad pesquera, la industria conservera y la factoría ballenera forman parte de distintas etapas de una misma relación con los recursos marinos. La factoría ballenera de Cangas funcionó de 1955 a 1985 y hoy su memoria forma parte del patrimonio que se intenta conservar."
+  explanation: La historia de Cangas está profundamente relacionada con el mar. El patrimonio religioso, la actividad pesquera,
+    la industria conservera y la factoría ballenera forman parte de distintas etapas de una misma relación con los recursos
+    marinos. La factoría ballenera de Cangas funcionó de 1955 a 1985 y hoy su memoria forma parte del patrimonio que se intenta
+    conservar.
 badge:
-  name: "Guardián de la memoria del mar"
-  description: "Has descubierto que el mar no solo rodea Cangas: también ha construido parte de su historia y su identidad."
-  image: "/badges/cangas.svg"
-googleMaps: "https://www.google.com/maps/search/?api=1&query=42.264417,-8.785000"
+  name: Guardián de la memoria del mar
+  description: 'Has descubierto que el mar no solo rodea Cangas: también ha construido parte de su historia y su identidad.'
+  image: /badges/cangas.svg
+googleMaps: https://www.google.com/maps/search/?api=1&query=42.264417,-8.785000
 recommendations:
-  - "Hacer el recorrido de día."
-  - "Combinar la misión con una visita al patrimonio del casco histórico."
+- Hacer el recorrido de día.
+- Combinar la misión con una visita al patrimonio del casco histórico.
 warnings:
-  - "Atención al tráfico en los cruces y calles compartidas."
-  - "No acercarse a zonas portuarias restringidas."
+- Atención al tráfico en los cruces y calles compartidas.
+- No acercarse a zonas portuarias restringidas.
 tags:
-  - "Cangas"
-  - "mar"
-  - "pesca"
-  - "Massó"
-  - "historia"
-  - "patrimonio"
-seoTitle: "Misión Cangas | Las huellas que dejó el mar | ORIXE"
-seoDescription: "Una misión familiar por Cangas para descubrir su historia marítima, patrimonio, pesca e industria."
+- Cangas
+- mar
+- pesca
+- Massó
+- historia
+- patrimonio
+seoTitle: Misión Cangas | Las huellas que dejó el mar | ORIXE
+seoDescription: Una misión familiar por Cangas para descubrir su historia marítima, patrimonio, pesca e industria.

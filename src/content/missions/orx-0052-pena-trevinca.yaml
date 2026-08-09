@@ -1,0 +1,74 @@
+id: ORX-0052
+slug: pena-trevinca
+title: El techo de Galicia
+subtitle: Una misión gratuita para descubrir Pena Trevinca jugando
+municipality: A Veiga
+province: Ourense
+coordinates:
+  lat: 42.2467
+  lng: -6.9658
+category: Montaña y orientación
+ageRecommended: 7-14 años
+duration: 60-90 min
+distance: 1-2 km aprox.
+difficulty: Fácil
+accessibility: Adaptar el recorrido a las condiciones del lugar y respetar siempre señalización, horarios y zonas restringidas.
+descriptionShort: Una misión de paisaje para aprender a orientarse y reconocer la montaña más alta de Galicia.
+descriptionLong: Una misión gratuita de escape room y gamificación para familias. El lugar se convierte en un tablero de pistas
+  y el objetivo es aprender mientras se juega.
+image: /images/pena-trevinca.svg
+story:
+  title: El misterio de Pena Trevinca
+  introduction: Al llegar, imagina que alguien ha dejado una misión incompleta. Para resolverla tendrás que observar, buscar,
+    relacionar pistas y tomar decisiones en equipo.
+  historicalContext: Pena Trevinca alcanza 2.127 metros y es el punto más alto de Galicia. La misión debe plantearse en zonas
+    seguras y accesibles, sin necesidad de alcanzar la cumbre.
+  mystery: Las pistas están a la vista, pero solo aparecen cuando se aprende a mirar de otra manera.
+mission:
+  objective: Completar las pruebas y reconstruir el mensaje final de la misión.
+  location: Pena Trevinca, A Veiga.
+  instructions:
+  - Lee la misión antes de comenzar.
+  - No salgas de los caminos o espacios autorizados.
+  - No toques ni muevas elementos del patrimonio.
+  - Resuelve las pruebas en equipo.
+  - Guarda la solución para el final.
+materials:
+- Ficha imprimible de la misión
+- Lápiz o móvil para anotar respuestas
+- Ganas de observar y descubrir
+challenge:
+  title: El reto de Pena Trevinca
+  introduction: Cinco pruebas convierten el lugar en un pequeño escape room gratuito.
+  steps:
+  - type: observation
+    prompt: Observa el entorno durante un minuto. ¿Qué elemento destaca más y por qué?
+  - type: search
+    prompt: Busca un detalle que pueda funcionar como pista. Describe exactamente dónde está.
+  - type: history
+    prompt: Relaciona ese detalle con la historia, paisaje o forma de vida del lugar.
+  - type: puzzle
+    prompt: Une las tres pistas anteriores. ¿Qué palabra o idea común aparece?
+  - type: final
+    prompt: Explica en una frase el mensaje final que habéis descubierto.
+  successCondition: Completar las cinco pruebas y explicar de forma razonada el mensaje final.
+clues:
+- Empieza por observar antes de buscar.
+- No te quedes con la primera respuesta.
+- Relaciona lo que ves con el lugar en el que estás.
+solution:
+  explanation: La solución se obtiene relacionando las observaciones del recorrido con el patrimonio, paisaje o historia específica
+    de Pena Trevinca. La clave es justificar la respuesta, no simplemente acertarla.
+badge:
+  name: ORIXE 052 · El techo de Galicia
+  description: Insignia de quien completó esta misión gratuita.
+  image: /badges/pena-trevinca.svg
+tags:
+- Galicia
+- misión gratuita
+- escape room
+- gamificación
+- familias
+- Montaña y orientación
+seoTitle: Misión gratis en Pena Trevinca con niños | Orixe
+seoDescription: Escape room gratuito en Pena Trevinca para descubrir Galicia en familia con pistas, retos, observación y gamificación.

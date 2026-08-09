@@ -13,18 +13,15 @@ duration: 60 min
 distance: 1,2 km aprox.
 difficulty: Fácil
 accessibility: Recorrido urbano con calles empedradas y posibles tramos irregulares.
-descriptionShort: Busca hórreos, cruceiros y detalles escondidos en el casco tradicional
-  de Combarro.
-descriptionLong: Una misión gratuita para mirar Combarro con otros ojos y descubrir
-  cómo sus construcciones tradicionales se relacionan con el mar y la vida rural.
+descriptionShort: Busca hórreos, cruceiros y detalles escondidos en el casco tradicional de Combarro.
+descriptionLong: Una misión gratuita para mirar Combarro con otros ojos y descubrir cómo sus construcciones tradicionales
+  se relacionan con el mar y la vida rural.
 story:
   title: El pueblo de las piedras
-  introduction: En Combarro cada esquina parece esconder una señal. Los hórreos junto
-    al mar guardan la primera pista.
-  historicalContext: Turismo de Galicia destaca la concentración de hórreos de piedra
-    junto a la costa de Combarro y la conservación de su conjunto tradicional.
-  mystery: El reto consiste en encontrar patrones y descubrir qué función tenían las
-    construcciones que parecen decorativas.
+  introduction: En Combarro cada esquina parece esconder una señal. Los hórreos junto al mar guardan la primera pista.
+  historicalContext: Turismo de Galicia destaca la concentración de hórreos de piedra junto a la costa de Combarro y la conservación
+    de su conjunto tradicional.
+  mystery: El reto consiste en encontrar patrones y descubrir qué función tenían las construcciones que parecen decorativas.
 mission:
   objective: Identificar elementos de arquitectura tradicional y comprender su función.
   location: Casco tradicional y zona costera de Combarro.
@@ -42,8 +39,7 @@ challenge:
   steps:
   - type: search
     title: Los hórreos
-    prompt: ¿Qué construcción elevada sobre pilares aparece repetidamente junto a
-      la costa?
+    prompt: ¿Qué construcción elevada sobre pilares aparece repetidamente junto a la costa?
     answer: Hórreo
     hint: Servía para guardar cosechas.
   - type: observation
@@ -58,8 +54,7 @@ challenge:
     hint: Piensa en productos agrícolas.
   - type: photo
     title: Detalle de piedra
-    prompt: Encuentra un detalle de piedra que te parezca una pista y fotografíalo
-      sin tocarlo.
+    prompt: Encuentra un detalle de piedra que te parezca una pista y fotografíalo sin tocarlo.
     answer: Un detalle arquitectónico
     hint: Puede ser un cruceiro, puerta o hórreo.
   - type: final
@@ -73,9 +68,8 @@ clues:
 - Mira tanto hacia el mar como hacia las casas.
 - Busca detalles, no solo monumentos.
 solution:
-  explanation: Los hórreos son construcciones rurales destinadas a guardar cosechas
-    y elevadas sobre pilares. En Combarro algunos forman una imagen singular junto
-    a la ría, mostrando la convivencia entre paisaje marinero y tradición agrícola.
+  explanation: Los hórreos son construcciones rurales destinadas a guardar cosechas y elevadas sobre pilares. En Combarro
+    algunos forman una imagen singular junto a la ría, mostrando la convivencia entre paisaje marinero y tradición agrícola.
 badge:
   name: ORIXE 027 · Detective de Combarro
   description: Insignia de quien descifró el código de los hórreos junto a la ría.
@@ -95,7 +89,6 @@ tags:
 - Rías Baixas
 - gratis
 seoTitle: 'Misión gratis en Combarro: el código de los hórreos | Orixe'
-seoDescription: Juego gratuito para descubrir Combarro en familia mediante pistas,
-  hórreos y arquitectura tradicional.
+seoDescription: Juego gratuito para descubrir Combarro en familia mediante pistas, hórreos y arquitectura tradicional.
 image: /images/combarro.svg
 gallery: []

@@ -13,22 +13,17 @@ duration: 60 min
 distance: 1 km aprox.
 difficulty: Fácil-media
 accessibility: Aldea de montaña con calles y caminos irregulares.
-descriptionShort: Descubre Piornedo y sus construcciones tradicionales en una misión
-  de observación por Os Ancares.
-descriptionLong: Una misión gratuita para descubrir cómo la arquitectura tradicional
-  se adaptaba al frío y a la vida de montaña.
+descriptionShort: Descubre Piornedo y sus construcciones tradicionales en una misión de observación por Os Ancares.
+descriptionLong: Una misión gratuita para descubrir cómo la arquitectura tradicional se adaptaba al frío y a la vida de montaña.
 story:
   title: El pueblo que conserva la montaña
-  introduction: En Piornedo las casas cuentan cómo se vivía en la montaña. Hay que
-    encontrar tres formas de construir para sobrevivir al clima.
-  historicalContext: Turismo de Galicia identifica Piornedo como una aldea prerromana
-    característica de Os Ancares y documenta sus pallozas y hórreos como patrimonio
-    etnográfico.
-  mystery: La misión consiste en descubrir qué soluciones arquitectónicas aparecen
-    repetidas.
+  introduction: En Piornedo las casas cuentan cómo se vivía en la montaña. Hay que encontrar tres formas de construir para
+    sobrevivir al clima.
+  historicalContext: Turismo de Galicia identifica Piornedo como una aldea prerromana característica de Os Ancares y documenta
+    sus pallozas y hórreos como patrimonio etnográfico.
+  mystery: La misión consiste en descubrir qué soluciones arquitectónicas aparecen repetidas.
 mission:
-  objective: Identificar elementos de arquitectura tradicional de montaña y comprender
-    su función.
+  objective: Identificar elementos de arquitectura tradicional de montaña y comprender su función.
   location: Núcleo tradicional de Piornedo.
   instructions:
   - Recorre las calles públicas sin entrar en propiedades.
@@ -73,13 +68,11 @@ clues:
 - Observa cómo se separan algunas construcciones del suelo.
 - Piensa en frío, lluvia y montaña.
 solution:
-  explanation: Piornedo conserva construcciones tradicionales de Os Ancares, entre
-    ellas pallozas y hórreos. Su arquitectura está vinculada a la vida rural y a las
-    condiciones de montaña.
+  explanation: Piornedo conserva construcciones tradicionales de Os Ancares, entre ellas pallozas y hórreos. Su arquitectura
+    está vinculada a la vida rural y a las condiciones de montaña.
 badge:
   name: ORIXE 030 · Guardián de Ancares
-  description: Insignia de quien descubrió cómo la arquitectura tradicional se adapta
-    a la montaña.
+  description: Insignia de quien descubrió cómo la arquitectura tradicional se adapta a la montaña.
   image: /badges/piornedo.svg
 googleMaps: https://www.google.com/maps/search/?api=1&query=42.85670,-6.87579
 recommendations:
@@ -96,7 +89,6 @@ tags:
 - hórreos
 - gratis
 seoTitle: Misión gratis en Piornedo y Os Ancares | Orixe
-seoDescription: 'Misión gratuita para familias en Piornedo: pallozas, hórreos, montaña
-  y tradición de Os Ancares.'
+seoDescription: 'Misión gratuita para familias en Piornedo: pallozas, hórreos, montaña y tradición de Os Ancares.'
 image: /images/piornedo.svg
 gallery: []

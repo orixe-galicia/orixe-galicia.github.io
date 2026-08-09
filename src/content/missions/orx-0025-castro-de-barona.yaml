@@ -12,24 +12,19 @@ ageRecommended: 8-14 años
 duration: 75 min
 distance: 1,5 km aprox.
 difficulty: Media
-accessibility: Acceso a pie con terreno irregular, roca y desniveles; no apto para
-  todas las movilidades.
-descriptionShort: Investiga el Castro de Baroña y descubre cómo un poblado de la Edad
-  del Hierro se protegía frente al mar.
-descriptionLong: Una misión de observación y arqueología para recorrer el entorno
-  público del Castro de Baroña y reconstruir cómo pudo organizarse este asentamiento
-  costero.
+accessibility: Acceso a pie con terreno irregular, roca y desniveles; no apto para todas las movilidades.
+descriptionShort: Investiga el Castro de Baroña y descubre cómo un poblado de la Edad del Hierro se protegía frente al mar.
+descriptionLong: Una misión de observación y arqueología para recorrer el entorno público del Castro de Baroña y reconstruir
+  cómo pudo organizarse este asentamiento costero.
 story:
   title: La aldea que mira al Atlántico
-  introduction: Antes de que existieran carreteras, una comunidad eligió una península
-    rocosa como hogar. Hoy quedan muros, formas y preguntas.
-  historicalContext: Turismo de Galicia sitúa la ocupación del Castro de Baroña entre
-    el siglo I a.C. y el siglo I d.C. y destaca su posición en una península separada
-    de tierra por un istmo, con un foso defensivo.
+  introduction: Antes de que existieran carreteras, una comunidad eligió una península rocosa como hogar. Hoy quedan muros,
+    formas y preguntas.
+  historicalContext: Turismo de Galicia sitúa la ocupación del Castro de Baroña entre el siglo I a.C. y el siglo I d.C. y
+    destaca su posición en una península separada de tierra por un istmo, con un foso defensivo.
   mystery: Debes descubrir por qué sus habitantes eligieron exactamente ese lugar.
 mission:
-  objective: Reconocer elementos defensivos y comprender la relación entre asentamiento,
-    mar y territorio.
+  objective: Reconocer elementos defensivos y comprender la relación entre asentamiento, mar y territorio.
   location: Entorno exterior y recorrido público del Castro de Baroña.
   instructions:
   - Sigue siempre el sendero señalizado.
@@ -66,8 +61,7 @@ challenge:
     hint: Está presente en casi todas las vistas.
   - type: final
     title: La clave
-    prompt: '¿Por qué este lugar era estratégico? Responde con una palabra: PROTECCIÓN,
-      DECORACIÓN o APARCAMIENTO.'
+    prompt: '¿Por qué este lugar era estratégico? Responde con una palabra: PROTECCIÓN, DECORACIÓN o APARCAMIENTO.'
     answer: PROTECCIÓN
     hint: Piensa como alguien que debía defender su hogar.
   successCondition: Completar las cinco pruebas y obtener PROTECCIÓN.
@@ -76,9 +70,8 @@ clues:
 - Mira primero la entrada.
 - El mar no es solo paisaje.
 solution:
-  explanation: Baroña se asentó en una península rocosa y su acceso estaba protegido
-    por un istmo con un foso. La ubicación ofrecía una posición estratégica frente
-    al territorio y el mar.
+  explanation: Baroña se asentó en una península rocosa y su acceso estaba protegido por un istmo con un foso. La ubicación
+    ofrecía una posición estratégica frente al territorio y el mar.
 badge:
   name: ORIXE 025 · Explorador de Baroña
   description: Insignia de quien descubrió las defensas del castro frente al Atlántico.
@@ -98,7 +91,6 @@ tags:
 - mar
 - gratis
 seoTitle: Misión gratis en el Castro de Baroña | Orixe
-seoDescription: 'Reto gratuito para familias en el Castro de Baroña: arqueología,
-  misterio y aventura frente al Atlántico.'
+seoDescription: 'Reto gratuito para familias en el Castro de Baroña: arqueología, misterio y aventura frente al Atlántico.'
 image: /images/castro-de-barona.svg
 gallery: []

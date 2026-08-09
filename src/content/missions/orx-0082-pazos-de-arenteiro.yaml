@@ -1,0 +1,75 @@
+id: ORX-0082
+slug: pazos-de-arenteiro
+title: La villa que el tiempo conservó
+subtitle: Una misión gratuita para descubrir cultura, historia y patrimonio de Galicia
+municipality: Boborás
+province: Ourense
+coordinates:
+  lat: 42.4448
+  lng: -8.1428
+category: Conjunto histórico
+ageRecommended: 8-14 años
+duration: 60-90 min
+distance: 1-2 km aprox.
+difficulty: Fácil
+accessibility: Consulta accesos y horarios oficiales. Respeta siempre el patrimonio, la señalización y las zonas restringidas.
+descriptionShort: Escape room gratuito para descubrir Pazos de Arenteiro mediante pistas, observación e investigación.
+descriptionLong: Una misión de Orixe pensada para familias y grupos que quieren descubrir Galicia jugando, sin pagar por realizar
+  el reto.
+image: /images/pazos-de-arenteiro.svg
+story:
+  title: El misterio de Pazos de Arenteiro
+  introduction: El lugar es el tablero. Las pistas están a la vista y la historia es la llave.
+  historicalContext: Investiga el contexto histórico y cultural de Pazos de Arenteiro utilizando la información disponible
+    en el lugar y las fuentes oficiales de turismo.
+  mystery: Un antiguo cuaderno dejó cinco pruebas sin resolver. Solo podrás abrir el mensaje final si conectas lo que observas
+    con la historia del lugar.
+mission:
+  objective: Descubrir qué cuenta Pazos de Arenteiro sobre la historia, cultura o patrimonio de Galicia.
+  location: Pazos de Arenteiro, Boborás.
+  instructions:
+  - Lee la misión antes de comenzar.
+  - Trabaja en equipo.
+  - No toques ni muevas elementos patrimoniales.
+  - Respeta horarios y zonas restringidas.
+  - No leas la solución hasta terminar.
+materials:
+- Ficha imprimible
+- Lápiz
+- Móvil opcional
+challenge:
+  title: 'Reto: La villa que el tiempo conservó'
+  introduction: Cinco pruebas convierten la visita en un pequeño escape room gratuito.
+  steps:
+  - type: observation
+    prompt: Localiza dos casas señoriales y una construcción religiosa.
+  - type: search
+    prompt: Busca la primera referencia documental.
+  - type: history
+    prompt: Relaciona vino y crecimiento urbano.
+  - type: puzzle
+    prompt: Ordena vino + comercio + arquitectura.
+  - type: final
+    prompt: Explica por qué la villa parece viajar al pasado.
+  successCondition: Completar las cinco pruebas y justificar la respuesta final.
+clues:
+- Observa primero y busca información después.
+- La arquitectura también cuenta historias.
+- Relaciona el lugar con las personas que lo utilizaron.
+solution:
+  explanation: La solución debe relacionar las observaciones con el contexto histórico y cultural de Pazos de Arenteiro. No
+    se trata solo de memorizar un dato, sino de explicar la conexión entre las pistas.
+badge:
+  name: ORIXE 082 · Explorador de Boborás
+  description: Insignia de quien completó esta misión gratuita.
+  image: /badges/pazos-de-arenteiro.svg
+tags:
+- Galicia
+- misión gratuita
+- escape room
+- gamificación
+- familias
+- Conjunto histórico
+seoTitle: Misión gratis en Pazos de Arenteiro | Escape room familiar | Orixe
+seoDescription: Escape room gratuito para descubrir Pazos de Arenteiro y su patrimonio cultural e histórico de Galicia jugando
+  en familia.

@@ -1,0 +1,75 @@
+id: ORX-0078
+slug: pazo-de-mos
+title: La pista de los Marqueses de Mos
+subtitle: Una misión gratuita para descubrir cultura, historia y patrimonio de Galicia
+municipality: Mos
+province: Pontevedra
+coordinates:
+  lat: 42.1969
+  lng: -8.607
+category: Pazos e historia
+ageRecommended: 8-14 años
+duration: 60-90 min
+distance: 1-2 km aprox.
+difficulty: Fácil
+accessibility: Consulta accesos y horarios oficiales. Respeta siempre el patrimonio, la señalización y las zonas restringidas.
+descriptionShort: Escape room gratuito para descubrir Pazo de Mos mediante pistas, observación e investigación.
+descriptionLong: Una misión de Orixe pensada para familias y grupos que quieren descubrir Galicia jugando, sin pagar por realizar
+  el reto.
+image: /images/pazo-de-mos.svg
+story:
+  title: El misterio de Pazo de Mos
+  introduction: El lugar es el tablero. Las pistas están a la vista y la historia es la llave.
+  historicalContext: Investiga el contexto histórico y cultural de Pazo de Mos utilizando la información disponible en el
+    lugar y las fuentes oficiales de turismo.
+  mystery: Un antiguo cuaderno dejó cinco pruebas sin resolver. Solo podrás abrir el mensaje final si conectas lo que observas
+    con la historia del lugar.
+mission:
+  objective: Descubrir qué cuenta Pazo de Mos sobre la historia, cultura o patrimonio de Galicia.
+  location: Pazo de Mos, Mos.
+  instructions:
+  - Lee la misión antes de comenzar.
+  - Trabaja en equipo.
+  - No toques ni muevas elementos patrimoniales.
+  - Respeta horarios y zonas restringidas.
+  - No leas la solución hasta terminar.
+materials:
+- Ficha imprimible
+- Lápiz
+- Móvil opcional
+challenge:
+  title: 'Reto: La pista de los Marqueses de Mos'
+  introduction: Cinco pruebas convierten la visita en un pequeño escape room gratuito.
+  steps:
+  - type: observation
+    prompt: Busca tres pistas de arquitectura señorial.
+  - type: search
+    prompt: Averigua el siglo de construcción.
+  - type: history
+    prompt: Relaciona el pazo con la antigua calzada.
+  - type: puzzle
+    prompt: Ordena camino + pazo + marqueses.
+  - type: final
+    prompt: Explica qué historia cuenta el edificio.
+  successCondition: Completar las cinco pruebas y justificar la respuesta final.
+clues:
+- Observa primero y busca información después.
+- La arquitectura también cuenta historias.
+- Relaciona el lugar con las personas que lo utilizaron.
+solution:
+  explanation: La solución debe relacionar las observaciones con el contexto histórico y cultural de Pazo de Mos. No se trata
+    solo de memorizar un dato, sino de explicar la conexión entre las pistas.
+badge:
+  name: ORIXE 078 · Explorador de Mos
+  description: Insignia de quien completó esta misión gratuita.
+  image: /badges/pazo-de-mos.svg
+tags:
+- Galicia
+- misión gratuita
+- escape room
+- gamificación
+- familias
+- Pazos e historia
+seoTitle: Misión gratis en Pazo de Mos | Escape room familiar | Orixe
+seoDescription: Escape room gratuito para descubrir Pazo de Mos y su patrimonio cultural e histórico de Galicia jugando en
+  familia.

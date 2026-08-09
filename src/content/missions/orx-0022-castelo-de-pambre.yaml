@@ -16,20 +16,18 @@ accessibility: Entorno exterior y caminos; comprobar acceso interior antes de la
 image: /images/castelo-de-pambre.svg
 gallery: []
 descriptionShort: Descubre el Castillo de Pambre mediante un misterio medieval gratuito.
-descriptionLong: El Castillo de Pambre conserva murallas, torres, foso y una torre
-  del homenaje. La misión propone leer la fortaleza como si fuera una escena de una
-  historia medieval.
+descriptionLong: El Castillo de Pambre conserva murallas, torres, foso y una torre del homenaje. La misión propone leer la
+  fortaleza como si fuera una escena de una historia medieval.
 story:
   title: La carta del último guardián
-  introduction: Un guardián dejó una carta antes de abandonar el castillo. No sabes
-    quién era ni qué protegía. Las piedras tendrán que darte las respuestas.
-  historicalContext: El Castillo de Pambre es una fortaleza medieval de gran relevancia
-    en Galicia, con muralla, torres, foso y torre del homenaje.
-  mystery: Un guardián dejó una carta antes de abandonar el castillo. No sabes quién
-    era ni qué protegía. Las piedras tendrán que darte las respuestas.
+  introduction: Un guardián dejó una carta antes de abandonar el castillo. No sabes quién era ni qué protegía. Las piedras
+    tendrán que darte las respuestas.
+  historicalContext: El Castillo de Pambre es una fortaleza medieval de gran relevancia en Galicia, con muralla, torres, foso
+    y torre del homenaje.
+  mystery: Un guardián dejó una carta antes de abandonar el castillo. No sabes quién era ni qué protegía. Las piedras tendrán
+    que darte las respuestas.
 mission:
-  objective: Identificar elementos defensivos y comprender cómo funcionaba una fortaleza
-    medieval.
+  objective: Identificar elementos defensivos y comprender cómo funcionaba una fortaleza medieval.
   location: Castillo de Pambre y entorno.
   instructions:
   - Respeta los horarios y zonas de acceso.
@@ -41,8 +39,7 @@ materials:
 - Lápiz
 challenge:
   title: 'Reto final: Pensar como un defensor'
-  introduction: Cinco pruebas para descubrir por qué una fortaleza tiene la forma
-    que tiene.
+  introduction: Cinco pruebas para descubrir por qué una fortaleza tiene la forma que tiene.
   steps:
   - type: observation
     title: Las torres
@@ -75,9 +72,8 @@ clues:
 - Cada elemento tiene una función.
 - No necesitas imaginar batallas para entenderla.
 solution:
-  explanation: 'Pambre conserva elementos típicos de una fortaleza medieval: muralla,
-    torres, foso y torre del homenaje. La misión transforma esos elementos en pistas
-    para comprender su función defensiva.'
+  explanation: 'Pambre conserva elementos típicos de una fortaleza medieval: muralla, torres, foso y torre del homenaje. La
+    misión transforma esos elementos en pistas para comprender su función defensiva.'
 badge:
   name: ORIXE 022 · Guardián de Pambre
   description: Insignia de quien descubrió los secretos defensivos de Pambre.
@@ -98,5 +94,4 @@ tags:
 - familias
 - gratis
 seoTitle: Misión gratis en el Castillo de Pambre | Orixe
-seoDescription: Misión de misterio medieval gratuita en el Castillo de Pambre para
-  familias.
+seoDescription: Misión de misterio medieval gratuita en el Castillo de Pambre para familias.

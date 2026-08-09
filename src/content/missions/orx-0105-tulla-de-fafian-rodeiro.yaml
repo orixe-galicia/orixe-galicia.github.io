@@ -1,0 +1,70 @@
+id: ORX-0105
+slug: "tulla-de-fafian-rodeiro"
+title: "La torre del grano"
+subtitle: "Una construcción vinculada al poder del monasterio de Oseira"
+municipality: "Rodeiro"
+province: "Pontevedra"
+coordinates:
+  lat: 42.6497
+  lng: -7.9707
+category: "Patrimonio etnográfico e histórico"
+ageRecommended: "8-14 años"
+duration: "45-75 min"
+distance: "1-2 km aprox."
+difficulty: "Fácil"
+accessibility: "Consulta accesos y horarios oficiales. Respeta siempre el patrimonio, la señalización y las zonas restringidas."
+descriptionShort: "Misión gratuita de Orixe para descubrir investiga por qué guardar grano podía ser una cuestión de poder económico y religioso."
+descriptionLong: "Una misión gratuita para familias y grupos que transforma un lugar especial de Galicia en un pequeño escape room de observación, investigación y juego."
+image: "/images/tulla-de-fafian-rodeiro.svg"
+story:
+  title: "La torre del grano"
+  introduction: "El lugar es el tablero. Las pistas están a la vista y la historia es la llave."
+  historicalContext: "La Tulla de Outeiro, en Fafián, es una torre de piedra que servía como almacén de grano donde los monjes de Oseira recogían las rentas."
+  mystery: "Investiga por qué guardar grano podía ser una cuestión de poder económico y religioso."
+mission:
+  objective: "Descubrir qué cuenta este lugar sobre la historia, la cultura o el patrimonio de Galicia."
+  location: "La torre del grano, Rodeiro."
+  instructions:
+    - "Lee la misión antes de comenzar."
+    - "Trabaja en equipo."
+    - "No toques ni muevas elementos patrimoniales."
+    - "Respeta horarios y zonas restringidas."
+    - "No leas la solución hasta terminar."
+materials:
+  - "Ficha imprimible"
+  - "Lápiz"
+  - "Móvil opcional"
+challenge:
+  title: "Reto: La torre del grano"
+  introduction: "Cinco pruebas convierten la visita en un pequeño escape room gratuito."
+  steps:
+    - type: observation
+      prompt: "Observa el lugar durante un minuto sin buscar información."
+    - type: search
+      prompt: "Localiza una pista física que ayude a explicar la importancia del lugar."
+    - type: history
+      prompt: "Relaciona esa pista con la época, actividad o comunidad que la creó."
+    - type: puzzle
+      prompt: "Une lugar + paisaje + personas y formula una explicación de conjunto."
+    - type: final
+      prompt: "Explica en una frase por qué este lugar merece ser conocido y protegido."
+  successCondition: "Completar las cinco pruebas y justificar la respuesta final."
+clues:
+  - "Primero observa; después investiga."
+  - "La arquitectura y el paisaje también son pistas."
+  - "Busca conexiones, no solo datos."
+solution:
+  explanation: "La Tulla de Outeiro, en Fafián, es una torre de piedra que servía como almacén de grano donde los monjes de Oseira recogían las rentas. La respuesta final debe relacionar las observaciones realizadas durante el recorrido con el contexto histórico y cultural del lugar."
+badge:
+  name: "ORIXE 105 · Explorador de Rodeiro"
+  description: "Insignia de quien completó esta misión gratuita de Orixe."
+  image: "/badges/tulla-de-fafian-rodeiro.svg"
+tags:
+  - "Galicia"
+  - "misión gratuita"
+  - "escape room"
+  - "gamificación"
+  - "familias"
+  - "Patrimonio etnográfico e histórico"
+seoTitle: "Misión gratis en La torre del grano | Escape room familiar | Orixe"
+seoDescription: "Escape room gratuito para descubrir La torre del grano en Rodeiro y su patrimonio de Galicia jugando en familia."

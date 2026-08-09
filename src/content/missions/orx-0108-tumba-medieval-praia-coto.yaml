@@ -1,0 +1,70 @@
+id: ORX-0108
+slug: "tumba-medieval-praia-coto"
+title: "La tumba junto al mar"
+subtitle: "Una sepultura medieval excavada en la roca"
+municipality: "Barreiros"
+province: "Lugo"
+coordinates:
+  lat: 43.56
+  lng: -7.2305
+category: "Arqueología e historia"
+ageRecommended: "8-14 años"
+duration: "45-75 min"
+distance: "1-2 km aprox."
+difficulty: "Fácil"
+accessibility: "Consulta accesos y horarios oficiales. Respeta siempre el patrimonio, la señalización y las zonas restringidas."
+descriptionShort: "Misión gratuita de Orixe para descubrir busca las pistas que permiten distinguir una sepultura de una simple forma natural de la piedra."
+descriptionLong: "Una misión gratuita para familias y grupos que transforma un lugar especial de Galicia en un pequeño escape room de observación, investigación y juego."
+image: "/images/tumba-medieval-praia-coto.svg"
+story:
+  title: "La tumba junto al mar"
+  introduction: "El lugar es el tablero. Las pistas están a la vista y la historia es la llave."
+  historicalContext: "El Concello de Barreiros incluye entre sus elementos singulares una tumba medieval de la playa de Coto, labrada directamente en la roca."
+  mystery: "Busca las pistas que permiten distinguir una sepultura de una simple forma natural de la piedra."
+mission:
+  objective: "Descubrir qué cuenta este lugar sobre la historia, la cultura o el patrimonio de Galicia."
+  location: "La tumba junto al mar, Barreiros."
+  instructions:
+    - "Lee la misión antes de comenzar."
+    - "Trabaja en equipo."
+    - "No toques ni muevas elementos patrimoniales."
+    - "Respeta horarios y zonas restringidas."
+    - "No leas la solución hasta terminar."
+materials:
+  - "Ficha imprimible"
+  - "Lápiz"
+  - "Móvil opcional"
+challenge:
+  title: "Reto: La tumba junto al mar"
+  introduction: "Cinco pruebas convierten la visita en un pequeño escape room gratuito."
+  steps:
+    - type: observation
+      prompt: "Observa el lugar durante un minuto sin buscar información."
+    - type: search
+      prompt: "Localiza una pista física que ayude a explicar la importancia del lugar."
+    - type: history
+      prompt: "Relaciona esa pista con la época, actividad o comunidad que la creó."
+    - type: puzzle
+      prompt: "Une lugar + paisaje + personas y formula una explicación de conjunto."
+    - type: final
+      prompt: "Explica en una frase por qué este lugar merece ser conocido y protegido."
+  successCondition: "Completar las cinco pruebas y justificar la respuesta final."
+clues:
+  - "Primero observa; después investiga."
+  - "La arquitectura y el paisaje también son pistas."
+  - "Busca conexiones, no solo datos."
+solution:
+  explanation: "El Concello de Barreiros incluye entre sus elementos singulares una tumba medieval de la playa de Coto, labrada directamente en la roca. La respuesta final debe relacionar las observaciones realizadas durante el recorrido con el contexto histórico y cultural del lugar."
+badge:
+  name: "ORIXE 108 · Explorador de Barreiros"
+  description: "Insignia de quien completó esta misión gratuita de Orixe."
+  image: "/badges/tumba-medieval-praia-coto.svg"
+tags:
+  - "Galicia"
+  - "misión gratuita"
+  - "escape room"
+  - "gamificación"
+  - "familias"
+  - "Arqueología e historia"
+seoTitle: "Misión gratis en La tumba junto al mar | Escape room familiar | Orixe"
+seoDescription: "Escape room gratuito para descubrir La tumba junto al mar en Barreiros y su patrimonio de Galicia jugando en familia."

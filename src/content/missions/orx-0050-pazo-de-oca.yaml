@@ -1,0 +1,74 @@
+id: ORX-0050
+slug: pazo-de-oca
+title: El jardín de los secretos
+subtitle: Una misión gratuita para descubrir Pazo de Oca jugando
+municipality: A Estrada
+province: Pontevedra
+coordinates:
+  lat: 42.7664
+  lng: -8.42
+category: Patrimonio y naturaleza
+ageRecommended: 7-14 años
+duration: 60-90 min
+distance: 1-2 km aprox.
+difficulty: Fácil
+accessibility: Adaptar el recorrido a las condiciones del lugar y respetar siempre señalización, horarios y zonas restringidas.
+descriptionShort: Una misión de observación entre arquitectura, agua, jardines y detalles que cuentan historias.
+descriptionLong: Una misión gratuita de escape room y gamificación para familias. El lugar se convierte en un tablero de pistas
+  y el objetivo es aprender mientras se juega.
+image: /images/pazo-de-oca.svg
+story:
+  title: El misterio de Pazo de Oca
+  introduction: Al llegar, imagina que alguien ha dejado una misión incompleta. Para resolverla tendrás que observar, buscar,
+    relacionar pistas y tomar decisiones en equipo.
+  historicalContext: El Pazo de Oca destaca por su arquitectura y por sus jardines históricos, con agua y elementos vegetales
+    que permiten diseñar una misión de observación.
+  mystery: Las pistas están a la vista, pero solo aparecen cuando se aprende a mirar de otra manera.
+mission:
+  objective: Completar las pruebas y reconstruir el mensaje final de la misión.
+  location: Pazo de Oca, A Estrada.
+  instructions:
+  - Lee la misión antes de comenzar.
+  - No salgas de los caminos o espacios autorizados.
+  - No toques ni muevas elementos del patrimonio.
+  - Resuelve las pruebas en equipo.
+  - Guarda la solución para el final.
+materials:
+- Ficha imprimible de la misión
+- Lápiz o móvil para anotar respuestas
+- Ganas de observar y descubrir
+challenge:
+  title: El reto de Pazo de Oca
+  introduction: Cinco pruebas convierten el lugar en un pequeño escape room gratuito.
+  steps:
+  - type: observation
+    prompt: Observa el entorno durante un minuto. ¿Qué elemento destaca más y por qué?
+  - type: search
+    prompt: Busca un detalle que pueda funcionar como pista. Describe exactamente dónde está.
+  - type: history
+    prompt: Relaciona ese detalle con la historia, paisaje o forma de vida del lugar.
+  - type: puzzle
+    prompt: Une las tres pistas anteriores. ¿Qué palabra o idea común aparece?
+  - type: final
+    prompt: Explica en una frase el mensaje final que habéis descubierto.
+  successCondition: Completar las cinco pruebas y explicar de forma razonada el mensaje final.
+clues:
+- Empieza por observar antes de buscar.
+- No te quedes con la primera respuesta.
+- Relaciona lo que ves con el lugar en el que estás.
+solution:
+  explanation: La solución se obtiene relacionando las observaciones del recorrido con el patrimonio, paisaje o historia específica
+    de Pazo de Oca. La clave es justificar la respuesta, no simplemente acertarla.
+badge:
+  name: ORIXE 050 · El jardín de los secretos
+  description: Insignia de quien completó esta misión gratuita.
+  image: /badges/pazo-de-oca.svg
+tags:
+- Galicia
+- misión gratuita
+- escape room
+- gamificación
+- familias
+- Patrimonio y naturaleza
+seoTitle: Misión gratis en Pazo de Oca con niños | Orixe
+seoDescription: Escape room gratuito en Pazo de Oca para descubrir Galicia en familia con pistas, retos, observación y gamificación.

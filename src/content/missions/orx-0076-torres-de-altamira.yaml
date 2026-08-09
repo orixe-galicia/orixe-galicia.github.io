@@ -1,0 +1,75 @@
+id: ORX-0076
+slug: torres-de-altamira
+title: El secreto de las Torres de Altamira
+subtitle: Una misión gratuita para descubrir cultura, historia y patrimonio de Galicia
+municipality: Brión
+province: A Coruña
+coordinates:
+  lat: 42.8697
+  lng: -8.718
+category: Historia medieval
+ageRecommended: 8-14 años
+duration: 60-90 min
+distance: 1-2 km aprox.
+difficulty: Fácil
+accessibility: Consulta accesos y horarios oficiales. Respeta siempre el patrimonio, la señalización y las zonas restringidas.
+descriptionShort: Escape room gratuito para descubrir Torres de Altamira mediante pistas, observación e investigación.
+descriptionLong: Una misión de Orixe pensada para familias y grupos que quieren descubrir Galicia jugando, sin pagar por realizar
+  el reto.
+image: /images/torres-de-altamira.svg
+story:
+  title: El misterio de Torres de Altamira
+  introduction: El lugar es el tablero. Las pistas están a la vista y la historia es la llave.
+  historicalContext: Investiga el contexto histórico y cultural de Torres de Altamira utilizando la información disponible
+    en el lugar y las fuentes oficiales de turismo.
+  mystery: Un antiguo cuaderno dejó cinco pruebas sin resolver. Solo podrás abrir el mensaje final si conectas lo que observas
+    con la historia del lugar.
+mission:
+  objective: Descubrir qué cuenta Torres de Altamira sobre la historia, cultura o patrimonio de Galicia.
+  location: Torres de Altamira, Brión.
+  instructions:
+  - Lee la misión antes de comenzar.
+  - Trabaja en equipo.
+  - No toques ni muevas elementos patrimoniales.
+  - Respeta horarios y zonas restringidas.
+  - No leas la solución hasta terminar.
+materials:
+- Ficha imprimible
+- Lápiz
+- Móvil opcional
+challenge:
+  title: 'Reto: El secreto de las Torres de Altamira'
+  introduction: Cinco pruebas convierten la visita en un pequeño escape room gratuito.
+  steps:
+  - type: observation
+    prompt: Busca el punto estratégico de las torres.
+  - type: search
+    prompt: Investiga qué hubo antes de la fortaleza.
+  - type: history
+    prompt: Explica la importancia de dominar visualmente el territorio.
+  - type: puzzle
+    prompt: Une acrópolis + nobleza + defensa.
+  - type: final
+    prompt: Descifra qué hizo estratégico a Altamira.
+  successCondition: Completar las cinco pruebas y justificar la respuesta final.
+clues:
+- Observa primero y busca información después.
+- La arquitectura también cuenta historias.
+- Relaciona el lugar con las personas que lo utilizaron.
+solution:
+  explanation: La solución debe relacionar las observaciones con el contexto histórico y cultural de Torres de Altamira. No
+    se trata solo de memorizar un dato, sino de explicar la conexión entre las pistas.
+badge:
+  name: ORIXE 076 · Explorador de Brión
+  description: Insignia de quien completó esta misión gratuita.
+  image: /badges/torres-de-altamira.svg
+tags:
+- Galicia
+- misión gratuita
+- escape room
+- gamificación
+- familias
+- Historia medieval
+seoTitle: Misión gratis en Torres de Altamira | Escape room familiar | Orixe
+seoDescription: Escape room gratuito para descubrir Torres de Altamira y su patrimonio cultural e histórico de Galicia jugando
+  en familia.

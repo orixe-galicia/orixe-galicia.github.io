@@ -15,19 +15,17 @@ difficulty: Fácil-media
 accessibility: Senderos y caminos; algunas zonas tienen desnivel.
 image: /images/cabo-home.svg
 gallery: []
-descriptionShort: Convierte Cabo Home en un juego de orientación entre faros, mar
-  y paisaje.
-descriptionLong: Cabo Home forma parte de la Costa da Vela y ofrece un paisaje atlántico
-  marcado por acantilados y faros. La misión propone orientarse sin necesidad de aplicaciones.
+descriptionShort: Convierte Cabo Home en un juego de orientación entre faros, mar y paisaje.
+descriptionLong: Cabo Home forma parte de la Costa da Vela y ofrece un paisaje atlántico marcado por acantilados y faros.
+  La misión propone orientarse sin necesidad de aplicaciones.
 story:
   title: El vigía del horizonte
-  introduction: 'Un vigía perdió su brújula. Solo recuerda tres cosas: dónde sale
-    el sol, dónde está la tierra y dónde está el faro. Tu equipo debe reconstruir
-    su orientación.'
-  historicalContext: Cabo Home se encuentra en la Costa da Vela, frente a las islas
-    Cíes y con varios elementos de señalización marítima.
-  mystery: 'Un vigía perdió su brújula. Solo recuerda tres cosas: dónde sale el sol,
-    dónde está la tierra y dónde está el faro. Tu equipo debe reconstruir su orientación.'
+  introduction: 'Un vigía perdió su brújula. Solo recuerda tres cosas: dónde sale el sol, dónde está la tierra y dónde está
+    el faro. Tu equipo debe reconstruir su orientación.'
+  historicalContext: Cabo Home se encuentra en la Costa da Vela, frente a las islas Cíes y con varios elementos de señalización
+    marítima.
+  mystery: 'Un vigía perdió su brújula. Solo recuerda tres cosas: dónde sale el sol, dónde está la tierra y dónde está el
+    faro. Tu equipo debe reconstruir su orientación.'
 mission:
   objective: Aprender a orientarse mediante referencias naturales y humanas del paisaje.
   location: Entorno exterior de Cabo Home.
@@ -75,8 +73,8 @@ clues:
 - Un faro sirve para orientar a los navegantes.
 - No necesitas acercarte a ningún precipicio.
 solution:
-  explanation: Cabo Home permite trabajar orientación a partir de faros, horizonte,
-    costa e islas. La misión está diseñada para hacerse desde caminos seguros.
+  explanation: Cabo Home permite trabajar orientación a partir de faros, horizonte, costa e islas. La misión está diseñada
+    para hacerse desde caminos seguros.
 badge:
   name: ORIXE 021 · Vigía de Cabo Home
   description: Insignia de quien aprendió a orientarse mirando el horizonte.
@@ -97,5 +95,4 @@ tags:
 - familias
 - gratis
 seoTitle: Misión gratis en Cabo Home para familias | Orixe
-seoDescription: Reto gratuito de orientación en Cabo Home con faros, costa e Islas
-  Cíes.
+seoDescription: Reto gratuito de orientación en Cabo Home con faros, costa e Islas Cíes.

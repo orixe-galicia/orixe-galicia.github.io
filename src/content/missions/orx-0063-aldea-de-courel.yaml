@@ -1,0 +1,74 @@
+id: ORX-0063
+slug: aldea-de-courel
+title: El bosque de las aldeas
+subtitle: Una misión gratuita para descubrir Galicia jugando
+municipality: Folgoso do Courel
+province: Lugo
+coordinates:
+  lat: 42.606
+  lng: -7.102
+category: Paisaje y cultura
+ageRecommended: 7-14 años
+duration: 60-90 min
+distance: 1-2 km aprox.
+difficulty: Fácil
+accessibility: Adaptar el recorrido a las condiciones del lugar y respetar señalización, horarios, mareas y zonas restringidas.
+descriptionShort: Una misión gratuita de pistas y escape room para descubrir Aldeas de O Courel en familia.
+descriptionLong: 'Convierte Aldeas de O Courel en un tablero de juego: observa, busca, relaciona pistas y supera un reto final
+  sin pagar nada.'
+image: /images/aldea-de-courel.svg
+story:
+  title: El misterio de Aldeas de O Courel
+  introduction: Alguien ha dejado una misión incompleta. Para resolverla tendrás que mirar con atención, encontrar detalles
+    y conectar lo que ves con la historia del lugar.
+  historicalContext: O Courel es un territorio de montaña donde las aldeas, caminos, bosques y arquitectura tradicional permiten
+    investigar la relación entre paisaje y forma de vida.
+  mystery: 'La respuesta no está escondida en una caja: está delante de ti, pero tendrás que aprender a verla.'
+mission:
+  objective: Resolver las cinco pruebas y construir una explicación final sobre el lugar.
+  location: Aldeas de O Courel, Folgoso do Courel.
+  instructions:
+  - Lee la ficha antes de comenzar.
+  - Respeta el patrimonio y el entorno natural.
+  - No salgas de zonas autorizadas.
+  - Resuelve las pruebas en equipo.
+  - No leas la solución hasta terminar.
+materials:
+- Ficha imprimible
+- Lápiz o móvil
+- Curiosidad y ganas de jugar
+challenge:
+  title: El reto de Aldeas de O Courel
+  introduction: Cinco pruebas convierten la visita en un pequeño escape room gratuito.
+  steps:
+  - type: observation
+    prompt: Observa el entorno durante un minuto. Anota tres detalles que normalmente pasarían desapercibidos.
+  - type: search
+    prompt: Encuentra un elemento concreto del lugar que pueda servir como pista y describe dónde está.
+  - type: history
+    prompt: Explica qué relación tiene ese elemento con la historia, paisaje o forma de vida del lugar.
+  - type: puzzle
+    prompt: Relaciona las tres pistas y descubre qué idea común las une.
+  - type: final
+    prompt: Formula en una frase el mensaje final de la misión y justifica tu respuesta.
+  successCondition: Completar las cinco pruebas y justificar razonadamente el mensaje final.
+clues:
+- Primero observa; después busca.
+- Las mejores pistas suelen estar a la vista.
+- Piensa qué te cuenta el lugar, no solo qué estás viendo.
+solution:
+  explanation: La solución se obtiene relacionando las observaciones con la historia, el paisaje o el patrimonio de Aldeas
+    de O Courel. La clave es explicar por qué las pistas encajan.
+badge:
+  name: ORIXE 063 · El bosque de las aldeas
+  description: Insignia de quien completó esta misión gratuita.
+  image: /badges/aldea-de-courel.svg
+tags:
+- Galicia
+- misión gratuita
+- escape room
+- gamificación
+- familias
+- Paisaje y cultura
+seoTitle: Misión gratis en Aldeas de O Courel con niños | Orixe
+seoDescription: Escape room gratuito en Aldeas de O Courel para descubrir Galicia en familia con pistas, retos y gamificación.

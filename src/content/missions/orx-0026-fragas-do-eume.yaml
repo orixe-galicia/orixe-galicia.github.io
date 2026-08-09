@@ -12,22 +12,17 @@ ageRecommended: 7-14 años
 duration: 75 min
 distance: 2 km aprox.
 difficulty: Media
-accessibility: Senderos de bosque con pendientes y terreno natural; escoger tramo
-  según condición física.
-descriptionShort: Explora las Fragas do Eume con un reto de naturaleza para descubrir
-  árboles, río y señales del bosque atlántico.
-descriptionLong: Una aventura gratuita para observar el bosque y el río Eume, localizar
-  pistas naturales y comprender por qué este espacio es tan especial.
+accessibility: Senderos de bosque con pendientes y terreno natural; escoger tramo según condición física.
+descriptionShort: Explora las Fragas do Eume con un reto de naturaleza para descubrir árboles, río y señales del bosque atlántico.
+descriptionLong: Una aventura gratuita para observar el bosque y el río Eume, localizar pistas naturales y comprender por
+  qué este espacio es tan especial.
 story:
   title: El mensaje del bosque
-  introduction: El bosque ha escondido cinco señales. Solo quien aprenda a mirar podrá
-    reconstruir el mensaje del Eume.
-  historicalContext: Turismo de Galicia describe Fragas do Eume como un parque natural
-    de unas 9.125 hectáreas, con un profundo cañón fluvial y un bosque atlántico de
-    gran diversidad. También destaca la presencia de numerosas especies de helechos,
+  introduction: El bosque ha escondido cinco señales. Solo quien aprenda a mirar podrá reconstruir el mensaje del Eume.
+  historicalContext: Turismo de Galicia describe Fragas do Eume como un parque natural de unas 9.125 hectáreas, con un profundo
+    cañón fluvial y un bosque atlántico de gran diversidad. También destaca la presencia de numerosas especies de helechos,
     aves y mamíferos.
-  mystery: 'Las pistas no están escritas: están en las formas, sonidos y especies
-    del bosque.'
+  mystery: 'Las pistas no están escritas: están en las formas, sonidos y especies del bosque.'
 mission:
   objective: Observar el ecosistema y resolver un código basado en elementos naturales.
   location: Acceso público de Fragas do Eume, escogiendo un tramo seguro de sendero.
@@ -56,8 +51,7 @@ challenge:
     hint: Busca hojas verdes divididas.
   - type: observation
     title: El bosque
-    prompt: Nombra un árbol que puedas identificar entre robles, castaños, abedules
-      o alisos.
+    prompt: Nombra un árbol que puedas identificar entre robles, castaños, abedules o alisos.
     answer: Uno de ellos
     hint: Observa hojas, corteza y forma.
   - type: photo
@@ -76,9 +70,8 @@ clues:
 - La humedad es una pista.
 - Deja el bosque exactamente como lo encontraste.
 solution:
-  explanation: Fragas do Eume es un parque natural de gran extensión y conserva un
-    bosque atlántico con robles, castaños, abedules, alisos, helechos y otras especies.
-    La misión convierte esa diversidad en un juego de observación.
+  explanation: Fragas do Eume es un parque natural de gran extensión y conserva un bosque atlántico con robles, castaños,
+    abedules, alisos, helechos y otras especies. La misión convierte esa diversidad en un juego de observación.
 badge:
   name: ORIXE 026 · Guardián del Eume
   description: Insignia de quien aprendió a leer las pistas del bosque atlántico.
@@ -98,7 +91,6 @@ tags:
 - familias
 - gratis
 seoTitle: Misión gratis en Fragas do Eume | Orixe
-seoDescription: 'Misión gratuita de naturaleza en Fragas do Eume para familias: pistas,
-  observación y aventura.'
+seoDescription: 'Misión gratuita de naturaleza en Fragas do Eume para familias: pistas, observación y aventura.'
 image: /images/fragas-do-eume.svg
 gallery: []

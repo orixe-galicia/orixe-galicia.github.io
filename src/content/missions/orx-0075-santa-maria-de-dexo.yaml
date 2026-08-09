@@ -1,0 +1,75 @@
+id: ORX-0075
+slug: santa-maria-de-dexo
+title: Los guardianes del románico
+subtitle: Una misión gratuita para descubrir cultura, historia y patrimonio de Galicia
+municipality: Oleiros
+province: A Coruña
+coordinates:
+  lat: 43.3698
+  lng: -8.3215
+category: Patrimonio románico
+ageRecommended: 8-14 años
+duration: 60-90 min
+distance: 1-2 km aprox.
+difficulty: Fácil
+accessibility: Consulta accesos y horarios oficiales. Respeta siempre el patrimonio, la señalización y las zonas restringidas.
+descriptionShort: Escape room gratuito para descubrir Santa María de Dexo mediante pistas, observación e investigación.
+descriptionLong: Una misión de Orixe pensada para familias y grupos que quieren descubrir Galicia jugando, sin pagar por realizar
+  el reto.
+image: /images/santa-maria-de-dexo.svg
+story:
+  title: El misterio de Santa María de Dexo
+  introduction: El lugar es el tablero. Las pistas están a la vista y la historia es la llave.
+  historicalContext: Investiga el contexto histórico y cultural de Santa María de Dexo utilizando la información disponible
+    en el lugar y las fuentes oficiales de turismo.
+  mystery: Un antiguo cuaderno dejó cinco pruebas sin resolver. Solo podrás abrir el mensaje final si conectas lo que observas
+    con la historia del lugar.
+mission:
+  objective: Descubrir qué cuenta Santa María de Dexo sobre la historia, cultura o patrimonio de Galicia.
+  location: Santa María de Dexo, Oleiros.
+  instructions:
+  - Lee la misión antes de comenzar.
+  - Trabaja en equipo.
+  - No toques ni muevas elementos patrimoniales.
+  - Respeta horarios y zonas restringidas.
+  - No leas la solución hasta terminar.
+materials:
+- Ficha imprimible
+- Lápiz
+- Móvil opcional
+challenge:
+  title: 'Reto: Los guardianes del románico'
+  introduction: Cinco pruebas convierten la visita en un pequeño escape room gratuito.
+  steps:
+  - type: observation
+    prompt: Observa los canecillos.
+  - type: search
+    prompt: Identifica dos motivos decorativos.
+  - type: history
+    prompt: Explica qué es el románico.
+  - type: puzzle
+    prompt: Relaciona nave + ábside + canecillos.
+  - type: final
+    prompt: Explica qué detalle convierte el lugar en una pista histórica.
+  successCondition: Completar las cinco pruebas y justificar la respuesta final.
+clues:
+- Observa primero y busca información después.
+- La arquitectura también cuenta historias.
+- Relaciona el lugar con las personas que lo utilizaron.
+solution:
+  explanation: La solución debe relacionar las observaciones con el contexto histórico y cultural de Santa María de Dexo.
+    No se trata solo de memorizar un dato, sino de explicar la conexión entre las pistas.
+badge:
+  name: ORIXE 075 · Explorador de Oleiros
+  description: Insignia de quien completó esta misión gratuita.
+  image: /badges/santa-maria-de-dexo.svg
+tags:
+- Galicia
+- misión gratuita
+- escape room
+- gamificación
+- familias
+- Patrimonio románico
+seoTitle: Misión gratis en Santa María de Dexo | Escape room familiar | Orixe
+seoDescription: Escape room gratuito para descubrir Santa María de Dexo y su patrimonio cultural e histórico de Galicia jugando
+  en familia.

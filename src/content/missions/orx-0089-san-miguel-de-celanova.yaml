@@ -1,0 +1,75 @@
+id: ORX-0089
+slug: san-miguel-de-celanova
+title: El pequeño tesoro de San Miguel
+subtitle: Una misión gratuita para descubrir cultura, historia y patrimonio de Galicia
+municipality: Celanova
+province: Ourense
+coordinates:
+  lat: 42.1525
+  lng: -7.955
+category: Patrimonio altomedieval
+ageRecommended: 8-14 años
+duration: 60-90 min
+distance: 1-2 km aprox.
+difficulty: Fácil
+accessibility: Consulta accesos y horarios oficiales. Respeta siempre el patrimonio, la señalización y las zonas restringidas.
+descriptionShort: Escape room gratuito para descubrir Capela de San Miguel de Celanova mediante pistas, observación e investigación.
+descriptionLong: Una misión de Orixe pensada para familias y grupos que quieren descubrir Galicia jugando, sin pagar por realizar
+  el reto.
+image: /images/san-miguel-de-celanova.svg
+story:
+  title: El misterio de Capela de San Miguel de Celanova
+  introduction: El lugar es el tablero. Las pistas están a la vista y la historia es la llave.
+  historicalContext: Investiga el contexto histórico y cultural de Capela de San Miguel de Celanova utilizando la información
+    disponible en el lugar y las fuentes oficiales de turismo.
+  mystery: Un antiguo cuaderno dejó cinco pruebas sin resolver. Solo podrás abrir el mensaje final si conectas lo que observas
+    con la historia del lugar.
+mission:
+  objective: Descubrir qué cuenta Capela de San Miguel de Celanova sobre la historia, cultura o patrimonio de Galicia.
+  location: Capela de San Miguel de Celanova, Celanova.
+  instructions:
+  - Lee la misión antes de comenzar.
+  - Trabaja en equipo.
+  - No toques ni muevas elementos patrimoniales.
+  - Respeta horarios y zonas restringidas.
+  - No leas la solución hasta terminar.
+materials:
+- Ficha imprimible
+- Lápiz
+- Móvil opcional
+challenge:
+  title: 'Reto: El pequeño tesoro de San Miguel'
+  introduction: Cinco pruebas convierten la visita en un pequeño escape room gratuito.
+  steps:
+  - type: observation
+    prompt: Observa el tamaño y distribución de la capilla.
+  - type: search
+    prompt: Investiga qué significa altomedieval.
+  - type: history
+    prompt: Compara su función con una iglesia mayor.
+  - type: puzzle
+    prompt: Une tamaño + función + época.
+  - type: final
+    prompt: Explica por qué una construcción pequeña puede ser excepcional.
+  successCondition: Completar las cinco pruebas y justificar la respuesta final.
+clues:
+- Observa primero y busca información después.
+- La arquitectura también cuenta historias.
+- Relaciona el lugar con las personas que lo utilizaron.
+solution:
+  explanation: La solución debe relacionar las observaciones con el contexto histórico y cultural de Capela de San Miguel
+    de Celanova. No se trata solo de memorizar un dato, sino de explicar la conexión entre las pistas.
+badge:
+  name: ORIXE 089 · Explorador de Celanova
+  description: Insignia de quien completó esta misión gratuita.
+  image: /badges/san-miguel-de-celanova.svg
+tags:
+- Galicia
+- misión gratuita
+- escape room
+- gamificación
+- familias
+- Patrimonio altomedieval
+seoTitle: Misión gratis en Capela de San Miguel de Celanova | Escape room familiar | Orixe
+seoDescription: Escape room gratuito para descubrir Capela de San Miguel de Celanova y su patrimonio cultural e histórico
+  de Galicia jugando en familia.

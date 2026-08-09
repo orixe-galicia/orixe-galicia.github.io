@@ -1,0 +1,70 @@
+id: ORX-0113
+slug: "san-vicente-de-lobios-sober"
+title: "La iglesia que escondía sus pinturas"
+subtitle: "Románico rural en la Ribeira Sacra"
+municipality: "Sober"
+province: "Lugo"
+coordinates:
+  lat: 42.4448
+  lng: -7.6195
+category: "Arte e historia"
+ageRecommended: "8-14 años"
+duration: "45-75 min"
+distance: "1-2 km aprox."
+difficulty: "Fácil"
+accessibility: "Consulta accesos y horarios oficiales. Respeta siempre el patrimonio, la señalización y las zonas restringidas."
+descriptionShort: "Misión gratuita de Orixe para descubrir observa la arquitectura y descubre cómo una iglesia pequeña puede guardar una historia enorme."
+descriptionLong: "Una misión gratuita para familias y grupos que transforma un lugar especial de Galicia en un pequeño escape room de observación, investigación y juego."
+image: "/images/san-vicente-de-lobios-sober.svg"
+story:
+  title: "La iglesia que escondía sus pinturas"
+  introduction: "El lugar es el tablero. Las pistas están a la vista y la historia es la llave."
+  historicalContext: "Sober destaca su patrimonio románico rural, con templos sencillos donde trabajos de conservación han permitido recuperar elementos ocultos bajo capas de pintura y cal."
+  mystery: "Observa la arquitectura y descubre cómo una iglesia pequeña puede guardar una historia enorme."
+mission:
+  objective: "Descubrir qué cuenta este lugar sobre la historia, la cultura o el patrimonio de Galicia."
+  location: "La iglesia que escondía sus pinturas, Sober."
+  instructions:
+    - "Lee la misión antes de comenzar."
+    - "Trabaja en equipo."
+    - "No toques ni muevas elementos patrimoniales."
+    - "Respeta horarios y zonas restringidas."
+    - "No leas la solución hasta terminar."
+materials:
+  - "Ficha imprimible"
+  - "Lápiz"
+  - "Móvil opcional"
+challenge:
+  title: "Reto: La iglesia que escondía sus pinturas"
+  introduction: "Cinco pruebas convierten la visita en un pequeño escape room gratuito."
+  steps:
+    - type: observation
+      prompt: "Observa el lugar durante un minuto sin buscar información."
+    - type: search
+      prompt: "Localiza una pista física que ayude a explicar la importancia del lugar."
+    - type: history
+      prompt: "Relaciona esa pista con la época, actividad o comunidad que la creó."
+    - type: puzzle
+      prompt: "Une lugar + paisaje + personas y formula una explicación de conjunto."
+    - type: final
+      prompt: "Explica en una frase por qué este lugar merece ser conocido y protegido."
+  successCondition: "Completar las cinco pruebas y justificar la respuesta final."
+clues:
+  - "Primero observa; después investiga."
+  - "La arquitectura y el paisaje también son pistas."
+  - "Busca conexiones, no solo datos."
+solution:
+  explanation: "Sober destaca su patrimonio románico rural, con templos sencillos donde trabajos de conservación han permitido recuperar elementos ocultos bajo capas de pintura y cal. La respuesta final debe relacionar las observaciones realizadas durante el recorrido con el contexto histórico y cultural del lugar."
+badge:
+  name: "ORIXE 113 · Explorador de Sober"
+  description: "Insignia de quien completó esta misión gratuita de Orixe."
+  image: "/badges/san-vicente-de-lobios-sober.svg"
+tags:
+  - "Galicia"
+  - "misión gratuita"
+  - "escape room"
+  - "gamificación"
+  - "familias"
+  - "Arte e historia"
+seoTitle: "Misión gratis en La iglesia que escondía sus pinturas | Escape room familiar | Orixe"
+seoDescription: "Escape room gratuito para descubrir La iglesia que escondía sus pinturas en Sober y su patrimonio de Galicia jugando en familia."

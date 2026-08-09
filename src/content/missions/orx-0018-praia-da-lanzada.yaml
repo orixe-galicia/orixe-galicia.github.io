@@ -12,28 +12,21 @@ ageRecommended: 8-14 años
 duration: 45-60 min
 distance: 1 km aprox.
 difficulty: Fácil
-accessibility: Espacios exteriores públicos; adaptar la visita a la marea y al estado
-  del mar.
+accessibility: Espacios exteriores públicos; adaptar la visita a la marea y al estado del mar.
 image: /images/praia-da-lanzada.svg
 gallery: []
-descriptionShort: Explora A Lanzada con un reto gratuito de observación sobre paisaje,
-  patrimonio y mareas.
-descriptionLong: A Lanzada reúne playa, dunas, restos arqueológicos y una ermita junto
-  al Atlántico. La misión convierte el lugar en un tablero donde el paisaje cambia
-  con la marea.
+descriptionShort: Explora A Lanzada con un reto gratuito de observación sobre paisaje, patrimonio y mareas.
+descriptionLong: A Lanzada reúne playa, dunas, restos arqueológicos y una ermita junto al Atlántico. La misión convierte el
+  lugar en un tablero donde el paisaje cambia con la marea.
 story:
   title: La pista que desaparece
-  introduction: 'Una pista aparece en la arena y desaparece cuando sube la marea.
-    No tienes que buscarla literalmente: debes descubrir qué elementos del lugar cambian
-    y cuáles permanecen.'
-  historicalContext: El entorno de A Lanzada combina patrimonio arqueológico y religioso
-    con un paisaje costero de gran valor.
-  mystery: 'Una pista aparece en la arena y desaparece cuando sube la marea. No tienes
-    que buscarla literalmente: debes descubrir qué elementos del lugar cambian y cuáles
-    permanecen.'
+  introduction: 'Una pista aparece en la arena y desaparece cuando sube la marea. No tienes que buscarla literalmente: debes
+    descubrir qué elementos del lugar cambian y cuáles permanecen.'
+  historicalContext: El entorno de A Lanzada combina patrimonio arqueológico y religioso con un paisaje costero de gran valor.
+  mystery: 'Una pista aparece en la arena y desaparece cuando sube la marea. No tienes que buscarla literalmente: debes descubrir
+    qué elementos del lugar cambian y cuáles permanecen.'
 mission:
-  objective: Observar el entorno y distinguir elementos naturales, arqueológicos y
-    religiosos.
+  objective: Observar el entorno y distinguir elementos naturales, arqueológicos y religiosos.
   location: Entorno exterior de A Lanzada.
   instructions:
   - Consulta la marea antes de acercarte a zonas intermareales.
@@ -79,9 +72,8 @@ clues:
 - Mira también hacia tierra.
 - Nunca hace falta entrar en zonas peligrosas.
 solution:
-  explanation: A Lanzada permite observar cómo se relacionan mar, arena, dunas y patrimonio.
-    La misión usa la marea como elemento narrativo sin exigir entrar en el agua ni
-    acceder a zonas protegidas.
+  explanation: A Lanzada permite observar cómo se relacionan mar, arena, dunas y patrimonio. La misión usa la marea como elemento
+    narrativo sin exigir entrar en el agua ni acceder a zonas protegidas.
 badge:
   name: ORIXE 018 · Guardián de la Marea
   description: Insignia de quien descubrió la pista que cambia con el Atlántico.
@@ -102,5 +94,4 @@ tags:
 - familias
 - gratis
 seoTitle: Misión gratis en A Lanzada para familias | Orixe
-seoDescription: Reto gratuito en A Lanzada sobre mareas, dunas y patrimonio para hacer
-  en familia.
+seoDescription: Reto gratuito en A Lanzada sobre mareas, dunas y patrimonio para hacer en familia.

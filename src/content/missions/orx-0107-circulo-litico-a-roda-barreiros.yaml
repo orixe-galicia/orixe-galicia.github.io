@@ -1,0 +1,70 @@
+id: ORX-0107
+slug: "circulo-litico-a-roda-barreiros"
+title: "El círculo de A Roda"
+subtitle: "Un monumento de hace unos 4.500 años"
+municipality: "Barreiros"
+province: "Lugo"
+coordinates:
+  lat: 43.5395
+  lng: -7.218
+category: "Prehistoria"
+ageRecommended: "8-14 años"
+duration: "45-75 min"
+distance: "1-2 km aprox."
+difficulty: "Fácil"
+accessibility: "Consulta accesos y horarios oficiales. Respeta siempre el patrimonio, la señalización y las zonas restringidas."
+descriptionShort: "Misión gratuita de Orixe para descubrir descubre qué nos puede contar una estructura circular sobre las comunidades que vivieron aquí hace milenios."
+descriptionLong: "Una misión gratuita para familias y grupos que transforma un lugar especial de Galicia en un pequeño escape room de observación, investigación y juego."
+image: "/images/circulo-litico-a-roda-barreiros.svg"
+story:
+  title: "El círculo de A Roda"
+  introduction: "El lugar es el tablero. Las pistas están a la vista y la historia es la llave."
+  historicalContext: "El turismo oficial de Barreiros destaca el Círculo Lítico de A Roda por su antigüedad aproximada de 4.500 años y por ser el primero de este tipo encontrado fuera de las Islas Británicas."
+  mystery: "Descubre qué nos puede contar una estructura circular sobre las comunidades que vivieron aquí hace milenios."
+mission:
+  objective: "Descubrir qué cuenta este lugar sobre la historia, la cultura o el patrimonio de Galicia."
+  location: "El círculo de A Roda, Barreiros."
+  instructions:
+    - "Lee la misión antes de comenzar."
+    - "Trabaja en equipo."
+    - "No toques ni muevas elementos patrimoniales."
+    - "Respeta horarios y zonas restringidas."
+    - "No leas la solución hasta terminar."
+materials:
+  - "Ficha imprimible"
+  - "Lápiz"
+  - "Móvil opcional"
+challenge:
+  title: "Reto: El círculo de A Roda"
+  introduction: "Cinco pruebas convierten la visita en un pequeño escape room gratuito."
+  steps:
+    - type: observation
+      prompt: "Observa el lugar durante un minuto sin buscar información."
+    - type: search
+      prompt: "Localiza una pista física que ayude a explicar la importancia del lugar."
+    - type: history
+      prompt: "Relaciona esa pista con la época, actividad o comunidad que la creó."
+    - type: puzzle
+      prompt: "Une lugar + paisaje + personas y formula una explicación de conjunto."
+    - type: final
+      prompt: "Explica en una frase por qué este lugar merece ser conocido y protegido."
+  successCondition: "Completar las cinco pruebas y justificar la respuesta final."
+clues:
+  - "Primero observa; después investiga."
+  - "La arquitectura y el paisaje también son pistas."
+  - "Busca conexiones, no solo datos."
+solution:
+  explanation: "El turismo oficial de Barreiros destaca el Círculo Lítico de A Roda por su antigüedad aproximada de 4.500 años y por ser el primero de este tipo encontrado fuera de las Islas Británicas. La respuesta final debe relacionar las observaciones realizadas durante el recorrido con el contexto histórico y cultural del lugar."
+badge:
+  name: "ORIXE 107 · Explorador de Barreiros"
+  description: "Insignia de quien completó esta misión gratuita de Orixe."
+  image: "/badges/circulo-litico-a-roda-barreiros.svg"
+tags:
+  - "Galicia"
+  - "misión gratuita"
+  - "escape room"
+  - "gamificación"
+  - "familias"
+  - "Prehistoria"
+seoTitle: "Misión gratis en El círculo de A Roda | Escape room familiar | Orixe"
+seoDescription: "Escape room gratuito para descubrir El círculo de A Roda en Barreiros y su patrimonio de Galicia jugando en familia."

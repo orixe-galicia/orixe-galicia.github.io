@@ -1,0 +1,76 @@
+id: ORX-0048
+slug: mosteiro-de-poio
+title: El mapa escondido
+subtitle: Una misión gratuita para descubrir Mosteiro de Poio jugando
+municipality: Poio
+province: Pontevedra
+coordinates:
+  lat: 42.441
+  lng: -8.6855
+category: Patrimonio y observación
+ageRecommended: 7-14 años
+duration: 60-90 min
+distance: 1-2 km aprox.
+difficulty: Fácil
+accessibility: Adaptar el recorrido a las condiciones del lugar y respetar siempre señalización, horarios y zonas restringidas.
+descriptionShort: Una misión familiar para descubrir símbolos, espacios y pistas en uno de los grandes conjuntos monásticos
+  gallegos.
+descriptionLong: Una misión gratuita de escape room y gamificación para familias. El lugar se convierte en un tablero de pistas
+  y el objetivo es aprender mientras se juega.
+image: /images/mosteiro-de-poio.svg
+story:
+  title: El misterio de Mosteiro de Poio
+  introduction: Al llegar, imagina que alguien ha dejado una misión incompleta. Para resolverla tendrás que observar, buscar,
+    relacionar pistas y tomar decisiones en equipo.
+  historicalContext: El monasterio de Poio forma parte del patrimonio histórico de Galicia y se encuentra cerca del litoral
+    de la ría de Pontevedra.
+  mystery: Las pistas están a la vista, pero solo aparecen cuando se aprende a mirar de otra manera.
+mission:
+  objective: Completar las pruebas y reconstruir el mensaje final de la misión.
+  location: Mosteiro de Poio, Poio.
+  instructions:
+  - Lee la misión antes de comenzar.
+  - No salgas de los caminos o espacios autorizados.
+  - No toques ni muevas elementos del patrimonio.
+  - Resuelve las pruebas en equipo.
+  - Guarda la solución para el final.
+materials:
+- Ficha imprimible de la misión
+- Lápiz o móvil para anotar respuestas
+- Ganas de observar y descubrir
+challenge:
+  title: El reto de Mosteiro de Poio
+  introduction: Cinco pruebas convierten el lugar en un pequeño escape room gratuito.
+  steps:
+  - type: observation
+    prompt: Observa el entorno durante un minuto. ¿Qué elemento destaca más y por qué?
+  - type: search
+    prompt: Busca un detalle que pueda funcionar como pista. Describe exactamente dónde está.
+  - type: history
+    prompt: Relaciona ese detalle con la historia, paisaje o forma de vida del lugar.
+  - type: puzzle
+    prompt: Une las tres pistas anteriores. ¿Qué palabra o idea común aparece?
+  - type: final
+    prompt: Explica en una frase el mensaje final que habéis descubierto.
+  successCondition: Completar las cinco pruebas y explicar de forma razonada el mensaje final.
+clues:
+- Empieza por observar antes de buscar.
+- No te quedes con la primera respuesta.
+- Relaciona lo que ves con el lugar en el que estás.
+solution:
+  explanation: La solución se obtiene relacionando las observaciones del recorrido con el patrimonio, paisaje o historia específica
+    de Mosteiro de Poio. La clave es justificar la respuesta, no simplemente acertarla.
+badge:
+  name: ORIXE 048 · El mapa escondido
+  description: Insignia de quien completó esta misión gratuita.
+  image: /badges/mosteiro-de-poio.svg
+tags:
+- Galicia
+- misión gratuita
+- escape room
+- gamificación
+- familias
+- Patrimonio y observación
+seoTitle: Misión gratis en Mosteiro de Poio con niños | Orixe
+seoDescription: Escape room gratuito en Mosteiro de Poio para descubrir Galicia en familia con pistas, retos, observación
+  y gamificación.

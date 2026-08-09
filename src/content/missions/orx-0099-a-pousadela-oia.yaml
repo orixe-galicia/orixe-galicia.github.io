@@ -1,0 +1,70 @@
+id: ORX-0099
+slug: "a-pousadela-oia"
+title: "Los secretos de A Pousadela"
+subtitle: "Petroglifos y molinos naviculares junto al mar"
+municipality: "Oia"
+province: "Pontevedra"
+coordinates:
+  lat: 41.9972
+  lng: -8.8728
+category: "Arqueología y etnografía"
+ageRecommended: "8-14 años"
+duration: "45-75 min"
+distance: "1-2 km aprox."
+difficulty: "Fácil"
+accessibility: "Consulta accesos y horarios oficiales. Respeta siempre el patrimonio, la señalización y las zonas restringidas."
+descriptionShort: "Misión gratuita de Orixe para descubrir encuentra las marcas antiguas y descubre cómo el paisaje también podía ser una herramienta de trabajo."
+descriptionLong: "Una misión gratuita para familias y grupos que transforma un lugar especial de Galicia en un pequeño escape room de observación, investigación y juego."
+image: "/images/a-pousadela-oia.svg"
+story:
+  title: "Los secretos de A Pousadela"
+  introduction: "El lugar es el tablero. Las pistas están a la vista y la historia es la llave."
+  historicalContext: "A Pousadela reúne grupos de petroglifos y restos de molinos naviculares, una combinación poco habitual de patrimonio rupestre y aprovechamiento tradicional."
+  mystery: "Encuentra las marcas antiguas y descubre cómo el paisaje también podía ser una herramienta de trabajo."
+mission:
+  objective: "Descubrir qué cuenta este lugar sobre la historia, la cultura o el patrimonio de Galicia."
+  location: "Los secretos de A Pousadela, Oia."
+  instructions:
+    - "Lee la misión antes de comenzar."
+    - "Trabaja en equipo."
+    - "No toques ni muevas elementos patrimoniales."
+    - "Respeta horarios y zonas restringidas."
+    - "No leas la solución hasta terminar."
+materials:
+  - "Ficha imprimible"
+  - "Lápiz"
+  - "Móvil opcional"
+challenge:
+  title: "Reto: Los secretos de A Pousadela"
+  introduction: "Cinco pruebas convierten la visita en un pequeño escape room gratuito."
+  steps:
+    - type: observation
+      prompt: "Observa el lugar durante un minuto sin buscar información."
+    - type: search
+      prompt: "Localiza una pista física que ayude a explicar la importancia del lugar."
+    - type: history
+      prompt: "Relaciona esa pista con la época, actividad o comunidad que la creó."
+    - type: puzzle
+      prompt: "Une lugar + paisaje + personas y formula una explicación de conjunto."
+    - type: final
+      prompt: "Explica en una frase por qué este lugar merece ser conocido y protegido."
+  successCondition: "Completar las cinco pruebas y justificar la respuesta final."
+clues:
+  - "Primero observa; después investiga."
+  - "La arquitectura y el paisaje también son pistas."
+  - "Busca conexiones, no solo datos."
+solution:
+  explanation: "A Pousadela reúne grupos de petroglifos y restos de molinos naviculares, una combinación poco habitual de patrimonio rupestre y aprovechamiento tradicional. La respuesta final debe relacionar las observaciones realizadas durante el recorrido con el contexto histórico y cultural del lugar."
+badge:
+  name: "ORIXE 099 · Explorador de Oia"
+  description: "Insignia de quien completó esta misión gratuita de Orixe."
+  image: "/badges/a-pousadela-oia.svg"
+tags:
+  - "Galicia"
+  - "misión gratuita"
+  - "escape room"
+  - "gamificación"
+  - "familias"
+  - "Arqueología y etnografía"
+seoTitle: "Misión gratis en Los secretos de A Pousadela | Escape room familiar | Orixe"
+seoDescription: "Escape room gratuito para descubrir Los secretos de A Pousadela en Oia y su patrimonio de Galicia jugando en familia."

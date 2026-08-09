@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+<circle cx="250" cy="250" r="226" fill="#173d37"/>
+<circle cx="250" cy="250" r="190" fill="#e5c678"/>
+<circle cx="250" cy="250" r="154" fill="#fff8e9"/>
+<path d="M250 94l28 76h80l-65 47 24 78-67-47-67 47 24-78-65-47h80z" fill="#173d37"/>
+<text x="250" y="362" text-anchor="middle" font-family="Arial" font-size="35" font-weight="700" fill="#173d37">ORIXE 081</text>
+<text x="250" y="401" text-anchor="middle" font-family="Arial" font-size="19" fill="#173d37">Boborás</text>
+</svg>
