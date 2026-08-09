@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title>Muralla de Lugo</title>
+  <desc>Ilustración editorial de ORIXE</desc>
+  <rect width="1200" height="700" fill="#f4f0e6"/>
+  
+      <rect x="0" y="0" width="1200" height="700" fill="#f4f0e6"/>
+      <path d="M0 445 Q180 365 355 445 T720 435 T1200 420 V700 H0Z" fill="#dcecc8"/>
+      <path d="M0 485 Q160 405 320 485 T650 470 T950 450 T1200 465 V700 H0Z" fill="#82ad6d"/>
+      <path d="M0 575 Q240 520 480 575 T960 560 T1200 575 V700 H0Z" fill="#5c8b59"/>
+    
+        <path d="M0 430 L80 365 L160 410 L240 350 L320 400 L400 330 L480 395 L560 340 L640 400 L720 350 L800 405 L880 335 L960 395 L1040 350 L1120 405 L1200 360 V700 H0Z" fill="#8b9a72"/>
+        <path d="M100 520 L100 380 L205 340 L310 380 L310 520Z" fill="#c7bda7" stroke="#345e50" stroke-width="12"/>
+        <path d="M100 380 H310 M125 430 H285" stroke="#7a715f" stroke-width="9"/>
+        <path d="M145 520 V435 Q205 390 265 435 V520" fill="#f4f0e6" stroke="#345e50" stroke-width="10"/>
+        <g fill="#c7bda7" stroke="#345e50" stroke-width="10">
+          <circle cx="520" cy="425" r="65"/><circle cx="650" cy="395" r="70"/><circle cx="790" cy="430" r="65"/><circle cx="930" cy="400" r="72"/>
+        </g>
+        <path d="M455 475 H995" stroke="#345e50" stroke-width="20"/>
+        <text x="70" y="90" font-family="Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="7" fill="#1e5d50">MURALLA DE LUGO</text>
+        
+</svg>

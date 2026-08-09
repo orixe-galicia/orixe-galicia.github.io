@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480">
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#1d6258"/><stop offset="1" stop-color="#0d3834"/></linearGradient></defs>
+  <circle cx="240" cy="240" r="225" fill="url(#g)" stroke="#d6a63b" stroke-width="12"/>
+  <circle cx="240" cy="240" r="195" fill="none" stroke="#d6a63b" stroke-width="3" stroke-dasharray="5 9"/>
+  <text x="240" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="31" font-weight="800" letter-spacing="5" fill="#f5d36e">ORIXE</text>
+  <circle cx="240" cy="225" r="92" fill="#f4f0e6" opacity=".96"/>
+  <text x="240" y="220" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="800" fill="#1d6258">ARNOIA</text>
+  <text x="240" y="252" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#2d6b4f">MISIÓN 13</text>
+  <circle cx="240" cy="392" r="32" fill="#f5d36e"/>
+  <text x="240" y="402" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="800" fill="#174d46">13</text>
+  <text x="240" y="445" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="1.8" fill="#f5d36e">ALLARIZ</text>
+</svg>

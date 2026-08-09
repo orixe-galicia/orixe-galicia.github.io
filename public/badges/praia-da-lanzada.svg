@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1d6258"/><stop offset="1" stop-color="#0d3834"/></linearGradient></defs>
+<circle cx="240" cy="240" r="225" fill="url(#g)" stroke="#d6a63b" stroke-width="12"/>
+<circle cx="240" cy="240" r="195" fill="none" stroke="#d6a63b" stroke-width="3" stroke-dasharray="5 9"/>
+<text x="240" y="76" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="800" letter-spacing="5" fill="#f5d36e">ORIXE</text>
+<circle cx="240" cy="225" r="95" fill="#f4f0e6"/>
+<text x="240" y="214" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="800" fill="#1d6258">SANXENXO</text>
+<text x="240" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#2d6b4f">MISIÓN 18</text>
+<circle cx="240" cy="392" r="32" fill="#f5d36e"/>
+<text x="240" y="400" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="800" fill="#174d46">18</text>
+<text x="240" y="445" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="1.5" fill="#f5d36e">GUARDIÁN ORIXE</text>
+</svg>

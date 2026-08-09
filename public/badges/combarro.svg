@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+<circle cx="250" cy="250" r="235" fill="#f5f0e4" stroke="#2f6f57" stroke-width="16"/>
+<circle cx="250" cy="250" r="200" fill="none" stroke="#e8b64d" stroke-width="4" stroke-dasharray="8 10"/>
+<path d="M100 95 Q250 45 400 95" fill="none" stroke="#168f83" stroke-width="6"/>
+<text x="250" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="6" fill="#244f4b">ORIXE</text>
+<text x="250" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="3" fill="#168f83">ORIXE 010</text>
+<g transform="translate(250 255)"><path d="M-55 45 V-45 H0 V45 M20 45 V-35 H75 V45 M-45 -45 L-28 -65 L-10 -45 M30 -35 L47 -55 L65 -35" fill="none" stroke="#2f6f57" stroke-width="9" stroke-linejoin="round"/></g>
+<path d="M100 395 Q250 445 400 395" fill="none" stroke="#168f83" stroke-width="6"/>
+<text x="250" y="415" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="2" fill="#244f4b">COMBARRO</text>
+</svg>

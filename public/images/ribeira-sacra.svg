@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#f6f1e7"/>
+<path d="M0 500 Q180 420 360 500 T720 490 T1200 480 V700 H0Z" fill="#a8df8b" opacity=".45"/>
+<path d="M0 520 Q180 430 360 520 T720 500 T1200 500 V700 H0Z" fill="#77a96a" opacity=".65"/>
+<text x="70" y="80" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="6" fill="#168f83">ORIXE · ORX-0012</text><g fill="none" stroke="#2f6f57" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+<path d="M120 220 Q300 80 480 220 T840 220 T1120 150"/>
+<path d="M120 340 Q300 210 480 340 T840 330 T1120 260"/>
+<path d="M200 500 L350 430 L500 500 L650 420 L800 490"/>
+<path d="M760 440 V300 L820 250 L880 300 V440"/>
+</g><path d="M0 600 Q220 530 420 600 T840 590 T1200 600" fill="none" stroke="#168f83" stroke-width="18"/><text x="70" y="610" font-family="Arial,sans-serif" font-size="38" font-weight="700" fill="#244f4b">Ribeira Sacra</text>
+<text x="70" y="655" font-family="Arial,sans-serif" font-size="22" fill="#168f83">El mapa de las laderas</text></svg>

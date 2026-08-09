@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title>Torre de Hércules</title>
+  <desc>Ilustración editorial de ORIXE</desc>
+  <rect width="1200" height="700" fill="#f4f0e6"/>
+  
+      <rect x="0" y="0" width="1200" height="700" fill="#f4f0e6"/>
+      <path d="M0 445 Q180 365 355 445 T720 435 T1200 420 V700 H0Z" fill="#dcecc8"/>
+      <path d="M0 485 Q160 405 320 485 T650 470 T950 450 T1200 465 V700 H0Z" fill="#82ad6d"/>
+      <path d="M0 575 Q240 520 480 575 T960 560 T1200 575 V700 H0Z" fill="#5c8b59"/>
+    
+        <path d="M545 500 L600 120 L655 500Z" fill="#e4ddcd" stroke="#345e50" stroke-width="12"/>
+        <rect x="580" y="105" width="40" height="60" fill="#e4ddcd" stroke="#345e50" stroke-width="10"/>
+        <path d="M568 105 L632 105 L620 78 L580 78Z" fill="#345e50"/>
+        <path d="M570 200 H630 M565 260 H635 M558 325 H642 M550 390 H650" stroke="#345e50" stroke-width="9"/>
+        <path d="M0 500 Q170 420 350 475 T650 460 T950 480 T1200 450 V700 H0Z" fill="#769c66"/>
+        <path d="M0 590 Q220 530 430 585 T850 575 T1200 590" fill="none" stroke="#c6dcb5" stroke-width="34"/>
+        <circle cx="930" cy="145" r="52" fill="#f5c761"/>
+        <path d="M980 145 L1120 145" stroke="#f5c761" stroke-width="12" stroke-linecap="round"/>
+        <text x="70" y="90" font-family="Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="7" fill="#1e5d50">TORRE DE HÉRCULES</text>
+        
+</svg>

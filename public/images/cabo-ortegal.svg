@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+      
+    <rect width="1200" height="700" fill="#f4f0e6"/>
+    <path d="M0 420 Q160 340 320 420 T640 410 T960 400 T1200 410 V700 H0Z" fill="#dcecc8"/>
+    <path d="M0 500 Q180 420 360 490 T720 470 T1000 455 T1200 470 V700 H0Z" fill="#82ad6d"/>
+    
+      <path d="M0 470 Q150 390 310 470 T620 450 T920 455 T1200 420 V700 H0Z" fill="#789e6b"/>
+      <path d="M560 470 L620 230 L680 470Z" fill="#e7dfce" stroke="#315f4e" stroke-width="11"/>
+      <rect x="592" y="205" width="56" height="80" fill="#e7dfce" stroke="#315f4e" stroke-width="9"/>
+      <path d="M575 205 H665 L650 175 H590Z" fill="#315f4e"/>
+      <path d="M0 600 Q140 510 280 600 T560 590 T840 600 T1200 570" fill="none" stroke="#dbe9c8" stroke-width="48"/>
+      <path d="M730 520 L800 440 L860 525 L925 445 L1000 520" fill="none" stroke="#315f4e" stroke-width="18"/>
+      <circle cx="1000" cy="170" r="54" fill="#f4c761"/>
+      <path d="M930 170 H820" stroke="#f4c761" stroke-width="12"/>
+    
+      <text x="65" y="75" font-family="Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="6" fill="#1e5d50">CABO ORTEGAL</text>
+      <text x="65" y="118" font-family="Arial,sans-serif" font-size="22" fill="#2d6b4f">Faro · acantilados · dos mares</text>
+    </svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#f6f1e7"/>
+<path d="M0 500 Q180 420 360 500 T720 490 T1200 480 V700 H0Z" fill="#a8df8b" opacity=".45"/>
+<path d="M0 520 Q180 430 360 520 T720 500 T1200 500 V700 H0Z" fill="#77a96a" opacity=".65"/>
+<text x="70" y="80" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="6" fill="#168f83">ORIXE · ORX-0013</text><g fill="none" stroke="#2f6f57" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+<path d="M250 470 V280 H500 V470"/><path d="M250 280 L375 200 L500 280"/>
+<path d="M330 470 V340 H420 V470"/>
+<path d="M650 470 V300 H760 V470"/><path d="M650 300 L705 250 L760 300"/>
+<path d="M840 450 Q900 360 980 450"/>
+</g><g fill="#f6c85f"><circle cx="1030" cy="180" r="28"/></g><text x="70" y="610" font-family="Arial,sans-serif" font-size="38" font-weight="700" fill="#244f4b">Castillo de San Felipe</text>
+<text x="70" y="655" font-family="Arial,sans-serif" font-size="22" fill="#168f83">El triángulo de fuego</text></svg>

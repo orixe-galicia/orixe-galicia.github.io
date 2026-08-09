@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#f6f1e7"/>
+<path d="M0 500 Q180 420 360 500 T720 490 T1200 480 V700 H0Z" fill="#a8df8b" opacity=".45"/>
+<path d="M0 520 Q180 430 360 520 T720 500 T1200 500 V700 H0Z" fill="#77a96a" opacity=".65"/>
+<text x="70" y="80" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="6" fill="#168f83">ORIXE · ORX-0009</text><g fill="none" stroke="#2f6f57" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+<path d="M260 390 L260 250 L430 180 L600 250 L600 390"/>
+<path d="M330 390 V300 H530 V390"/>
+<path d="M430 180 V105"/><path d="M390 140 L430 105 L470 140"/>
+<path d="M720 350 Q780 250 840 350 Q900 450 960 350"/>
+</g><g fill="#f6c85f"><circle cx="850" cy="150" r="28"/><circle cx="970" cy="240" r="18"/></g><text x="70" y="610" font-family="Arial,sans-serif" font-size="38" font-weight="700" fill="#244f4b">Santiago de Compostela</text>
+<text x="70" y="655" font-family="Arial,sans-serif" font-size="22" fill="#168f83">El secreto de las cuatro plazas</text></svg>

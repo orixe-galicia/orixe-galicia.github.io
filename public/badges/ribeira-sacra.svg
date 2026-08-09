@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+<circle cx="250" cy="250" r="235" fill="#f5f0e4" stroke="#2f6f57" stroke-width="16"/>
+<circle cx="250" cy="250" r="200" fill="none" stroke="#e8b64d" stroke-width="4" stroke-dasharray="8 10"/>
+<path d="M100 95 Q250 45 400 95" fill="none" stroke="#168f83" stroke-width="6"/>
+<text x="250" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="6" fill="#244f4b">ORIXE</text>
+<text x="250" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="3" fill="#168f83">ORIXE 012</text>
+<g transform="translate(250 255)"><path d="M-75 -35 Q-20 -80 25 -30 T80 -40 M-75 5 Q-20 -35 25 10 T80 0 M-45 50 L0 20 L45 50" fill="none" stroke="#2f6f57" stroke-width="9" stroke-linecap="round"/></g>
+<path d="M100 395 Q250 445 400 395" fill="none" stroke="#168f83" stroke-width="6"/>
+<text x="250" y="415" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="2" fill="#244f4b">RIBEIRA SACRA</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#f6f1e7"/>
+<path d="M0 500 Q180 420 360 500 T720 490 T1200 480 V700 H0Z" fill="#a8df8b" opacity=".45"/>
+<path d="M0 520 Q180 430 360 520 T720 500 T1200 500 V700 H0Z" fill="#77a96a" opacity=".65"/>
+<text x="70" y="80" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="6" fill="#168f83">ORIXE · ORX-0010</text><g fill="none" stroke="#2f6f57" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+<path d="M260 410 V240 L340 190 L420 240 V410"/><path d="M300 240 H380"/>
+<path d="M560 410 V250 L650 200 L740 250 V410"/><path d="M600 250 H700"/>
+<path d="M850 410 V260"/><path d="M850 260 L810 220 L850 180 L890 220 Z"/>
+</g><g fill="#f6c85f"><circle cx="200" cy="170" r="24"/><circle cx="1010" cy="170" r="24"/></g><text x="70" y="610" font-family="Arial,sans-serif" font-size="38" font-weight="700" fill="#244f4b">Combarro</text>
+<text x="70" y="655" font-family="Arial,sans-serif" font-size="22" fill="#168f83">El guardián de los hórreos</text></svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+      
+    <rect width="1200" height="700" fill="#f4f0e6"/>
+    <path d="M0 420 Q160 340 320 420 T640 410 T960 400 T1200 410 V700 H0Z" fill="#dcecc8"/>
+    <path d="M0 500 Q180 420 360 490 T720 470 T1000 455 T1200 470 V700 H0Z" fill="#82ad6d"/>
+    
+      <path d="M420 455 L480 180 L540 455Z" fill="#e6dece" stroke="#2f6950" stroke-width="12"/>
+      <path d="M440 180 H520 L505 140 H455Z" fill="#2f6950"/>
+      <rect x="465" y="205" width="30" height="80" fill="#e6dece" stroke="#2f6950" stroke-width="8"/>
+      <path d="M390 460 H570 M405 420 H555 M420 380 H540" stroke="#2f6950" stroke-width="10"/>
+      <path d="M140 510 Q230 420 320 500 T500 485 T680 510" fill="none" stroke="#4b8059" stroke-width="15"/>
+      <circle cx="870" cy="220" r="58" fill="#f4c761"/>
+      <path d="M760 270 Q830 215 900 270 T1050 250" fill="none" stroke="#1e8d7d" stroke-width="12"/>
+      <circle cx="970" cy="430" r="34" fill="#f4df65"/>
+      <text x="970" y="441" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700" fill="#2d6b4f">★</text>
+    
+      <text x="65" y="75" font-family="Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="6" fill="#1e5d50">SANTIAGO</text>
+      <text x="65" y="118" font-family="Arial,sans-serif" font-size="22" fill="#2d6b4f">Catedral · plazas · peregrinación</text>
+    </svg>

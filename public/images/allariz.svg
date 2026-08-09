@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+      
+    <rect width="1200" height="700" fill="#f4f0e6"/>
+    <path d="M0 420 Q160 340 320 420 T640 410 T960 400 T1200 410 V700 H0Z" fill="#dcecc8"/>
+    <path d="M0 500 Q180 420 360 490 T720 470 T1000 455 T1200 470 V700 H0Z" fill="#82ad6d"/>
+    
+      <path d="M0 500 Q180 410 360 500 T720 475 T1000 500 T1200 450 V700 H0Z" fill="#6e9c68"/>
+      <path d="M0 570 Q180 510 360 570 T720 550 T1000 565 T1200 535" fill="none" stroke="#c8e1b6" stroke-width="55"/>
+      <path d="M120 470 L120 330 L250 330 L250 470Z" fill="#c9bea6" stroke="#315f4e" stroke-width="10"/>
+      <path d="M100 330 H270 M150 365 H220" stroke="#315f4e" stroke-width="10"/>
+      <circle cx="470" cy="400" r="70" fill="#c9bea6" stroke="#315f4e" stroke-width="10"/>
+      <path d="M420 400 H520 M470 350 V450" stroke="#315f4e" stroke-width="9"/>
+      <path d="M690 480 L760 350 L830 480Z" fill="#e7dfce" stroke="#315f4e" stroke-width="10"/>
+      <rect x="730" y="410" width="60" height="70" fill="#e7dfce" stroke="#315f4e" stroke-width="9"/>
+      <path d="M900 520 Q1000 430 1100 520" fill="none" stroke="#315f4e" stroke-width="16"/>
+      <circle cx="1000" cy="190" r="52" fill="#f4c761"/>
+    
+      <text x="65" y="75" font-family="Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="6" fill="#1e5d50">ALLARIZ</text>
+      <text x="65" y="118" font-family="Arial,sans-serif" font-size="22" fill="#2d6b4f">Río Arnoia · molinos · memoria</text>
+    </svg>
