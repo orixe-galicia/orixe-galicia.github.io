@@ -1,92 +1,102 @@
-id: "ORX-0022"
-slug: "castelo-de-pambre"
-title: "El castillo sin rey"
-subtitle: "Un misterio medieval entre murallas"
-municipality: "Palas de Rei"
-province: "Lugo"
+id: ORX-0022
+slug: castelo-de-pambre
+title: El castillo sin rey
+subtitle: Un misterio medieval entre murallas
+municipality: Palas de Rei
+province: Lugo
 coordinates:
   lat: 42.868
   lng: -7.939
-category: "Historia y misterio"
-ageRecommended: "8-14 años"
-duration: "45-60 min"
-distance: "1 km aprox."
-difficulty: "Fácil"
-accessibility: "Entorno exterior y caminos; comprobar acceso interior antes de la visita."
-image: "/images/castelo-de-pambre.svg"
+category: Historia y misterio
+ageRecommended: 8-14 años
+duration: 45-60 min
+distance: 1 km aprox.
+difficulty: Fácil
+accessibility: Entorno exterior y caminos; comprobar acceso interior antes de la visita.
+image: /images/castelo-de-pambre.svg
 gallery: []
-descriptionShort: "Descubre el Castillo de Pambre mediante un misterio medieval gratuito."
-descriptionLong: "El Castillo de Pambre conserva murallas, torres, foso y una torre del homenaje. La misión propone leer la fortaleza como si fuera una escena de una historia medieval."
+descriptionShort: Descubre el Castillo de Pambre mediante un misterio medieval gratuito.
+descriptionLong: El Castillo de Pambre conserva murallas, torres, foso y una torre
+  del homenaje. La misión propone leer la fortaleza como si fuera una escena de una
+  historia medieval.
 story:
-  title: "La carta del último guardián"
-  introduction: "Un guardián dejó una carta antes de abandonar el castillo. No sabes quién era ni qué protegía. Las piedras tendrán que darte las respuestas."
-  historicalContext: "El Castillo de Pambre es una fortaleza medieval de gran relevancia en Galicia, con muralla, torres, foso y torre del homenaje."
-  mystery: "Un guardián dejó una carta antes de abandonar el castillo. No sabes quién era ni qué protegía. Las piedras tendrán que darte las respuestas."
+  title: La carta del último guardián
+  introduction: Un guardián dejó una carta antes de abandonar el castillo. No sabes
+    quién era ni qué protegía. Las piedras tendrán que darte las respuestas.
+  historicalContext: El Castillo de Pambre es una fortaleza medieval de gran relevancia
+    en Galicia, con muralla, torres, foso y torre del homenaje.
+  mystery: Un guardián dejó una carta antes de abandonar el castillo. No sabes quién
+    era ni qué protegía. Las piedras tendrán que darte las respuestas.
 mission:
-  objective: "Identificar elementos defensivos y comprender cómo funcionaba una fortaleza medieval."
-  location: "Castillo de Pambre y entorno."
+  objective: Identificar elementos defensivos y comprender cómo funcionaba una fortaleza
+    medieval.
+  location: Castillo de Pambre y entorno.
   instructions:
-    - "Respeta los horarios y zonas de acceso."
-    - "No subas a muros ni estructuras."
-    - "Observa la fortaleza desde las zonas habilitadas."
-    - "No es necesario acceder a espacios cerrados."
+  - Respeta los horarios y zonas de acceso.
+  - No subas a muros ni estructuras.
+  - Observa la fortaleza desde las zonas habilitadas.
+  - No es necesario acceder a espacios cerrados.
 materials:
-  - "Ficha"
-  - "Lápiz"
+- Ficha
+- Lápiz
 challenge:
-  title: "Reto final: Pensar como un defensor"
-  introduction: "Cinco pruebas para descubrir por qué una fortaleza tiene la forma que tiene."
+  title: 'Reto final: Pensar como un defensor'
+  introduction: Cinco pruebas para descubrir por qué una fortaleza tiene la forma
+    que tiene.
   steps:
-    - type: "observation"
-      title: "Las torres"
-      prompt: "¿Para qué servían las torres en una fortaleza?"
-      answer: "Defensa y vigilancia"
-      hint: "Permiten controlar el entorno."
-    - type: "search"
-      title: "El foso"
-      prompt: "Busca el espacio que dificultaba el acceso directo a la fortaleza."
-      answer: "Foso"
-      hint: "Mira alrededor de la muralla."
-    - type: "history"
-      title: "La torre principal"
-      prompt: "¿Cómo se llama la torre más importante de una fortaleza?"
-      answer: "Torre del homenaje"
-      hint: "Es una denominación medieval habitual."
-    - type: "reasoning"
-      title: "La muralla"
-      prompt: "¿Por qué una muralla alta dificulta un ataque?"
-      answer: "Hace más difícil acceder"
-      hint: "Piensa en altura y obstáculos."
-    - type: "final"
-      title: "La palabra"
-      prompt: "¿Qué resume mejor la misión? DEFENSA, PLAYA o BOSQUE."
-      answer: "DEFENSA"
-      hint: "La arquitectura cuenta la historia."
-  successCondition: "Completar las pruebas y obtener DEFENSA."
+  - type: observation
+    title: Las torres
+    prompt: ¿Para qué servían las torres en una fortaleza?
+    answer: Defensa y vigilancia
+    hint: Permiten controlar el entorno.
+  - type: search
+    title: El foso
+    prompt: Busca el espacio que dificultaba el acceso directo a la fortaleza.
+    answer: Foso
+    hint: Mira alrededor de la muralla.
+  - type: history
+    title: La torre principal
+    prompt: ¿Cómo se llama la torre más importante de una fortaleza?
+    answer: Torre del homenaje
+    hint: Es una denominación medieval habitual.
+  - type: puzzle
+    title: La muralla
+    prompt: ¿Por qué una muralla alta dificulta un ataque?
+    answer: Hace más difícil acceder
+    hint: Piensa en altura y obstáculos.
+  - type: final
+    title: La palabra
+    prompt: ¿Qué resume mejor la misión? DEFENSA, PLAYA o BOSQUE.
+    answer: DEFENSA
+    hint: La arquitectura cuenta la historia.
+  successCondition: Completar las pruebas y obtener DEFENSA.
 clues:
-  - "Mira la fortaleza como un sistema."
-  - "Cada elemento tiene una función."
-  - "No necesitas imaginar batallas para entenderla."
+- Mira la fortaleza como un sistema.
+- Cada elemento tiene una función.
+- No necesitas imaginar batallas para entenderla.
 solution:
-  explanation: "Pambre conserva elementos típicos de una fortaleza medieval: muralla, torres, foso y torre del homenaje. La misión transforma esos elementos en pistas para comprender su función defensiva."
+  explanation: 'Pambre conserva elementos típicos de una fortaleza medieval: muralla,
+    torres, foso y torre del homenaje. La misión transforma esos elementos en pistas
+    para comprender su función defensiva.'
 badge:
-  name: "ORIXE 022 · Guardián de Pambre"
-  description: "Insignia de quien descubrió los secretos defensivos de Pambre."
-  image: "/badges/castelo-de-pambre.svg"
-googleMaps: "https://www.google.com/maps/search/?api=1&query=42.868,-7.939"
+  name: ORIXE 022 · Guardián de Pambre
+  description: Insignia de quien descubrió los secretos defensivos de Pambre.
+  image: /badges/castelo-de-pambre.svg
+googleMaps: https://www.google.com/maps/search/?api=1&query=42.868,-7.939
 recommendations:
-  - "La misión está diseñada para realizarse sin contratar una actividad guiada."
-  - "Comprueba horarios, accesos y condiciones del lugar antes de salir."
+- La misión está diseñada para realizarse sin contratar una actividad guiada.
+- Comprueba horarios, accesos y condiciones del lugar antes de salir.
 warnings:
-  - "Respeta siempre la señalización y las zonas restringidas."
-  - "La seguridad está por encima de cualquier prueba."
+- Respeta siempre la señalización y las zonas restringidas.
+- La seguridad está por encima de cualquier prueba.
 tags:
-  - "Castillo de Pambre"
-  - "Palas de Rei"
-  - "Lugo"
-  - "fortaleza"
-  - "Edad Media"
-  - "familias"
-  - "gratis"
-seoTitle: "Misión gratis en el Castillo de Pambre | Orixe"
-seoDescription: "Misión de misterio medieval gratuita en el Castillo de Pambre para familias."
+- Castillo de Pambre
+- Palas de Rei
+- Lugo
+- fortaleza
+- Edad Media
+- familias
+- gratis
+seoTitle: Misión gratis en el Castillo de Pambre | Orixe
+seoDescription: Misión de misterio medieval gratuita en el Castillo de Pambre para
+  familias.

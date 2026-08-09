@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-label="Hórreo de Carnota">
+<rect width="1200" height="520" rx="36" fill="#27435a"/>
+<circle cx="1040" cy="100" r="55" fill="#d7a74b" opacity=".9"/>
+<path d="M0 370 Q250 315 500 365 T1200 350 V520 H0Z" fill="#6b9eb4"/><rect x="350" y="215" width="170" height="105" rx="4" fill="#f3ead8"/><path d="M330 215 L435 150 L540 215Z" fill="#d7a74b"/><rect x="375" y="320" width="20" height="70" fill="#f3ead8"/><rect x="470" y="320" width="20" height="70" fill="#f3ead8"/><rect x="560" y="340" width="16" height="50" fill="#f3ead8"/>
+<rect x="55" y="55" width="390" height="92" rx="20" fill="#f3ead8" opacity=".96"/>
+<text x="82" y="92" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#27435a">ORIXE · MISIÓN</text>
+<text x="82" y="125" font-family="Arial,sans-serif" font-size="21" fill="#27435a">Hórreo de Carnota</text>
+<text x="55" y="478" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#f3ead8">CARNOTA</text>
+<text x="1145" y="478" text-anchor="end" font-family="Arial,sans-serif" font-size="18" fill="#f3ead8" opacity=".9">DESCUBRE · JUEGA · RESUELVE</text>
+</svg>

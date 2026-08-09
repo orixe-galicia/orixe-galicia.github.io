@@ -1,0 +1,101 @@
+id: ORX-0031
+slug: allariz-rio
+title: El secreto del río Arnoia
+subtitle: Una aventura por la villa y el agua
+municipality: Allariz
+province: Ourense
+coordinates:
+  lat: 42.19
+  lng: -7.801
+category: Naturaleza y patrimonio
+ageRecommended: 7-14 años
+duration: 70 min
+distance: 2 km aprox.
+difficulty: Fácil
+accessibility: Recorrido urbano y fluvial; algunos tramos pueden ser irregulares.
+descriptionShort: Recorre Allariz y sigue las pistas del río Arnoia, la historia y
+  el casco histórico.
+descriptionLong: Una misión gratuita para descubrir cómo el río y la recuperación
+  del casco histórico forman parte de la identidad de Allariz.
+story:
+  title: La ciudad que volvió al río
+  introduction: Un antiguo mapa ha desaparecido. Para reconstruirlo hay que seguir
+    el agua y reconocer las huellas que dejó en la villa.
+  historicalContext: Turismo de Galicia señala que el origen de Allariz se remonta
+    al siglo VI y destaca la recuperación de su casco histórico y del entorno del
+    río. El Área de Allariz forma además parte de una reserva de la biosfera.
+  mystery: El río es la línea que conecta las pistas.
+mission:
+  objective: Relacionar patrimonio urbano, paisaje fluvial e historia local.
+  location: Casco histórico y entorno público del río Arnoia en Allariz.
+  instructions:
+  - Realiza el recorrido por calles y espacios públicos.
+  - No necesitas entrar en museos.
+  - Observa puentes, agua, piedra y plazas.
+  - Mantén el grupo unido al cruzar calles.
+materials:
+- Ficha
+- Lápiz
+challenge:
+  title: 'Reto final: El mapa del agua'
+  introduction: Cinco pistas reconstruyen la relación entre Allariz y el Arnoia.
+  steps:
+  - type: search
+    title: El río
+    prompt: ¿Qué río atraviesa y estructura el paisaje de Allariz?
+    answer: Arnoia
+    hint: Es uno de los ríos principales del Área de Allariz.
+  - type: observation
+    title: El puente
+    prompt: Encuentra un puente y describe para qué sirve en la relación entre las
+      dos orillas.
+    answer: Comunicar las orillas
+    hint: Une caminos.
+  - type: history
+    title: La villa
+    prompt: ¿A qué siglo se remonta el origen de Allariz según Turismo de Galicia?
+    answer: Siglo VI
+    hint: Es la época tardoantigua.
+  - type: photo
+    title: Agua y piedra
+    prompt: Fotografía un punto donde aparezcan juntos río y patrimonio.
+    answer: Un paisaje fluvial con patrimonio
+    hint: Busca una buena composición.
+  - type: final
+    title: La clave
+    prompt: '¿Qué elemento ayudó a construir la identidad de Allariz: AGUA o DESIERTO?'
+    answer: AGUA
+    hint: Sigue el río.
+  successCondition: Completar cinco pruebas y responder AGUA.
+clues:
+- El río es la pista principal.
+- Mira hacia abajo y también hacia las fachadas.
+- El patrimonio no está solo en los monumentos.
+solution:
+  explanation: Allariz tiene una relación estrecha con el río Arnoia. Turismo de Galicia
+    destaca la recuperación del casco histórico y del río y describe el Área de Allariz
+    como un paisaje construido durante siglos alrededor del agua.
+badge:
+  name: ORIXE 031 · Cartógrafo de Allariz
+  description: Insignia de quien reconstruyó el mapa siguiendo el río Arnoia.
+  image: /badges/allariz.svg
+googleMaps: https://www.google.com/maps/search/?api=1&query=42.19000,-7.80100
+recommendations:
+- Misión gratuita por espacios públicos.
+- Puedes adaptarla a un recorrido más corto si vas con niños pequeños.
+warnings:
+- Atención al tráfico en las zonas urbanas.
+- No te acerques demasiado al agua.
+tags:
+- Allariz
+- Arnoia
+- Ourense
+- patrimonio
+- naturaleza
+- familias
+- gratis
+seoTitle: 'Misión gratis en Allariz: el secreto del río Arnoia | Orixe'
+seoDescription: 'Reto gratuito para familias en Allariz: descubre el casco histórico
+  y el río Arnoia jugando.'
+image: /images/allariz.svg
+gallery: []

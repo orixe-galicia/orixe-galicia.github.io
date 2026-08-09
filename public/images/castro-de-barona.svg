@@ -1,11 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
-<rect width="1200" height="700" fill="#f6f1e7"/>
-<path d="M0 500 Q180 420 360 500 T720 490 T1200 480 V700 H0Z" fill="#a8df8b" opacity=".45"/>
-<path d="M0 520 Q180 430 360 520 T720 500 T1200 500 V700 H0Z" fill="#77a96a" opacity=".65"/>
-<text x="70" y="80" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="6" fill="#168f83">ORIXE · ORX-0011</text><g fill="none" stroke="#2f6f57" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
-<path d="M180 470 Q360 380 530 450 Q720 520 1020 420"/>
-<path d="M310 420 L360 300 L450 250 L540 300 L590 420"/>
-<path d="M360 300 L450 210 L540 300"/>
-<path d="M710 410 L770 310 L850 410"/>
-</g><g fill="#168f83" opacity=".9"><path d="M0 560 Q150 500 300 560 T600 550 T900 560 T1200 550 V700 H0Z"/></g><text x="70" y="610" font-family="Arial,sans-serif" font-size="38" font-weight="700" fill="#244f4b">Castro de Baroña</text>
-<text x="70" y="655" font-family="Arial,sans-serif" font-size="22" fill="#168f83">La fortaleza frente al mar</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-label="Castro de Baroña">
+<rect width="1200" height="520" rx="36" fill="#183642"/>
+<circle cx="1040" cy="100" r="55" fill="#d98c45" opacity=".9"/>
+<path d="M0 365 Q220 300 470 355 T1200 335 V520 H0Z" fill="#3b7a78"/><path d="M180 360 L330 290 L520 350 L680 305 L820 360" fill="none" stroke="#d98c45" stroke-width="18"/><circle cx="400" cy="300" r="35" fill="#f4ead5"/><circle cx="470" cy="325" r="32" fill="#f4ead5"/><circle cx="545" cy="300" r="28" fill="#f4ead5"/><path d="M0 410 Q300 350 600 410 T1200 400" fill="none" stroke="#f4ead5" stroke-width="5" opacity=".8"/>
+<rect x="55" y="55" width="390" height="92" rx="20" fill="#f4ead5" opacity=".96"/>
+<text x="82" y="92" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#183642">ORIXE · MISIÓN</text>
+<text x="82" y="125" font-family="Arial,sans-serif" font-size="21" fill="#183642">Castro de Baroña</text>
+<text x="55" y="478" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#f4ead5">PORTO DO SON</text>
+<text x="1145" y="478" text-anchor="end" font-family="Arial,sans-serif" font-size="18" fill="#f4ead5" opacity=".9">DESCUBRE · JUEGA · RESUELVE</text>
+</svg>

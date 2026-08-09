@@ -1,0 +1,103 @@
+id: ORX-0028
+slug: castelo-de-vimianzo
+title: El asalto de los Irmandiños
+subtitle: Una misión medieval entre murallas y torres
+municipality: Vimianzo
+province: A Coruña
+coordinates:
+  lat: 43.11108
+  lng: -9.03136
+category: Historia y misterio
+ageRecommended: 8-14 años
+duration: 60 min
+distance: 1 km aprox.
+difficulty: Fácil
+accessibility: Entorno urbano y exterior del castillo; consultar accesos interiores.
+descriptionShort: Investiga el Castillo de Vimianzo y descubre las pistas de la Galicia
+  medieval y la revuelta Irmandiña.
+descriptionLong: Una misión gratuita centrada en el exterior del castillo y sus elementos
+  defensivos, con un reto para reconstruir un episodio de la Galicia medieval.
+story:
+  title: La muralla tiene memoria
+  introduction: Las torres de Vimianzo han visto disputas entre nobles y campesinos.
+    Una puerta imaginaria se ha quedado sin contraseña.
+  historicalContext: Turismo de Galicia señala que el castillo comenzó a construirse
+    en el siglo XIII, fue reformado en los siglos XIV y XV y estuvo relacionado con
+    la Guerra Irmandiña y las familias Fonseca y Moscoso.
+  mystery: Debes identificar las defensas antes de descubrir qué ocurrió durante la
+    revuelta.
+mission:
+  objective: Reconocer elementos de una fortaleza medieval y conocer el contexto de
+    la Guerra Irmandiña.
+  location: Entorno exterior del Castelo de Vimianzo.
+  instructions:
+  - Observa el castillo desde las zonas públicas.
+  - No trepes por murallas ni torres.
+  - Si el recinto interior está abierto, respeta sus normas.
+  - Completa el reto con la ficha.
+materials:
+- Ficha
+- Lápiz
+challenge:
+  title: 'Reto final: Abrir la puerta'
+  introduction: Cinco pruebas reconstruyen el pasado de la fortaleza.
+  steps:
+  - type: observation
+    title: Las defensas
+    prompt: Nombra una de las estructuras defensivas visibles del castillo.
+    answer: Muralla, torre o foso
+    hint: Hay varias.
+  - type: history
+    title: Los siglos
+    prompt: ¿En qué siglo comenzó a construirse el castillo?
+    answer: Siglo XIII
+    hint: Es el siglo de 1200.
+  - type: search
+    title: Los Irmandiños
+    prompt: ¿Qué conflicto histórico relacionado con campesinos y nobles aparece ligado
+      al castillo?
+    answer: Guerra Irmandiña
+    hint: Fue una gran revuelta gallega del siglo XV.
+  - type: observation
+    title: Las torres
+    prompt: ¿Cuántas torres principales señala Turismo de Galicia en la descripción
+      del castillo?
+    answer: Cuatro
+    hint: Cuenta las torres.
+  - type: final
+    title: La contraseña
+    prompt: 'Completa: una fortaleza necesita DEFENSA o DECORACIÓN.'
+    answer: DEFENSA
+    hint: Murallas, torres y foso tienen una función.
+  successCondition: Completar las cinco pruebas y obtener DEFENSA.
+clues:
+- El foso es una pista defensiva.
+- Mira las torres como un estratega.
+- La historia del castillo incluye conflictos sociales.
+solution:
+  explanation: El Castillo de Vimianzo es una fortaleza medieval iniciada en el siglo
+    XIII, con murallas, foso y cuatro torres. Turismo de Galicia relaciona su historia
+    con la Guerra Irmandiña y con los Moscoso y Fonseca.
+badge:
+  name: ORIXE 028 · Irmandiño de Vimianzo
+  description: Insignia de quien descifró las defensas y la memoria medieval del castillo.
+  image: /badges/castelo-de-vimianzo.svg
+googleMaps: https://www.google.com/maps/search/?api=1&query=43.11108,-9.03136
+recommendations:
+- La misión puede realizarse desde el exterior sin pagar ninguna actividad.
+- Comprueba horarios si quieres visitar el interior.
+warnings:
+- No trepes por las estructuras.
+- Respeta las zonas de acceso restringido.
+tags:
+- Vimianzo
+- Castelo de Vimianzo
+- Irmandiños
+- medieval
+- Costa da Morte
+- gratis
+seoTitle: Misión gratis en el Castillo de Vimianzo | Orixe
+seoDescription: 'Reto gratuito de historia medieval en el Castillo de Vimianzo para
+  familias: murallas, torres e Irmandiños.'
+image: /images/castelo-de-vimianzo.svg
+gallery: []

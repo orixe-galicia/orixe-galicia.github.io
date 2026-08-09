@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-label="Castelo de Vimianzo">
+<rect width="1200" height="520" rx="36" fill="#382a3b"/>
+<circle cx="1040" cy="100" r="55" fill="#d6a85f" opacity=".9"/>
+<path d="M0 375 Q250 310 500 365 T1200 345 V520 H0Z" fill="#8b4d61"/><rect x="330" y="190" width="330" height="180" fill="#f2e8d5"/><rect x="285" y="145" width="90" height="225" fill="#f2e8d5"/><rect x="615" y="135" width="95" height="235" fill="#f2e8d5"/><path d="M280 145 H375 V120 H400 V145 H450 V120 H475 V145 H525 V120 H550 V145 H615" fill="#f2e8d5"/><rect x="470" y="285" width="55" height="85" fill="#8b4d61"/><circle cx="330" cy="220" r="12" fill="#d6a85f"/><circle cx="660" cy="205" r="12" fill="#d6a85f"/>
+<rect x="55" y="55" width="390" height="92" rx="20" fill="#f2e8d5" opacity=".96"/>
+<text x="82" y="92" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#382a3b">ORIXE · MISIÓN</text>
+<text x="82" y="125" font-family="Arial,sans-serif" font-size="21" fill="#382a3b">Castelo de Vimianzo</text>
+<text x="55" y="478" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#f2e8d5">VIMIANZO</text>
+<text x="1145" y="478" text-anchor="end" font-family="Arial,sans-serif" font-size="18" fill="#f2e8d5" opacity=".9">DESCUBRE · JUEGA · RESUELVE</text>
+</svg>

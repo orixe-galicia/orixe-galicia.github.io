@@ -1,0 +1,110 @@
+id: ORX-0024
+slug: torre-de-hercules-misterio
+title: La luz de Brigantia
+subtitle: Una misión entre romanos, océano y leyendas
+municipality: A Coruña
+province: A Coruña
+coordinates:
+  lat: 43.38603
+  lng: -8.4065
+category: Historia y aventura
+ageRecommended: 8-14 años
+duration: 60 min
+distance: 1,5 km aprox.
+difficulty: Fácil
+accessibility: Recorrido exterior por el paseo y entorno de la torre; algunas zonas
+  presentan desnivel.
+descriptionShort: Descubre la Torre de Hércules jugando a investigar sus pistas romanas
+  y la leyenda de Gerión.
+descriptionLong: Una misión gratuita para recorrer el entorno de la Torre de Hércules,
+  observar sus elementos y reconstruir parte de su historia sin necesidad de entrar
+  al monumento.
+story:
+  title: El faro que sobrevivió al tiempo
+  introduction: La luz de Brigantia lleva siglos mirando al Atlántico. Un mensaje
+    perdido obliga a descubrir qué pertenece a la historia romana y qué nació de la
+    leyenda.
+  historicalContext: Turismo de Galicia sitúa la construcción de la Torre de Hércules
+    en el siglo I y señala su condición de faro romano conservado en servicio. También
+    recoge la leyenda de Hércules y Gerión y su declaración como Patrimonio Mundial
+    en 2009.
+  mystery: El reto consiste en separar cuatro pistas históricas de una pista legendaria.
+mission:
+  objective: Identificar elementos de la torre y resolver una pequeña investigación
+    histórica.
+  location: Entorno exterior de la Torre de Hércules y paseo marítimo.
+  instructions:
+  - Realiza la misión desde las zonas públicas y señalizadas.
+  - No necesitas entrar en la torre para completar el reto.
+  - Observa inscripciones, formas, paisaje y paneles informativos.
+  - Respeta el entorno y no subas a zonas cerradas.
+materials:
+- Ficha
+- Lápiz
+- Móvil opcional para consultar un mapa
+challenge:
+  title: 'Reto final: La clave de Brigantia'
+  introduction: Cada prueba aporta una palabra. Únelas para descubrir la respuesta
+    final.
+  steps:
+  - type: observation
+    title: La silueta
+    prompt: ¿Qué estructura domina visualmente el conjunto y sirve como referencia
+      para los navegantes?
+    answer: Torre de Hércules
+    hint: Es el faro.
+  - type: history
+    title: Los romanos
+    prompt: ¿En qué siglo comenzó la construcción de la torre según Turismo de Galicia?
+    answer: Siglo I
+    hint: Es la primera centuria de nuestra era.
+  - type: search
+    title: El gigante
+    prompt: ¿Cómo se llama el gigante de la leyenda relacionado con la fundación de
+      A Coruña?
+    answer: Gerión
+    hint: Hércules se enfrenta a él.
+  - type: photo
+    title: Mirada al Atlántico
+    prompt: Haz una foto del horizonte desde el entorno público de la torre. ¿Qué
+      elemento domina el paisaje?
+    answer: El océano Atlántico
+    hint: Mira hacia el mar.
+  - type: final
+    title: La palabra
+    prompt: ¿La Torre de Hércules es solo una leyenda o también un monumento histórico?
+    answer: MONUMENTO HISTÓRICO
+    hint: Hay evidencias romanas y una leyenda.
+  successCondition: Completar cinco pruebas y responder MONUMENTO HISTÓRICO.
+clues:
+- La inscripción romana es una pista importante.
+- La leyenda no sustituye a la historia.
+- Busca siempre desde zonas seguras.
+solution:
+  explanation: La Torre de Hércules tiene origen romano y sigue funcionando como faro.
+    La tradición de Hércules y Gerión forma parte de la leyenda vinculada a A Coruña,
+    pero el monumento tiene una historia documentada.
+badge:
+  name: ORIXE 024 · Guardián de Brigantia
+  description: Insignia de quien siguió la luz de la Torre de Hércules y separó historia
+    de leyenda.
+  image: /badges/torre-de-hercules.svg
+googleMaps: https://www.google.com/maps/search/?api=1&query=43.38603,-8.40650
+recommendations:
+- Misión diseñada para realizarse sin contratar ninguna actividad.
+- Consulta horarios si deseas acceder al interior de la torre.
+warnings:
+- No cruces zonas delimitadas.
+- Precaución con el viento y el oleaje en el paseo.
+tags:
+- A Coruña
+- Torre de Hércules
+- romanos
+- leyendas
+- familias
+- gratis
+seoTitle: Misión gratis en la Torre de Hércules | Orixe
+seoDescription: 'Misión gratuita para familias en la Torre de Hércules de A Coruña:
+  historia, leyendas y retos.'
+image: /images/torre-de-hercules.svg
+gallery: []

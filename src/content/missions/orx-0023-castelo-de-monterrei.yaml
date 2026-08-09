@@ -1,92 +1,109 @@
-id: "ORX-0023"
-slug: "castelo-de-monterrei"
-title: "El pozo verde"
-subtitle: "Una leyenda entre torres y viñedos"
-municipality: "Monterrei"
-province: "Ourense"
+id: ORX-0023
+slug: castelo-de-monterrei
+title: El pozo verde
+subtitle: Una leyenda entre torres y viñedos
+municipality: Monterrei
+province: Ourense
 coordinates:
   lat: 41.947
   lng: -7.449
-category: "Leyenda e historia"
-ageRecommended: "8-14 años"
-duration: "60 min"
-distance: "1,5 km aprox."
-difficulty: "Fácil-media"
-accessibility: "Exterior de la fortaleza abierto; comprobar horarios para espacios interiores."
-image: "/images/castelo-de-monterrei.svg"
+category: Leyenda e historia
+ageRecommended: 8-14 años
+duration: 60 min
+distance: 1,5 km aprox.
+difficulty: Fácil-media
+accessibility: Exterior de la fortaleza abierto; comprobar horarios para espacios
+  interiores.
+image: /images/castelo-de-monterrei.svg
 gallery: []
-descriptionShort: "Explora la fortaleza de Monterrei y descubre una leyenda ligada a su antiguo pozo."
-descriptionLong: "El conjunto fortificado de Monterrei reúne castillo, torre del homenaje, pazo, hospital de peregrinos e iglesia. Una antigua leyenda sobre el llamado pozo verde sirve como hilo narrativo."
+descriptionShort: Explora la fortaleza de Monterrei y descubre una leyenda ligada
+  a su antiguo pozo.
+descriptionLong: El conjunto fortificado de Monterrei reúne castillo, torre del homenaje,
+  pazo, hospital de peregrinos e iglesia. Una antigua leyenda sobre el llamado pozo
+  verde sirve como hilo narrativo.
 story:
-  title: "La condesa del pozo verde"
-  introduction: "Una leyenda cuenta que una condesa, temiendo la ira de su marido, se precipitó al pozo del patio de armas. Tu misión no es creerla: es descubrir qué parte pertenece a la historia y cuál a la tradición."
-  historicalContext: "Turismo de Galicia describe Monterrei como un conjunto fortificado con elementos documentados desde la Edad Media y recoge la leyenda del llamado pozo verde."
-  mystery: "Una leyenda cuenta que una condesa, temiendo la ira de su marido, se precipitó al pozo del patio de armas. Tu misión no es creerla: es descubrir qué parte pertenece a la historia y cuál a la tradición."
+  title: La condesa del pozo verde
+  introduction: 'Una leyenda cuenta que una condesa, temiendo la ira de su marido,
+    se precipitó al pozo del patio de armas. Tu misión no es creerla: es descubrir
+    qué parte pertenece a la historia y cuál a la tradición.'
+  historicalContext: Turismo de Galicia describe Monterrei como un conjunto fortificado
+    con elementos documentados desde la Edad Media y recoge la leyenda del llamado
+    pozo verde.
+  mystery: 'Una leyenda cuenta que una condesa, temiendo la ira de su marido, se precipitó
+    al pozo del patio de armas. Tu misión no es creerla: es descubrir qué parte pertenece
+    a la historia y cuál a la tradición.'
 mission:
-  objective: "Explorar la fortaleza y distinguir patrimonio histórico de tradición legendaria."
-  location: "Fortaleza de Monterrei, entorno exterior."
+  objective: Explorar la fortaleza y distinguir patrimonio histórico de tradición
+    legendaria.
+  location: Fortaleza de Monterrei, entorno exterior.
   instructions:
-    - "El exterior de la fortaleza puede recorrerse libremente según las condiciones del recinto."
-    - "Comprueba horarios si quieres entrar en edificios."
-    - "No te acerques a pozos ni zonas peligrosas."
-    - "Respeta la señalización."
+  - El exterior de la fortaleza puede recorrerse libremente según las condiciones
+    del recinto.
+  - Comprueba horarios si quieres entrar en edificios.
+  - No te acerques a pozos ni zonas peligrosas.
+  - Respeta la señalización.
 materials:
-  - "Ficha"
-  - "Lápiz"
+- Ficha
+- Lápiz
 challenge:
-  title: "Reto final: Historia o leyenda"
-  introduction: "Cada pista debe clasificarse antes de construir la respuesta final."
+  title: 'Reto final: Historia o leyenda'
+  introduction: Cada pista debe clasificarse antes de construir la respuesta final.
   steps:
-    - type: "history"
-      title: "La torre"
-      prompt: "¿Cómo se llama la gran torre medieval del conjunto?"
-      answer: "Torre del Homenaje"
-      hint: "Es uno de los elementos más visibles."
-    - type: "search"
-      title: "El hospital"
-      prompt: "¿Qué tipo de edificio recuerda que Monterrei estaba ligado a los peregrinos?"
-      answer: "Hospital de peregrinos"
-      hint: "Está dentro del conjunto."
-    - type: "legend"
-      title: "El pozo"
-      prompt: "¿Cómo se conoce en la tradición el pozo relacionado con la leyenda de la condesa?"
-      answer: "Pozo verde"
-      hint: "Es una leyenda del lugar."
-    - type: "observation"
-      title: "El paisaje"
-      prompt: "¿Qué río discurre por el valle de Monterrei?"
-      answer: "Támega"
-      hint: "Observa el entorno del valle."
-    - type: "final"
-      title: "La palabra"
-      prompt: "¿Qué debemos hacer con una leyenda: CREERLA SIN MÁS o INVESTIGARLA?"
-      answer: "INVESTIGARLA"
-      hint: "La misión enseña a distinguir tradición e historia."
-  successCondition: "Completar cinco pruebas y obtener INVESTIGARLA."
+  - type: history
+    title: La torre
+    prompt: ¿Cómo se llama la gran torre medieval del conjunto?
+    answer: Torre del Homenaje
+    hint: Es uno de los elementos más visibles.
+  - type: search
+    title: El hospital
+    prompt: ¿Qué tipo de edificio recuerda que Monterrei estaba ligado a los peregrinos?
+    answer: Hospital de peregrinos
+    hint: Está dentro del conjunto.
+  - type: history
+    title: El pozo
+    prompt: ¿Cómo se conoce en la tradición el pozo relacionado con la leyenda de
+      la condesa?
+    answer: Pozo verde
+    hint: Es una leyenda del lugar.
+  - type: observation
+    title: El paisaje
+    prompt: ¿Qué río discurre por el valle de Monterrei?
+    answer: Támega
+    hint: Observa el entorno del valle.
+  - type: final
+    title: La palabra
+    prompt: '¿Qué debemos hacer con una leyenda: CREERLA SIN MÁS o INVESTIGARLA?'
+    answer: INVESTIGARLA
+    hint: La misión enseña a distinguir tradición e historia.
+  successCondition: Completar cinco pruebas y obtener INVESTIGARLA.
 clues:
-  - "La leyenda y la historia pueden convivir en un mismo lugar."
-  - "Busca primero los elementos que todavía existen."
-  - "No te acerques a ningún pozo."
+- La leyenda y la historia pueden convivir en un mismo lugar.
+- Busca primero los elementos que todavía existen.
+- No te acerques a ningún pozo.
 solution:
-  explanation: "Monterrei conserva un conjunto fortificado medieval y una rica tradición oral. La leyenda del pozo verde aparece en publicaciones de Turismo de Galicia; la misión la utiliza para enseñar a diferenciar relato tradicional y evidencia histórica."
+  explanation: Monterrei conserva un conjunto fortificado medieval y una rica tradición
+    oral. La leyenda del pozo verde aparece en publicaciones de Turismo de Galicia;
+    la misión la utiliza para enseñar a diferenciar relato tradicional y evidencia
+    histórica.
 badge:
-  name: "ORIXE 023 · Cronista de Monterrei"
-  description: "Insignia de quien aprendió a distinguir historia y leyenda en Monterrei."
-  image: "/badges/castelo-de-monterrei.svg"
-googleMaps: "https://www.google.com/maps/search/?api=1&query=41.947,-7.449"
+  name: ORIXE 023 · Cronista de Monterrei
+  description: Insignia de quien aprendió a distinguir historia y leyenda en Monterrei.
+  image: /badges/castelo-de-monterrei.svg
+googleMaps: https://www.google.com/maps/search/?api=1&query=41.947,-7.449
 recommendations:
-  - "La misión está diseñada para realizarse sin contratar una actividad guiada."
-  - "Comprueba horarios, accesos y condiciones del lugar antes de salir."
+- La misión está diseñada para realizarse sin contratar una actividad guiada.
+- Comprueba horarios, accesos y condiciones del lugar antes de salir.
 warnings:
-  - "Respeta siempre la señalización y las zonas restringidas."
-  - "La seguridad está por encima de cualquier prueba."
+- Respeta siempre la señalización y las zonas restringidas.
+- La seguridad está por encima de cualquier prueba.
 tags:
-  - "Monterrei"
-  - "Verín"
-  - "castillo"
-  - "leyendas"
-  - "historia"
-  - "familias"
-  - "gratis"
-seoTitle: "Misión gratis en el Castillo de Monterrei | Orixe"
-seoDescription: "Misión gratuita de historia y leyendas en el Castillo de Monterrei para familias."
+- Monterrei
+- Verín
+- castillo
+- leyendas
+- historia
+- familias
+- gratis
+seoTitle: Misión gratis en el Castillo de Monterrei | Orixe
+seoDescription: Misión gratuita de historia y leyendas en el Castillo de Monterrei
+  para familias.

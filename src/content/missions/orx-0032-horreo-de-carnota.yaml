@@ -1,0 +1,106 @@
+id: ORX-0032
+slug: horreo-de-carnota
+title: El gigante de Carnota
+subtitle: Un reto para medir con los ojos un hórreo legendario
+municipality: Carnota
+province: A Coruña
+coordinates:
+  lat: 42.8218
+  lng: -9.0872
+category: Cultura y arquitectura
+ageRecommended: 7-14 años
+duration: 50 min
+distance: 0,8 km aprox.
+difficulty: Fácil
+accessibility: Entorno exterior accesible; comprobar condiciones si se visita el conjunto
+  interior.
+descriptionShort: Descubre el famoso hórreo de Carnota y conviértelo en una misión
+  de observación y medidas.
+descriptionLong: Una misión gratuita para observar el conjunto del hórreo y pombal
+  de Carnota y comprender por qué los hórreos son una pieza clave del paisaje rural
+  gallego.
+story:
+  title: El gigante de piedra
+  introduction: 'Un gigante no necesita moverse para impresionar. El de Carnota está
+    hecho de piedra y tiene una misión: guardar una cosecha.'
+  historicalContext: Turismo de Galicia destaca el hórreo de Carnota por sus dimensiones,
+    con 35 metros de longitud, y lo presenta como una construcción emblemática del
+    municipio.
+  mystery: Debes descubrir cómo reconocer un hórreo y estimar sus dimensiones sin
+    herramientas especiales.
+mission:
+  objective: Observar arquitectura tradicional y realizar pequeñas estimaciones de
+    longitud y función.
+  location: Entorno público del conjunto del hórreo de Carnota.
+  instructions:
+  - Observa desde las zonas permitidas.
+  - No subas a la estructura.
+  - Puedes usar pasos para estimar distancias.
+  - Respeta las propiedades y espacios privados.
+materials:
+- Ficha
+- Lápiz
+- Móvil opcional
+challenge:
+  title: 'Reto final: Medir al gigante'
+  introduction: Usa tus ojos y tus pasos para comprobar si el hórreo merece su fama.
+  steps:
+  - type: observation
+    title: La forma
+    prompt: ¿Está el hórreo elevado sobre el suelo?
+    answer: Sí
+    hint: Observa los apoyos.
+  - type: history
+    title: La función
+    prompt: ¿Para qué servía tradicionalmente un hórreo?
+    answer: Para guardar cosechas
+    hint: Es una construcción agrícola.
+  - type: search
+    title: La medida
+    prompt: ¿Qué longitud destaca Turismo de Galicia para el hórreo de Carnota?
+    answer: 35 metros
+    hint: Es una cifra de dos dígitos.
+  - type: coordinates
+    title: Estimación
+    prompt: Cuenta tus pasos alrededor o junto al recorrido permitido y estima cuánto
+      sería una longitud de 35 metros.
+    answer: Estimación aproximada
+    hint: Un paso infantil no mide lo mismo que uno adulto.
+  - type: final
+    title: La palabra
+    prompt: '¿Qué es más importante en un hórreo: ESTÉTICA o FUNCIÓN?'
+    answer: FUNCIÓN
+    hint: Su origen está ligado a las cosechas.
+  successCondition: Completar cinco pruebas y explicar por qué un hórreo tiene esa
+    forma.
+clues:
+- Mira debajo de la estructura.
+- Cuenta apoyos y elementos repetidos.
+- La longitud puede estimarse con pasos.
+solution:
+  explanation: El hórreo es una construcción rural elevada destinada a conservar cosechas.
+    El de Carnota destaca por sus dimensiones, y Turismo de Galicia indica una longitud
+    de 35 metros.
+badge:
+  name: ORIXE 032 · Medidor de Carnota
+  description: Insignia de quien descubrió el gigante de piedra y su función agrícola.
+  image: /badges/horreo-de-carnota.svg
+googleMaps: https://www.google.com/maps/search/?api=1&query=42.82180,-9.08720
+recommendations:
+- La misión puede hacerse sin pagar una actividad.
+- Combínala con un paseo por Carnota.
+warnings:
+- No trepes ni toques estructuras patrimoniales.
+- Precaución con vehículos en las proximidades.
+tags:
+- Carnota
+- hórreo
+- Costa da Morte
+- arquitectura
+- familias
+- gratis
+seoTitle: Misión gratis en el hórreo de Carnota | Orixe
+seoDescription: 'Misión gratuita para descubrir el hórreo de Carnota: arquitectura
+  gallega, observación y pequeños retos.'
+image: /images/horreo-de-carnota.svg
+gallery: []

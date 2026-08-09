@@ -1,0 +1,102 @@
+id: ORX-0030
+slug: piornedo
+title: La aldea de los guardianes de la montaña
+subtitle: Un reto entre pallozas, hórreos y Ancares
+municipality: Cervantes
+province: Lugo
+coordinates:
+  lat: 42.8567
+  lng: -6.87579
+category: Tradición y exploración
+ageRecommended: 7-14 años
+duration: 60 min
+distance: 1 km aprox.
+difficulty: Fácil-media
+accessibility: Aldea de montaña con calles y caminos irregulares.
+descriptionShort: Descubre Piornedo y sus construcciones tradicionales en una misión
+  de observación por Os Ancares.
+descriptionLong: Una misión gratuita para descubrir cómo la arquitectura tradicional
+  se adaptaba al frío y a la vida de montaña.
+story:
+  title: El pueblo que conserva la montaña
+  introduction: En Piornedo las casas cuentan cómo se vivía en la montaña. Hay que
+    encontrar tres formas de construir para sobrevivir al clima.
+  historicalContext: Turismo de Galicia identifica Piornedo como una aldea prerromana
+    característica de Os Ancares y documenta sus pallozas y hórreos como patrimonio
+    etnográfico.
+  mystery: La misión consiste en descubrir qué soluciones arquitectónicas aparecen
+    repetidas.
+mission:
+  objective: Identificar elementos de arquitectura tradicional de montaña y comprender
+    su función.
+  location: Núcleo tradicional de Piornedo.
+  instructions:
+  - Recorre las calles públicas sin entrar en propiedades.
+  - Observa las construcciones desde fuera.
+  - No subas a hórreos ni pallozas.
+  - Respeta a los vecinos y el silencio del lugar.
+materials:
+- Ficha
+- Lápiz
+challenge:
+  title: 'Reto final: El código de la montaña'
+  introduction: Encuentra las tres pistas arquitectónicas y descifra la contraseña.
+  steps:
+  - type: search
+    title: La palloza
+    prompt: ¿Qué construcción tradicional de planta circular u ovalada puedes reconocer?
+    answer: Palloza
+    hint: Tiene un gran tejado vegetal.
+  - type: observation
+    title: El hórreo
+    prompt: ¿Qué construcción elevada sirve para almacenar cosechas?
+    answer: Hórreo
+    hint: Está separada del suelo.
+  - type: history
+    title: La montaña
+    prompt: ¿En qué comarca montañosa se encuentra Piornedo?
+    answer: Os Ancares
+    hint: Está en Lugo.
+  - type: photo
+    title: Una forma de vivir
+    prompt: Fotografía un detalle arquitectónico que muestre adaptación al clima.
+    answer: Detalle de una construcción tradicional
+    hint: Busca tejados, piedra o madera.
+  - type: final
+    title: La palabra
+    prompt: '¿Qué palabra resume mejor estas construcciones: ADAPTACIÓN o DECORACIÓN?'
+    answer: ADAPTACIÓN
+    hint: Todo tiene una función.
+  successCondition: Completar las cinco pruebas y obtener ADAPTACIÓN.
+clues:
+- Mira los tejados.
+- Observa cómo se separan algunas construcciones del suelo.
+- Piensa en frío, lluvia y montaña.
+solution:
+  explanation: Piornedo conserva construcciones tradicionales de Os Ancares, entre
+    ellas pallozas y hórreos. Su arquitectura está vinculada a la vida rural y a las
+    condiciones de montaña.
+badge:
+  name: ORIXE 030 · Guardián de Ancares
+  description: Insignia de quien descubrió cómo la arquitectura tradicional se adapta
+    a la montaña.
+  image: /badges/piornedo.svg
+googleMaps: https://www.google.com/maps/search/?api=1&query=42.85670,-6.87579
+recommendations:
+- La misión se realiza caminando por espacios públicos.
+- Ideal para combinar con una ruta corta por el entorno.
+warnings:
+- Carreteras y caminos de montaña requieren especial precaución.
+- No accedas a propiedades privadas.
+tags:
+- Piornedo
+- Cervantes
+- Os Ancares
+- pallozas
+- hórreos
+- gratis
+seoTitle: Misión gratis en Piornedo y Os Ancares | Orixe
+seoDescription: 'Misión gratuita para familias en Piornedo: pallozas, hórreos, montaña
+  y tradición de Os Ancares.'
+image: /images/piornedo.svg
+gallery: []

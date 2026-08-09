@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" role="img">
-  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#184f49"/><stop offset="1" stop-color="#0d3834"/></linearGradient></defs>
-  <circle cx="240" cy="240" r="225" fill="url(#g)" stroke="#d6a63b" stroke-width="12"/>
-  <circle cx="240" cy="240" r="195" fill="none" stroke="#d6a63b" stroke-width="3" stroke-dasharray="5 9"/>
-  <text x="240" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="800" letter-spacing="6" fill="#f5d36e">ORIXE</text>
-  <circle cx="180" cy="230" r="55" fill="#7fb56c"/><circle cx="250" cy="200" r="70" fill="#6ca35f"/><circle cx="325" cy="240" r="55" fill="#7fb56c"/><path d="M160 355 L240 260 L320 355Z" fill="#f0eadc"/><rect x="205" y="315" width="70" height="55" fill="#f0eadc"/>
-  <circle cx="240" cy="392" r="32" fill="#f5d36e"/>
-  <text x="240" y="404" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="800" fill="#174d46">0006</text>
-  <text x="240" y="445" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="2.5" fill="#f5d36e">FRAGAS DO EUME</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Insignia Fragas do Eume">
+<circle cx="300" cy="300" r="275" fill="#173b2c" stroke="#9bcf53" stroke-width="18"/>
+<circle cx="300" cy="300" r="225" fill="#eef2dc" stroke="#4f8a5b" stroke-width="10"/>
+<path d="M300 100 L325 170 L400 170 L340 215 L360 290 L300 245 L240 290 L260 215 L200 170 L275 170Z" fill="#9bcf53"/>
+<circle cx="300" cy="330" r="105" fill="#4f8a5b" opacity=".95"/>
+<text x="300" y="318" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#eef2dc">ORIXE</text>
+<text x="300" y="352" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#eef2dc">MISIÓN</text>
+<text x="300" y="480" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#173b2c">FRAGAS DO EUME</text>
+<text x="300" y="515" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#173b2c">PONTEDEUME</text>
 </svg>

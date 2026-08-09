@@ -1,0 +1,103 @@
+id: ORX-0033
+slug: castro-caldelas
+title: La fortaleza de los tres escudos
+subtitle: Un misterio medieval en la Ribeira Sacra
+municipality: Castro Caldelas
+province: Ourense
+coordinates:
+  lat: 42.37581
+  lng: -7.41581
+category: Historia y misterio
+ageRecommended: 8-14 años
+duration: 65 min
+distance: 1,2 km aprox.
+difficulty: Fácil-media
+accessibility: Casco histórico con calles empedradas y pendiente; acceso interior
+  del castillo según horario.
+descriptionShort: Descubre las murallas y escudos del castillo de Castro Caldelas
+  en un reto medieval gratuito.
+descriptionLong: Una misión para recorrer el entorno público de la fortaleza y buscar
+  las pistas que cuentan quiénes defendieron y habitaron el lugar.
+story:
+  title: Los escudos hablan
+  introduction: Tres símbolos vigilan la puerta. Si aprendes a leerlos, podrás descubrir
+    quién dejó su huella en la fortaleza.
+  historicalContext: Turismo de Galicia documenta la fortaleza de Castro Caldelas
+    como una construcción del siglo XIV, con murallas, tres torres y patio de armas,
+    y describe varios escudos en la puerta principal.
+  mystery: El reto convierte los escudos y elementos de la fortaleza en un código
+    de identificación.
+mission:
+  objective: Identificar elementos de una fortaleza y comprender cómo los escudos
+    podían representar linajes y poderes.
+  location: Casco histórico y exterior de la Fortaleza de Castro Caldelas.
+  instructions:
+  - Recorre las zonas públicas.
+  - Observa los escudos sin tocarlos.
+  - No subas a murallas ni elementos defensivos.
+  - Si entras al castillo, sigue sus normas y horarios.
+materials:
+- Ficha
+- Lápiz
+challenge:
+  title: 'Reto final: Leer los escudos'
+  introduction: Cinco pruebas te enseñarán a interpretar la fortaleza.
+  steps:
+  - type: observation
+    title: Las murallas
+    prompt: Nombra una estructura defensiva que puedas observar.
+    answer: Muralla o torre
+    hint: Rodean o protegen el recinto.
+  - type: history
+    title: La fecha
+    prompt: ¿Entre qué años fue construido el castillo según Turismo de Galicia?
+    answer: 1336-1343
+    hint: Siglo XIV.
+  - type: search
+    title: Los símbolos
+    prompt: ¿Qué animal aparece en las insignias de los Osorio descritas en la puerta?
+    answer: Dos lobos
+    hint: Es un mamífero.
+  - type: observation
+    title: El patio
+    prompt: ¿Qué espacio interior central de una fortaleza se llama patio de armas?
+    answer: Patio de armas
+    hint: Es un espacio abierto dentro del recinto.
+  - type: final
+    title: La clave
+    prompt: '¿Qué cuentan los escudos: QUIÉN tuvo poder o QUÉ COMIÓ ayer?'
+    answer: QUIÉN TUVO PODER
+    hint: Representan linajes.
+  successCondition: Completar las cinco pruebas y responder QUIÉN TUVO PODER.
+clues:
+- Los escudos son pistas históricas.
+- La puerta concentra información.
+- Piensa en familias y linajes.
+solution:
+  explanation: La fortaleza de Castro Caldelas conserva murallas, torres y patio de
+    armas. Turismo de Galicia describe los escudos de la puerta y relaciona varios
+    símbolos con los linajes que tuvieron la propiedad o influencia sobre el castillo.
+badge:
+  name: ORIXE 033 · Lector de Escudos
+  description: Insignia de quien aprendió a leer las pistas de la fortaleza de Castro
+    Caldelas.
+  image: /badges/castro-caldelas.svg
+googleMaps: https://www.google.com/maps/search/?api=1&query=42.37581,-7.41581
+recommendations:
+- La misión exterior es gratuita.
+- Comprueba horarios si deseas entrar en el castillo.
+warnings:
+- Calles con pendiente y pavimento irregular.
+- No accedas a zonas cerradas.
+tags:
+- Castro Caldelas
+- Ribeira Sacra
+- castillo
+- historia
+- escudos
+- gratis
+seoTitle: Misión gratis en Castro Caldelas | Orixe
+seoDescription: 'Reto gratuito de historia en Castro Caldelas: castillo, escudos,
+  murallas y misterio medieval.'
+image: /images/castro-caldelas.svg
+gallery: []

@@ -1,93 +1,102 @@
-id: "ORX-0020"
-slug: "fervenza-do-ezaro"
-title: "La fuerza del agua"
-subtitle: "El río que quiso llegar al mar"
-municipality: "Dumbría"
-province: "A Coruña"
+id: ORX-0020
+slug: fervenza-do-ezaro
+title: La fuerza del agua
+subtitle: El río que quiso llegar al mar
+municipality: Dumbría
+province: A Coruña
 coordinates:
   lat: 42.916
   lng: -9.128
-category: "Naturaleza y ciencia"
-ageRecommended: "8-14 años"
-duration: "45-60 min"
-distance: "1 km aprox."
-difficulty: "Fácil"
-accessibility: "Miradores y pasarelas; no acercarse a zonas peligrosas del río."
-image: "/images/fervenza-do-ezaro.svg"
+category: Naturaleza y ciencia
+ageRecommended: 8-14 años
+duration: 45-60 min
+distance: 1 km aprox.
+difficulty: Fácil
+accessibility: Miradores y pasarelas; no acercarse a zonas peligrosas del río.
+image: /images/fervenza-do-ezaro.svg
 gallery: []
-descriptionShort: "Descubre la Fervenza do Ézaro con un reto gratuito sobre agua, paisaje y energía."
-descriptionLong: "El río Xallas llega al mar formando la famosa Fervenza do Ézaro. La misión utiliza el salto de agua para introducir observación del paisaje y conceptos sencillos de energía."
+descriptionShort: Descubre la Fervenza do Ézaro con un reto gratuito sobre agua, paisaje
+  y energía.
+descriptionLong: El río Xallas llega al mar formando la famosa Fervenza do Ézaro.
+  La misión utiliza el salto de agua para introducir observación del paisaje y conceptos
+  sencillos de energía.
 story:
-  title: "El río que cae al océano"
-  introduction: "Un científico dejó cinco preguntas junto al río. Todas tienen una pista común: el agua nunca deja de moverse."
-  historicalContext: "La Fervenza do Ézaro es uno de los saltos de agua más conocidos de Galicia y se encuentra en la desembocadura del río Xallas."
-  mystery: "Un científico dejó cinco preguntas junto al río. Todas tienen una pista común: el agua nunca deja de moverse."
+  title: El río que cae al océano
+  introduction: 'Un científico dejó cinco preguntas junto al río. Todas tienen una
+    pista común: el agua nunca deja de moverse.'
+  historicalContext: La Fervenza do Ézaro es uno de los saltos de agua más conocidos
+    de Galicia y se encuentra en la desembocadura del río Xallas.
+  mystery: 'Un científico dejó cinco preguntas junto al río. Todas tienen una pista
+    común: el agua nunca deja de moverse.'
 mission:
-  objective: "Observar el salto y relacionar agua, altura, movimiento y paisaje."
-  location: "Fervenza do Ézaro, Dumbría."
+  objective: Observar el salto y relacionar agua, altura, movimiento y paisaje.
+  location: Fervenza do Ézaro, Dumbría.
   instructions:
-    - "Permanece en pasarelas y zonas habilitadas."
-    - "No te acerques al cauce."
-    - "No intentes tocar el agua desde los miradores."
-    - "Respeta la señalización."
+  - Permanece en pasarelas y zonas habilitadas.
+  - No te acerques al cauce.
+  - No intentes tocar el agua desde los miradores.
+  - Respeta la señalización.
 materials:
-  - "Ficha"
-  - "Lápiz"
+- Ficha
+- Lápiz
 challenge:
-  title: "Reto final: Medir sin metro"
-  introduction: "Usa tus ojos para descubrir cómo cambia la energía del agua."
+  title: 'Reto final: Medir sin metro'
+  introduction: Usa tus ojos para descubrir cómo cambia la energía del agua.
   steps:
-    - type: "observation"
-      title: "El salto"
-      prompt: "¿Qué hace el agua cuando llega al borde?"
-      answer: "Cae"
-      hint: "Observa el movimiento."
-    - type: "science"
-      title: "La altura"
-      prompt: "¿Qué tiene más energía potencial: el agua arriba o abajo?"
-      answer: "Arriba"
-      hint: "La altura importa."
-    - type: "observation"
-      title: "El paisaje"
-      prompt: "¿Qué elementos aparecen alrededor del río?"
-      answer: "Respuesta abierta"
-      hint: "Anota tres."
-    - type: "reasoning"
-      title: "El recorrido"
-      prompt: "¿El agua se detiene definitivamente al caer?"
-      answer: "No"
-      hint: "Continúa hacia el mar."
-    - type: "final"
-      title: "La palabra"
-      prompt: "¿Qué palabra resume el reto? AGUA, PIEDRA o NUBE."
-      answer: "AGUA"
-      hint: "Es el hilo conductor."
-  successCondition: "Completar las cinco pruebas y obtener AGUA."
+  - type: observation
+    title: El salto
+    prompt: ¿Qué hace el agua cuando llega al borde?
+    answer: Cae
+    hint: Observa el movimiento.
+  - type: question
+    title: La altura
+    prompt: '¿Qué tiene más energía potencial: el agua arriba o abajo?'
+    answer: Arriba
+    hint: La altura importa.
+  - type: observation
+    title: El paisaje
+    prompt: ¿Qué elementos aparecen alrededor del río?
+    answer: Respuesta abierta
+    hint: Anota tres.
+  - type: puzzle
+    title: El recorrido
+    prompt: ¿El agua se detiene definitivamente al caer?
+    answer: 'No'
+    hint: Continúa hacia el mar.
+  - type: final
+    title: La palabra
+    prompt: ¿Qué palabra resume el reto? AGUA, PIEDRA o NUBE.
+    answer: AGUA
+    hint: Es el hilo conductor.
+  successCondition: Completar las cinco pruebas y obtener AGUA.
 clues:
-  - "Piensa en arriba y abajo."
-  - "El río no termina en la cascada."
-  - "La seguridad está por encima de cualquier pista."
+- Piensa en arriba y abajo.
+- El río no termina en la cascada.
+- La seguridad está por encima de cualquier pista.
 solution:
-  explanation: "El agua del Xallas llega al mar mediante el salto del Ézaro. La misión usa el movimiento y la altura para introducir de forma sencilla la relación entre paisaje y energía."
+  explanation: El agua del Xallas llega al mar mediante el salto del Ézaro. La misión
+    usa el movimiento y la altura para introducir de forma sencilla la relación entre
+    paisaje y energía.
 badge:
-  name: "ORIXE 020 · Guardián del Xallas"
-  description: "Insignia de quien siguió la fuerza del agua hasta el océano."
-  image: "/badges/fervenza-do-ezaro.svg"
-googleMaps: "https://www.google.com/maps/search/?api=1&query=42.916,-9.128"
+  name: ORIXE 020 · Guardián del Xallas
+  description: Insignia de quien siguió la fuerza del agua hasta el océano.
+  image: /badges/fervenza-do-ezaro.svg
+googleMaps: https://www.google.com/maps/search/?api=1&query=42.916,-9.128
 recommendations:
-  - "La misión está diseñada para realizarse sin contratar una actividad guiada."
-  - "Comprueba horarios, accesos y condiciones del lugar antes de salir."
+- La misión está diseñada para realizarse sin contratar una actividad guiada.
+- Comprueba horarios, accesos y condiciones del lugar antes de salir.
 warnings:
-  - "Respeta siempre la señalización y las zonas restringidas."
-  - "La seguridad está por encima de cualquier prueba."
+- Respeta siempre la señalización y las zonas restringidas.
+- La seguridad está por encima de cualquier prueba.
 tags:
-  - "Ézaro"
-  - "Dumbría"
-  - "Fervenza"
-  - "Xallas"
-  - "naturaleza"
-  - "ciencia"
-  - "familias"
-  - "gratis"
-seoTitle: "Misión gratis en la Fervenza do Ézaro | Orixe"
-seoDescription: "Reto gratuito para familias en la Fervenza do Ézaro sobre agua, paisaje y energía."
+- Ézaro
+- Dumbría
+- Fervenza
+- Xallas
+- naturaleza
+- ciencia
+- familias
+- gratis
+seoTitle: Misión gratis en la Fervenza do Ézaro | Orixe
+seoDescription: Reto gratuito para familias en la Fervenza do Ézaro sobre agua, paisaje
+  y energía.

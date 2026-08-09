@@ -1,0 +1,101 @@
+id: ORX-0027
+slug: combarro-horreos
+title: El código de los hórreos
+subtitle: Un misterio de piedra junto a la ría
+municipality: Poio
+province: Pontevedra
+coordinates:
+  lat: 42.43188
+  lng: -8.70645
+category: Cultura y observación
+ageRecommended: 7-14 años
+duration: 60 min
+distance: 1,2 km aprox.
+difficulty: Fácil
+accessibility: Recorrido urbano con calles empedradas y posibles tramos irregulares.
+descriptionShort: Busca hórreos, cruceiros y detalles escondidos en el casco tradicional
+  de Combarro.
+descriptionLong: Una misión gratuita para mirar Combarro con otros ojos y descubrir
+  cómo sus construcciones tradicionales se relacionan con el mar y la vida rural.
+story:
+  title: El pueblo de las piedras
+  introduction: En Combarro cada esquina parece esconder una señal. Los hórreos junto
+    al mar guardan la primera pista.
+  historicalContext: Turismo de Galicia destaca la concentración de hórreos de piedra
+    junto a la costa de Combarro y la conservación de su conjunto tradicional.
+  mystery: El reto consiste en encontrar patrones y descubrir qué función tenían las
+    construcciones que parecen decorativas.
+mission:
+  objective: Identificar elementos de arquitectura tradicional y comprender su función.
+  location: Casco tradicional y zona costera de Combarro.
+  instructions:
+  - Recorre solo espacios públicos.
+  - No entres en propiedades privadas.
+  - Observa los hórreos sin tocar ni subir a ellos.
+  - En zonas concurridas, mantén el grupo unido.
+materials:
+- Ficha
+- Lápiz
+challenge:
+  title: 'Reto final: La contraseña del pueblo'
+  introduction: Cinco observaciones revelan la palabra escondida.
+  steps:
+  - type: search
+    title: Los hórreos
+    prompt: ¿Qué construcción elevada sobre pilares aparece repetidamente junto a
+      la costa?
+    answer: Hórreo
+    hint: Servía para guardar cosechas.
+  - type: observation
+    title: Los pilares
+    prompt: ¿Sobre qué se elevan los hórreos para separarlos del suelo?
+    answer: Pilares
+    hint: Mira debajo de ellos.
+  - type: history
+    title: La función
+    prompt: ¿Qué se almacenaba tradicionalmente en los hórreos?
+    answer: Cosechas
+    hint: Piensa en productos agrícolas.
+  - type: photo
+    title: Detalle de piedra
+    prompt: Encuentra un detalle de piedra que te parezca una pista y fotografíalo
+      sin tocarlo.
+    answer: Un detalle arquitectónico
+    hint: Puede ser un cruceiro, puerta o hórreo.
+  - type: final
+    title: La palabra
+    prompt: '¿Qué une mejor Combarro: MAR, AGRICULTURA o ninguna de las dos?'
+    answer: MAR Y AGRICULTURA
+    hint: Los hórreos están junto al mar.
+  successCondition: Completar las cinco pruebas y responder MAR Y AGRICULTURA.
+clues:
+- Los hórreos no son adornos.
+- Mira tanto hacia el mar como hacia las casas.
+- Busca detalles, no solo monumentos.
+solution:
+  explanation: Los hórreos son construcciones rurales destinadas a guardar cosechas
+    y elevadas sobre pilares. En Combarro algunos forman una imagen singular junto
+    a la ría, mostrando la convivencia entre paisaje marinero y tradición agrícola.
+badge:
+  name: ORIXE 027 · Detective de Combarro
+  description: Insignia de quien descifró el código de los hórreos junto a la ría.
+  image: /badges/combarro.svg
+googleMaps: https://www.google.com/maps/search/?api=1&query=42.43188,-8.70645
+recommendations:
+- La misión se realiza caminando por espacios públicos.
+- Evita las horas de máxima afluencia si quieres observar con calma.
+warnings:
+- Cuidado con calles estrechas y empedradas.
+- No obstaculices entradas ni accesos.
+tags:
+- Combarro
+- Poio
+- hórreos
+- cultura
+- Rías Baixas
+- gratis
+seoTitle: 'Misión gratis en Combarro: el código de los hórreos | Orixe'
+seoDescription: Juego gratuito para descubrir Combarro en familia mediante pistas,
+  hórreos y arquitectura tradicional.
+image: /images/combarro.svg
+gallery: []

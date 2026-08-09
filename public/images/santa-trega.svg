@@ -1,24 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
-  <title>Santa Trega</title>
-  <desc>Ilustración editorial de ORIXE</desc>
-  <rect width="1200" height="700" fill="#f4f0e6"/>
-  
-      <rect x="0" y="0" width="1200" height="700" fill="#f4f0e6"/>
-      <path d="M0 445 Q180 365 355 445 T720 435 T1200 420 V700 H0Z" fill="#dcecc8"/>
-      <path d="M0 485 Q160 405 320 485 T650 470 T950 450 T1200 465 V700 H0Z" fill="#82ad6d"/>
-      <path d="M0 575 Q240 520 480 575 T960 560 T1200 575 V700 H0Z" fill="#5c8b59"/>
-    
-        <path d="M95 450 Q150 300 245 355 Q330 405 420 335 Q505 270 600 350
-                 Q675 415 770 345 Q860 275 950 350 Q1030 405 1110 325" fill="none" stroke="#2d6b4f" stroke-width="16" stroke-linecap="round"/>
-        <g fill="none" stroke="#477b55" stroke-width="12" stroke-linejoin="round">
-          <path d="M170 520 Q170 425 270 400 Q370 420 370 520"/>
-          <ellipse cx="270" cy="510" rx="105" ry="62"/>
-          <path d="M205 462 Q270 405 335 462"/>
-          <path d="M235 440 L270 385 L305 440"/>
-          <path d="M530 505 Q530 430 610 405 Q690 430 690 505"/>
-          <ellipse cx="610" cy="500" rx="85" ry="55"/>
-        </g>
-        <circle cx="1000" cy="180" r="58" fill="#f5c761"/>
-        <text x="70" y="90" font-family="Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="7" fill="#1e5d50">SANTA TREGA</text>
-        
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-label="Santa Trega">
+<rect width="1200" height="520" rx="36" fill="#143b5d"/>
+<circle cx="1040" cy="100" r="55" fill="#e5b95c" opacity=".9"/>
+<path d="M0 410 Q300 170 600 360 Q850 150 1200 400 V520 H0Z" fill="#4d8aa8"/><path d="M420 350 Q600 220 780 350" fill="none" stroke="#e5b95c" stroke-width="18"/><circle cx="610" cy="220" r="22" fill="#f5f0df"/><path d="M760 390 Q950 360 1200 390" fill="none" stroke="#f5f0df" stroke-width="7"/>
+<rect x="55" y="55" width="390" height="92" rx="20" fill="#f5f0df" opacity=".96"/>
+<text x="82" y="92" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#143b5d">ORIXE · MISIÓN</text>
+<text x="82" y="125" font-family="Arial,sans-serif" font-size="21" fill="#143b5d">Santa Trega</text>
+<text x="55" y="478" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#f5f0df">A GUARDA</text>
+<text x="1145" y="478" text-anchor="end" font-family="Arial,sans-serif" font-size="18" fill="#f5f0df" opacity=".9">DESCUBRE · JUEGA · RESUELVE</text>
 </svg>

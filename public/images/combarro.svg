@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
-<rect width="1200" height="700" fill="#f6f1e7"/>
-<path d="M0 500 Q180 420 360 500 T720 490 T1200 480 V700 H0Z" fill="#a8df8b" opacity=".45"/>
-<path d="M0 520 Q180 430 360 520 T720 500 T1200 500 V700 H0Z" fill="#77a96a" opacity=".65"/>
-<text x="70" y="80" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="6" fill="#168f83">ORIXE · ORX-0010</text><g fill="none" stroke="#2f6f57" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
-<path d="M260 410 V240 L340 190 L420 240 V410"/><path d="M300 240 H380"/>
-<path d="M560 410 V250 L650 200 L740 250 V410"/><path d="M600 250 H700"/>
-<path d="M850 410 V260"/><path d="M850 260 L810 220 L850 180 L890 220 Z"/>
-</g><g fill="#f6c85f"><circle cx="200" cy="170" r="24"/><circle cx="1010" cy="170" r="24"/></g><text x="70" y="610" font-family="Arial,sans-serif" font-size="38" font-weight="700" fill="#244f4b">Combarro</text>
-<text x="70" y="655" font-family="Arial,sans-serif" font-size="22" fill="#168f83">El guardián de los hórreos</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-label="Combarro">
+<rect width="1200" height="520" rx="36" fill="#244b5a"/>
+<circle cx="1040" cy="100" r="55" fill="#d9a441" opacity=".9"/>
+<path d="M0 370 Q250 315 500 365 T1200 350 V520 H0Z" fill="#5d9ca8"/><rect x="350" y="215" width="170" height="105" rx="4" fill="#f4eee2"/><path d="M330 215 L435 150 L540 215Z" fill="#d9a441"/><rect x="375" y="320" width="20" height="70" fill="#f4eee2"/><rect x="470" y="320" width="20" height="70" fill="#f4eee2"/><rect x="560" y="340" width="16" height="50" fill="#f4eee2"/>
+<rect x="55" y="55" width="390" height="92" rx="20" fill="#f4eee2" opacity=".96"/>
+<text x="82" y="92" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#244b5a">ORIXE · MISIÓN</text>
+<text x="82" y="125" font-family="Arial,sans-serif" font-size="21" fill="#244b5a">Combarro</text>
+<text x="55" y="478" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#f4eee2">POIO</text>
+<text x="1145" y="478" text-anchor="end" font-family="Arial,sans-serif" font-size="18" fill="#f4eee2" opacity=".9">DESCUBRE · JUEGA · RESUELVE</text>
+</svg>

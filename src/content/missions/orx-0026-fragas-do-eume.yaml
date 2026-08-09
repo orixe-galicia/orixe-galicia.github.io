@@ -1,0 +1,104 @@
+id: ORX-0026
+slug: fragas-do-eume-aventura
+title: El bosque de las 100 pistas
+subtitle: Una misión verde entre ríos, puentes y helechos
+municipality: Pontedeume
+province: A Coruña
+coordinates:
+  lat: 43.41686
+  lng: -8.06811
+category: Naturaleza y exploración
+ageRecommended: 7-14 años
+duration: 75 min
+distance: 2 km aprox.
+difficulty: Media
+accessibility: Senderos de bosque con pendientes y terreno natural; escoger tramo
+  según condición física.
+descriptionShort: Explora las Fragas do Eume con un reto de naturaleza para descubrir
+  árboles, río y señales del bosque atlántico.
+descriptionLong: Una aventura gratuita para observar el bosque y el río Eume, localizar
+  pistas naturales y comprender por qué este espacio es tan especial.
+story:
+  title: El mensaje del bosque
+  introduction: El bosque ha escondido cinco señales. Solo quien aprenda a mirar podrá
+    reconstruir el mensaje del Eume.
+  historicalContext: Turismo de Galicia describe Fragas do Eume como un parque natural
+    de unas 9.125 hectáreas, con un profundo cañón fluvial y un bosque atlántico de
+    gran diversidad. También destaca la presencia de numerosas especies de helechos,
+    aves y mamíferos.
+  mystery: 'Las pistas no están escritas: están en las formas, sonidos y especies
+    del bosque.'
+mission:
+  objective: Observar el ecosistema y resolver un código basado en elementos naturales.
+  location: Acceso público de Fragas do Eume, escogiendo un tramo seguro de sendero.
+  instructions:
+  - Elige un sendero señalizado y adapta el recorrido al grupo.
+  - No recojas plantas ni animales.
+  - Escucha y observa sin alterar el bosque.
+  - La misión se completa aunque no encuentres todas las especies.
+materials:
+- Ficha
+- Lápiz
+- Móvil opcional
+challenge:
+  title: 'Reto final: El código verde'
+  introduction: Convierte cinco observaciones en una palabra final.
+  steps:
+  - type: observation
+    title: El río
+    prompt: ¿Qué río da nombre al parque?
+    answer: Eume
+    hint: Es el río que atraviesa el cañón.
+  - type: search
+    title: Los helechos
+    prompt: ¿Qué tipo de plantas abundan especialmente en las zonas húmedas y sombrías?
+    answer: Helechos
+    hint: Busca hojas verdes divididas.
+  - type: observation
+    title: El bosque
+    prompt: Nombra un árbol que puedas identificar entre robles, castaños, abedules
+      o alisos.
+    answer: Uno de ellos
+    hint: Observa hojas, corteza y forma.
+  - type: photo
+    title: Texturas
+    prompt: Fotografía una textura natural del bosque sin arrancar ni tocar nada.
+    answer: Una textura natural
+    hint: Corteza, musgo o piedra sirven.
+  - type: final
+    title: La palabra
+    prompt: ¿El bosque es un decorado o un ecosistema vivo?
+    answer: ECOSISTEMA
+    hint: Está lleno de relaciones entre seres vivos y entorno.
+  successCondition: Completar cinco pruebas y responder ECOSISTEMA.
+clues:
+- No hace falta conocer botánica para jugar.
+- La humedad es una pista.
+- Deja el bosque exactamente como lo encontraste.
+solution:
+  explanation: Fragas do Eume es un parque natural de gran extensión y conserva un
+    bosque atlántico con robles, castaños, abedules, alisos, helechos y otras especies.
+    La misión convierte esa diversidad en un juego de observación.
+badge:
+  name: ORIXE 026 · Guardián del Eume
+  description: Insignia de quien aprendió a leer las pistas del bosque atlántico.
+  image: /badges/fragas-do-eume.svg
+googleMaps: https://www.google.com/maps/search/?api=1&query=43.41686,-8.06811
+recommendations:
+- La entrada al parque y la misión son gratuitas.
+- Consulta restricciones estacionales de acceso de vehículos.
+warnings:
+- No te acerques a pozas o cortados.
+- Respeta la fauna y flora.
+tags:
+- Fragas do Eume
+- Pontedeume
+- naturaleza
+- bosque
+- familias
+- gratis
+seoTitle: Misión gratis en Fragas do Eume | Orixe
+seoDescription: 'Misión gratuita de naturaleza en Fragas do Eume para familias: pistas,
+  observación y aventura.'
+image: /images/fragas-do-eume.svg
+gallery: []

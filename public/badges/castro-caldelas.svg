@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Insignia Castro Caldelas">
+<circle cx="300" cy="300" r="275" fill="#342b3d" stroke="#c9954f" stroke-width="18"/>
+<circle cx="300" cy="300" r="225" fill="#f0e7d7" stroke="#73536d" stroke-width="10"/>
+<path d="M300 100 L325 170 L400 170 L340 215 L360 290 L300 245 L240 290 L260 215 L200 170 L275 170Z" fill="#c9954f"/>
+<circle cx="300" cy="330" r="105" fill="#73536d" opacity=".95"/>
+<text x="300" y="318" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#f0e7d7">ORIXE</text>
+<text x="300" y="352" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#f0e7d7">MISIÓN</text>
+<text x="300" y="480" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#342b3d">CASTRO CALDELAS</text>
+<text x="300" y="515" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#342b3d">OURENSE</text>
+</svg>
