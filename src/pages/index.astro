@@ -1,4 +1,4 @@
----
+﻿---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
@@ -37,11 +37,11 @@ const jsonLd = {
         </p>
 
         <div class="hero-actions">
-          <a class="home-btn home-btn-primary" href="/misiones">
+          <a class="home-btn home-btn-primary" href={`${import.meta.env.BASE_URL}misiones`}>
             Empezar una misión
             <span aria-hidden="true">→</span>
           </a>
-          <a class="home-btn home-btn-secondary" href="/mapa/">
+          <a class="home-btn home-btn-secondary" href={`${import.meta.env.BASE_URL}mapa/`}>
             Ver mapa
             <span aria-hidden="true">↗</span>
           </a>
@@ -56,7 +56,7 @@ const jsonLd = {
 
       <div class="hero-visual" aria-hidden="true">
         <img
-          src="/images/orixe-hero.png"
+          src={`${import.meta.env.BASE_URL}images/orixe-hero.png`}
           alt=""
           width="554"
           height="600"
@@ -87,7 +87,7 @@ const jsonLd = {
         </div>
 
         <div class="home-links" aria-label="Accesos principales">
-          <a class="home-link home-link-missions" href="/misiones">
+          <a class="home-link home-link-missions" href={`${import.meta.env.BASE_URL}misiones`}>
             <span class="link-icon" aria-hidden="true">✦</span>
             <span>
               <small>EXPLORA</small>
@@ -97,7 +97,7 @@ const jsonLd = {
             <span class="link-arrow" aria-hidden="true">→</span>
           </a>
 
-          <a class="home-link home-link-map" href="/mapa/">
+          <a class="home-link home-link-map" href={`${import.meta.env.BASE_URL}mapa/`}>
             <span class="link-icon" aria-hidden="true">⌖</span>
             <span>
               <small>LOCALIZA</small>
@@ -117,7 +117,7 @@ const jsonLd = {
           La aventura puede estar mucho más cerca de lo que imaginas.
         </h2>
       </div>
-      <a class="home-btn home-btn-light" href="/misiones">
+      <a class="home-btn home-btn-light" href={`${import.meta.env.BASE_URL}misiones`}>
         Empezar una misión <span aria-hidden="true">→</span>
       </a>
     </section>
@@ -468,3 +468,4 @@ const jsonLd = {
     }
   }
 </style>
+

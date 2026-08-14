@@ -1,4 +1,4 @@
----
+﻿---
 import { getCollection } from "astro:content";
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import Header from "../../../components/Header.astro";
@@ -31,7 +31,7 @@ const jsonLd = {
 <BaseLayout title={data.seoTitle ?? data.title} description={data.seoDescription ?? data.descriptionShort} canonical={`/misiones/${data.slug}`} ogImage={data.image} jsonLd={jsonLd}>
   <Header />
   <main class="page-shell mission-page">
-    <a class="back-link" href="/misiones">← Volver a misiones</a>
+    <a class="back-link" href={`${import.meta.env.BASE_URL}misiones`}>← Volver a misiones</a>
     <section class="mission-hero">
       {imageAvailable && <div class="mission-hero__image"><img src={data.image} alt={data.title} /></div>}
       <p class="eyebrow">{data.category}</p>
@@ -105,3 +105,4 @@ const jsonLd = {
     }
   </script>
 </BaseLayout>
+

@@ -1,8 +1,9 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 
-// https://astro.build/config
-export default defineConfig({
-  site: 'https://orixe-galicia.github.io',
-  base: '/orixe-web',
-});
+// GitHub Pages uses /orixe-web in production.
+// Local development stays at http://localhost:4321/
+export default defineConfig(({ command }) => ({
+  site: command === 'build' ? 'https://orixe-galicia.github.io' : undefined,
+  base: command === 'build' ? '/orixe-web' : undefined,
+}));
