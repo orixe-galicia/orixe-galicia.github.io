@@ -1,33 +1,40 @@
 ---
-import { hasPublicAsset } from "../utils/publicAsset";
-
 const { mission } = Astro.props;
 
 const missionUrl = `${import.meta.env.BASE_URL}misiones/${mission.slug}`;
-const imageAvailable = hasPublicAsset(mission.image);
-const imageUrl = imageAvailable
-  ? `${import.meta.env.BASE_URL}${String(mission.image).replace(/^\/+/, "")}`
+const imagePath = typeof mission.image === "string" ? mission.image.trim() : "";
+const imageUrl = imagePath
+  ? `${import.meta.env.BASE_URL}${imagePath.replace(/^\/+/, "")}`
   : "";
 ---
-<a class="mission-card mission-card--link" href={missionUrl} aria-label={`Ver la misión ${mission.title}`}>
+<a
+  class="mission-card mission-card--link"
+  href={missionUrl}
+  aria-label={`Ver la misión ${mission.title}`}
+>
   <div class="mission-card__visual">
-    {imageAvailable ? (
-      <img src={imageUrl} alt={mission.title} />
+    {imageUrl ? (
+      <img src={imageUrl} alt={mission.title} loading="lazy" />
     ) : (
       <div class="mission-card__fallback">
         <span>{mission.category}</span>
       </div>
     )}
   </div>
+
   <div class="mission-card__body">
     <p class="eyebrow">{mission.category}</p>
     <h3>{mission.title}</h3>
-    <p class="mission-card__location">{mission.municipality}, {mission.province}</p>
+    <p class="mission-card__location">
+      {mission.municipality}, {mission.province}
+    </p>
     <p>{mission.descriptionShort}</p>
+
     <div class="mission-card__meta">
       <span>{mission.duration}</span>
       <span>{mission.difficulty}</span>
     </div>
+
     <span class="mission-card__cta">Ver misión</span>
   </div>
 </a>
