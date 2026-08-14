@@ -61,6 +61,14 @@ const missionMapData = missions
       maxZoom: 19,
     }).addTo(map);
 
+    const markerIcon = L.divIcon({
+      className: "orixe-map-marker",
+      html: '<span aria-hidden="true"></span>',
+      iconSize: [24, 24],
+      iconAnchor: [12, 12],
+      popupAnchor: [0, -12],
+    });
+
     missions.forEach((mission) => {
       const missionUrl = `${import.meta.env.BASE_URL}misiones/${mission.slug}`;
 
@@ -73,7 +81,7 @@ const missionMapData = missions
         </div>
       `;
 
-      L.marker([mission.lat, mission.lng])
+      L.marker([mission.lat, mission.lng], { icon: markerIcon })
         .addTo(map)
         .bindPopup(popup);
     });
@@ -81,3 +89,32 @@ const missionMapData = missions
     window.setTimeout(() => map.invalidateSize(), 0);
   }
 </script>
+
+<style>
+  :global(.orixe-map-marker) {
+    background: transparent;
+    border: 0;
+  }
+
+  :global(.orixe-map-marker span) {
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(-45deg);
+    background: #173d37;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+  }
+
+  :global(.orixe-map-marker span::after) {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    margin: 6px auto;
+    border-radius: 50%;
+    background: #f3d48b;
+  }
+</style>
