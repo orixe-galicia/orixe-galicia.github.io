@@ -1,1 +1,15 @@
-<footer>© 2026 Orixe</footer>
+﻿<footer class='site-footer'>
+  <div class='site-footer__inner'>
+    <p class='site-footer__copyright'>© 2026 Orixe. Todos los derechos reservados.</p>
+    <a class='site-footer__email' href='mailto:galiciaorixe@gmail.com'>galiciaorixe@gmail.com</a>
+  </div>
+</footer>
+
+<style>
+.site-footer { margin-top: 64px; padding: 28px 0 34px; background: #0c302b; color: rgba(255,255,255,.78); }
+.site-footer__inner { width: min(1120px, calc(100% - 40px)); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
+.site-footer__copyright, .site-footer__email { margin: 0; font-size: .9rem; }
+.site-footer__email { color: #fff; text-decoration: none; }
+.site-footer__email:hover { text-decoration: underline; }
+@media (max-width: 680px) { .site-footer__inner { align-items: flex-start; flex-direction: column; } }
+</style>

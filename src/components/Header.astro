@@ -41,6 +41,13 @@ const currentPath = Astro.url.pathname;
       >
         Mapa
       </a>
+
+      <a
+        href={`${import.meta.env.BASE_URL}colabora/`}
+        class:list={{ active: currentPath.startsWith("/colabora") }}
+      >
+        Colabora
+      </a>
     </nav>
   </div>
 </header>
@@ -58,3 +65,5 @@ const currentPath = Astro.url.pathname;
     });
   }
 </script>
+
+
